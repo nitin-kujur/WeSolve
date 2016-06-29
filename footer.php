@@ -130,7 +130,7 @@
 				 $(document).ready(function(){
 						 	$('.owl-carousel-mba-stu').owlCarousel({
 						 			loop:true,
-							    margin:100,
+							    margin:85,
 							    // autoplay:true,
 							    // autoplaySpeed:2000,
 							    responsiveClass:true,

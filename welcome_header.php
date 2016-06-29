@@ -14,6 +14,7 @@
 		 <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 		 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		 <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
+		 <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900' rel='stylesheet' type='text/css'>
 		 <link rel="stylesheet" href="css/owl.carousel.css">
 
 		 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
@@ -49,7 +50,7 @@
 				</div>
 				<div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav navbar-right">
-					  <!-- <li><a href="#"><h6 class="w3-text-dark-blue text-center">COMPANIES</h6></a></li>
+					  <li><a href="#"><h6 class="w3-text-dark-blue text-center">COMPANIES</h6></a></li>
 					  <li class="hidden-sm hidden-xs">&nbsp;&nbsp;</li>
 					  <li><a href="#"><h6 class="w3-text-dark-blue text-center">CHALLANGES</h6></a></li>
 					  <li class="hidden-sm hidden-xs">&nbsp;&nbsp;</li>
@@ -61,7 +62,7 @@
 					  	<a href="javascript:void(0);" class="w3-text-dark-blue text-center w3-hover-text-shadow hidden-xs" data-toggle="popover" data-placement="bottom" title="" data-html="true" data-content="<a href='#'><strong> ACCOUNT </strong></a><hr style='margin:0px auto; color:lightgrey;'><a href='#'><strong> LOG OUT </strong></a>"><h6 class="w3-text-dark-blue text-center">Hi, Stella</h6></a>
 					  	<a href="javascript:void(0);" class="w3-text-dark-blue text-center w3-hover-text-shadow visible-xs" data-toggle="popover" data-placement="top" title="" data-html="true" data-content="<a href='#'><strong> ACCOUNT </strong></a><hr style='margin:0px auto; color:lightgrey;'><a href='#'><strong> LOG OUT </strong></a>"><h6 class="w3-text-dark-blue text-center">Hi, Stella</h6></a>
 					  </li>
-					  <li class="hidden-sm hidden-xs">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li> -->
+					  <li class="hidden-sm hidden-xs">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
 					  <li><a href="javascript:void(0)" style="cursor:default;"><h6>&nbsp;</h6></a></li>
 					</ul>
 				</div>

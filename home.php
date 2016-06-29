@@ -5,7 +5,7 @@
 			<div class="jumbotron bg-transparent jumbo" data-stellar-background-ratio="0.5">
 			  <div class="container w3-text-white">
 			  	<br/><br/><br/>
-					<h2 class="w3-text-white w3-xxxlarge">Real<br/>Projects <span class="w3-text-orange"><i class="fa fa-plus"></i></span><br/>Top Companies</h2><p style="font-size:8px;">&nbsp;</p><h2 class="w3-text-white">Connect.   Engage.   Solve.</h2>
+					<h2 class="w3-text-white w3-jumbo">Real<br/>Projects <span class="w3-text-orange"><i class="fa fa-plus"></i></span><br/>Top Companies</h2><p style="font-size:8px;">&nbsp;</p><h2 class="w3-text-white">Connect.   Engage.   Solve.</h2>
 					<p class="w3-margin-top"><b>Work on a diverse team of MBA students on case<br/>
 						challanges to solve real world problems and engage<br/>
 						companies you're interested in. Gain resume<br/>
@@ -25,7 +25,7 @@
 							</div>
 							<!-- <div class="col-md-9"></div> -->
 					</div>
-					<br/><br/><br/><br/><br/><br/>
+					<br/><br/><br/><br/>
 			  </div>
 			</div>
 
@@ -89,6 +89,22 @@
 																						<p>
 																						<!-- <input class="w3-input w3-border" placeholder="School email" name="email" type="text" style="border-top-right-radius:10px !important; border-top-left-radius:10px !important; outline: none !important;">
 																						<input class="w3-input w3-border" placeholder="Password" name="password" type="password" style="border-bottom-right-radius:10px !important; border-bottom-left-radius:10px !important; outline: none !important;"></p> -->
+																						<input class="w3-input w3-border" placeholder="First Name" name="firstname" type="text" style="border-radius:10px !important; outline: none !important;"><br/>
+																						<input class="w3-input w3-border" placeholder="Last Name" name="lastname" type="text" style="border-radius:10px !important; outline: none !important;"><br/>
+																						<select class="form-control w3-input" id="month" name="option">
+																						  <option value="January">January</option>
+																						  <option value="" selected>Select</option>
+																						  <option value="March">March</option>
+																						  <option value="April">April</option>
+																						  <option value="May">May</option>
+																						  <option value="June">June</option>
+																						  <option value="July">July</option>
+																						  <option value="August">August</option>
+																						  <option value="September">September</option>
+																						  <option value="October">October</option>
+																						  <option value="November">November</option>
+																						  <option value="December">December</option>
+																						</select>
 																						<input class="w3-input w3-border" placeholder="School email" name="email" type="text" style="border-radius:10px !important; outline: none !important;"><br/>
 																						<button type="submit" class="w3-orange w3-btn w3-text-white w3-round-large" style="padding-left:0px !important; padding-right: !important;"><span class="w3-padding-small w3-blue" style="padding-top:30px !important; padding-bottom:30px !important; height:24px; width:auto;"><i class="fa fa-envelope"></i></span><span class="w3-padding">CONNECT WITH EMAIL</span></button> <br/><br/>
 																						<!-- <a href="#forgot" data-toggle="tab" class="w3-text-dark-blue"><h6>forgot your password?</h6></a> -->
@@ -101,7 +117,7 @@
 																						<p>
 																						<input class="w3-input w3-border" placeholder="School email" name="email" type="text" style="border-top-right-radius:10px !important; border-top-left-radius:10px !important; outline: none !important;">
 																						<input class="w3-input w3-border" placeholder="Password" name="password" type="password" style="border-bottom-right-radius:10px !important; border-bottom-left-radius:10px !important; outline: none !important;"></p>
-																						<button type="submit" class="w3-orange w3-btn w3-text-white w3-round-large" style="padding-left:0px !important; padding-right: !important;"><span class="w3-padding-small w3-blue" style="padding-top:30px !important; padding-bottom:30px !important; height:24px; width:auto;"><i class="fa fa-envelope"></i></span><span class="w3-padding">CONNECT WITH EMAIL</span></button>
+																						<button type="submit" class="w3-orange w3-btn w3-text-white w3-round-large" style="padding-left:0px !important; padding-right: !important;"><span class="w3-padding-small w3-blue" style="padding-top:30px !important; padding-bottom:30px !important; height:24px; width:auto;"><i class="fa fa-envelope"></i></span><span class="w3-padding">LOGIN</span></button>
 																						<a href="#forgot" data-toggle="tab" class="w3-text-dark-blue"><h6>forgot your password?</h6></a>
 																						</form>
 																						<br/><br/><br/>
@@ -151,13 +167,16 @@
 					
 					<br/>
 <!-- ------------------------------------------------------------------------------------------------------------------------- -->
-					<div class="row center-block hiw w3-padding-0">
-						<div class="col-md-2 col-sm-12 col-xs-12">
+					<div class="row center-block hiw w3-padding-0 w3-green text-center">
+						<div>
+						<div class="col-md-2 col-sm-12 col-xs-12 w3-padding-0">
 								<img src="images/HIW-1.png" class="img-responsive center-block"  alt="p" width="auto" height="auto" style="object-fit: contain;">
 								<h6>Companies post projects for real business challenges they are facing.</h6>
 						</div>
-						<div class="col-md-1 10wd hidden-sm hidden-xs" style="width: 38px; height:179px;">
+						<div class="col-md-1 10wd hidden-sm hidden-xs" style="max-width: 38px;">
 								<!-- <h3>&nbsp;</h3> -->
+								<div class="full-width">
+								<img src="images/sudo-img.png" class="img-responsive"  alt="p" width="auto" height="auto"></div>
 								<div class="carousel-caption-cc">
 									<h2 class="text-center"><span class="glyphicon glyphicon-arrow-right"></span></h2>		
 								</div>
@@ -170,8 +189,8 @@
 								<img src="images/HIW-2.png" class="img-responsive center-block"  alt="p" width="auto" height="auto">
 								<h6>Students apply with a team to projects they are intrested in or form a team on the site.</h6>
 						</div>
-						<div class="col-md-1 10wd hidden-sm hidden-xs" style="width: 38px; height:179px;">
-								<!-- <h3>&nbsp;</h3> -->
+						<div class="col-md-1 10wd hidden-sm hidden-xs" style="width: 38px;">
+								<!-- <h3>&nbsp;</h3> --><img src="images/sudo-img.png" class="img-responsive"  alt="p" width="auto" height="auto">
 								<div class="carousel-caption-cc">
 									<h2 class="text-center"><span class="glyphicon glyphicon-arrow-right"></span></h2>		
 								</div>
@@ -183,8 +202,8 @@
 								<img src="images/HIW-3.png" class="img-responsive center-block"  alt="p" width="auto" height="auto">
 								<h6>Student teams work on the project with ongoing support and ineraction with the company.</h6>
 						</div>
-						<div class="col-md-1 10wd hidden-sm hidden-xs" style="width: 38px; height:179px;">
-								<!-- <h3>&nbsp;</h3> -->
+						<div class="col-md-1 10wd hidden-sm hidden-xs" style="width: 38px;">
+								<!-- <h3>&nbsp;</h3> --><img src="images/sudo-img.png" class="img-responsive"  alt="p" width="auto" height="auto">
 								<div class="carousel-caption-cc">
 									<h2 class="text-center"><span class="glyphicon glyphicon-arrow-right"></span></h2>		
 								</div>
@@ -196,8 +215,8 @@
 								<img src="images/HIW-4.png" class="img-responsive center-block"  alt="p" width="auto" height="auto">
 								<h6>Innovative solutions and ideas are presented according to challenge criteria.</h6>
 						</div>
-						<div class="col-md-1 10wd hidden-sm hidden-xs" style="width: 38px; height:179px;">
-								<!-- <h3>&nbsp;</h3> -->
+						<div class="col-md-1 10wd hidden-sm hidden-xs" style="width: 38px;">
+								<!-- <h3>&nbsp;</h3> --><img src="images/sudo-img.png" class="img-responsive"  alt="p" width="auto" height="auto">
 								<div class="carousel-caption-cc">
 									<h2 class="text-center"><span class="glyphicon glyphicon-arrow-right"></span></h2>		
 								</div>
@@ -209,7 +228,8 @@
 								<img src="images/HIW-5.png" class="img-responsive center-block"  alt="p" width="auto" height="auto">
 								<h6>The company selects winning team, and offer feedback, interviews, and awards.</h6>
 						</div>
-					</div>
+					  </div>
+				  </div>
 <!-- -------------------------------------------------------------------------------------------------------------------------- -->
 					<div class="col-md-12 col-sm-12 col-xm-12 text-center">
 							<br/><br/>

@@ -1,3 +1,5 @@
+<div class="container-fluid container-main profile"><!-- main container start -->
+
 <div class="jumbotron">
 	<div class="container w3-padding-64">
 		<div class="row">

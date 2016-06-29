@@ -16,6 +16,7 @@
 		 <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
 		 <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900' rel='stylesheet' type='text/css'>
 		 <link rel="stylesheet" href="css/owl.carousel.css">
+		 <link rel="stylesheet" href="css/bootstrap20grid.min.css">
 
 		 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 		 <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">

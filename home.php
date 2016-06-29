@@ -150,14 +150,15 @@
 			  	</div>
 					
 					<br/>
-					<div class="row center-block hiw w3-green w3-padding-0">
-						<div class="col-md-2 col-sm-12 col-xs-12">
+<!-- ------------------------------------------------------------------------------------------------------------------------- -->
+					<div class="row center-block hiw w3-padding-0">
+						<div class="col20-md-2 col-sm-12 col-xs-12">
 								<img src="images/HIW-1.png" class="img-responsive center-block"  alt="p" width="auto" height="auto" style="object-fit: contain;">
 								<h6>Companies post projects for real business challenges they are facing.</h6>
 						</div>
-						<div class="col-md-1 10wd hidden-sm hidden-xs w3-red" style="width: 38px;">
+						<div class="col-md-1 10wd hidden-sm hidden-xs" style="width: 38px; height:179px;">
 								<!-- <h3>&nbsp;</h3> -->
-								<div class="content-center">
+								<div class="carousel-caption-cc">
 									<h2 class="text-center"><span class="glyphicon glyphicon-arrow-right"></span></h2>		
 								</div>
 								
@@ -170,8 +171,10 @@
 								<h6>Students apply with a team to projects they are intrested in or form a team on the site.</h6>
 						</div>
 						<div class="col-md-1 10wd hidden-sm hidden-xs" style="width: 38px;">
-								<h3>&nbsp;</h3>
-								<h2><span class="glyphicon glyphicon-arrow-right"></span></h2>
+								<!-- <h3>&nbsp;</h3> -->
+								<div class="carousel-caption-cc">
+									<h2 class="text-center"><span class="glyphicon glyphicon-arrow-right"></span></h2>		
+								</div>
 						</div>
 						<div class="col-sm-12 col-xs-12 visible-sm visible-xs">
 								<h2 class="text-center"><span class="glyphicon glyphicon-arrow-down"></span></h2>
@@ -181,8 +184,10 @@
 								<h6>Student teams work on the project with ongoing support and ineraction with the company.</h6>
 						</div>
 						<div class="col-md-1 10wd hidden-sm hidden-xs" style="width: 38px;">
-								<h3>&nbsp;</h3>
-								<h2><span class="glyphicon glyphicon-arrow-right"></span></h2>
+								<!-- <h3>&nbsp;</h3> -->
+								<div class="carousel-caption-cc">
+									<h2 class="text-center"><span class="glyphicon glyphicon-arrow-right"></span></h2>		
+								</div>
 						</div>
 						<div class="col-sm-12 col-xs-12 visible-sm visible-xs">
 								<h2 class="text-center"><span class="glyphicon glyphicon-arrow-down"></span></h2>
@@ -192,8 +197,10 @@
 								<h6>Innovative solutions and ideas are presented according to challenge criteria.</h6>
 						</div>
 						<div class="col-md-1 10wd hidden-sm hidden-xs" style="width: 38px;">
-								<h3>&nbsp;</h3>
-								<h2><span class="glyphicon glyphicon-arrow-right"></span></h2>
+								<!-- <h3>&nbsp;</h3> -->
+								<div class="carousel-caption-cc">
+									<h2 class="text-center"><span class="glyphicon glyphicon-arrow-right"></span></h2>		
+								</div>
 						</div>
 						<div class="col-sm-12 col-xs-12 visible-sm visible-xs">
 								<h2 class="text-center"><span class="glyphicon glyphicon-arrow-down"></span></h2>
@@ -203,6 +210,7 @@
 								<h6>The company selects winning team, and offer feedback, interviews, and awards.</h6>
 						</div>
 					</div>
+<!-- -------------------------------------------------------------------------------------------------------------------------- -->
 					<div class="col-md-12 col-sm-12 col-xm-12 text-center">
 							<br/><br/>
 							<button class="w3-btn w3-round w3-card-2 w3-padding-large w3-orange w3-text-white">LEARN MORE ABOUT WESOLV</button>

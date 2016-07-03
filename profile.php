@@ -110,7 +110,7 @@
 						<h2 class="col-md-2"><span class="glyphicon glyphicon-briefcase" style="font-size:32px"></span></h2>
 						<h6 class="w3-text-black col-md-7">EXPERIENCE</h6><a href="#" class="w3-text-grey w3-hover-text-blue text-right w3-right col-md-3"><i class="fa fa-pencil" style="font-size:24px"></i></a>		
 						<br/><br/><br/>
-						<h6 class="col-md-6"><strong>Company Name</strong><br/>Tital/Position</h6>
+						<h6 class="col-md-6"><strong>Company Name</strong><br/>Title/Position</h6>
 						<h6 class="col-md-6 text-right">YYYY-YYYY</h6>
 						<h6 class="col-md-12">Things you did at this company.</h6>
 						<br/><br/>
@@ -173,7 +173,7 @@
 								<!-- <textarea class="col-md-12" placeholder="enlist your skills"></textarea> -->
 								
 						</div>
-						<h6 class="col-md-6"><strong>Company Name</strong><br/>Tital/Position</h6>
+						<h6 class="col-md-6"><strong>Company Name</strong><br/>Title/Position</h6>
 						<h6 class="col-md-6 text-right">YYYY-YYYY</h6>
 						<h6 class="col-md-12">Things you did at this company.</h6>
 						<br/><br/>						
@@ -183,15 +183,15 @@
 						<h2 class="col-md-2"><i class="fa fa-users" style="font-size:32px"></i></h2>
 						<h6 class="w3-text-black col-md-7">ORGANISATIONS</h6><a href="#" class="w3-text-grey w3-hover-text-blue text-right w3-right col-md-3"><i class="fa fa-pencil" style="font-size:24px"></i></a>		
 						<br/><br/><br/>
-						<h6 class="col-md-6"><strong>Company Name</strong><br/>Tital/Position</h6>
+						<h6 class="col-md-6"><strong>Company Name</strong><br/>Title/Position</h6>
 						<h6 class="col-md-6 text-right">YYYY-YYYY</h6>
 						<h6 class="col-md-12">Things you did at this company.</h6>
 						<br/><br/>
-						<h6 class="col-md-6"><strong>Company Name</strong><br/>Tital/Position</h6>
+						<h6 class="col-md-6"><strong>Company Name</strong><br/>Title/Position</h6>
 						<h6 class="col-md-6 text-right">YYYY-YYYY</h6>
 						<h6 class="col-md-12">Things you did at this company.</h6>
 						<br/><br/>
-						<h6 class="col-md-6"><strong>Company Name</strong><br/>Tital/Position</h6>
+						<h6 class="col-md-6"><strong>Company Name</strong><br/>Title/Position</h6>
 						<h6 class="col-md-6 text-right">YYYY-YYYY</h6>
 						<h6 class="col-md-12">Things you did at this company.</h6>
 						<br/><br/>						

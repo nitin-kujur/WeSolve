@@ -45,7 +45,7 @@
 			  <div class="container-fluid">
 				<div class="navbar-header">
 					<span class="hidden-sm hidden-xs w3-left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-					<a class="navbar-brand" href="#"><img src="images/wesolv_logo_bulb_white_BG.png" class="img-responsive"  alt="p" width="130px" height="40%" style="object-fit: contain;"></a>
+					<a class="navbar-brand" href="index.php"><img src="images/wesolv_logo_bulb_white_BG.png" class="img-responsive"  alt="p" width="130px" height="40%" style="object-fit: contain;"></a>
 				  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
 						<!-- <h6><span class="icon-bar"></span>
 						<span class="icon-bar"></span>
@@ -55,7 +55,7 @@
 				</div>
 				<div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav navbar-right">
-					  <li><a href="#"><h6 class="w3-text-dark-blue text-center">ABOUT</h6></a></li>
+					  <li><a href="about.php"><h6 class="w3-text-dark-blue text-center">ABOUT</h6></a></li>
 					  <li class="hidden-sm hidden-xs">&nbsp;&nbsp;</li>
 					  <li><a href="#"><h6 class="w3-text-dark-blue text-center">COMPANIES & CHALLANGES</h6></a></li>
 					  <li class="hidden-sm hidden-xs">&nbsp;&nbsp;</li>
@@ -63,7 +63,9 @@
 					  <li class="hidden-sm hidden-xs">&nbsp;&nbsp;</li>
 					  <li><h6 class="text-center"><button class="w3-btn w3-round w3-card-2 w3-padding-large w3-orange w3-text-white nav-btn-top">FOR COMPANIES</button></h6></li>
 					  <li class="hidden-sm hidden-xs">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
-					  <li><a href="javascript:void(0);" class="w3-text-dark-blue text-center" data-toggle="modal" data-target="#loginModal"><h6 class="w3-text-dark-blue text-center">LOGIN</h6></a></li>
+					  <li><a href="javascript:void(0);" class="w3-text-dark-blue text-center" data-toggle="modal" data-target="#signupModal"><h6 class="w3-text-dark-blue text-center">SIGN UP</h6></a></li>
+					  <li class="hidden-sm hidden-xs">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+					  <li><a href="javascript:void(0);" class="w3-text-dark-blue text-center" data-toggle="modal" data-target="#loginModal"><h6 class="w3-text-dark-blue text-center">LOG IN</h6></a></li>
 					  <li class="hidden-sm hidden-xs">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
 					</ul>
 				</div>

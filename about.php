@@ -81,7 +81,7 @@
 			  <div class="container-fluid text-center w3-padding-0">
 				<h2 class="w3-text-dark-blue w3-xxlarge">Students Come From Top MBA Programs</h2> <br/> 
 					<div class="row">
-						<div class="col-md-1 hidden-sm hidden-xs text-left pa-height "><h1>&nbsp;</h1><h1>&nbsp;</h1><a href="javascript:void(0);" class="prev"><h1 class="w3-text-black w3-jumbo ver-cent"><i class="fa fa-angle-left"></i></h1></a></div>
+						<div class="col-md-1 hidden-sm hidden-xs text-left pa-height "><h1>&nbsp;</h1><a href="javascript:void(0);" class="prev"><h1 class="w3-text-black w3-jumbo ver-cent"><i class="fa fa-angle-left"></i></h1></a></div>
 						<div class="col-md-10 w3-padding-0">
 							<div class="owl-carousel-mba w3-section">
 								<div class="item">
@@ -127,7 +127,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-1 hidden-sm hidden-xs text-right pa-height "><h1>&nbsp;</h1><h1>&nbsp;</h1><a href="javascript:void(0);" class="next"><h1 class="w3-text-black w3-jumbo ver-cent"><i class="fa fa-angle-right"></i></h1></a></div>
+						<div class="col-md-1 hidden-sm hidden-xs text-right pa-height "><h1>&nbsp;</h1><a href="javascript:void(0);" class="next"><h1 class="w3-text-black w3-jumbo ver-cent"><i class="fa fa-angle-right"></i></h1></a></div>
 					</div>
 			  </div>  <br/>
 			</div>

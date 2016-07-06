@@ -1,6 +1,6 @@
 <div class="container-fluid container-main profile"><!-- main container start -->
 
-<div class="jumbotron">
+<div class="jumbotron prof-jumbo">
 	<div class="container w3-padding-64">
 		<div class="row">
 
@@ -53,7 +53,7 @@
 						  				<a href="javascript:addSkill()" id="add" class="w3-hide" style="display:inline;" data-toggle="tooltip" title="click&nbsp;to&nbsp;add&nbsp;skills"><i class="fa fa-plus-circle"></i></a>	
 						  			</div>
 						  	</div>
-								<span class="col-md-2 col-sm-2 col-xs-2"></span>
+								<span class="col-md-2 col-sm-2 col-xs-3"></span>
 								<button class="w3-orange w3-btn w3-small w3-round-large w3-text-white col-md-3 col-sm-3 col-xs-3 w3-margin pull-right">SAVE</button>
 								<span class="col-md-4"></span>
 								<button class="w3-grey w3-btn w3-small w3-round-large w3-text-white col-md-3 col-sm-3 col-xs-3 w3-margin pull-right">CANCEL</button>
@@ -62,7 +62,7 @@
 					</div>
 
 					<div class="w3-white col-md-12 col-sm-12 col-xs-12 w3-card-1 padding-15">
-						<h2 class="col-md-2 col-sm-2 col-xs-2"><span class="glyphicon glyphicon-thumbs-up" style="font-size:32px"></span></h2><h6 class="w3-text-black col-md-10 col-sm-10 colxs-10">ENDORSMENTS & RECOMENDATIONS</h6>
+						<h2 class="col-md-2 col-sm-2 col-xs-3"><span class="glyphicon glyphicon-thumbs-up" style="font-size:32px"></span></h2><h6 class="w3-text-black col-md-10 col-sm-10 colxs-10">ENDORSMENTS & RECOMENDATIONS</h6>
 						<br/><br/>
 						<h6><strong>School Name, Program</strong></h6>
 						<h6 class="w3-margin-left">"Quoted recomendation from school or education"</h6>
@@ -72,7 +72,7 @@
 					</div>		
 
 					<div class="w3-white col-md-12 col-sm-12 col-xs-12 w3-card-1 padding-15">
-						<h2 class="col-md-2 col-sm-2 col-xs-2"><i class="fa fa-trophy" style="font-size:32px"></i></h2><h6 class="w3-text-black col-md-10 col-sm-10 colxs-10">PREVIOUS CHALLANGES</h6>
+						<h2 class="col-md-2 col-sm-2 col-xs-3"><i class="fa fa-trophy" style="font-size:32px"></i></h2><h6 class="w3-text-black col-md-10 col-sm-10 colxs-10">PREVIOUS CHALLANGES</h6>
 						<br/><br/><br/>
 						<h6 class="col-md-6  col-sm-6 col-xs-6"><strong>Tesla SUV Project</strong><br/>Tesla Motors</h6>
 						<h6 class="col-md-6  col-sm-6 col-xs-6 text-right">Winter '16<br/><i class="fa fa-star w3-text-orange" style="font-size:24px"></i> 2nd Place</h6>
@@ -86,31 +86,31 @@
 			<div class="col-md-7 padding-25">
 				<!-- <div class="row"> -->
 					<div class="w3-white col-md-12 col-sm-12 col-xs-12 w3-card-1 padding-15">
-						<h2 class="col-md-2 col-sm-2 col-xs-2"><i class="fa fa-crosshairs" style="font-size:32px"></i></h2>
-						<h6 class="w3-text-black col-md-7">SUMMARY</h6><a href="#" class="w3-text-grey w3-hover-text-blue text-right w3-right col-md-3 col-sm-3 col-xs-3"><i class="fa fa-pencil" style="font-size:24px"></i></a>		
+						<h2 class="col-md-2 col-sm-2 col-xs-3"><i class="fa fa-crosshairs" style="font-size:32px"></i></h2>
+						<h6 class="w3-text-black col-md-7 col-sm-7 col-xs-7">SUMMARY</h6><a href="#" class="w3-text-grey w3-hover-text-blue text-right w3-right col-md-3 col-sm-3 col-xs-3"><i class="fa fa-pencil" style="font-size:24px"></i></a>		
 						<br/><br/>
 						<div class="col-md-12 col-sm-12 col-xs-12">
 								<form role="form">
 								  <div class="form-group">
 							      <textarea class="form-control" id="summary" placeholder="Enter Summary"></textarea>
 										<span class="col-md-6  col-sm-6 col-xs-6"></span>
-										<button class="w3-orange w3-btn w3-small w3-round-large w3-text-white col-md-2 col-sm-2 col-xs-2 w3-margin pull-right">SAVE</button>
-										<span class="col-md-2 col-sm-2 col-xs-2"></span>
-										<button class="w3-grey w3-btn w3-small w3-round-large w3-text-white col-md-2 col-sm-2 col-xs-2 w3-margin pull-right">CANCEL</button>
+										<button class="w3-orange w3-btn w3-small w3-round-large w3-text-white col-md-2 col-sm-2 col-xs-3 w3-margin pull-right">SAVE</button>
+										<span class="col-md-2 col-sm-2 col-xs-3"></span>
+										<button class="w3-grey w3-btn w3-small w3-round-large w3-text-white col-md-2 col-sm-2 col-xs-3 w3-margin pull-right">CANCEL</button>
 								  </div>
 								</form>
 						</div>
 					</div>	
 
 					<div class="w3-white col-md-12 col-sm-12 col-xs-12 w3-card-1 padding-15">
-						<h2 class="col-md-2 col-sm-2 col-xs-2"><span class="glyphicon glyphicon-education" style="font-size:32px"></span></h2>
-						<h6 class="w3-text-black col-md-7">EDUCATION</h6><a href="#" class="w3-text-grey w3-hover-text-blue text-right w3-right col-md-3 col-sm-3 col-xs-3"><i class="fa fa-pencil" style="font-size:24px"></i></a>		
+						<h2 class="col-md-2 col-sm-2 col-xs-3"><span class="glyphicon glyphicon-education" style="font-size:32px"></span></h2>
+						<h6 class="w3-text-black col-md-7 col-sm-7 col-xs-7">EDUCATION</h6><a href="#" class="w3-text-grey w3-hover-text-blue text-right w3-right col-md-3 col-sm-3 col-xs-3"><i class="fa fa-pencil" style="font-size:24px"></i></a>		
 						<br/><br/><br/>
 						<h6 class="col-md-6  col-sm-6 col-xs-6"><strong>University of Chicago</strong><br/>Booth School of business<br/>Entrepreneurship and Finance</h6>
-						<h6 class="col-md-4 text-right">2017-2015</h6><img class="img-responsive col-md-2 col-sm-2 col-xs-2" src="">
+						<h6 class="col-md-4 text-right">2017-2015</h6><img class="img-responsive col-md-2 col-sm-2 col-xs-3" src="">
 						<br/><br/><br/><br/><br/>
 						<h6 class="col-md-6  col-sm-6 col-xs-6"><strong>Loyola University of Chicago</strong><br/>Economics</h6>
-						<h6 class="col-md-4 text-right">2009-2005</h6><img class="img-responsive col-md-2 col-sm-2 col-xs-2" src="">
+						<h6 class="col-md-4 text-right">2009-2005</h6><img class="img-responsive col-md-2 col-sm-2 col-xs-3" src="">
 						<br/><br/><br/>
 						<hr>
 						<div class="col-md-12 col-sm-12 col-xs-12">
@@ -119,17 +119,17 @@
 								  	<h6>RELEVENT COURSE WORK</h6>
 							      <textarea class="form-control" id="courseWork" placeholder="Enter Relevent Course work Description"></textarea>
 										<span class="col-md-6  col-sm-6 col-xs-6"></span>
-										<button class="w3-orange w3-btn w3-small w3-round-large w3-text-white col-md-2 col-sm-2 col-xs-2 w3-margin pull-right">SAVE</button>
-										<span class="col-md-2 col-sm-2 col-xs-2"></span>
-										<button class="w3-grey w3-btn w3-small w3-round-large w3-text-white col-md-2 col-sm-2 col-xs-2 w3-margin pull-right">CANCEL</button>
+										<button class="w3-orange w3-btn w3-small w3-round-large w3-text-white col-md-2 col-sm-2 col-xs-3 w3-margin pull-right">SAVE</button>
+										<span class="col-md-2 col-sm-2 col-xs-3"></span>
+										<button class="w3-grey w3-btn w3-small w3-round-large w3-text-white col-md-2 col-sm-2 col-xs-3 w3-margin pull-right">CANCEL</button>
 								  </div>
 								</form>
 						</div>
 					</div>		
 
 					<div class="w3-white col-md-12 col-sm-12 col-xs-12 w3-card-1 padding-15">
-						<h2 class="col-md-2 col-sm-2 col-xs-2"><span class="glyphicon glyphicon-briefcase" style="font-size:32px"></span></h2>
-						<h6 class="w3-text-black col-md-7">EXPERIENCE</h6><a href="#" class="w3-text-grey w3-hover-text-blue text-right w3-right col-md-3 col-sm-3 col-xs-3"><i class="fa fa-pencil" style="font-size:24px"></i></a>		
+						<h2 class="col-md-2 col-sm-2 col-xs-3"><span class="glyphicon glyphicon-briefcase" style="font-size:32px"></span></h2>
+						<h6 class="w3-text-black col-md-7 col-sm-7 col-xs-7">EXPERIENCE</h6><a href="#" class="w3-text-grey w3-hover-text-blue text-right pull-right col-md-3 col-sm-3 col-xs-3"><i class="fa fa-pencil" style="font-size:24px"></i></a>		
 						<br/><br/><br/>
 						<h6 class="col-md-6  col-sm-6 col-xs-6"><strong>Company Name</strong><br/>Title/Position</h6>
 						<h6 class="col-md-6  col-sm-6 col-xs-6 text-right">YYYY-YYYY</h6>
@@ -168,11 +168,11 @@
 											</select>
 										</div>
 										<span class="col-md-1 w3-padding-0" style="width:10px;"></span>
-										<div class="col-md-2 col-sm-2 col-xs-2 w3-padding-0">
+										<div class="col-md-2 col-sm-2 col-xs-3 w3-padding-0">
 											<input type="text" class="form-control" id="yearStart" placeholder="Enter Title">
 										</div>
 										<span class="col-md-1 w3-padding-0" style="width:10px;">-</span>
-										<div class="col-md-2 col-sm-2 col-xs-2 w3-padding-0">
+										<div class="col-md-2 col-sm-2 col-xs-3 w3-padding-0">
 											<input type="text" class="form-control" id="yearEnd" placeholder="Enter Title">
 										</div>
 										<div class="col-md-4">
@@ -189,9 +189,9 @@
 							    
 							    <div class="form-group">
 							    	
-							    		<button class="w3-orange w3-btn w3-small w3-round-large w3-text-white col-md-2 col-sm-2 col-xs-2 w3-margin pull-right">SAVE</button>
+							    		<button class="w3-orange w3-btn w3-small w3-round-large w3-text-white col-md-2 col-sm-2 col-xs-3 w3-margin pull-right">SAVE</button>
 											
-											<button class="w3-grey w3-btn w3-small w3-round-large w3-text-white col-md-2 col-sm-2 col-xs-2 w3-margin pull-right">CANCEL</button>		
+											<button class="w3-grey w3-btn w3-small w3-round-large w3-text-white col-md-2 col-sm-2 col-xs-3 w3-margin pull-right">CANCEL</button>		
 								    	<div class="w3-clear"></div>
 								    	<div class="row w3-padding-0">
 							    			<div class="col-md-6 col-sm-6 col-xs-6 col-md-offset-6 text-center">
@@ -213,8 +213,8 @@
 					</div>
 
 					<div class="w3-white col-md-12 col-sm-12 col-xs-12 w3-card-1 padding-15">
-						<h2 class="col-md-2 col-sm-2 col-xs-2"><i class="fa fa-users" style="font-size:32px"></i></h2>
-						<h6 class="w3-text-black col-md-7">ORGANISATIONS</h6><a href="#" class="w3-text-grey w3-hover-text-blue text-right w3-right col-md-3 col-sm-3 col-xs-3"><i class="fa fa-pencil" style="font-size:24px"></i></a>		
+						<h2 class="col-md-2 col-sm-2 col-xs-3"><i class="fa fa-users" style="font-size:32px"></i></h2>
+						<h6 class="w3-text-black col-md-7 col-sm-7 col-xs-7">ORGANISATIONS</h6><a href="#" class="w3-text-grey w3-hover-text-blue text-right w3-right col-md-3 col-sm-3 col-xs-3"><i class="fa fa-pencil" style="font-size:24px"></i></a>		
 						<br/><br/><br/>
 						<h6 class="col-md-6  col-sm-6 col-xs-6"><strong>Company Name</strong><br/>Title/Position</h6>
 						<h6 class="col-md-6  col-sm-6 col-xs-6 text-right">YYYY-YYYY</h6>
@@ -231,8 +231,8 @@
 					</div>	
 
 					<div class="w3-white col-md-12 col-sm-12 col-xs-12 w3-card-1 padding-15 w3-margin-0">
-						<h2 class="col-md-2 col-sm-2 col-xs-2"><i class="ionicons ion-ribbon-b" style="font-size:32px"></i></h2>
-						<h6 class="w3-text-black col-md-7">AWARDS</h6><a href="#" class="w3-text-grey w3-hover-text-blue text-right w3-right col-md-3 col-sm-3 col-xs-3"><i class="fa fa-pencil" style="font-size:24px"></i></a>		
+						<h2 class="col-md-2 col-sm-2 col-xs-3"><i class="ionicons ion-ribbon-b" style="font-size:32px"></i></h2>
+						<h6 class="w3-text-black col-md-7 col-sm-7 col-xs-7">AWARDS</h6><a href="#" class="w3-text-grey w3-hover-text-blue text-right w3-right col-md-3 col-sm-3 col-xs-3"><i class="fa fa-pencil" style="font-size:24px"></i></a>		
 						<br/><br/><br/>
 						<h6 class="col-md-6  col-sm-6 col-xs-6"><strong>Organisation Name</strong><br/>Awards</h6>
 						<h6 class="col-md-6  col-sm-6 col-xs-6 text-right">YYYY</h6>

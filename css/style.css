@@ -421,3 +421,25 @@ body,html{
 		        padding: 0 0.25em;
 		        background: white;
 		    }
+
+		    .selector > .select-button {
+			    //background-image: url("../img/actions.png");
+			     background-image:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZlcnNpb249JzEuMScgaGVpZ2h0PScxNXB4JyB3aWR0aD0nMjBweCc+PHRleHQgeD0nMCcgeT0nMTUnIGZpbGw9J2JsYWNrJyBmb250LXNpemU9JzIwJz4mI3hmMTA3OzwvdGV4dD48L3N2Zz4=");
+			    background-repeat: no-repeat;
+			    //background-color: #ffffff;
+			    //background-size: 20px 15px;
+			    background-position: 95% 50% ;
+			   // float: right;
+			    width: 45%;
+			    //font-size: 16px;
+			    border: 0;
+			    height: 50px;
+			    border-radius: 10px;
+			    border: 1px solid black;
+			    -moz-border-radius: 10px;
+			    -webkit-border-radius: 10px;
+			    -webkit-appearance: none;
+			    -moz-appearance: none;
+			    appearance: none;
+
+				}

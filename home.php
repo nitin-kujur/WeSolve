@@ -60,7 +60,7 @@
 						<div class="row">
 								<div class="col-md-3 col-sm-2"></div>
 				  			<div class="col-md-6 col-sm-8 col-xs-12">
-			            <iframe class="w3-card-2" width="100%" height="320" style="top:-120px; position:relative; border:0px; max-width:569px;" src="https://www.youtube.com/embed/R4eHn8xulSY?showinfo=0"></iframe>
+			            <iframe class="w3-card-2" width="100%" height="320" style="top:-120px; position:relative; border:0px; max-width:569px;" src="https://www.youtube.com/embed/R4eHn8xulSY?showinfo=0" allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen"></iframe>
 			          </div>
 			          <div class="col-md-3 col-sm-2" style="clear:both;"></div>
 			      </div>

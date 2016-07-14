@@ -122,7 +122,10 @@
 								  </div>
 								</form>
 						</div>
-					</div>	
+					</div>	<!-- Summary end -->
+
+
+
 
 					<div class="w3-white col-md-12 col-sm-12 col-xs-12 w3-card-1 padding-15">
 						<h2 class="col-md-2 col-sm-2 col-xs-3"><span class="glyphicon glyphicon-education" style="font-size:32px"></span></h2>
@@ -147,7 +150,10 @@
 								  </div>
 								</form>
 						</div>
-					</div>		
+					</div>	<!-- Education end	 -->
+
+
+
 
 					<div class="w3-white col-md-12 col-sm-12 col-xs-12 w3-card-1 padding-15">
 						<h2 class="col-md-2 col-sm-2 col-xs-3"><span class="glyphicon glyphicon-briefcase" style="font-size:32px"></span></h2>
@@ -229,7 +235,10 @@
 						<h6 class="col-md-6  col-sm-6 col-xs-6 text-right">YYYY-YYYY</h6>
 						<h6 class="col-md-12 col-sm-12 col-xs-12">Things you did at this company.</h6>
 						<br/><br/>						
-					</div>
+					</div><!-- Experience end -->
+
+
+
 
 					<div class="w3-white col-md-12 col-sm-12 col-xs-12 w3-card-1 padding-15">
 						<h2 class="col-md-2 col-sm-2 col-xs-3"><i class="fa fa-users" style="font-size:32px"></i></h2>
@@ -302,21 +311,121 @@
 							    	
 							    </div>
 							  </form>
-						</div>
+						</div> <!-- Add Organisation Form end -->
 
-						<h6 class="col-md-6  col-sm-6 col-xs-6"><strong>Company Name</strong><br/>Title/Position</h6>
-						<h6 class="col-md-6  col-sm-6 col-xs-6 text-right">YYYY-YYYY</h6>
-						<h6 class="col-md-12 col-sm-12 col-xs-12">Things you did at this company.</h6>
-						<br/><br/>
-						<h6 class="col-md-6  col-sm-6 col-xs-6"><strong>Company Name</strong><br/>Title/Position</h6>
-						<h6 class="col-md-6  col-sm-6 col-xs-6 text-right">YYYY-YYYY</h6>
-						<h6 class="col-md-12 col-sm-12 col-xs-12">Things you did at this company.</h6>
-						<br/><br/>
-						<h6 class="col-md-6  col-sm-6 col-xs-6"><strong>Company Name</strong><br/>Title/Position</h6>
-						<h6 class="col-md-6  col-sm-6 col-xs-6 text-right">YYYY-YYYY</h6>
-						<h6 class="col-md-12 col-sm-12 col-xs-12">Things you did at this company.</h6>
-						<br/><br/>						
-					</div>	
+
+						<div class="container-fluid w3-padding-0 collapse in" id="organisation1">
+								<a href="javascript:void(0);" data-toggle="collapse" data-target="#organisationForm1, #organisation1" title="Click to edit this" class="w3-text-grey w3-hover-text-blue text-right w3-right col-md-3 col-sm-3 col-xs-3"><i class="fa fa-pencil" style="font-size:12px"></i></a>	
+								<div class="w3-clear"></div>
+								<h6 class="col-md-6  col-sm-6 col-xs-6"><strong>Company Name</strong><br/>Title/Position</h6>
+								<h6 class="col-md-6  col-sm-6 col-xs-6 text-right">YYYY-YYYY</h6>
+								<h6 class="col-md-12 col-sm-12 col-xs-12">Things you did at this company.</h6>
+						</div>
+						<div class="col-md-12 col-sm-12 col-xs-12 w3-light-grey padding-15 collapse" id="organisationForm1">
+								<form role="form">
+							    <div class="form-group">
+							      <label for="companyName">Organisation Name</label>
+							      <input type="text" class="form-control" id="organisationName" placeholder="Enter Organisation Name">
+							    </div>
+							    <div class="form-group">
+							      <label for="title">Title</label>
+							      <input type="text" class="form-control" id="title" placeholder="Enter Title">
+							    </div>
+							    <div class="form-group">
+							      <label for="location">Location</label>
+							      <input type="text" class="form-control" id="location" placeholder="Enter Location">
+							    </div>
+							    <label for="month">Time Period</label>
+							    <div class="form-group">
+							    	<div class="row w3-padding-0">
+							    		<div class="col-md-5 w3-padding-0 w3-padding-right" style="max-width:150px;">
+						    					<input type="text" class="form-control" id="yearStart" placeholder="Enter Title">
+						    			</div>
+						    			<div class="col-md-2 text-center" style="max-width:20px;"><span>-</span></div>
+						    			<div class="col-md-5 " style="max-width:150px;">
+							    				<input type="text" class="form-control" id="yearStart" placeholder="Enter Title">	
+						    			</div>	
+							    	</div>
+							    </div>
+							    
+							    <div class="form-group">
+							      <label for="description">Description</label> <span>  (top three accomplishments)</span>
+							      <textarea class="form-control" id="description" placeholder="Enter Description"></textarea>
+							    </div>
+							    
+							    <div class="form-group">
+							    		<button class="w3-orange w3-btn w3-small w3-round-large w3-text-white col-md-2 col-sm-2 col-xs-3 w3-margin pull-right">SAVE</button>
+											<a class="w3-grey w3-btn w3-small w3-round-large w3-text-white col-md-2 col-sm-2 col-xs-3 w3-margin pull-right" data-toggle="collapse" data-target="#organisationForm1, #organisation1">CANCEL</a>		
+								    	<div class="w3-clear"></div>
+								    	<div class="row w3-padding-0">
+							    			<div class="col-md-6 col-sm-6 col-xs-6 col-md-offset-6 text-center">
+								    				<span class=""><a class="w3-text-blue" href="javascript:void(0);">Remove this position</a></span>	
+							    			</div>
+								    	</div>
+							    </div>
+							  </form>
+						</div>
+						<br/><br/> <!-- Organisation Post 1 end -->
+
+						<div class="container-fluid w3-padding-0 collapse in" id="organisation2">
+								<a href="javascript:void(0);" data-toggle="collapse" data-target="#organisationForm2, #organisation2" title="Click to edit this" class="w3-text-grey w3-hover-text-blue text-right w3-right col-md-3 col-sm-3 col-xs-3"><i class="fa fa-pencil" style="font-size:12px"></i></a>	
+								<div class="w3-clear"></div>
+								<h6 class="col-md-6  col-sm-6 col-xs-6"><strong>Company Name</strong><br/>Title/Position</h6>
+								<h6 class="col-md-6  col-sm-6 col-xs-6 text-right">YYYY-YYYY</h6>
+								<h6 class="col-md-12 col-sm-12 col-xs-12">Things you did at this company.</h6>
+						</div>
+						<div class="col-md-12 col-sm-12 col-xs-12 w3-light-grey padding-15 collapse" id="organisationForm2">
+								<form role="form">
+							    <div class="form-group">
+							      <label for="companyName">Organisation Name</label>
+							      <input type="text" class="form-control" id="organisationName" placeholder="Enter Organisation Name">
+							    </div>
+							    <div class="form-group">
+							      <label for="title">Title</label>
+							      <input type="text" class="form-control" id="title" placeholder="Enter Title">
+							    </div>
+							    <div class="form-group">
+							      <label for="location">Location</label>
+							      <input type="text" class="form-control" id="location" placeholder="Enter Location">
+							    </div>
+							    <label for="month">Time Period</label>
+							    <div class="form-group">
+							    	<div class="row w3-padding-0">
+							    		<div class="col-md-5 w3-padding-0 w3-padding-right" style="max-width:150px;">
+						    					<input type="text" class="form-control" id="yearStart" placeholder="Enter Title">
+						    			</div>
+						    			<div class="col-md-2 text-center" style="max-width:20px;"><span>-</span></div>
+						    			<div class="col-md-5 " style="max-width:150px;">
+							    				<input type="text" class="form-control" id="yearStart" placeholder="Enter Title">	
+						    			</div>	
+							    	</div>
+							    </div>
+							    
+							    <div class="form-group">
+							      <label for="description">Description</label> <span>  (top three accomplishments)</span>
+							      <textarea class="form-control" id="description" placeholder="Enter Description"></textarea>
+							    </div>
+							    
+							    <div class="form-group">
+							    		<button class="w3-orange w3-btn w3-small w3-round-large w3-text-white col-md-2 col-sm-2 col-xs-3 w3-margin pull-right">SAVE</button>
+											<a class="w3-grey w3-btn w3-small w3-round-large w3-text-white col-md-2 col-sm-2 col-xs-3 w3-margin pull-right" data-toggle="collapse" data-target="#organisationForm2, #organisation2">CANCEL</a>		
+								    	<div class="w3-clear"></div>
+								    	<div class="row w3-padding-0">
+							    			<div class="col-md-6 col-sm-6 col-xs-6 col-md-offset-6 text-center">
+								    				<span class=""><a class="w3-text-blue" href="javascript:void(0);">Remove this position</a></span>	
+							    			</div>
+								    	</div>
+							    </div>
+							  </form>
+						</div>
+						<br/><br/> <!-- Organisation Post 2 end -->
+
+
+					</div>	<!-- Organisation end -->
+
+
+
+
 
 					<div class="w3-white col-md-12 col-sm-12 col-xs-12 w3-card-1 padding-15 w3-margin-0">
 						<h2 class="col-md-2 col-sm-2 col-xs-3"><i class="ionicons ion-ribbon-b" style="font-size:32px"></i></h2>
@@ -371,7 +480,7 @@
 						<h6 class="col-md-6  col-sm-6 col-xs-6 text-right">YYYY</h6>
 						<h6 class="col-md-12 col-sm-12 col-xs-12">The award was<br/>for.</h6>
 						<br/><br/>						
-					</div>	
+					</div>	<!-- Awards end -->
 				<!-- </div>			 -->
 			</div>			
 		</div>
@@ -387,14 +496,14 @@
 				                    <div class="container-fluid" style="height:auto; padding:0px;">
 				                    		<div class="col-md-6 col-sm-6 hidden-xs w3-blue text-center">
 				                    			<button type="button" class="close pull-left" data-dismiss="modal" aria-hidden="true"><p> </p>&times;</button>
-				                    			<br/><br/>
-				                    			<div class="w3-round text-center" style="display:block;">
+				                    			<br/>
+				                    			<div class="w3-round text-center w3-section" style="display:block;">
 				                    					<img class="img-responsive img-circle center-block" src="images/Chauntell B.png">
 				                    			</div>
 				                    			<div class="form-group">
-				                    				<br/><br/>
+				                    				<br/>
 				                    				<input id="dp" type="file" class="form-control" name="dp" accept=".gif, .jpeg, .png, .jpg, .tif, .bmp" style="opacity:0; height:1px;">	
-				                    				<button type="button" class="w3-btn w3-orange w3-round-large w3-text-white" onclick="this.previousElementSibling.click();">Change Profole Pic</button>
+				                    				<button type="button" class="w3-btn w3-small w3-orange w3-round-large w3-text-white" onclick="this.previousElementSibling.click();">CHANGE PROFOLE PIC</button>
 				                    			</div>
 
 				                    		</div>
@@ -444,10 +553,28 @@
 																						</div>		
 																				 	</div> 
 
-																				 	<div class="form-group w3-margin-bottom text-left">
+																				 	<div class="form-group text-left">
 																				 	 <br/>
-																			 		 <label for="">State:</label>
-																				 	 <div class="col-md-12 w3-padding-0">
+																				 	 <div class="col-md-6 w3-padding-0 w3-padding-right">
+																				 	 		<label for="">State:</label>
+																				      <select class="form-control" id="month" name="option">
+																							  <option value="January">January</option>
+																							  <option value="February" selected>February</option>
+																							  <option value="March">March</option>
+																							  <option value="April">April</option>
+																							  <option value="May">May</option>
+																							  <option value="June">June</option>
+																							  <option value="July">July</option>
+																							  <option value="August">August</option>
+																							  <option value="September">September</option>
+																							  <option value="October">October</option>
+																							  <option value="November">November</option>
+																							  <option value="December">December</option>
+																							</select>
+																						</div>	
+
+																					 	<div class="col-md-6 w3-padding-0 w3-padding-left">
+																				 	 		<label for="">Country:</label>
 																				      <select class="form-control" id="month" name="option">
 																							  <option value="January">January</option>
 																							  <option value="February" selected>February</option>
@@ -465,30 +592,9 @@
 																						</div>		
 																				 	</div> 
 
-																				 	<div class="form-group w3-margin-bottom text-left">
-																				 	 <br/>
-																			 		 <label for="">Country:</label>
-																				 	 <div class="col-md-12 w3-padding-0">
-																				      <select class="form-control" id="month" name="option">
-																							  <option value="January">January</option>
-																							  <option value="February" selected>February</option>
-																							  <option value="March">March</option>
-																							  <option value="April">April</option>
-																							  <option value="May">May</option>
-																							  <option value="June">June</option>
-																							  <option value="July">July</option>
-																							  <option value="August">August</option>
-																							  <option value="September">September</option>
-																							  <option value="October">October</option>
-																							  <option value="November">November</option>
-																							  <option value="December">December</option>
-																							</select>
-																						</div>		
-																				 	</div> 
-
-																				 	<div class="form-group w3-margin-top w3-padding-top">
-																				 		<br/>
-																				 		<div class="row w3-padding w3-margin-top w3-padding-top">
+																				 	<div class="form-group">
+																				 		<p class="w3-section w3-tiny">&nbsp;</p>
+																				 		<div class="row w3-padding">
 																				 			<div class="col-md-6 col-sm-6 col-xs-6 text-center">
 																				 				<button class="w3-grey w3-btn w3-small w3-round-large w3-text-white col-md-12 col-sm-12 col-xs-12" data-dismiss="modal">CANCEL</button>	
 																				 			</div>
@@ -531,6 +637,9 @@
 		            this.value='';
 		    }
 		};
+
+
+	$('editContainer:hover').filter(":firstChild").show();
 	// function getFocus(){
 	// 	$('#sudoInput').focus();
 	// }

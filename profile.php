@@ -105,20 +105,17 @@
 				<!-- <div class="row"> -->
 					<div class="w3-white col-md-12 col-sm-12 col-xs-12 w3-card-1 padding-15">
 						<h2 class="col-md-2 col-sm-2 col-xs-3"><i class="fa fa-crosshairs" style="font-size:32px"></i></h2>
-						<h6 class="w3-text-black col-md-7 col-sm-7 col-xs-7">SUMMARY</h6><a href="javascript:void(0);" data-toggle="collapse" data-target="#summaryForm, #summary" class="w3-text-grey w3-hover-text-blue text-right w3-right col-md-3 col-sm-3 col-xs-3"><i class="fa fa-pencil" style="font-size:24px"></i></a>		
+						<h6 class="w3-text-black col-md-7 col-sm-7 col-xs-7">SUMMARY</h6><span class="col-md-3 col-sm-3 col-xs-3"></span><!-- <a href="javascript:void(0);" class="w3-text-grey w3-hover-text-blue text-right w3-right col-md-3 col-sm-3 col-xs-3"><i class="fa fa-pencil" style="font-size:24px"></i></a> -->		
 						<br/><br/>
 						
 						<div class="col-md-12 col-sm-12 col-xs-12">
-								<div class="collapse in" id="summary">
-									<h4>loremIpsum loremIpsum loremIpsum loremIpsum loremIpsum loremIpsum loremIpsum loremIpsum loremIpsum loremIpsum loremIpsum loremIpsum loremIpsum.</h4>
-								</div>
-								<form role="form" class="collapse" id="summaryForm">
+								<form role="form" class="" id="summaryForm">
 								  <div class="form-group">
 							      <textarea class="form-control" id="summaryEdit" placeholder="Enter Summary">loremIpsum loremIpsum loremIpsum loremIpsum loremIpsum loremIpsum loremIpsum loremIpsum loremIpsum loremIpsum loremIpsum loremIpsum loremIpsum.</textarea>
 										<span class="col-md-6  col-sm-6 col-xs-6"></span>
 										<button class="w3-orange w3-btn w3-small w3-round-large w3-text-white col-md-2 col-sm-2 col-xs-3 w3-margin pull-right">SAVE</button>
 										<span class="col-md-2 col-sm-2 col-xs-3"></span>
-										<a class="w3-grey w3-btn w3-small w3-round-large w3-text-white col-md-2 col-sm-2 col-xs-3 w3-margin pull-right" data-toggle="collapse" data-target="#summaryForm, #summary">CANCEL</a>
+										<a class="w3-grey w3-btn w3-small w3-round-large w3-text-white col-md-2 col-sm-2 col-xs-3 w3-margin pull-right">CANCEL</a>
 								  </div>
 								</form>
 						</div>
@@ -129,7 +126,7 @@
 
 					<div class="w3-white col-md-12 col-sm-12 col-xs-12 w3-card-1 padding-15">
 						<h2 class="col-md-2 col-sm-2 col-xs-3"><span class="glyphicon glyphicon-education" style="font-size:32px"></span></h2>
-						<h6 class="w3-text-black col-md-7 col-sm-7 col-xs-7">EDUCATION</h6><a href="javascript:void(0);" class="w3-text-grey w3-hover-text-blue text-right w3-right col-md-3 col-sm-3 col-xs-3"><i class="fa fa-pencil" style="font-size:24px"></i></a>		
+						<h6 class="w3-text-black col-md-7 col-sm-7 col-xs-7">EDUCATION</h6><a href="javascript:void(0);" class="w3-text-black w3-light-grey w3-small w3-padding w3-hover-text-blue text-center w3-right col-md-3 col-sm-3 col-xs-3"><strong class="w3-medium">+</strong>&nbsp;ADD&nbsp;EDUCATION</a>
 						<br/><br/><br/>
 						<h6 class="col-md-6  col-sm-6 col-xs-6"><strong>University of Chicago</strong><br/>Booth School of business<br/>Entrepreneurship and Finance</h6>
 						<h6 class="col-md-4 text-right">2017-2015</h6><img class="img-responsive col-md-2 col-sm-2 col-xs-3" src="">
@@ -157,7 +154,7 @@
 
 					<div class="w3-white col-md-12 col-sm-12 col-xs-12 w3-card-1 padding-15">
 						<h2 class="col-md-2 col-sm-2 col-xs-3"><span class="glyphicon glyphicon-briefcase" style="font-size:32px"></span></h2>
-						<h6 class="w3-text-black col-md-7 col-sm-7 col-xs-7">EXPERIENCE</h6><a href="javascript:void(0);" data-toggle="collapse" data-target="#experienceForm" class="w3-text-grey w3-hover-text-blue text-right pull-right col-md-3 col-sm-3 col-xs-3"><i class="fa fa-pencil" style="font-size:24px"></i></a>		
+						<h6 class="w3-text-black col-md-7 col-sm-7 col-xs-7">EXPERIENCE</h6><a href="javascript:void(0);" data-toggle="collapse" data-target="#experienceForm" class="w3-text-black w3-light-grey w3-small w3-padding w3-hover-text-blue text-center w3-right col-md-3 col-sm-3 col-xs-3"><strong class="w3-medium">+</strong>&nbsp;ADD&nbsp;COMPANY</a>
 						<br/><br/>
 						<div class="col-md-12 col-sm-12 col-xs-12 w3-light-grey padding-15 collapse" id="experienceForm">
 								<form role="form">
@@ -242,7 +239,7 @@
 
 					<div class="w3-white col-md-12 col-sm-12 col-xs-12 w3-card-1 padding-15">
 						<h2 class="col-md-2 col-sm-2 col-xs-3"><i class="fa fa-users" style="font-size:32px"></i></h2>
-						<h6 class="w3-text-black col-md-7 col-sm-7 col-xs-7">ORGANISATIONS</h6><a href="javascript:void(0);" data-toggle="collapse" data-target="#organisationForm" class="w3-text-grey w3-hover-text-blue text-right w3-right col-md-3 col-sm-3 col-xs-3"><i class="fa fa-pencil" style="font-size:24px"></i></a>		
+						<h6 class="w3-text-black col-md-7 col-sm-7 col-xs-7">ORGANISATIONS</h6><a href="javascript:void(0);" data-toggle="collapse" data-target="#organisationForm" class="w3-text-black w3-light-grey w3-small text-center w3-padding w3-hover-text-blue w3-right col-md-3 col-sm-3 col-xs-3"><strong class="w3-medium">+</strong>&nbsp;ADD&nbsp;ORGANISATION</a>		
 						<br/><br/>
 
 						<div class="col-md-12 col-sm-12 col-xs-12 w3-light-grey padding-15 collapse" id="organisationForm">
@@ -317,40 +314,40 @@
 						<div class="container-fluid w3-padding-0 collapse in" id="organisation1">
 								<a href="javascript:void(0);" data-toggle="collapse" data-target="#organisationForm1, #organisation1" title="Click to edit this" class="w3-text-grey w3-hover-text-blue text-right w3-right col-md-3 col-sm-3 col-xs-3"><i class="fa fa-pencil" style="font-size:12px"></i></a>	
 								<div class="w3-clear"></div>
-								<h6 class="col-md-6  col-sm-6 col-xs-6"><strong>Company Name</strong><br/>Title/Position</h6>
-								<h6 class="col-md-6  col-sm-6 col-xs-6 text-right">YYYY-YYYY</h6>
-								<h6 class="col-md-12 col-sm-12 col-xs-12">Things you did at this company.</h6>
+								<h6 class="col-md-6  col-sm-6 col-xs-6"><strong>WeSolv</strong><br/>Associate Developer</h6>
+								<h6 class="col-md-6  col-sm-6 col-xs-6 text-right">2010-2015</h6>
+								<h6 class="col-md-12 col-sm-12 col-xs-12">LoremIpsum loremipsum loremipsum loremipsum loremipsum loremipsum loremipsum loremipsum.</h6>
 						</div>
 						<div class="col-md-12 col-sm-12 col-xs-12 w3-light-grey padding-15 collapse" id="organisationForm1">
 								<form role="form">
 							    <div class="form-group">
 							      <label for="companyName">Organisation Name</label>
-							      <input type="text" class="form-control" id="organisationName" placeholder="Enter Organisation Name">
+							      <input type="text" class="form-control" id="organisationName" placeholder="Enter Organisation Name" value="WeSolv">
 							    </div>
 							    <div class="form-group">
 							      <label for="title">Title</label>
-							      <input type="text" class="form-control" id="title" placeholder="Enter Title">
+							      <input type="text" class="form-control" id="title" placeholder="Enter Title" value="Associate Developer">
 							    </div>
 							    <div class="form-group">
 							      <label for="location">Location</label>
 							      <input type="text" class="form-control" id="location" placeholder="Enter Location">
 							    </div>
 							    <label for="month">Time Period</label>
-							    <div class="form-group">
+							    <div class="form-group"> 
 							    	<div class="row w3-padding-0">
 							    		<div class="col-md-5 w3-padding-0 w3-padding-right" style="max-width:150px;">
-						    					<input type="text" class="form-control" id="yearStart" placeholder="Enter Title">
+						    					<input type="text" class="form-control text-center" id="yearStart" placeholder="Enter Title" value="2010">
 						    			</div>
 						    			<div class="col-md-2 text-center" style="max-width:20px;"><span>-</span></div>
 						    			<div class="col-md-5 " style="max-width:150px;">
-							    				<input type="text" class="form-control" id="yearStart" placeholder="Enter Title">	
+							    				<input type="text" class="form-control text-center" id="yearStart" placeholder="Enter Title" value="2015">	
 						    			</div>	
 							    	</div>
 							    </div>
 							    
 							    <div class="form-group">
 							      <label for="description">Description</label> <span>  (top three accomplishments)</span>
-							      <textarea class="form-control" id="description" placeholder="Enter Description"></textarea>
+							      <textarea class="form-control" id="description" placeholder="Enter Description">LoremIpsum loremipsum loremipsum loremipsum loremipsum loremipsum loremipsum loremipsum.</textarea>
 							    </div>
 							    
 							    <div class="form-group">
@@ -429,7 +426,7 @@
 
 					<div class="w3-white col-md-12 col-sm-12 col-xs-12 w3-card-1 padding-15 w3-margin-0">
 						<h2 class="col-md-2 col-sm-2 col-xs-3"><i class="ionicons ion-ribbon-b" style="font-size:32px"></i></h2>
-						<h6 class="w3-text-black col-md-7 col-sm-7 col-xs-7">AWARDS</h6><a href="javascript:void(0);" data-toggle="collapse" data-target="#awardsForm" class="w3-text-grey w3-hover-text-blue text-right w3-right col-md-3 col-sm-3 col-xs-3"><i class="fa fa-pencil" style="font-size:24px"></i></a>		
+						<h6 class="w3-text-black col-md-7 col-sm-7 col-xs-7">AWARDS</h6><a href="javascript:void(0);" data-toggle="collapse" data-target="#awardsForm" class="w3-text-black text-center w3-light-grey w3-small w3-padding w3-hover-text-blue w3-right col-md-3 col-sm-3 col-xs-3"><strong class="w3-medium">+</strong>&nbsp;ADD&nbsp;AWARDS</a>
 						<br/><br/>
 
 						<div class="col-md-12 col-sm-12 col-xs-12 w3-light-grey padding-15 collapse" id="awardsForm">
@@ -460,7 +457,7 @@
 							    	
 							    		<button class="w3-orange w3-btn w3-small w3-round-large w3-text-white col-md-2 col-sm-2 col-xs-3 w3-margin pull-right">SAVE</button>
 											
-											<a class="w3-grey w3-btn w3-small w3-round-large w3-text-white col-md-2 col-sm-2 col-xs-3 w3-margin pull-right" data-toggle="collapse" data-target="#experienceForm">CANCEL</a>		
+											<a class="w3-grey w3-btn w3-small w3-round-large w3-text-white col-md-2 col-sm-2 col-xs-3 w3-margin pull-right" data-toggle="collapse" data-target="#awardsForm">CANCEL</a>		
 								    	<div class="w3-clear"></div>
 								    	<div class="row w3-padding-0">
 							    			<div class="col-md-6 col-sm-6 col-xs-6 col-md-offset-6 text-center">

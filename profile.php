@@ -5,13 +5,39 @@
 	$('head').append(style);
 
 	$(document).ready(function() {
-		var skills = ["Add Skill", "Australia", "Bangladesh", "Denmark", "Hong Kong", "Indonesia", "Netherlands", "New Zealand", "South Africa"];
+		<?php 
+
+				$skills = ["'Business'","'Australia'", "'Bangladesh'", "'Denmark'", "'Hong Kong'", "'Indonesia'", "'Netherlands'", "'New Zealand'", "'South Africa'"];
+				array_push($skills,"'Business'","'Designing'"); //to populate selected skills
+				$skills = array_unique($skills);
+				$skills = implode(',', $skills);
+
+		?>
+		var skills = <?php echo "[".$skills."]"; ?>;
+		
+		skills.sort();
+
+		skills = $.unique(skills);
 		$("#skills").select2({
-		  data: skills
-		});
+			placeholder: "ADD SKILLS",
+			multiple: true,
+		  data: skills,
+	    tags: true,
+		  tokenSeparators: [','],
+		  maximumSelectionLength: 6,
+		  disabled: true,
+		  allowClear: true,
+		  
+		  
+		}).val(["Business","Designing"]).trigger("change");	
+
 		skill_id = document.getElementById("skills").options[0];
 		skill_id.selected;
 		skill_id.disabled;
+
+		// $('#skills').select2().val(["Business","Designing"]).trigger("change");	
+		$('.select2-search__field').addClass('w3-padding-bottom');	
+		// $('.select2-search__field').val("Business,Designing");
 	});
 
 </script>
@@ -47,33 +73,22 @@
 
 					<div class="w3-white col-md-12 col-sm-12 col-xs-12 w3-card-1 padding-15">
 						<img class="img-responsive col-md-3 col-sm-3 col-xs-3" src="images/ic_skill.png" style="width:62px; height:auto;">
-						<h6 class="w3-text-black col-md-6  col-sm-6 col-xs-6">SKILLS <span class="w3-tiny">(Max. 6)</span></h6><a href="javascript:void(0);" data-toggle="collapse" data-target="#skillForm, #skillList" class="w3-text-grey w3-hover-text-blue text-right col-md-3 col-sm-3 col-xs-3 pull-right"><i class="fa fa-pencil" style="font-size:24px"></i></a>		
+						<h6 class="w3-text-black col-md-6  col-sm-6 col-xs-6">SKILLS <span class="w3-tiny">(Max. 6)</span></h6><a href="javascript:skillEnable(true)" class="w3-text-grey w3-hover-text-blue text-right col-md-3 col-sm-3 col-xs-3 pull-right"><i class="fa fa-pencil" style="font-size:24px"></i></a>		
 						<br/><br/>
 						<div class="container-fluid w3-padding-0 text-center">
-							<div class="collapse in" id="skillList">
-								<span contenteditable="false" class="span w3-light-grey w3-padding-4 w3-padding-left w3-padding-right w3-round w3-margin-left w3-small" style="position:relative; line-height:30px;">Business<a href="javascript:void(0)"> <i class="fa fa-times-circle"></i></a></span>
-								<span contenteditable="false" class="span w3-light-grey w3-padding-4 w3-padding-left w3-padding-right w3-round w3-margin-left w3-small" style="position:relative; line-height:30px;">Business<a href="javascript:void(0)"> <i class="fa fa-times-circle"></i></a></span>
-								<span contenteditable="false" class="span w3-light-grey w3-padding-4 w3-padding-left w3-padding-right w3-round w3-margin-left w3-small" style="position:relative; line-height:30px;">Business<a href="javascript:void(0)"> <i class="fa fa-times-circle"></i></a></span>
-								<span contenteditable="false" class="span w3-light-grey w3-padding-4 w3-padding-left w3-padding-right w3-round w3-margin-left w3-small" style="position:relative; line-height:30px;">Business<a href="javascript:void(0)"> <i class="fa fa-times-circle"></i></a></span>
-								<span contenteditable="false" class="span w3-light-grey w3-padding-4 w3-padding-left w3-padding-right w3-round w3-margin-left w3-small" style="position:relative; line-height:30px;">Business<a href="javascript:void(0)"> <i class="fa fa-times-circle"></i></a></span>
-								<span contenteditable="false" class="span w3-light-grey w3-padding-4 w3-padding-left w3-padding-right w3-round w3-margin-left w3-small" style="position:relative; line-height:30px;">Business<a href="javascript:void(0)"> <i class="fa fa-times-circle"></i></a></span>
-							</div>
-							<form role="form" class="collapse" id="skillForm">
+							<form role="form" id="skillForm">
 							  <div class="form-group">
 							  	<div class="col-md-12 col-sm-12 col-xs-12">
-							  			<textarea class="form-control w3-text-black" id="skillEdit" resize="none" disabled>Business, Business, Business, Business, Business, Business</textarea> <br/>
-							  			<select class="form-control col-md-12 col-sm-12 col-xs-12" id="skills" name="skill" style="width:100% !important;">
-												  
-												</select>
-							  			<div class="padding-5" style="position:absolute; display:block; top:10px; left:10px;">
-							  				<input type="text" id="sudoInput" size="1" class="w3-margin-left w3-small w3-transparent" autocomplete="off" style="position:relative; border:0px; line-height:30px;">
-							  				<a href="javascript:addSkill()" id="add" class="w3-hide" style="display:inline;" data-toggle="tooltip" title="click&nbsp;to&nbsp;add&nbsp;skills"><i class="fa fa-plus-circle"></i></a>	
-							  			</div>
+							  			<!-- <textarea class="form-control w3-text-black" id="skillEdit" resize="none" disabled>Business, Business, Business, Business, Business, Business</textarea> <br/> -->
+							  			<select class="form-control" multiple="multiple" id="skills" name="skill" style="width:100% !important;">
+												 
+											</select>
+
 							  	</div>
 									<span class="col-md-2 col-sm-2 col-xs-3"></span>
 									<button class="w3-orange w3-btn w3-small w3-round-large w3-text-white col-md-3 col-sm-3 col-xs-3 w3-margin pull-right">SAVE</button>
 									<span class="col-md-4"></span>
-									<a class="w3-grey w3-btn w3-small w3-round-large w3-text-white col-md-3 col-sm-3 col-xs-3 w3-margin pull-right" data-toggle="collapse" data-target="#skillForm, #skillList">CANCEL</a>
+									<a href="javascript:skillEnable(false);" class="w3-grey w3-btn w3-small w3-round-large w3-text-white col-md-3 col-sm-3 col-xs-3 w3-margin pull-right">CANCEL</a>
 							  </div>
 							</form>
 						</div>
@@ -126,7 +141,7 @@
 
 					<div class="w3-white col-md-12 col-sm-12 col-xs-12 w3-card-1 padding-15">
 						<h2 class="col-md-2 col-sm-2 col-xs-3"><span class="glyphicon glyphicon-education" style="font-size:32px"></span></h2>
-						<h6 class="w3-text-black col-md-7 col-sm-7 col-xs-7">EDUCATION</h6><a href="javascript:void(0);" class="w3-text-black w3-light-grey w3-small w3-padding w3-hover-text-blue text-center w3-right col-md-3 col-sm-3 col-xs-3"><strong class="w3-medium">+</strong>&nbsp;ADD&nbsp;EDUCATION</a>
+						<h6 class="w3-text-black col-md-7 col-sm-7 col-xs-7">EDUCATION</h6><a href="javascript:void(0);" class="w3-leftbar w3-border-grey w3-text-black w3-light-grey w3-small w3-padding-4 w3-hover-text-blue text-center w3-right col-md-3 col-sm-3 col-xs-3"><strong class="w3-medium">+</strong>&nbsp;ADD&nbsp;EDUCATION</a>
 						<br/><br/><br/>
 						<h6 class="col-md-6  col-sm-6 col-xs-6"><strong>University of Chicago</strong><br/>Booth School of business<br/>Entrepreneurship and Finance</h6>
 						<h6 class="col-md-4 text-right">2017-2015</h6><img class="img-responsive col-md-2 col-sm-2 col-xs-3" src="">
@@ -154,7 +169,7 @@
 
 					<div class="w3-white col-md-12 col-sm-12 col-xs-12 w3-card-1 padding-15">
 						<h2 class="col-md-2 col-sm-2 col-xs-3"><span class="glyphicon glyphicon-briefcase" style="font-size:32px"></span></h2>
-						<h6 class="w3-text-black col-md-7 col-sm-7 col-xs-7">EXPERIENCE</h6><a href="javascript:void(0);" data-toggle="collapse" data-target="#experienceForm" class="w3-text-black w3-light-grey w3-small w3-padding w3-hover-text-blue text-center w3-right col-md-3 col-sm-3 col-xs-3"><strong class="w3-medium">+</strong>&nbsp;ADD&nbsp;COMPANY</a>
+						<h6 class="w3-text-black col-md-7 col-sm-7 col-xs-7">EXPERIENCE</h6><a href="javascript:void(0);" data-toggle="collapse" data-target="#experienceForm" class="w3-leftbar w3-border-grey w3-text-black w3-light-grey w3-small w3-padding-4 w3-hover-text-blue text-center w3-right col-md-3 col-sm-3 col-xs-3"><strong class="w3-medium">+</strong>&nbsp;ADD&nbsp;COMPANY</a>
 						<br/><br/>
 						<div class="col-md-12 col-sm-12 col-xs-12 w3-light-grey padding-15 collapse" id="experienceForm">
 								<form role="form">
@@ -308,7 +323,7 @@
 
 					<div class="w3-white col-md-12 col-sm-12 col-xs-12 w3-card-1 padding-15">
 						<h2 class="col-md-2 col-sm-2 col-xs-3"><i class="fa fa-users" style="font-size:32px"></i></h2>
-						<h6 class="w3-text-black col-md-7 col-sm-7 col-xs-7">ORGANISATIONS</h6><a href="javascript:void(0);" data-toggle="collapse" data-target="#organisationForm" class="w3-text-black w3-light-grey w3-small text-center w3-padding w3-hover-text-blue w3-right col-md-3 col-sm-3 col-xs-3"><strong class="w3-medium">+</strong>&nbsp;ADD&nbsp;ORGANISATION</a>		
+						<h6 class="w3-text-black col-md-7 col-sm-7 col-xs-7">ORGANISATIONS</h6><a href="javascript:void(0);" data-toggle="collapse" data-target="#organisationForm" class="w3-leftbar w3-border-grey w3-text-black w3-light-grey w3-small text-center w3-padding-4 w3-hover-text-blue w3-right col-md-3 col-sm-3 col-xs-3"><strong class="w3-medium">+</strong>&nbsp;ADD&nbsp;ORGANISATION</a>		
 						<br/><br/>
 
 						<div class="col-md-12 col-sm-12 col-xs-12 w3-light-grey padding-15 collapse" id="organisationForm">
@@ -495,7 +510,7 @@
 
 					<div class="w3-white col-md-12 col-sm-12 col-xs-12 w3-card-1 padding-15 w3-margin-0">
 						<h2 class="col-md-2 col-sm-2 col-xs-3"><i class="ionicons ion-ribbon-b" style="font-size:32px"></i></h2>
-						<h6 class="w3-text-black col-md-7 col-sm-7 col-xs-7">AWARDS</h6><a href="javascript:void(0);" data-toggle="collapse" data-target="#awardsForm" class="w3-text-black text-center w3-light-grey w3-small w3-padding w3-hover-text-blue w3-right col-md-3 col-sm-3 col-xs-3"><strong class="w3-medium">+</strong>&nbsp;ADD&nbsp;AWARDS</a>
+						<h6 class="w3-text-black col-md-7 col-sm-7 col-xs-7">AWARDS</h6><a href="javascript:void(0);" data-toggle="collapse" data-target="#awardsForm" class="w3-leftbar w3-border-grey w3-text-black text-center w3-light-grey w3-small w3-padding-4 w3-hover-text-blue w3-right col-md-3 col-sm-3 col-xs-3"><strong class="w3-medium">+</strong>&nbsp;ADD&nbsp;AWARDS</a>
 						<br/><br/>
 
 						<div class="col-md-12 col-sm-12 col-xs-12 w3-light-grey padding-15 collapse" id="awardsForm">
@@ -756,6 +771,12 @@
   			});
         	
   	});
+
+  	function skillEnable(bool){ 
+			if(bool == true) $("#skills").prop("disabled", false) ;
+			else $("#skills").prop("disabled", true) ;
+		}
+
 	 
 	// function getFocus(){
 	// 	$('#sudoInput').focus();

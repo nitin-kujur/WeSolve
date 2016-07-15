@@ -141,7 +141,7 @@
 
 					<div class="w3-white col-md-12 col-sm-12 col-xs-12 w3-card-1 padding-15">
 						<h2 class="col-md-2 col-sm-2 col-xs-3"><span class="glyphicon glyphicon-education" style="font-size:32px"></span></h2>
-						<h6 class="w3-text-black col-md-7 col-sm-7 col-xs-7">EDUCATION</h6><a href="javascript:void(0);" class="w3-leftbar w3-border-grey w3-text-black w3-light-grey w3-small w3-padding-4 w3-hover-text-blue text-center w3-right col-md-3 col-sm-3 col-xs-3"><strong class="w3-medium">+</strong>&nbsp;ADD&nbsp;EDUCATION</a>
+						<h6 class="w3-text-black col-md-7 col-sm-7 col-xs-6">EDUCATION</h6><a href="javascript:void(0);" class="w3-leftbar w3-border-grey w3-text-black w3-light-grey w3-small w3-padding-4 w3-hover-text-blue text-center w3-right col-md-3 col-sm-3 col-xs-3"><strong class="w3-medium">+</strong>&nbsp;ADD<span class="hidden-xs">&nbsp;EDUCATION</span></a>
 						<br/><br/><br/>
 						<h6 class="col-md-6  col-sm-6 col-xs-6"><strong>University of Chicago</strong><br/>Booth School of business<br/>Entrepreneurship and Finance</h6>
 						<h6 class="col-md-4 text-right">2017-2015</h6><img class="img-responsive col-md-2 col-sm-2 col-xs-3" src="">
@@ -169,7 +169,7 @@
 
 					<div class="w3-white col-md-12 col-sm-12 col-xs-12 w3-card-1 padding-15">
 						<h2 class="col-md-2 col-sm-2 col-xs-3"><span class="glyphicon glyphicon-briefcase" style="font-size:32px"></span></h2>
-						<h6 class="w3-text-black col-md-7 col-sm-7 col-xs-7">EXPERIENCE</h6><a href="javascript:void(0);" data-toggle="collapse" data-target="#experienceForm" class="w3-leftbar w3-border-grey w3-text-black w3-light-grey w3-small w3-padding-4 w3-hover-text-blue text-center w3-right col-md-3 col-sm-3 col-xs-3"><strong class="w3-medium">+</strong>&nbsp;ADD&nbsp;COMPANY</a>
+						<h6 class="w3-text-black col-md-7 col-sm-7 col-xs-6">EXPERIENCE</h6><a href="javascript:void(0);" data-toggle="collapse" data-target="#experienceForm" class="w3-leftbar w3-border-grey w3-text-black w3-light-grey w3-small w3-padding-4 w3-hover-text-blue text-center w3-right col-md-3 col-sm-3 col-xs-3"><strong class="w3-medium">+</strong>&nbsp;ADD<span class="hidden-xs">&nbsp;COMPANY</span></a>
 						<br/><br/>
 						<div class="col-md-12 col-sm-12 col-xs-12 w3-light-grey padding-15 collapse" id="experienceForm">
 								<form role="form">
@@ -323,7 +323,7 @@
 
 					<div class="w3-white col-md-12 col-sm-12 col-xs-12 w3-card-1 padding-15">
 						<h2 class="col-md-2 col-sm-2 col-xs-3"><i class="fa fa-users" style="font-size:32px"></i></h2>
-						<h6 class="w3-text-black col-md-7 col-sm-7 col-xs-7">ORGANISATIONS</h6><a href="javascript:void(0);" data-toggle="collapse" data-target="#organisationForm" class="w3-leftbar w3-border-grey w3-text-black w3-light-grey w3-small text-center w3-padding-4 w3-hover-text-blue w3-right col-md-3 col-sm-3 col-xs-3"><strong class="w3-medium">+</strong>&nbsp;ADD&nbsp;ORGANISATION</a>		
+						<h6 class="w3-text-black col-md-7 col-sm-7 col-xs-6">ORGANISATIONS</h6><a href="javascript:void(0);" data-toggle="collapse" data-target="#organisationForm" class="w3-leftbar w3-border-grey w3-text-black w3-light-grey w3-small text-center w3-padding-4 w3-hover-text-blue w3-right col-md-3 col-sm-3 col-xs-3"><strong class="w3-medium">+</strong>&nbsp;ADD<span class="hidden-xs">&nbsp;ORGANISATION</span></a>		
 						<br/><br/>
 
 						<div class="col-md-12 col-sm-12 col-xs-12 w3-light-grey padding-15 collapse" id="organisationForm">
@@ -510,7 +510,7 @@
 
 					<div class="w3-white col-md-12 col-sm-12 col-xs-12 w3-card-1 padding-15 w3-margin-0">
 						<h2 class="col-md-2 col-sm-2 col-xs-3"><i class="ionicons ion-ribbon-b" style="font-size:32px"></i></h2>
-						<h6 class="w3-text-black col-md-7 col-sm-7 col-xs-7">AWARDS</h6><a href="javascript:void(0);" data-toggle="collapse" data-target="#awardsForm" class="w3-leftbar w3-border-grey w3-text-black text-center w3-light-grey w3-small w3-padding-4 w3-hover-text-blue w3-right col-md-3 col-sm-3 col-xs-3"><strong class="w3-medium">+</strong>&nbsp;ADD&nbsp;AWARDS</a>
+						<h6 class="w3-text-black col-md-7 col-sm-7 col-xs-6">AWARDS</h6><a href="javascript:void(0);" data-toggle="collapse" data-target="#awardsForm" class="w3-leftbar w3-border-grey w3-text-black text-center w3-light-grey w3-small w3-padding-4 w3-hover-text-blue w3-right col-md-3 col-sm-3 col-xs-3"><strong class="w3-medium">+</strong>&nbsp;ADD<span class="hidden-xs">&nbsp;AWARDS</span></a>
 						<br/><br/>
 
 						<div class="col-md-12 col-sm-12 col-xs-12 w3-light-grey padding-15 collapse" id="awardsForm">
@@ -620,7 +620,7 @@
 				            <div class="modal-body w3-card-2 w3-blue" style="background:white; padding:0px; border-radius: 2px;"> 
 				                <div>
 				                    <div class="container-fluid" style="height:auto; padding:0px;">
-				                    		<div class="col-md-6 col-sm-6 hidden-xs w3-blue text-center">
+				                    		<div class="col-md-6 col-sm-6 col-xs-12 w3-blue text-center">
 				                    			<button type="button" class="close pull-left" data-dismiss="modal" aria-hidden="true"><p> </p>&times;</button>
 				                    			<br/>
 				                    			<div class="w3-round text-center w3-section" style="display:block;">
@@ -633,7 +633,7 @@
 				                    			</div>
 
 				                    		</div>
-				                    		<div class="col-md-6 col-sm-6 w3-white" style="padding:0px !important;">
+				                    		<div class="col-md-6 col-sm-6 col-xs-12 w3-white" style="padding:0px !important;">
 			                    					<!-- <button type="button" class="close pull-left visible-xs w3-margin-left" data-dismiss="modal" aria-hidden="true"><p> </p>&times;</button> -->
 		                    						<div class="w3-container">
 																		 	<form rule="form">

@@ -43,7 +43,7 @@
 			  <div class="container-fluid">
 				<div class="navbar-header">
 					<span class="hidden-sm hidden-xs w3-left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-					<a class="navbar-brand" href="#"><img src="images/wesolv_logo_bulb_white_BG.png" class="img-responsive"  alt="p" width="130px" height="40%" style="object-fit: contain;"></a>
+					<a class="navbar-brand" href="index.php"><img src="images/wesolv_logo_bulb_white_BG.png" class="img-responsive"  alt="p" width="130px" height="40%" style="object-fit: contain;"></a>
 				  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
 						<!-- <h6><span class="icon-bar"></span>
 						<span class="icon-bar"></span>
@@ -53,17 +53,17 @@
 				</div>
 				<div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav navbar-right">
-					  <li><a href="#"><h6 class="w3-text-dark-blue text-center">COMPANIES</h6></a></li>
+					  <li id="li1"><a href="companies.php"><h6 class="w3-text-dark-blue text-center">COMPANIES</h6></a></li>
 					  <li class="hidden-sm hidden-xs">&nbsp;&nbsp;</li>
-					  <li><a href="#"><h6 class="w3-text-dark-blue text-center">CHALLANGES</h6></a></li>
+					  <li id="li2"><a href="challenges.php"><h6 class="w3-text-dark-blue text-center">CHALLANGES</h6></a></li>
 					  <li class="hidden-sm hidden-xs">&nbsp;&nbsp;</li>
-					  <li><a href="#"><h6 class="w3-text-dark-blue text-center">MEMBERS</h6></a></li>
+					  <li id="li3"><a href="members.php"><h6 class="w3-text-dark-blue text-center">MEMBERS</h6></a></li>
 					  <li class="hidden-sm hidden-xs">&nbsp;&nbsp;</li>
-					  <li><a href="#"><h6 class="w3-text-dark-blue text-center">MESSAGES <span class="w3-text-orange">(2)</span></h6></a></li>
+					  <li id="li4"><a href="messages.php"><h6 class="w3-text-dark-blue text-center">MESSAGES <span class="w3-text-orange">(2)</span></h6></a></li>
 					  <li class="hidden-sm hidden-xs">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
 					  <li>
-					  	<a href="javascript:void(0);" class="w3-text-dark-blue text-center hidden-xs" data-toggle="popover" data-placement="bottom" title="" data-html="true" data-content="<a class='w3-hover-text-white' href='#'><strong> ACCOUNT </strong></a><hr style='margin:0px auto; color:lightgrey;'><a class='w3-hover-text-white' href='#'><strong> LOG OUT </strong></a>"><h6 class="w3-text-dark-blue text-center">Hi, Stella</h6></a>
-					  	<a href="javascript:void(0);" class="w3-text-dark-blue text-center visible-xs" data-toggle="popover" data-placement="top" title="" data-html="true" data-content="<a class='w3-hover-text-white' href='#'><strong> ACCOUNT </strong></a><hr style='margin:0px auto; color:lightgrey;'><a class='w3-hover-text-white' href='#'><strong> LOG OUT </strong></a>"><h6 class="w3-text-dark-blue text-center">Hi, Stella</h6></a>
+					  	<a href="javascript:void(0);" class="w3-text-dark-blue text-center hidden-xs" data-toggle="popover" data-placement="bottom" title="" data-html="true" data-content="<a class='w3-hover-text-white' href='#'><strong> ACCOUNT </strong></a><hr style='margin:0px auto; color:lightgrey;'><a class='w3-hover-text-white' href='index.php'><strong> LOG OUT </strong></a>"><h6 class="w3-text-dark-blue text-center">Hi, Stella</h6></a>
+					  	<a href="javascript:void(0);" class="w3-text-dark-blue text-center visible-xs" data-toggle="popover" data-placement="top" title="" data-html="true" data-content="<a class='w3-hover-text-white' href='#'><strong> ACCOUNT </strong></a><hr style='margin:0px auto; color:lightgrey;'><a class='w3-hover-text-white' href='index.php'><strong> LOG OUT </strong></a>"><h6 class="w3-text-dark-blue text-center">Hi, Stella</h6></a>
 					  </li>
 					  <li class="hidden-sm hidden-xs">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
 					</ul>

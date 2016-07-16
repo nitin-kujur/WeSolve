@@ -17,9 +17,9 @@
 							</div> -->
 							<div class="col-md-12 col-sm-12 col-xs-12">
 									<div class="text-center">
-											<button class="w3-btn w3-xlarge w3-round w3-card-2 w3-padding-large w3-orange w3-text-white">&nbsp;&nbsp;&nbsp;&nbsp;SIGN UP&nbsp;&nbsp;&nbsp;&nbsp;</button>
+											<button data-toggle="modal" data-target="#signupModal" class="w3-btn w3-xlarge w3-round w3-card-2 w3-padding-large w3-orange w3-text-white">&nbsp;&nbsp;&nbsp;&nbsp;SIGN UP&nbsp;&nbsp;&nbsp;&nbsp;</button>
 											<h6 class="">Already A Member?</h6>
-											<a href="#"><h6 class="w3-text-black"><strong>Login</strong></h6></a>
+											<a href="javascript:void(0)" data-toggle="modal" data-target="#loginModal"><h6 class="w3-text-black"><strong>Login</strong></h6></a>
 									</div>
 							</div>
 							<!-- <div class="col-md-9"></div> -->

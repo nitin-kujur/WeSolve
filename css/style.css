@@ -1,4 +1,4 @@
-/*---------------home style------------------------*/
+/*---------------home style start------------------------*/
 body,html{
 		 			margin:0px;
 		 			padding: 0px;
@@ -277,12 +277,12 @@ body,html{
 					     -webkit-transform-origin: 50% 50%;
 					   }
 				}
-				/*---------------home style------------------------*/
+				/*---------------home style end------------------------*/
 
 
 
 
-				/*---------------profile style------------------------*/
+				/*---------------profile style start------------------------*/
 				.lightgray-bg{
 					background-color: rgb(233,235,238);
 				}
@@ -387,7 +387,11 @@ body,html{
 				  border-top-color: rgb(0, 102, 153);
 				}
 				
-				/*---------------profile style------------------------*/
+				/*---------------profile style end------------------------*/
+
+
+
+				/*---------------about style start------------------------*/
 
 				.col-xs-15,
 				.col-sm-15,
@@ -461,3 +465,31 @@ body,html{
 			    appearance: none;
 
 				}
+
+
+				/*---------------about style end------------------------*/
+
+
+
+
+				/*---------------challenges style start------------------------*/
+
+				.multiselect {
+				    width:100%;
+				    max-height:150px !important;
+				    border:solid 1px gray;
+				    border-radius: 5px;
+				    overflow:auto;
+				}
+				 
+				.multiselect label {
+				    display:block;
+				    margin-bottom: 0px;
+				}
+				 
+				.multiselect-on {
+				    color:#ffffff;
+				    background-color:#4a90e2; /*#000099; 4a90e2 015DA8*/
+				}
+
+				/*---------------challenges style end------------------------*/

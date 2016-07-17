@@ -1,10 +1,14 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.1/js/select2.min.js"></script>
+<script type="text/javascript" src="js/croppie.min.js"></script>
+
 <script type="text/javascript">
-	style = '<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.1/css/select2.min.css" rel="stylesheet" />';
-	$('head').append(style);
+	style = '<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.1/css/select2.min.css" rel="stylesheet" /> <link rel="stylesheet" href="css/croppie.css">';
+	
 
 	$(document).ready(function() {
+		$('head').append(style);
+		
 		<?php 
 
 				$skills = ["'Business'","'Australia'", "'Bangladesh'", "'Denmark'", "'Hong Kong'", "'Indonesia'", "'Netherlands'", "'New Zealand'", "'South Africa'"];
@@ -60,7 +64,7 @@
 
 					<div class="w3-white col-md-12 col-sm-12 col-xs-12 w3-card-1 padding-15">
 						<br/>
-						<img class="img-responsive center-block" src="images/Chauntell B.png">	
+						<img class="img-responsive center-block img-circle" src="images/Chauntell B.png" >	
 						<h2 class="w3-text-dark-blue col-md-9  col-sm-9 col-xs-9">Stella Bobo</h2>	<a href="javascript:void(0);" data-toggle="modal" data-target="#profileModal" class="w3-text-grey w3-hover-text-blue text-right col-md-3 col-sm-3 col-xs-3"><h2><i class="fa fa-pencil" style="font-size:24px"></i></h2></a>		
 						<h5 class="col-md-6  col-sm-6 col-xs-6 w3-text-dark-blue">Concentration 1</h5> <h5 class="col-md-6  col-sm-6 col-xs-6 w3-text-dark-blue">Concentration 2</h5>
 						<h5 class="col-md-12 col-sm-12 col-xs-12 w3-text-dark-blue">Chikago, IL</h5>
@@ -141,10 +145,10 @@
 
 					<div class="w3-white col-md-12 col-sm-12 col-xs-12 w3-card-1 padding-15">
 						<h2 class="col-md-2 col-sm-2 col-xs-3"><span class="glyphicon glyphicon-education" style="font-size:32px"></span></h2>
-						<h6 class="w3-text-black col-md-7 col-sm-7 col-xs-6">EDUCATION</h6><a href="javascript:changeDataTarget('#educationForm','#educationClsBtn')" class="w3-leftbar w3-border-grey w3-text-black w3-light-grey w3-small w3-padding-4 w3-hover-text-blue text-center w3-right col-md-3 col-sm-3 col-xs-3"><strong class="w3-medium">+</strong>&nbsp;ADD<span class="hidden-xs">&nbsp;EDUCATION</span></a>
+						<h6 class="w3-text-black col-md-7 col-sm-7 col-xs-6">EDUCATION</h6><a href="javascript:showThis('#educationForm')" class="w3-leftbar w3-border-grey w3-text-black w3-light-grey w3-small w3-padding-4 w3-hover-text-blue text-center w3-right col-md-3 col-sm-3 col-xs-3"><strong class="w3-medium">+</strong>&nbsp;ADD<span class="hidden-xs">&nbsp;EDUCATION</span></a>
 						<br/><br/><br/>
 
-						<div class="col-md-12 col-sm-12 col-xs-12 w3-light-grey padding-15 collapse" id="educationForm">
+						<div class="col-md-12 col-sm-12 col-xs-12 w3-light-grey padding-15 w3-hide w3-animate-opacity" id="educationForm">
 								<form role="form">
 							    <div class="form-group">
 							      <label for="companyName">University Name</label>
@@ -186,7 +190,7 @@
 									    </div> -->
 								    </div>
 							    </div>
-							    
+							    <br/>
 							    <div class="form-group">
 							      <label for="description">Relevent Course Work</label>
 							      <textarea class="form-control" id="description" placeholder="Enter Description"></textarea>
@@ -196,7 +200,7 @@
 							    	
 							    		<button class="w3-orange w3-btn w3-small w3-round-large w3-text-white col-md-2 col-sm-2 col-xs-3 w3-margin pull-right">SAVE</button>
 											
-											<a id="educationClsBtn" class="w3-grey w3-btn w3-small w3-round-large w3-text-white col-md-2 col-sm-2 col-xs-3 w3-margin pull-right" data-toggle="collapse" data-target="#educationForm">CANCEL</a>		
+											<a id="educationClsBtn" href="javascript:hideThis('#educationForm')" class="w3-grey w3-btn w3-small w3-round-large w3-text-white col-md-2 col-sm-2 col-xs-3 w3-margin pull-right">CANCEL</a>		
 								    	<div class="w3-clear"></div>
 								    	<div class="row w3-padding-0">
 							    			<div class="col-md-6 col-sm-6 col-xs-6 col-md-offset-6 text-center">
@@ -209,7 +213,7 @@
 						</div> <!-- Add Education form end -->
 
 						<div class="container-fluid w3-padding-0 collapse in" id="education1">
-								<a href="javascript:void(0);" title="" class="w3-text-grey w3-hover-text-blue text-right w3-right" data-toggle="popover" data-placement="bottom" data-trigger="click" title="" data-html="true" data-content="<a class='w3-hover-text-white' href=javascript:changeDataTarget('#educationForm,#education1','#educationClsBtn') data-toggle='collapse' data-target='#experienceForm, #experience1'><strong> EDIT </strong></a><hr style='margin:0px auto; color:lightgrey;'><a class='w3-hover-text-white' href='#'><strong> REMOVE </strong></a>"><i class="fa fa-pencil" style="font-size:12px"></i></a>	
+								<a href="javascript:void(0);" title="" class="w3-text-grey w3-hover-text-blue text-right w3-right" data-toggle="popover" data-placement="bottom" data-trigger="click" title="" data-html="true" data-content="<a class='w3-hover-text-white' href=javascript:editAction('#educationForm','#education1','#educationClsBtn'); ><strong> EDIT </strong></a><hr style='margin:0px auto; color:lightgrey;'><a class='w3-hover-text-white' href='#'><strong> REMOVE </strong></a>"><i class="fa fa-pencil" style="font-size:12px"></i></a>	
 								<div class="w3-clear"></div>
 								<h6 class="col-md-6  col-sm-6 col-xs-6"><strong>University of Chicago</strong><br/>Booth School of business<br/>Entrepreneurship and Finance</h6>
 								<h6 class="col-md-4 text-right">2017-2015</h6><img class="img-responsive col-md-2 col-sm-2 col-xs-3" src="">
@@ -219,7 +223,7 @@
 						<br/><br/>
 
 						<div class="container-fluid w3-padding-0 collapse in" id="education2">
-								<a href="javascript:void(0);" title="" class="w3-text-grey w3-hover-text-blue text-right w3-right" data-toggle="popover" data-placement="bottom" data-trigger="click" title="" data-html="true" data-content="<a class='w3-hover-text-white' href=javascript:changeDataTarget('#educationForm,#education2','#educationClsBtn') data-toggle='collapse' data-target='#experienceForm, #experience1'><strong> EDIT </strong></a><hr style='margin:0px auto; color:lightgrey;'><a class='w3-hover-text-white' href='#'><strong> REMOVE </strong></a>"><i class="fa fa-pencil" style="font-size:12px"></i></a>	
+								<a href="javascript:void(0);" title="" class="w3-text-grey w3-hover-text-blue text-right w3-right" data-toggle="popover" data-placement="bottom" data-trigger="click" title="" data-html="true" data-content="<a class='w3-hover-text-white' href=javascript:editAction('#educationForm','#education2','#educationClsBtn'); ><strong> EDIT </strong></a><hr style='margin:0px auto; color:lightgrey;'><a class='w3-hover-text-white' href='#'><strong> REMOVE </strong></a>"><i class="fa fa-pencil" style="font-size:12px"></i></a>	
 								<div class="w3-clear"></div>
 								<h6 class="col-md-6  col-sm-6 col-xs-6"><strong>Loyola University of Chicago</strong><br/>Economics</h6>
 								<h6 class="col-md-4 text-right">2009-2005</h6><img class="img-responsive col-md-2 col-sm-2 col-xs-3" src="">
@@ -246,9 +250,9 @@
 
 					<div class="w3-white col-md-12 col-sm-12 col-xs-12 w3-card-1 padding-15">
 						<h2 class="col-md-2 col-sm-2 col-xs-3"><span class="glyphicon glyphicon-briefcase" style="font-size:32px"></span></h2>
-						<h6 class="w3-text-black col-md-7 col-sm-7 col-xs-6">EXPERIENCE</h6><a href="javascript:changeDataTarget('#experienceForm','#experienceClsBtn')" data-toggle="collapse" data-target="#experienceForm" class="w3-leftbar w3-border-grey w3-text-black w3-light-grey w3-small w3-padding-4 w3-hover-text-blue text-center w3-right col-md-3 col-sm-3 col-xs-3"><strong class="w3-medium">+</strong>&nbsp;ADD<span class="hidden-xs">&nbsp;COMPANY</span></a>
+						<h6 class="w3-text-black col-md-7 col-sm-7 col-xs-6">EXPERIENCE</h6><a href="javascript:showThis('#experienceForm')" class="w3-leftbar w3-border-grey w3-text-black w3-light-grey w3-small w3-padding-4 w3-hover-text-blue text-center w3-right col-md-3 col-sm-3 col-xs-3"><strong class="w3-medium">+</strong>&nbsp;ADD<span class="hidden-xs">&nbsp;COMPANY</span></a>
 						<br/><br/>
-						<div class="col-md-12 col-sm-12 col-xs-12 w3-light-grey padding-15 collapse" id="experienceForm">
+						<div class="col-md-12 col-sm-12 col-xs-12 w3-light-grey padding-15 w3-hide w3-animate-opacity" id="experienceForm">
 								<form role="form">
 							    <div class="form-group">
 							      <label for="companyName">Company Name</label>
@@ -304,7 +308,7 @@
 							    	
 							    		<button class="w3-orange w3-btn w3-small w3-round-large w3-text-white col-md-2 col-sm-2 col-xs-3 w3-margin pull-right">SAVE</button>
 											
-											<a id="experienceClsBtn" class="w3-grey w3-btn w3-small w3-round-large w3-text-white col-md-2 col-sm-2 col-xs-3 w3-margin pull-right" data-toggle="collapse" data-target="#experienceForm">CANCEL</a>		
+											<a id="experienceClsBtn" href="javascript:hideThis('#experienceForm')" class="w3-grey w3-btn w3-small w3-round-large w3-text-white col-md-2 col-sm-2 col-xs-3 w3-margin pull-right">CANCEL</a>		
 								    	<div class="w3-clear"></div>
 								    	<div class="row w3-padding-0">
 							    			<div class="col-md-6 col-sm-6 col-xs-6 col-md-offset-6 text-center">
@@ -317,7 +321,7 @@
 						</div> <!-- Add Experience form end -->
 
 						<div class="container-fluid w3-padding-0 collapse in" id="experience1">
-								<a href="javascript:void(0);" title="" class="w3-text-grey w3-hover-text-blue text-right w3-right" data-toggle="popover" data-placement="bottom" data-trigger="click" title="" data-html="true" data-content="<a class='w3-hover-text-white' href=javascript:changeDataTarget('#experienceForm,#experience1','#experienceClsBtn') data-toggle='collapse' data-target='#experienceForm, #experience1'><strong> EDIT </strong></a><hr style='margin:0px auto; color:lightgrey;'><a class='w3-hover-text-white' href='#'><strong> REMOVE </strong></a>"><i class="fa fa-pencil" style="font-size:12px"></i></a>	
+								<a href="javascript:void(0);" title="" class="w3-text-grey w3-hover-text-blue text-right w3-right" data-toggle="popover" data-placement="bottom" data-trigger="click" title="" data-html="true" data-content="<a class='w3-hover-text-white' href=javascript:editAction('#experienceForm','#experience1','#experienceClsBtn') ><strong> EDIT </strong></a><hr style='margin:0px auto; color:lightgrey;'><a class='w3-hover-text-white' href='#'><strong> REMOVE </strong></a>"><i class="fa fa-pencil" style="font-size:12px"></i></a>	
 								<div class="w3-clear"></div>
 								<h6 class="col-md-6  col-sm-6 col-xs-6"><strong>WeSolv</strong><br/>Associate Developer</h6>
 								<h6 class="col-md-6  col-sm-6 col-xs-6 text-right">2010-2015</h6>
@@ -335,10 +339,10 @@
 
 					<div class="w3-white col-md-12 col-sm-12 col-xs-12 w3-card-1 padding-15">
 						<h2 class="col-md-2 col-sm-2 col-xs-3"><i class="fa fa-users" style="font-size:32px"></i></h2>
-						<h6 class="w3-text-black col-md-7 col-sm-7 col-xs-6">ORGANISATIONS</h6><a href="javascript:changeDataTarget('#organisationForm','#organisationClsBtn')" data-toggle="collapse" data-target="#organisationForm" class="w3-leftbar w3-border-grey w3-text-black w3-light-grey w3-small text-center w3-padding-4 w3-hover-text-blue w3-right col-md-3 col-sm-3 col-xs-3"><strong class="w3-medium">+</strong>&nbsp;ADD<span class="hidden-xs">&nbsp;ORGANISATION</span></a>		
+						<h6 class="w3-text-black col-md-7 col-sm-7 col-xs-6">ORGANISATIONS</h6><a href="javascript:showThis('#organisationForm')" class="w3-leftbar w3-border-grey w3-text-black w3-light-grey w3-small text-center w3-padding-4 w3-hover-text-blue w3-right col-md-3 col-sm-3 col-xs-3"><strong class="w3-medium">+</strong>&nbsp;ADD<span class="hidden-xs">&nbsp;ORGANISATION</span></a>		
 						<br/><br/>
 
-						<div class="col-md-12 col-sm-12 col-xs-12 w3-light-grey padding-15 collapse" id="organisationForm">
+						<div class="col-md-12 col-sm-12 col-xs-12 w3-light-grey padding-15 w3-hide w3-animate-opacity" id="organisationForm">
 								<form role="form">
 							    <div class="form-group">
 							      <label for="companyName">Company Name</label>
@@ -394,7 +398,7 @@
 							    	
 							    		<button class="w3-orange w3-btn w3-small w3-round-large w3-text-white col-md-2 col-sm-2 col-xs-3 w3-margin pull-right">SAVE</button>
 											
-											<a id="organisationClsBtn" class="w3-grey w3-btn w3-small w3-round-large w3-text-white col-md-2 col-sm-2 col-xs-3 w3-margin pull-right" data-toggle="collapse" data-target="#experienceForm">CANCEL</a>		
+											<a id="organisationClsBtn" href="javascript:hideThis('#organisationForm')" class="w3-grey w3-btn w3-small w3-round-large w3-text-white col-md-2 col-sm-2 col-xs-3 w3-margin pull-right" data-toggle="collapse" data-target="#experienceForm">CANCEL</a>		
 								    	<div class="w3-clear"></div>
 								    	<div class="row w3-padding-0">
 							    			<div class="col-md-6 col-sm-6 col-xs-6 col-md-offset-6 text-center">
@@ -408,7 +412,7 @@
 
 
 						<div class="container-fluid w3-padding-0 collapse in" id="organisation1">
-								<a href="javascript:void(0);" title="" class="w3-text-grey w3-hover-text-blue text-right w3-right" data-toggle="popover" data-placement="bottom" data-trigger="click" title="" data-html="true" data-content="<a class='w3-hover-text-white' href=javascript:changeDataTarget('#organisationForm,#organisation1','#organisationClsBtn') data-toggle='collapse' data-target='#organisationForm, #organisation1'><strong> EDIT </strong></a><hr style='margin:0px auto; color:lightgrey;'><a class='w3-hover-text-white' href='#'><strong> REMOVE </strong></a>"><i class="fa fa-pencil" style="font-size:12px"></i></a>	
+								<a href="javascript:void(0);" title="" class="w3-text-grey w3-hover-text-blue text-right w3-right" data-toggle="popover" data-placement="bottom" data-trigger="click" title="" data-html="true" data-content="<a class='w3-hover-text-white' href=javascript:editAction('#organisationForm','#organisation1','#organisationClsBtn') ><strong> EDIT </strong></a><hr style='margin:0px auto; color:lightgrey;'><a class='w3-hover-text-white' href='#'><strong> REMOVE </strong></a>"><i class="fa fa-pencil" style="font-size:12px"></i></a>	
 								<div class="w3-clear"></div>
 								<h6 class="col-md-6  col-sm-6 col-xs-6"><strong>WeSolv</strong><br/>Associate Developer</h6>
 								<h6 class="col-md-6  col-sm-6 col-xs-6 text-right">2010-2015</h6>
@@ -417,7 +421,7 @@
 						
 
 						<div class="container-fluid w3-padding-0 collapse in" id="organisation2">
-								<a href="javascript:void(0);" title="" class="w3-text-grey w3-hover-text-blue text-right w3-right" data-toggle="popover" data-placement="bottom" data-trigger="click" title="" data-html="true" data-content="<a class='w3-hover-text-white' href=javascript:changeDataTarget('#organisationForm,#organisation2','#organisationClsBtn') data-toggle='collapse' data-target='#organisationForm, #organisation2'><strong> EDIT </strong></a><hr style='margin:0px auto; color:lightgrey;'><a class='w3-hover-text-white' href='#'><strong> REMOVE </strong></a>"><i class="fa fa-pencil" style="font-size:12px"></i></a>	
+								<a href="javascript:void(0);" title="" class="w3-text-grey w3-hover-text-blue text-right w3-right" data-toggle="popover" data-placement="bottom" data-trigger="click" title="" data-html="true" data-content="<a class='w3-hover-text-white' href=javascript:editAction('#organisationForm','#organisation2','#organisationClsBtn') ><strong> EDIT </strong></a><hr style='margin:0px auto; color:lightgrey;'><a class='w3-hover-text-white' href='#'><strong> REMOVE </strong></a>"><i class="fa fa-pencil" style="font-size:12px"></i></a>	
 								<div class="w3-clear"></div>
 								<h6 class="col-md-6  col-sm-6 col-xs-6"><strong>Company Name</strong><br/>Title/Position</h6>
 								<h6 class="col-md-6  col-sm-6 col-xs-6 text-right">YYYY-YYYY</h6>
@@ -433,10 +437,10 @@
 
 					<div class="w3-white col-md-12 col-sm-12 col-xs-12 w3-card-1 padding-15 w3-margin-0">
 						<h2 class="col-md-2 col-sm-2 col-xs-3"><i class="ionicons ion-ribbon-b" style="font-size:32px"></i></h2>
-						<h6 class="w3-text-black col-md-7 col-sm-7 col-xs-6">AWARDS</h6><a href="javascript:changeDataTarget('#awardsForm','#awardsClsBtn')" data-toggle="collapse" data-target="#awardsForm" class="w3-leftbar w3-border-grey w3-text-black text-center w3-light-grey w3-small w3-padding-4 w3-hover-text-blue w3-right col-md-3 col-sm-3 col-xs-3"><strong class="w3-medium">+</strong>&nbsp;ADD<span class="hidden-xs">&nbsp;AWARDS</span></a>
+						<h6 class="w3-text-black col-md-7 col-sm-7 col-xs-6">AWARDS</h6><a href="javascript:showThis('#awardsForm')" class="w3-leftbar w3-border-grey w3-text-black text-center w3-light-grey w3-small w3-padding-4 w3-hover-text-blue w3-right col-md-3 col-sm-3 col-xs-3"><strong class="w3-medium">+</strong>&nbsp;ADD<span class="hidden-xs">&nbsp;AWARDS</span></a>
 						<br/><br/>
 
-						<div class="col-md-12 col-sm-12 col-xs-12 w3-light-grey padding-15 collapse" id="awardsForm">
+						<div class="col-md-12 col-sm-12 col-xs-12 w3-light-grey padding-15 w3-hide w3-animate-opacity" id="awardsForm">
 								<form role="form">
 							    <div class="form-group">
 							      <label for="companyName">Organisation Name</label>
@@ -464,7 +468,7 @@
 							    	
 							    		<button class="w3-orange w3-btn w3-small w3-round-large w3-text-white col-md-2 col-sm-2 col-xs-3 w3-margin pull-right">SAVE</button>
 											
-											<a id="awardsClsBtn" class="w3-grey w3-btn w3-small w3-round-large w3-text-white col-md-2 col-sm-2 col-xs-3 w3-margin pull-right" data-toggle="collapse" data-target="#awardsForm">CANCEL</a>		
+											<a id="awardsClsBtn" href="javascript:hideThis('#awardsForm')" class="w3-grey w3-btn w3-small w3-round-large w3-text-white col-md-2 col-sm-2 col-xs-3 w3-margin pull-right" data-toggle="collapse" data-target="#awardsForm">CANCEL</a>		
 								    	<div class="w3-clear"></div>
 								    	<div class="row w3-padding-0">
 							    			<div class="col-md-6 col-sm-6 col-xs-6 col-md-offset-6 text-center">
@@ -478,7 +482,7 @@
 
 
 						<div class="container-fluid w3-padding-0 collapse in" id="awards1">
-								<a href="javascript:void(0);" title="" class="w3-text-grey w3-hover-text-blue text-right w3-right" data-toggle="popover" data-placement="bottom" data-trigger="click" title="" data-html="true" data-content="<a class='w3-hover-text-white' href=javascript:changeDataTarget('#awardsForm,#awards1','#awardsClsBtn') data-toggle='collapse' data-target='#awardsForm, #awards1'><strong> EDIT </strong></a><hr style='margin:0px auto; color:lightgrey;'><a class='w3-hover-text-white' href='#'><strong> REMOVE </strong></a>"><i class="fa fa-pencil" style="font-size:12px"></i></a>	
+								<a href="javascript:void(0);" title="" class="w3-text-grey w3-hover-text-blue text-right w3-right" data-toggle="popover" data-placement="bottom" data-trigger="click" title="" data-html="true" data-content="<a class='w3-hover-text-white' href=javascript:editAction('#awardsForm','#awards1','#awardsClsBtn') ><strong> EDIT </strong></a><hr style='margin:0px auto; color:lightgrey;'><a class='w3-hover-text-white' href='#'><strong> REMOVE </strong></a>"><i class="fa fa-pencil" style="font-size:12px"></i></a>	
 								<div class="w3-clear"></div>
 								<h6 class="col-md-6  col-sm-6 col-xs-6"><strong>Organisation Name</strong><br/>Awards</h6>
 						<h6 class="col-md-6  col-sm-6 col-xs-6 text-right">YYYY</h6>
@@ -508,12 +512,16 @@
 				                    			<button type="button" class="close pull-left" data-dismiss="modal" aria-hidden="true"><p> </p>&times;</button>
 				                    			<br/>
 				                    			<div class="w3-round text-center w3-section" style="display:block;">
-				                    					<img class="img-responsive img-circle center-block" src="images/Chauntell B.png">
+				                    					<img id="" class="img-responsive img-circle center-block" src="images/Chauntell B.png">
+				                    			</div>
+				                    			<div id="upload-demo" class="text-center w3-section upload-img">
+				                    					
 				                    			</div>
 				                    			<div class="form-group">
 				                    				<br/>
-				                    				<input id="dp" type="file" class="form-control" name="dp" accept=".gif, .jpeg, .png, .jpg, .tif, .bmp" style="opacity:0; height:1px;">	
+				                    				<input id="upload" type="file" class="form-control" name="dp" accept="image/*" style="opacity:0; height:1px;">	
 				                    				<button type="button" class="w3-btn w3-small w3-orange w3-round-large w3-text-white" onclick="this.previousElementSibling.click();">CHANGE PROFOLE PIC</button>
+				                    				<button id="upload-result">CROP</button>
 				                    			</div>
 
 				                    		</div>
@@ -646,7 +654,56 @@
 		            alert('invalid file type');
 		            this.value='';
 		    }
-		};
+
+	};
+
+		    var $uploadCrop;
+
+				function readFile(input) {
+		 			if (input.files && input.files[0]) {
+			            var reader = new FileReader();
+			            
+			            reader.onload = function (e) {
+			            	$uploadCrop.croppie('bind', {
+			            		url: e.target.result
+			            	});
+			            	$('.upload-demo').addClass('ready');
+			            }
+			            
+			            reader.readAsDataURL(input.files[0]);
+			        }
+			        else {
+				        swal("Sorry - you're browser doesn't support the FileReader API");
+				    }
+				}
+
+				$uploadCrop = $('#upload-demo').croppie({
+					viewport: {
+						width: 200,
+						height: 200,
+						type: 'circle'
+					},
+					boundary: {
+						width: 300,
+						height: 300
+					},
+					//exif: true
+				});
+
+				$('#upload').on('change', function () { readFile(this); });
+				$('.upload-result').on('click', function (ev) {
+					$uploadCrop.croppie('result', {
+						type: 'canvas',
+						size: 'viewport'
+					}).then(function (resp) {
+						popupResult({
+							src: resp
+						});
+					});
+				});
+
+
+		// };
 
 		$("[data-toggle='popover']").on('shown.bs.popover', function(){
         $('html').click(function () {
@@ -661,12 +718,23 @@
 			else $("#skills").prop("disabled", true) ;
 		}
 
-	 	function changeDataTarget (arg1,arg2) {
-	 		btnId = $(arg2);     
-	 		// currentDataTarget = btnId.attr('data-target'); 
-	 		btnId.attr('data-target',arg1);
+	 	
+
+	 	function showThis (argument) {
+	 		 $(argument).removeClass('w3-hide');  
 	 	}
 
+	 	function hideThis (argument) {
+	 		 $(argument).addClass('w3-hide');  
+	 	}
+
+	 	function editAction (arg1, arg2, arg3) {
+	 		$(arg1).addClass('w3-hide');
+	 		$(arg2).addClass('w3-hide');
+	 		//query to populate form
+	 		showThis(arg1);
+	 		$(arg3).attr('onclick',"showThis('"+arg2+"')");
+	 	}
 	// function getFocus(){
 	// 	$('#sudoInput').focus();
 	// }

@@ -8,7 +8,7 @@
 
 	$(document).ready(function() {
 		$('head').append(style);
-		
+
 		<?php 
 
 				$skills = ["'Business'","'Australia'", "'Bangladesh'", "'Denmark'", "'Hong Kong'", "'Indonesia'", "'Netherlands'", "'New Zealand'", "'South Africa'"];
@@ -42,6 +42,56 @@
 		// $('#skills').select2().val(["Business","Designing"]).trigger("change");	
 		$('.select2-search__field').addClass('w3-padding-bottom');	
 		// $('.select2-search__field').val("Business,Designing");
+
+
+		 var $uploadCrop;
+
+				function readFile(input) {
+					$('#upload-demo,#crop').removeClass('w3-hide');
+					$('#dp_div').addClass('w3-hide');
+
+		 			if (input.files && input.files[0]) {
+			            var reader = new FileReader();
+			            
+			            reader.onload = function (e) {
+			            	$uploadCrop.croppie('bind', {
+			            		url: e.target.result
+			            	});
+			            	$('.upload-demo').addClass('ready');
+			            }
+			            
+			            reader.readAsDataURL(input.files[0]);
+			        }
+			        else {
+				        alert("Sorry - you're browser doesn't support the FileReader API");
+				    }
+				}
+
+				$uploadCrop = $('#upload-demo').croppie({
+					viewport: {
+						width: 180,
+						height: 180,
+						type: 'circle'
+					},
+					boundary: {
+						width: 210,
+						height: 210
+					},
+					//exif: true
+				});
+
+				$('#upload').on('change', function () { readFile(this); });
+				$('.upload-result').on('click', function (ev) { 
+					$uploadCrop.croppie('result', {
+						type: 'canvas',
+						size: 'viewport'
+					}).then(function (resp) {
+						popupResult({
+							src: resp
+						});
+					});
+				});
+
 	});
 
 </script>
@@ -510,24 +560,26 @@
 				                    <div class="container-fluid" style="height:auto; padding:0px;">
 				                    		<div class="col-md-6 col-sm-6 col-xs-12 w3-blue text-center">
 				                    			<button type="button" class="close pull-left" data-dismiss="modal" aria-hidden="true"><p> </p>&times;</button>
-				                    			<br/>
-				                    			<div class="w3-round text-center w3-section" style="display:block;">
-				                    					<img id="" class="img-responsive img-circle center-block" src="images/Chauntell B.png">
+				                    			<div id="dp_div" class="w3-round text-center w3-section w3-animate-opacity" style="display:block;">
+				                    					<br/>
+				                    					<img id="dp" class="img-responsive img-circle center-block" src="images/Chauntell B.png">
+				                    					<br/>
 				                    			</div>
-				                    			<div id="upload-demo" class="text-center w3-section upload-img">
+				                    			<div id="upload-demo" class="text-center w3-hide w3-animate-opacity">
 				                    					
 				                    			</div>
 				                    			<div class="form-group">
-				                    				<br/>
 				                    				<input id="upload" type="file" class="form-control" name="dp" accept="image/*" style="opacity:0; height:1px;">	
 				                    				<button type="button" class="w3-btn w3-small w3-orange w3-round-large w3-text-white" onclick="this.previousElementSibling.click();">CHANGE PROFOLE PIC</button>
-				                    				<button id="upload-result">CROP</button>
+				                    				<button id="crop" class="upload-result w3-btn w3-small w3-orange w3-round-large w3-text-white w3-hide">CROP</button>
+				                    				<img id="dpfake" src="">
+				                    				<a href="javascript:fake()">check</a>
 				                    			</div>
 
 				                    		</div>
 				                    		<div class="col-md-6 col-sm-6 col-xs-12 w3-white" style="padding:0px !important;">
 			                    					<!-- <button type="button" class="close pull-left visible-xs w3-margin-left" data-dismiss="modal" aria-hidden="true"><p> </p>&times;</button> -->
-		                    						<div class="w3-container">
+		                    						<div class="w3-container w3-section">
 																		 	<form rule="form">
 																		 		<div class="form-group w3-margin-bottom text-left">
 																				 	 <br/>
@@ -657,53 +709,43 @@
 
 	};
 
-		    var $uploadCrop;
+		   
+	function popupResult(result) {
+		var html;
+		if (result.html) {
+			html = result.html; 
+		}
+		if (result.src) {
+			html = '<img  src="' + result.src + '" />';
+		}
+		// swal({
+		// 	title: '',
+		// 	html: true,
+		// 	text: html,
+		// 	allowOutsideClick: true
+		// });
+		// setTimeout(function(){
+		// 	$('.sweet-alert').css('margin', function() {
+		// 		var top = -1 * ($(this).height() / 2),
+		// 			left = -1 * ($(this).width() / 2);
 
-				function readFile(input) {
-		 			if (input.files && input.files[0]) {
-			            var reader = new FileReader();
-			            
-			            reader.onload = function (e) {
-			            	$uploadCrop.croppie('bind', {
-			            		url: e.target.result
-			            	});
-			            	$('.upload-demo').addClass('ready');
-			            }
-			            
-			            reader.readAsDataURL(input.files[0]);
-			        }
-			        else {
-				        swal("Sorry - you're browser doesn't support the FileReader API");
-				    }
-				}
+		// 		return top + 'px 0 0 ' + left + 'px';
+		// 	});
+		// }, 1); 
 
-				$uploadCrop = $('#upload-demo').croppie({
-					viewport: {
-						width: 200,
-						height: 200,
-						type: 'circle'
-					},
-					boundary: {
-						width: 300,
-						height: 300
-					},
-					//exif: true
-				});
+		$('#dp').attr('src',result.src);
+		$('#dp').removeClass('w3-hide');
+		$('#upload-demo,#crop').addClass('w3-hide');
+		$('#dp_div').removeClass('w3-hide');
 
-				$('#upload').on('change', function () { readFile(this); });
-				$('.upload-result').on('click', function (ev) {
-					$uploadCrop.croppie('result', {
-						type: 'canvas',
-						size: 'viewport'
-					}).then(function (resp) {
-						popupResult({
-							src: resp
-						});
-					});
-				});
+  }
 
+  function fake () {
+  	 file = document.getElementById('upload').files[0];
+    path=URL.createObjectURL(file);
+    $('#dpfake').attr('src',path);
 
-		// };
+  }
 
 		$("[data-toggle='popover']").on('shown.bs.popover', function(){
         $('html').click(function () {

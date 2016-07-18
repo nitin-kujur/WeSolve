@@ -57,7 +57,7 @@
 					<ul class="nav navbar-nav navbar-right">
 					  <li><a href="about.php"><h6 class="w3-text-dark-blue text-center">ABOUT</h6></a></li>
 					  <li class="hidden-sm hidden-xs">&nbsp;&nbsp;</li>
-					  <li><a href="#"><h6 class="w3-text-dark-blue text-center">COMPANIES & CHALLANGES</h6></a></li>
+					  <li><a href="javascript:void(0)" data-toggle="collapse" data-target="#navbar-bottom" ><h6 class="w3-text-dark-blue text-center">COMPANIES & CHALLANGES</h6></a></li>
 					  <li class="hidden-sm hidden-xs">&nbsp;&nbsp;</li>
 					  <!-- <li><a href="#"><h6 class="w3-text-dark-blue text-center">FOR STUDENTS</h6></a></li> -->
 					  <li class="hidden-sm hidden-xs">&nbsp;&nbsp;</li>

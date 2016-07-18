@@ -572,8 +572,8 @@
 				                    				<input id="upload" type="file" class="form-control" name="dp" accept="image/*" style="opacity:0; height:1px;">	
 				                    				<button type="button" class="w3-btn w3-small w3-orange w3-round-large w3-text-white" onclick="this.previousElementSibling.click();">CHANGE PROFOLE PIC</button>
 				                    				<button id="crop" class="upload-result w3-btn w3-small w3-orange w3-round-large w3-text-white w3-hide">CROP</button>
-				                    				<img id="dpfake" src="">
-				                    				<a href="javascript:fake()">check</a>
+				                    				<!-- <img id="dpfake" src="">
+				                    				<a href="javascript:fake()">check</a> -->
 				                    			</div>
 
 				                    		</div>
@@ -740,12 +740,12 @@
 
   }
 
-  function fake () {
-  	 file = document.getElementById('upload').files[0];
-    path=URL.createObjectURL(file);
-    $('#dpfake').attr('src',path);
+  // function fake () {
+  // 	 file = document.getElementById('upload').files[0];
+  //   path=URL.createObjectURL(file);
+  //   $('#dpfake').attr('src',path);
 
-  }
+  // }
 
 		$("[data-toggle='popover']").on('shown.bs.popover', function(){
         $('html').click(function () {

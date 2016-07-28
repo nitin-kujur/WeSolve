@@ -493,3 +493,27 @@ body,html{
 				}
 
 				/*---------------challenges style end------------------------*/
+
+				.challenge-timeline hr{
+					 bottom: 8px;
+					 border:0.5px solid black;
+			     position: relative;
+				   z-index: 1;
+				   margin:0px;
+				}
+
+				.challenge-timeline .col-md-2{
+					width: 20%;
+				}
+
+				.row-height {
+				  display: table;
+				  table-layout: fixed;
+				  height: 100%;
+				  width: 100%;
+				}
+				.col-height {
+				  display: table-cell;
+				  float: none;
+				  height: 100%;
+				}

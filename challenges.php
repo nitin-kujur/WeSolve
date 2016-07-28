@@ -127,7 +127,7 @@
 								<img class="img-responsive" src="">
 							</div>	
 							<div class="col-md-9 col-sm-9 col-xs-9 w3-padding-0">
-								<label><u>How do we price and segment the market for a 2017 luxury electric SUV ?</u></label>		
+								<label><a href="challenge_detail.php"><u>How do we price and segment the market for a 2017 luxury electric SUV ?</u></a></label>		
 								<h6>Marketing, Strategy</h6>
 								<h6><b>Entry Deadline:</b> 6/15/2016</h6>
 								<h6><b>Start Date:</b> 6/15/2016</h6>

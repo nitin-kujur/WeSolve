@@ -16,6 +16,7 @@
 		 <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
 		 <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900' rel='stylesheet' type='text/css'>
 		 <link rel="stylesheet" href="css/owl.carousel.css">
+		 <link rel="stylesheet" href="css/spinner.css">
 		 <link rel="stylesheet" href="css/bootstrap20grid.min.css">
 
 		 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
@@ -32,13 +33,24 @@
  	   <script src="js/jquery-1.11.2.min.js"></script>
 	   <script src="js/bootstrap.js"></script>-->
 
-		 
-		 <style type="text/css">
-		 		
+		 <script type="text/javascript">
 
-		 </style>
+		 	$(document).ready(function(){
+
+		 	});
+
+		 	$(window).load(function function_name (argument) {
+	         	$('#top-overlay').fadeOut('slow');
+		    });
+
+		 </script>
+		 
 	</head>
 	<body>
+
+		<div id="top-overlay" style="position:fixed; width:100%; height:100%; background:rgba(25,25,25,0.5); z-index:9999999;">
+		  <div class="spinner"><img  src="images/favicon.ico" style="width:30px; height:30px; margin:15% auto;"></div>
+		</div>
 
 		<!-- -----------Nav-Bar------------ -->
 			<nav id="navbar" class="navbar navbar-default navbar-fixed-top w3-card-2">

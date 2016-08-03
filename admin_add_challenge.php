@@ -289,8 +289,11 @@
                             <li>
                                 <i class="fa fa-dashboard"></i>  <a href="admin_dashboard.php">Dashboard</a>
                             </li>
+                            <li>
+                                <i class="fa fa-tasks"></i>  <a href="admin_challenges.php">Challenges</a>
+                            </li>
                             <li class="active">
-                                <i class="fa fa-task"></i> Challenges / Add Challenge
+                                <i class="fa fa-task"></i> Add Challenge
                             </li>
                         </ol>
                     </div>

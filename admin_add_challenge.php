@@ -293,7 +293,7 @@
                                 <i class="fa fa-tasks"></i>  <a href="admin_challenges.php">Challenges</a>
                             </li>
                             <li class="active">
-                                <i class="fa fa-task"></i> Add Challenge
+                                <i class="fa fa-plus"></i> Add Challenge
                             </li>
                         </ol>
                     </div>

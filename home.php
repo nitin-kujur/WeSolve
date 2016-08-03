@@ -2,7 +2,7 @@
 
 			<!-- <div class="jumbotron"><div class="container-fluid">&nbsp;</div></div> -->
 
-			<div class="jumbotron bg-transparent jumbo" data-stellar-background-ratio="0.8"><div class="se-pre-con"></div>
+			<div class="jumbotron bg-transparent jumbo" data-stellar-background-ratio="0.8">
 			  <div class="container w3-text-white">
 			  	<br/><br/><br/>
 					<h2 class="w3-text-white w3-jumbo">Real<br/>Projects <span class="w3-text-orange"><i class="fa fa-plus"></i></span><br/>Top Companies</h2><p style="font-size:8px;">&nbsp;</p><h2 class="w3-text-white">Connect.   Engage.   Solve.</h2>

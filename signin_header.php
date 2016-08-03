@@ -31,10 +31,18 @@
 	   <script src="js/bootstrap.js"></script>-->
 
 		 
-		 <style type="text/css">
-		 		
+		 <script type="text/javascript">
 
-		 </style>
+		 	$(document).ready(function(){
+			 	$('.loader-on').append('<div class="se-pre-con"></div>');
+		 	});
+
+
+		 	$(window).load(function(argument) {
+	         	$(".se-pre-con").delay(1500).fadeOut("slow");
+		    });
+
+		 </script>
 	</head>
 	<body>
 

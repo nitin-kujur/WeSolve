@@ -84,6 +84,21 @@
       .active:after{
           /*top:11%;*/
       }
+      .no-js #loader { display: none;  }
+      .js #loader { display: block; position: absolute; left: 100px; top: 0; }
+      .se-pre-con {
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        z-index: 9999;
+        background: url(../images/Preloader_3.gif) center no-repeat #fff;
+      }
+      a, a:active, a:focus{
+        outline: none !important;
+        text-decoration: none !important;
+      }
     </style>
 </head>
 
@@ -101,7 +116,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html"><img src="images/wesolv_logo_bulb_white_BG.png" class="img-responsive nav-btn"  alt="p" width="100" height="10" style="object-fit: contain; display:inline;"> Admin</a>
+                <a class="navbar-brand" href="index.php"><img src="images/wesolv_logo_bulb_white_BG.png" class="img-responsive nav-btn"  alt="p" width="100" height="10" style="object-fit: contain; display:inline;"> Admin</a>
             </div>
             <!-- Top Menu Items -->
             <ul class="nav navbar-right top-nav">
@@ -278,24 +293,24 @@
                       <div class="row breadcrumb w3-card-1 margin-0">
                         <h2><i class="fa fa-building"></i> Companies  <small>Total: 10</small>  <small>Active:7</small>  <small>Inactive:3</small></h2>
                         <div class="col-md-12 w3-padding-0">
-                          <button class="w3-orange w3-btn w3-round-large w3-text-white"><i class="fa fa-fw fa-plus"></i> Add Company</button>
-                          <button class="w3-orange w3-btn w3-margin w3-round-large w3-text-white"><i class="fa fa-fw fa-gear"></i> Manage Companies</button> 
+                          <a class="w3-orange w3-btn w3-round-large w3-text-white"><i class="fa fa-fw fa-plus"></i> Add Company</a>
+                          <a class="w3-orange w3-btn w3-margin w3-round-large w3-text-white"><i class="fa fa-fw fa-gear"></i> Manage Companies</a> 
                         </div>
                       </div> 
 
                       <div class="row breadcrumb w3-card-1 margin-0">
                         <h2><i class="fa fa-tasks"></i> Challenges  <small>Total: 10</small>  <small>Active:7</small>  <small>Inactive:3</small></h2>
                         <div class="col-md-12 w3-padding-0">
-                          <button class="w3-orange w3-btn w3-round-large w3-text-white"><i class="fa fa-fw fa-plus"></i> Add Challenge</button>
-                          <button class="w3-orange w3-btn w3-margin w3-round-large w3-text-white"><i class="fa fa-fw fa-gear"></i> Manage Challenges</button> 
+                          <a class="w3-orange w3-btn w3-round-large w3-text-white" href="admin_add_challenge.php"><i class="fa fa-fw fa-plus"></i> Add Challenge</a>
+                          <a class="w3-orange w3-btn w3-margin w3-round-large w3-text-white"><i class="fa fa-fw fa-gear"></i> Manage Challenges</a> 
                         </div>
                       </div> 
 
                       <div class="row breadcrumb w3-card-1 margin-0">
                         <h2><i class="fa fa-users"></i> Students  <small>Total: 10</small>  <small>Active:7</small>  <small>Inactive:3</small></h2>
                         <div class="col-md-12 w3-padding-0">
-                          <button class="w3-orange w3-btn w3-round-large w3-text-white"><i class="fa fa-fw fa-plus"></i> Add Student</button>
-                          <button class="w3-orange w3-btn w3-margin w3-round-large w3-text-white"><i class="fa fa-fw fa-gear"></i> Manage Students</button> 
+                          <a class="w3-orange w3-btn w3-round-large w3-text-white"><i class="fa fa-fw fa-plus"></i> Add Student</a>
+                          <a class="w3-orange w3-btn w3-margin w3-round-large w3-text-white"><i class="fa fa-fw fa-gear"></i> Manage Students</a> 
                         </div>
                       </div> 
 

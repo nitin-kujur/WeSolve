@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
 
 <head>
 
@@ -84,10 +84,28 @@
       .active:after{
           /*top:11%;*/
       }
+      .no-js #loader { display: none;  }
+      .js #loader { display: block; position: absolute; left: 100px; top: 0; }
+      .se-pre-con {
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        z-index: 9999;
+        background: url(images/Preloader_3.gif) center no-repeat #fff;
+      }
+      a, a:active, a:focus{
+        outline: none !important;
+        text-decoration: none !important;
+      }
     </style>
+    <script type="text/javascript">
+      
+    </script>
 </head>
 
-<body>
+<body><div class="se-pre-con"></div>
 
     <div id="wrapper">
 
@@ -101,7 +119,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html"><img src="images/wesolv_logo_bulb_white_BG.png" class="img-responsive nav-btn"  alt="p" width="100" height="10" style="object-fit: contain; display:inline;"> Admin</a>
+                <a class="navbar-brand" href="index.php"><img src="images/wesolv_logo_bulb_white_BG.png" class="img-responsive nav-btn"  alt="p" width="100" height="10" style="object-fit: contain; display:inline;"> Admin</a>
             </div>
             <!-- Top Menu Items -->
             <ul class="nav navbar-right top-nav">
@@ -211,7 +229,7 @@
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav side-nav">
                     <li>
-                        <a href="index.html"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
+                        <a href="admin_dashboard.php"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
                     </li>
                     
                     <li>
@@ -269,7 +287,7 @@
                         </h1>
                         <ol class="breadcrumb w3-card-1">
                             <li>
-                                <i class="fa fa-dashboard"></i>  <a href="index.html">Dashboard</a>
+                                <i class="fa fa-dashboard"></i>  <a href="admin_dashboard.php">Dashboard</a>
                             </li>
                             <li class="active">
                                 <i class="fa fa-task"></i> Challenges / Add Challenge
@@ -517,12 +535,17 @@
     <!-- /#wrapper -->
 
     <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script> <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
     <script type="text/javascript">
+      $(window).load(function() {
+        // Animate loader off screen
+        $(".se-pre-con").fadeOut("slow");;
+      });
+
       $(".collapse").on("shown.bs.collapse", arrowdown);
       $(".collapse").on("hidden.bs.collapse", arrowup);
 

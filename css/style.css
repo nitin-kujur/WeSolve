@@ -519,6 +519,11 @@ body,html{
 				  height: 100%;
 				}
 
+				.inherit-parent{
+					position: absolute;
+					height:inherit;
+					width:inherit;
+				}
 				/*---------------loader style------------------------*/
 
 				/*.no-js #loader { display: none;  }

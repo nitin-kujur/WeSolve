@@ -368,7 +368,7 @@
                            </div>
 
                            <div class="col-lg-6 col-xs-12 col-height">
-                              <div class="row breadcrumb w3-card-1 w3-margin-left w3-margin-right" style="height:91%;">
+                              <div class="row breadcrumb w3-card-1 w3-margin-left w3-margin-right inherit-parent" style="height:91%;">
                                  <label class="w3-padding-0 col-sm-12 w3-margin-bottom" for="month">Project Skills(Max. 6)</label>
                                  <textarea class="form-control col-sm-12" id="caseChallenge" name="caseChallenge" placeholder="Enter Case Challenges"></textarea>
                               </div> 

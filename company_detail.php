@@ -14,7 +14,7 @@
 					<div class="row">
 						<div class="row-height loader-on">
 								<div class="col-height col-md-8 col-sm-8 col-xs-12 w3-card-1 jumbotron w3-padding-0" style="background:url('images/tesla-6.jpg') no-repeat center center; background-size: cover;">
-									<div class="container-fluid w3-padding-xlarge w3-text-white" style="background:rgba(74, 144, 226, 0.5); height: inherit;">
+									<div class="container-fluid w3-padding-xlarge w3-text-white inherit-parent" style="background:rgba(74, 144, 226, 0.5);">
 													<h4>Company</h4>
 													<h2>TESLA MORTERS</h2>
 									</div>

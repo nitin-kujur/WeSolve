@@ -467,6 +467,35 @@ body,html{
 
 				}
 
+				.next-select {
+				    -webkit-appearance: none;
+				    -moz-appearance: none;
+				    appearance: none;
+				    background: transparent none repeat scroll 0 0;
+				    border: 0 none;
+				    box-sizing: border-box;
+				    display: block;
+				    font-size: 1.14286rem;
+				    font-weight: 400;
+				    height: auto;
+				    letter-spacing: initial;
+				    line-height: 1.71429rem;
+				    max-width: none;
+				    padding: 5px 32px 5px 10px;
+				    text-transform: initial;
+				    width: 100%;
+				}
+
+				.select-wrapper {
+				    background: #ffffff none repeat scroll 0 0;
+				    border: 1px solid #d3dbe2;
+				    border-radius: 3px;
+				    box-sizing: border-box;
+				    overflow: hidden;
+				    position: relative;
+				    vertical-align: bottom;
+				}
+
 
 				/*---------------about style end------------------------*/
 

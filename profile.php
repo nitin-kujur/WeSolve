@@ -193,7 +193,7 @@
 
 
 
-					<div class="w3-white col-md-12 col-sm-12 col-xs-12 w3-card-1 padding-15">
+					<div class="w3-white col-md-12 col-sm-12 col-xs-12 w3-card-1 padding-15" style="max-height:200px; overflow:scroll;">
 						<h2 class="col-md-2 col-sm-2 col-xs-3"><span class="glyphicon glyphicon-education" style="font-size:32px"></span></h2>
 						<h6 class="w3-text-black col-md-7 col-sm-7 col-xs-6">EDUCATION</h6><a href="javascript:showThis('#educationForm')" class="w3-leftbar w3-border-grey w3-text-black w3-light-grey w3-small w3-padding-4 w3-hover-text-blue text-center w3-right col-md-3 col-sm-3 col-xs-3"><strong class="w3-medium">+</strong>&nbsp;ADD<span class="hidden-xs">&nbsp;EDUCATION</span></a>
 						<br/><br/><br/>

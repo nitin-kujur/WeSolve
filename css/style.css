@@ -388,6 +388,10 @@ body,html{
 				  border-top-color: rgb(0, 102, 153);
 				}
 				
+				.w3-wrapper{
+					max-height: 405px ;
+					overflow: hidden;
+				}
 				/*---------------profile style end------------------------*/
 
 
@@ -445,29 +449,8 @@ body,html{
 		        background: white;
 		    }
 
-		    .selector > .select-button {
-			    //background-image: url("../img/actions.png");
-			     background-image:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZlcnNpb249JzEuMScgaGVpZ2h0PScxNXB4JyB3aWR0aD0nMjBweCc+PHRleHQgeD0nMCcgeT0nMTUnIGZpbGw9J2JsYWNrJyBmb250LXNpemU9JzIwJz4mI3hmMTA3OzwvdGV4dD48L3N2Zz4=");
-			    background-repeat: no-repeat;
-			    //background-color: #ffffff;
-			    //background-size: 20px 15px;
-			    background-position: 95% 50% ;
-			   // float: right;
-			    width: 45%;
-			    //font-size: 16px;
-			    border: 0;
-			    height: 50px;
-			    border-radius: 10px;
-			    border: 1px solid black;
-			    -moz-border-radius: 10px;
-			    -webkit-border-radius: 10px;
-			    -webkit-appearance: none;
-			    -moz-appearance: none;
-			    appearance: none;
 
-				}
-
-				.next-select {
+				.next-select, select:not(#skills) {
 				    -webkit-appearance: none;
 				    -moz-appearance: none;
 				    appearance: none;
@@ -475,25 +458,39 @@ body,html{
 				    border: 0 none;
 				    box-sizing: border-box;
 				    display: block;
-				    font-size: 1.14286rem;
+				    font-size: 1.04286rem;
 				    font-weight: 400;
 				    height: auto;
 				    letter-spacing: initial;
-				    line-height: 1.71429rem;
+				    line-height: 1.61429rem;
 				    max-width: none;
 				    padding: 5px 32px 5px 10px;
 				    text-transform: initial;
 				    width: 100%;
+				    color:#808080;
 				}
 
 				.select-wrapper {
 				    background: #ffffff none repeat scroll 0 0;
-				    border: 1px solid #d3dbe2;
-				    border-radius: 3px;
+				    /*border: 1px solid #d3dbe2;*/
+				    /*border-radius: 3px;*/
 				    box-sizing: border-box;
 				    overflow: hidden;
 				    position: relative;
 				    vertical-align: bottom;
+				}
+
+				.next-icon {
+				    cursor: pointer;
+				    display: block;
+				    fill: #798c9c;
+				    margin-top: -6px;
+				    pointer-events: none;
+				    position: absolute;
+				    right: 10px;
+				    top: 50%;
+				    height: 12px;
+				    width: 12px;
 				}
 
 
@@ -564,10 +561,19 @@ body,html{
 			    right: 0;
 			    left: 0;
 					z-index: 99;
-					background: url(../images/Preloader_3.gif) center no-repeat #fff;
-					background-color: #fff; 
+					display: block;
+					/*background: url(../images/Preloader_3.gif) center no-repeat rgba(255,255,255,0.5);*/
+					background-color: rgba(25,25,25,0.5);
 				}
 
 				.loader-on{
 					position: relative;
+				}
+
+				.spinner2{
+					position: relative;
+	        top: -40%;
+	        transform: translateY(-50%);
+	        -webkit-transform: translateY(-50%);
+	        -ms-transform: translateY(-50%);
 				}

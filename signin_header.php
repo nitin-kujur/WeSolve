@@ -16,6 +16,9 @@
 		 <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
 		 <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900' rel='stylesheet' type='text/css'>
 		 <link rel="stylesheet" href="css/owl.carousel.css">
+		 <link rel="stylesheet" href="css/spinner.css">
+		 <link rel="stylesheet" type="text/css" href="js/scrollbar-plugin/jquery.mCustomScrollbar.min.css">
+		 <!-- <link href="//malihu.github.io/custom-scrollbar/mCSB_buttons.png"> -->
 
 		 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 		 <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
@@ -23,6 +26,7 @@
 		 <link rel="stylesheet" href="css/style.css">
 		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 		 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		 <script type="text/javascript" src="js/scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
 
 		 <!--<link rel="stylesheet" href="css/bootstrap.css">
 		 <link rel="stylesheet" href="css/w3.css">
@@ -34,12 +38,20 @@
 		 <script type="text/javascript">
 
 		 	$(document).ready(function(){
-			 	$('.loader-on').append('<div class="se-pre-con"></div>');
+			 	$('.loader-on').append('<div class="se-pre-con"><div class="spinner spinner2"><img  src="images/favicon.ico" style="width:30px; height:30px; margin:15% auto; top:-50%;"></div></div>');
+			 	$('select:not(#skills)').wrap('<div class="select-wrapper"></div>');
+		 		$('.select-wrapper').append('<div class="next-icon"><i class="fa fa-angle-down"></i></div>');
+
+		 		$.mCustomScrollbar.defaults.scrollButtons.enable=true; //enable scrolling buttons by default
+				// $.mCustomScrollbar.defaults.axis="yx"; //enable 2 axis scrollbars by default
+		 		$('.w3-wrapper').mCustomScrollbar({
+				    theme:"dark-3"
+				});
 		 	});
 
 
 		 	$(window).load(function(argument) {
-	         	$(".se-pre-con").delay(1500).fadeOut("slow");
+	         	$(".se-pre-con").delay(1000).fadeOut("slow");
 		    });
 
 		 </script>

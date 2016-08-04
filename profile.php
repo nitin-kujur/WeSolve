@@ -193,7 +193,7 @@
 
 
 
-					<div class="w3-white col-md-12 col-sm-12 col-xs-12 w3-card-1 padding-15" style="max-height:200px; overflow:scroll;">
+					<div class="w3-white col-md-12 col-sm-12 col-xs-12 w3-card-1 padding-15">
 						<h2 class="col-md-2 col-sm-2 col-xs-3"><span class="glyphicon glyphicon-education" style="font-size:32px"></span></h2>
 						<h6 class="w3-text-black col-md-7 col-sm-7 col-xs-6">EDUCATION</h6><a href="javascript:showThis('#educationForm')" class="w3-leftbar w3-border-grey w3-text-black w3-light-grey w3-small w3-padding-4 w3-hover-text-blue text-center w3-right col-md-3 col-sm-3 col-xs-3"><strong class="w3-medium">+</strong>&nbsp;ADD<span class="hidden-xs">&nbsp;EDUCATION</span></a>
 						<br/><br/><br/>
@@ -262,7 +262,8 @@
 							  </form>
 						</div> <!-- Add Education form end -->
 
-						<div class="container-fluid w3-padding-0 collapse in" id="education1">
+						<div class="w3-wrapper">
+								<div class="container-fluid w3-padding-0 collapse in" id="education1">
 								<a href="javascript:void(0);" title="" class="w3-text-grey w3-hover-text-blue text-right w3-right" data-toggle="popover" data-placement="bottom" data-trigger="click" title="" data-html="true" data-content="<a class='w3-hover-text-white' href=javascript:editAction('#educationForm','#education1','#educationClsBtn'); ><strong> EDIT </strong></a><hr style='margin:0px auto; color:lightgrey;'><a class='w3-hover-text-white' href='#'><strong> REMOVE </strong></a>"><i class="fa fa-pencil" style="font-size:12px"></i></a>	
 								<div class="w3-clear"></div>
 								<h6 class="col-md-6  col-sm-6 col-xs-6"><strong>University of Chicago</strong><br/>Booth School of business<br/>Entrepreneurship and Finance</h6>
@@ -280,19 +281,27 @@
 						</div>
 						
 						<br/><br/>
-						<!-- <hr>
-						<div class="col-md-12 col-sm-12 col-xs-12">
-								<form role="form">
-								  <div class="form-group">
-								  	<h6>RELEVENT COURSE WORK</h6>
-							      <textarea class="form-control" id="courseWork" placeholder="Enter Relevent Course work Description"></textarea>
-										<span class="col-md-6  col-sm-6 col-xs-6"></span>
-										<button class="w3-orange w3-btn w3-small w3-round-large w3-text-white col-md-2 col-sm-2 col-xs-3 w3-margin pull-right">SAVE</button>
-										<span class="col-md-2 col-sm-2 col-xs-3"></span>
-										<button class="w3-grey w3-btn w3-small w3-round-large w3-text-white col-md-2 col-sm-2 col-xs-3 w3-margin pull-right">CANCEL</button>
-								  </div>
-								</form>
-						</div> -->
+
+						<div class="container-fluid w3-padding-0 collapse in" id="education3">
+								<a href="javascript:void(0);" title="" class="w3-text-grey w3-hover-text-blue text-right w3-right" data-toggle="popover" data-placement="bottom" data-trigger="click" title="" data-html="true" data-content="<a class='w3-hover-text-white' href=javascript:editAction('#educationForm','#education3','#educationClsBtn'); ><strong> EDIT </strong></a><hr style='margin:0px auto; color:lightgrey;'><a class='w3-hover-text-white' href='#'><strong> REMOVE </strong></a>"><i class="fa fa-pencil" style="font-size:12px"></i></a>	
+								<div class="w3-clear"></div>
+								<h6 class="col-md-6  col-sm-6 col-xs-6"><strong>Loyola University of Chicago</strong><br/>Economics</h6>
+								<h6 class="col-md-4 text-right">2009-2005</h6><img class="img-responsive col-md-2 col-sm-2 col-xs-3" src="">
+						</div>
+						
+						<br/><br/>
+
+						<div class="container-fluid w3-padding-0 collapse in" id="education4">
+								<a href="javascript:void(0);" title="" class="w3-text-grey w3-hover-text-blue text-right w3-right" data-toggle="popover" data-placement="bottom" data-trigger="click" title="" data-html="true" data-content="<a class='w3-hover-text-white' href=javascript:editAction('#educationForm','#education4','#educationClsBtn'); ><strong> EDIT </strong></a><hr style='margin:0px auto; color:lightgrey;'><a class='w3-hover-text-white' href='#'><strong> REMOVE </strong></a>"><i class="fa fa-pencil" style="font-size:12px"></i></a>	
+								<div class="w3-clear"></div>
+								<h6 class="col-md-6  col-sm-6 col-xs-6"><strong>Loyola University of Chicago</strong><br/>Economics</h6>
+								<h6 class="col-md-4 text-right">2009-2005</h6><img class="img-responsive col-md-2 col-sm-2 col-xs-3" src="">
+						</div>
+						
+						<br/><br/>
+						</div>
+						
+						
 					</div>	<!-- Education end	 -->
 
 

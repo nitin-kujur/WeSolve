@@ -45,7 +45,7 @@
 		 		$.mCustomScrollbar.defaults.scrollButtons.enable=true; //enable scrolling buttons by default
 				// $.mCustomScrollbar.defaults.axis="yx"; //enable 2 axis scrollbars by default
 		 		$('.w3-wrapper').mCustomScrollbar({
-				    theme:"dark-3"
+				    theme:"dark-3",
 				});
 		 	});
 

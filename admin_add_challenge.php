@@ -123,7 +123,7 @@
             </div>
             <!-- Top Menu Items -->
             <ul class="nav navbar-right top-nav">
-                <li class="dropdown">
+                <!-- <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-envelope"></i> <b class="caret"></b></a>
                     <ul class="dropdown-menu message-dropdown">
                         <li class="message-preview">
@@ -205,19 +205,19 @@
                             <a href="#">View All</a>
                         </li>
                     </ul>
-                </li>
+                </li> -->
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i>&nbsp; Hi, Stella &nbsp;<b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li>
                             <a href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
                         </li>
-                        <li>
+                        <!-- <li>
                             <a href="#"><i class="fa fa-fw fa-envelope"></i> Inbox</a>
                         </li>
                         <li>
                             <a href="#"><i class="fa fa-fw fa-gear"></i> Settings</a>
-                        </li>
+                        </li> -->
                         <li class="divider"></li>
                         <li>
                             <a href="#"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
@@ -516,10 +516,10 @@
                     </div>
 
                     <div class="col-lg-12">
-                       <div class="row breadcrumb1 1w3-card-1 w3-margin text-center w3-clear">
+                       <div class="row breadcrumb1 1w3-card-1 w3-margin text-right w3-clear">
                         <div class="col-md-12">
                           <button class="w3-orange w3-btn w3-margin w3-round-large w3-text-white">CANCEL</button>
-                          <button class="w3-orange w3-btn w3-margin w3-round-large w3-text-white">SAVE</button>
+                          <!-- <button class="w3-orange w3-btn w3-margin w3-round-large w3-text-white">SAVE</button> -->
                           <button class="w3-orange w3-btn w3-margin w3-round-large w3-text-white">SAVE & PUBLISH</button> 
                         </div>
                        </div> 

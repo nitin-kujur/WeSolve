@@ -547,8 +547,12 @@ body,html{
 
 				.inherit-parent{
 					position: absolute;
-					height:inherit;
-					width:inherit;
+					/*height:inherit;
+					width:inherit;*/
+					top: 0;
+			    bottom: 0;
+			    right: 0;
+			    left: 0;
 				}
 				/*---------------loader style------------------------*/
 
@@ -571,9 +575,11 @@ body,html{
 				}
 
 				.spinner2{
-					position: relative;
+					position: absolute;
 	        top: -40%;
-	        transform: translateY(-50%);
-	        -webkit-transform: translateY(-50%);
-	        -ms-transform: translateY(-50%);
+	        left: 50%;
+	        -webkit-transform: translate(-50%);
+	        -ms-transform: translate(-50%);
+	        -oz-transform: translate(-50%);
+	        transform: translate(-50%);
 				}

@@ -63,31 +63,33 @@
 					<div class="w3-white col-md-12 col-sm-12 col-xs-12 w3-card-1 padding-15">
 						<label>SIZE</label>
 						<div class="multiselect">
-						    <label class="w3-padding-left"><input class="w3-margin-right" type="checkbox" name="option[]" value="1" />Accounting</label>
-						    <label class="w3-padding-left"><input class="w3-margin-right" type="checkbox" name="option[]" value="2" />Being Awsome</label>
-						    <label class="w3-padding-left"><input class="w3-margin-right" type="checkbox" name="option[]" value="3" />Business</label>
-						    <label class="w3-padding-left"><input class="w3-margin-right" type="checkbox" name="option[]" value="4" />Cats</label>
-						    <label class="w3-padding-left"><input class="w3-margin-right" type="checkbox" name="option[]" value="5" />Eating Icecream</label>
+						    <label class="w3-padding-left"><input class="w3-margin-right" type="checkbox" name="option[]" value="1" />< 15 Employees</label>
+						    <label class="w3-padding-left"><input class="w3-margin-right" type="checkbox" name="option[]" value="2" />16-50 Employees</label>
+						    <label class="w3-padding-left"><input class="w3-margin-right" type="checkbox" name="option[]" value="3" />51-100 Employees</label>
+						    <label class="w3-padding-left"><input class="w3-margin-right" type="checkbox" name="option[]" value="4" />101-500 Employees</label>
+						    <label class="w3-padding-left"><input class="w3-margin-right" type="checkbox" name="option[]" value="5" />501-1,000 Employees</label>
+						    <label class="w3-padding-left"><input class="w3-margin-right" type="checkbox" name="option[]" value="5" />>1,000 Employees</label>
 						</div>
 					</div>		
 
 					<div class="w3-white col-md-12 col-sm-12 col-xs-12 w3-card-1 padding-15">
 						<label><i class="fa fa-map-marker w3-text-grey"></i>&nbsp;&nbsp;LOCATION</label>
 						<div class="multiselect">
-						    <label class="w3-padding-left"><input class="w3-margin-right" type="checkbox" name="option[]" value="1" />Accounting</label>
-						    <label class="w3-padding-left"><input class="w3-margin-right" type="checkbox" name="option[]" value="2" />Being Awsome</label>
-						    <label class="w3-padding-left"><input class="w3-margin-right" type="checkbox" name="option[]" value="3" />Business</label>
-						    <label class="w3-padding-left"><input class="w3-margin-right" type="checkbox" name="option[]" value="4" />Cats</label>
-						    <label class="w3-padding-left"><input class="w3-margin-right" type="checkbox" name="option[]" value="5" />Eating Icecream</label>
+						    <label class="w3-padding-left"><input class="w3-margin-right" type="checkbox" name="option[]" value="1" />City 1</label>
+						    <label class="w3-padding-left"><input class="w3-margin-right" type="checkbox" name="option[]" value="2" />City 2</label>
+						    <label class="w3-padding-left"><input class="w3-margin-right" type="checkbox" name="option[]" value="3" />City 3</label>
+						    <label class="w3-padding-left"><input class="w3-margin-right" type="checkbox" name="option[]" value="4" />City 4</label>
+						    <label class="w3-padding-left"><input class="w3-margin-right" type="checkbox" name="option[]" value="5" />City 5</label>
+						    <label class="w3-padding-left"><input class="w3-margin-right" type="checkbox" name="option[]" value="5" />City 6</label>
 						</div>
 					</div>
 
 
 					<div class="w3-white col-md-12 col-sm-12 col-xs-12 w3-card-1 padding-15">
-						<label>TRAVEL</label>
+						<!-- <label>TRAVEL</label> -->
 						<div class="multiselect">
-						    <label class="w3-padding-left"><input class="w3-margin-right" type="checkbox" name="option[]" value="1" />Required</label>
-						    <label class="w3-padding-left"><input class="w3-margin-right" type="checkbox" name="option[]" value="2" />Not Required</label>
+						    <label class="w3-padding-left"><input class="w3-margin-right" type="checkbox" name="option[]" value="1" />SPONSORS INTERNATIONAL STUDENTS</label>
+						    <!-- <label class="w3-padding-left"><input class="w3-margin-right" type="checkbox" name="option[]" value="2" />Not Required</label> -->
 						</div>
 					</div>	
 
@@ -106,7 +108,7 @@
 							<div class="col-md-3 col-sm-3 col-xs-3">
 								<label>TESLA MORTORS</label>	
 								<h6>>1,000 Employees</h6>
-								<img class="img-responsive" src="">
+								<img class="img-responsive" src="images/tesla_logo.png" style="width:150px; height:150px;">
 							</div>	
 							<div class="col-md-7 col-sm-7 col-xs-7">
 								<label>Locations:</label> <span class="w3-margin-left">Good Times, IL</span><span class="w3-margin-left">Nowhere, NJ</span><span class="w3-margin-left">Palo Alto, CA</span>
@@ -129,7 +131,7 @@
 							<div class="col-md-3 col-sm-3 col-xs-3">
 								<label>JUNC FOODS</label>	
 								<h6>501-1,000 Employees</h6>
-								<img class="img-responsive" src="">
+								<img class="img-responsive" src="images/tesla_logo.png" style="width:150px; height:150px;">
 							</div>	
 							<div class="col-md-7 col-sm-7 col-xs-7">
 								<label>Locations:</label> <span class="w3-margin-left">Corn City, IL</span><span class="w3-margin-left">Carrotville, MD</span>

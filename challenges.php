@@ -83,7 +83,7 @@
 					</div>
 
 					<div class="w3-white col-md-12 col-sm-12 col-xs-12 w3-card-1 padding-15">
-						<label><i class="fa fa-map-marker w3-text-grey"></i>&nbsp;&nbsp;LOCATION</label>
+						<label><i class="fa fa-map-marker w3-text-grey"></i>&nbsp;&nbsp;COMPANY LOCATION</label>
 						<div class="multiselect">
 						    <label class="w3-padding-left"><input class="w3-margin-right" type="checkbox" name="option[]" value="1" />Accounting</label>
 						    <label class="w3-padding-left"><input class="w3-margin-right" type="checkbox" name="option[]" value="2" />Being Awsome</label>
@@ -94,7 +94,7 @@
 					</div>
 
 					<div class="w3-white col-md-12 col-sm-12 col-xs-12 w3-card-1 padding-15">
-						<label>OFFICE SITE</label>
+						<label>PRESENTATION / DELIVERABLES</label>
 						<div class="multiselect">
 						    <label class="w3-padding-left"><input class="w3-margin-right" type="checkbox" name="option[]" value="1" />On-site</label>
 						    <label class="w3-padding-left"><input class="w3-margin-right" type="checkbox" name="option[]" value="2" />Remote</label>
@@ -124,7 +124,7 @@
 							<div class="col-md-3 col-sm-3 col-xs-3 w3-padding-0">
 								<label>TESLA MORTORS</label>	
 								<h6>Good Times, IL</h6>
-								<img class="img-responsive" src="">
+								<img class="img-responsive" src="images/tesla_logo.png" style="width:150px; height:150px;">
 							</div>	
 							<div class="col-md-9 col-sm-9 col-xs-9 w3-padding-0">
 								<label><a href="challenge_detail.php"><u>How do we price and segment the market for a 2017 luxury electric SUV ?</u></a></label>		
@@ -139,9 +139,9 @@
 							<div class="text-center w3-left w3-margin-right">
 								<a href="#"><i class="fa fa-share-square-o w3-xlarge"></i><h6><b>Share</b></h6></a>
 							</div>	
-							<div class="text-center w3-left w3-margin-left w3-margin-right">
+							<!-- <div class="text-center w3-left w3-margin-left w3-margin-right">
 								<a href="#" style="display:inline;"><i class="fa fa-floppy-o w3-xlarge"></i><h6><b>Save</b></h6></a>
-							</div>	
+							</div>	 -->
 						</div>
 						<div class="w3-clear"></div>
 					</div>	
@@ -153,7 +153,7 @@
 							<div class="col-md-3 col-sm-3 col-xs-3 w3-padding-0">
 								<label>JUNC FOODS</label>	
 								<h6>Corn City, IL</h6>
-								<img class="img-responsive" src="">
+								<img class="img-responsive" src="images/tesla_logo.png" style="width:150px; height:150px;">
 							</div>	
 							<div class="col-md-9 col-sm-9 col-xs-9 w3-padding-0">
 								<label><u>How do we operational efficiencies for distributin junk food product x ?</u></label>		
@@ -168,9 +168,9 @@
 							<div class="text-center w3-left w3-margin-right">
 								<a href="#"><i class="fa fa-share-square-o w3-xlarge"></i><h6><b>Share</b></h6></a>
 							</div>	
-							<div class="text-center w3-left w3-margin-left w3-margin-right">
+							<!-- <div class="text-center w3-left w3-margin-left w3-margin-right">
 								<a href="#" style="display:inline;"><i class="fa fa-floppy-o w3-xlarge"></i><h6><b>Save</b></h6></a>
-							</div>	
+							</div>	 -->
 						</div>
 						<div class="w3-clear"></div>
 					</div>	

@@ -85,11 +85,12 @@
 					<div class="w3-white col-md-12 col-sm-12 col-xs-12 w3-card-1 padding-15">
 						<label><i class="fa fa-map-marker w3-text-grey"></i>&nbsp;&nbsp;COMPANY LOCATION</label>
 						<div class="multiselect">
-						    <label class="w3-padding-left"><input class="w3-margin-right" type="checkbox" name="option[]" value="1" />Accounting</label>
-						    <label class="w3-padding-left"><input class="w3-margin-right" type="checkbox" name="option[]" value="2" />Being Awsome</label>
-						    <label class="w3-padding-left"><input class="w3-margin-right" type="checkbox" name="option[]" value="3" />Business</label>
-						    <label class="w3-padding-left"><input class="w3-margin-right" type="checkbox" name="option[]" value="4" />Cats</label>
-						    <label class="w3-padding-left"><input class="w3-margin-right" type="checkbox" name="option[]" value="5" />Eating Icecream</label>
+						    <label class="w3-padding-left"><input class="w3-margin-right" type="checkbox" name="option[]" value="1" />City 1</label>
+						    <label class="w3-padding-left"><input class="w3-margin-right" type="checkbox" name="option[]" value="2" />City 2</label>
+						    <label class="w3-padding-left"><input class="w3-margin-right" type="checkbox" name="option[]" value="3" />City 3</label>
+						    <label class="w3-padding-left"><input class="w3-margin-right" type="checkbox" name="option[]" value="4" />City 4</label>
+						    <label class="w3-padding-left"><input class="w3-margin-right" type="checkbox" name="option[]" value="5" />City 5</label>
+						    <label class="w3-padding-left"><input class="w3-margin-right" type="checkbox" name="option[]" value="5" />City 6</label>
 						</div>
 					</div>
 

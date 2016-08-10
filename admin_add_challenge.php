@@ -35,7 +35,7 @@
     <![endif]-->
 
     <style type="text/css">
-      #page-wrapper{
+      #page-wrapper, .w3-gray{
         background: #f5f5f5;
       }
 
@@ -99,6 +99,59 @@
         outline: none !important;
         text-decoration: none !important;
       }
+
+      .next-select, select:not(#skills) {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            background: transparent none repeat scroll 0 0;
+            border: 0 none;
+            box-sizing: border-box;
+            display: block;
+            font-size: 1.4286rem;
+            font-weight: 400;
+            height: auto;
+            letter-spacing: initial;
+            line-height: 1.71429rem;
+            max-width: none;
+            padding: 5px 32px 5px 10px;
+            text-transform: initial;
+            width: 100%;
+            color:#808080;
+        }
+
+        .select-wrapper {
+            background: #ffffff none repeat scroll 0 0;
+            border: 1px solid #d3dbe2;
+            border-radius: 3px;
+            box-sizing: border-box;
+            overflow: hidden;
+            position: relative;
+            vertical-align: bottom;
+        }
+
+        .next-icon {
+            cursor: pointer;
+            display: block;
+            fill: #798c9c;
+            margin-top: -6px;
+            pointer-events: none;
+            position: absolute;
+            right: 10px;
+            top: 40%;
+            height: 12px;
+            width: 12px;
+        }
+
+        .croppie-container .cr-boundary{
+          margin: auto !important;
+          border: 2px #f46d19 dotted;
+          padding: 0;
+        }
+
+        input[type = radio]{
+          outline: none !important;
+        }
     </style>
     <script type="text/javascript">
       
@@ -302,7 +355,7 @@
 
                 <!-- Page Body -->
                 <div class="row">
-                  <form class="form-horizontal" role="form">
+                  <form class="form-horizontal" role="form" method="POST">
 
                     <div class="col-lg-12">
                       <div class="row breadcrumb w3-card-1 margin-0">
@@ -330,8 +383,28 @@
 
                     <div class="col-lg-12">
                        <div class="row breadcrumb w3-card-1 margin-0">
-                          <label class="w3-padding-0 col-sm-2 w3-margin-bottom" for="month">Case Challenges</label>
-                          <textarea class="form-control col-sm-10" id="caseChallenge" name="caseChallenge" placeholder="Enter Case Challenges"></textarea>
+                          <!-- <label class="w3-padding-0 col-sm-2 w3-margin-bottom" for="month"></label> -->
+                          <label class="w3-padding-0 col-sm-2 w3-margin-bottom"><input class="w3-margin-right" type="radio" name="challenge">Case Challenges</label>&nbsp;&nbsp;&nbsp;&nbsp;<label class="w3-padding-left"><input class="w3-margin-right" type="radio" name="challenge">Quick fire Challenge</label>
+                          <textarea class="form-control col-sm-10" id="caseChallenge" name="caseChallenge" placeholder="Enter Case Challenge or Quick fire Challenge"></textarea>
+                       </div> 
+                    </div>
+
+                    <div class="col-lg-12">
+                       <div class="row breadcrumb w3-card-1 margin-0">
+                          <label class="w3-padding-0 col-sm-12 w3-margin-bottom" for="month">Upload Challenge Banner</label>
+                          <div id="dp_div" class="text-center center-block w3-section w3-animate-opacity" style="display:block;">
+                              <br/>
+                              <img id="dp" class="img-responsive center-block w3-hover-shadow" src="images/tesla-6.jpgf" alt="&#x0D;&#x0A;&#x0D;&#x0A;&#xf1c5;&#x0D;&#x0A;No Challenge Banner" style="width:960px; height:422px; font-family:Arial, FontAwesome; font-size:32px; line-height:200%; white-space:pre; background:#4a90e2; color:white; text-shadow: #444 0 1px 1px;">
+                              <br/>
+                          </div>
+                          <div id="upload-demo" class="text-center w3-hide w3-animate-opacity">
+                              
+                          </div>
+                          <div class="form-group text-center">
+                            <input id="upload" type="file" class="form-control" name="dp" accept="image/*" style="opacity:0; height:1px;">  
+                            <button type="button" class="w3-btn w3-small w3-orange w3-round-large w3-text-white" onclick="this.previousElementSibling.click();">CHANGE CHALLENGE BANNER</button>
+                            <button type="button" id="crop" class="upload-result w3-btn w3-small w3-orange w3-round-large w3-text-white w3-hide">CROP</button>
+                          </div>
                        </div> 
                     </div>
 
@@ -398,6 +471,19 @@
                                        <input type="text" class="form-control" name="ThirdPrize" placeholder="Enter Third Prize">
                                      </div>
                                   </div>
+                                  <div class="row w3-margin-bottom">
+                                     <div class="col-xs-5">
+                                       <label class="w3-padding-0" for="month">Functions</label>
+                                     </div> 
+                                     <div class="col-xs-7">
+                                       <select class="form-control" id="company" name="company">
+                                          <option value="Required" selected>Required</option>
+                                          <option value="Not Required">Not Required</option>
+                                          <option value="Required">Required</option>
+                                          <option value="Not Required">Not Required</option>
+                                        </select>
+                                     </div>
+                                  </div>
                                 </div>
                                 <div class="col-lg-6">
                                    <div class="row w3-margin-bottom">
@@ -408,12 +494,27 @@
                                        <input type="text" class="form-control" name="ThirdPrize" placeholder="Enter Third Prize">
                                      </div>
                                    </div>
-                                   <div class="row">
+                                   <div class="row w3-margin-bottom">
                                      <div class="col-xs-5">
-                                       <label class="w3-padding-0" for="month">Format</label>
+                                       <label class="w3-padding-0" for="month">Travel</label>
                                      </div> 
                                      <div class="col-xs-7">
-                                       <input type="text" class="form-control" name="ThirdPrize" placeholder="Enter Third Prize">
+                                       <select class="form-control" id="company" name="company">
+                                          <option value="Required" selected>Required</option>
+                                          <option value="Not Required">Not Required</option>
+                                        </select>
+                                     </div>
+                                  </div>
+                                  <div class="row w3-margin-bottom">
+                                     <div class="col-xs-5">
+                                       <label class="w3-padding-0" for="month">Presentation / Deliverables</label>
+                                     </div> 
+                                     <div class="col-xs-7">
+                                       <select class="form-control" id="company" name="company">
+                                          <option value="Required" selected>In-Person</option>
+                                          <option value="Not Required">Remote</option>
+                                          <option value="Required">Both</option>
+                                        </select>
                                      </div>
                                   </div>
                                 </div>
@@ -504,14 +605,73 @@
                     <div class="col-lg-12">
                        <div class="row breadcrumb w3-card-1 margin-0">
                           <label class="w3-padding-0 col-sm-2 w3-margin-bottom" for="month">Supporting Materials</label>
-                          <textarea class="form-control col-sm-10" name="caseChallenge" placeholder="Enter Case Challenges"></textarea>
+                          <textarea class="form-control col-sm-10" name="caseChallenge" placeholder="Enter Supporting Materials"></textarea>
                        </div> 
                     </div>
 
                     <div class="col-lg-12">
                        <div class="row breadcrumb w3-card-1 margin-0">
                           <label class="w3-padding-0 col-sm-2 w3-margin-bottom" for="month">Requirements</label>
-                          <textarea class="form-control col-sm-10" name="caseChallenge" placeholder="Enter Case Challenges"></textarea>
+                          <textarea class="form-control col-sm-10" name="caseChallenge" placeholder="Enter Requirements"></textarea>
+                       </div> 
+                    </div>
+
+                     <div class="col-lg-12">
+                       <div class="row breadcrumb w3-card-1 margin-0">
+                          <label class="w3-padding-0 w3-margin-bottom" for="month">Company Stakeholders</label>
+                          <div class="w3-light-grey w3-padding">
+                              <label class="w3-padding-0 w3-margin-bottom" for="month">Stakeholder Details</label>
+                              <div class="form-group">
+                                 <div class="w3-row">
+                                    <div class="col-xs-4 text-center">
+                                       <img class="img-responsive center-block w3-margin-bottom" src="" alt="No Pic" style="width:150px; height:150px; background:white; "> 
+                                       <input id="upload" type="file" class="form-control" name="dp" accept="image/*" style="opacity:0; height:1px;">  
+                                       <button type="button" class="w3-btn w3-small w3-orange w3-round-large w3-text-white" onclick="this.previousElementSibling.click();">CHANGE PIC</button>
+                                    </div>
+                                    <div class="col-xs-8">
+                                       <div class="row w3-margin-bottom">
+                                            <div class="col-xs-3">
+                                               <label class="w3-padding-0 text-right" for="month">First Name</label>
+                                            </div> 
+                                            <div class="col-xs-9">
+                                               <input type="text" class="form-control" name="ThirdPrize" placeholder="Enter First Name">
+                                            </div>
+                                       </div>
+                                       <div class="row w3-margin-bottom">
+                                            <div class="col-xs-3">
+                                               <label class="w3-padding-0 text-right" for="month">Last Name</label>
+                                            </div> 
+                                            <div class="col-xs-9">
+                                               <input type="text" class="form-control" name="ThirdPrize" placeholder="Enter Last Name">
+                                            </div>
+                                       </div>
+                                       <div class="row w3-margin-bottom">
+                                            <div class="col-xs-3">
+                                               <label class="w3-padding-0 text-right" for="month">Title</label>
+                                            </div> 
+                                            <div class="col-xs-9">
+                                               <input type="text" class="form-control" name="ThirdPrize" placeholder="Enter Title">
+                                            </div>
+                                       </div>
+                                       <div class="row w3-margin-bottom">
+                                            <div class="col-xs-3">
+                                               <label class="w3-padding-0 text-right" for="month">Business Unit</label>
+                                            </div> 
+                                            <div class="col-xs-9">
+                                               <input type="text" class="form-control" name="ThirdPrize" placeholder="Enter Business Unit">
+                                            </div>
+                                       </div>
+                                     </div>
+                                  </div> 
+                              </div>
+                          </div>
+                       </div> 
+                    </div>
+
+                    <div class="col-lg-12">
+                       <div class="row breadcrumb w3-card-1 margin-0">
+                          <label class="w3-padding-0 col-sm-2 w3-margin-bottom" for="month">Company Engagement</label>
+                          <textarea class="form-control col-sm-10" name="caseChallenge" placeholder="Enter Company Engagement"></textarea>
                        </div> 
                     </div>
 
@@ -543,10 +703,111 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.1/js/select2.min.js"></script>
+    <script type="text/javascript" src="js/croppie.min.js"></script>
+
     <script type="text/javascript">
+
+      dp_id = document.getElementById("dp");
+
+      dp_id.onchange = function(e){
+            var ext = this.value.match(/\.([^\.]+)$/)[1];
+            switch(ext)
+            {
+                case 'jpeg':
+                case 'jpg':
+                case 'gif':
+                case 'bmp':
+                case 'png':
+                case 'tif':
+                    alert('allowed');
+                    break;
+                default:
+                    alert('invalid file type');
+                    this.value='';
+            }
+
+      };
+
+           
+      function popupResult(result) {
+        var html;
+        if (result.html) {
+          html = result.html; 
+        }
+        if (result.src) {
+          html = '<img  src="' + result.src + '" />';
+        }
+
+        $('#dp').attr('src',result.src);
+        $('#dp').removeClass('w3-hide');
+        $('#upload-demo,#crop').addClass('w3-hide');
+        $('#dp_div').removeClass('w3-hide');
+
+      }
+
+      style = '<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.1/css/select2.min.css" rel="stylesheet" /> <link rel="stylesheet" href="css/croppie.css">';
+
+
+      $(document).ready(function(){
+        $('head').append(style);
+
+        $('select').wrap('<div class="select-wrapper"></div>');
+        $('.select-wrapper').append('<div class="next-icon"><i class="fa fa-angle-down"></i></div>');
+
+        var $uploadCrop;
+
+        function readFile(input) {
+          $('#upload-demo,#crop').removeClass('w3-hide');
+          $('#dp_div').addClass('w3-hide');
+
+          if (input.files && input.files[0]) {
+                  var reader = new FileReader();
+                  
+                  reader.onload = function (e) {
+                    $uploadCrop.croppie('bind', {
+                      url: e.target.result
+                    });
+                    $('.upload-demo').addClass('ready');
+                  }
+                  
+                  reader.readAsDataURL(input.files[0]);
+              }
+              else {
+                alert("Sorry - you're browser doesn't support the FileReader API");
+            }
+        }
+
+        $uploadCrop = $('#upload-demo').croppie({
+          viewport: {
+            width: 960,
+            height: 422,
+            type: 'square'
+          },
+          boundary: {
+            width: 960,
+            height: 422
+          },
+          //exif: true
+        });
+
+        $('#upload').on('change', function () { readFile(this); });
+        $('.upload-result').on('click', function (ev) { 
+          $uploadCrop.croppie('result', {
+            type: 'canvas',
+            size: 'viewport'
+          }).then(function (resp) {
+            popupResult({
+              src: resp
+            });
+          });
+        });
+
+      });
+
       $(window).load(function() {
         // Animate loader off screen
-        $(".se-pre-con").fadeOut("slow");;
+        $(".se-pre-con").fadeOut("slow");
       });
 
       $(".collapse").on("shown.bs.collapse", arrowdown);

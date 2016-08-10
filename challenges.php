@@ -97,7 +97,7 @@
 					<div class="w3-white col-md-12 col-sm-12 col-xs-12 w3-card-1 padding-15">
 						<label>PRESENTATION / DELIVERABLES</label>
 						<div class="multiselect">
-						    <label class="w3-padding-left"><input class="w3-margin-right" type="checkbox" name="option[]" value="1" />On-site</label>
+						    <label class="w3-padding-left"><input class="w3-margin-right" type="checkbox" name="option[]" value="1" />In-person</label>
 						    <label class="w3-padding-left"><input class="w3-margin-right" type="checkbox" name="option[]" value="2" />Remote</label>
 						    <label class="w3-padding-left"><input class="w3-margin-right" type="checkbox" name="option[]" value="3" />Both</label>
 						</div>

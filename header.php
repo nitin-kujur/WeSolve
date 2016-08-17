@@ -36,7 +36,7 @@
 		 <script type="text/javascript">
 
 		 	$(document).ready(function(){
-		 		$('select').wrap('<div class="select-wrapper"></div>');
+		 		$('select:not:[#]').wrap('<div class="select-wrapper"></div>');
 		 		$('.select-wrapper').append('<div class="next-icon"><i class="fa fa-angle-down"></i></div>');
 		 	});
 

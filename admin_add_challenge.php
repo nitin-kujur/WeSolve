@@ -35,6 +35,10 @@
     <![endif]-->
 
     <style type="text/css">
+      .navbar-fixed-top{
+        z-index: 99999999 !important;
+      }
+
       #page-wrapper, .w3-gray{
         background: #f5f5f5;
       }
@@ -92,7 +96,7 @@
         top: 0px;
         width: 100%;
         height: 100%;
-        z-index: 9999;
+        z-index: 999999999;
         background: url(images/Preloader_3.gif) center no-repeat #fff;
       }
       a, a:active, a:focus{
@@ -441,9 +445,14 @@
                            </div>
 
                            <div class="col-lg-6 col-xs-12 col-height">
-                              <div class="row breadcrumb w3-card-1 w3-margin-left w3-margin-right inherit-parent" style="height:91%;">
+                              <div class="row breadcrumb w3-card-1 w3-margin-left w3-margin-right inherit-parent" style="height:90%;">
                                  <label class="w3-padding-0 col-sm-12 w3-margin-bottom" for="month">Project Skills(Max. 6)</label>
-                                 <textarea class="form-control col-sm-12" id="caseChallenge" name="caseChallenge" placeholder="Enter Case Challenges"></textarea>
+                                 <!-- <textarea class="form-control col-sm-12" id="caseChallenge" name="caseChallenge" placeholder="Enter Case Challenges"></textarea> -->
+                                 <div class="w3-padding col-sm-12">
+                                     <select class="form-control" multiple="multiple" id="skills" name="skill" style="width:100% !important;">
+                         
+                                     </select>
+                                 </div>
                               </div> 
                            </div> 
                         </div>
@@ -460,7 +469,7 @@
                                        <label class="w3-padding-0" for="month">Total Teams</label>
                                      </div> 
                                      <div class="col-xs-7">
-                                       <input type="text" class="form-control" name="ThirdPrize" placeholder="Enter Third Prize">
+                                       <input type="text" class="form-control" name="ThirdPrize" placeholder="Enter Total Teams">
                                      </div>
                                    </div>
                                    <div class="row w3-margin-bottom">
@@ -468,7 +477,7 @@
                                        <label class="w3-padding-0" for="month">Time Commitment</label>
                                      </div> 
                                      <div class="col-xs-7">
-                                       <input type="text" class="form-control" name="ThirdPrize" placeholder="Enter Third Prize">
+                                       <input type="text" class="form-control" name="ThirdPrize" placeholder="Enter Time Commitment">
                                      </div>
                                   </div>
                                   <div class="row w3-margin-bottom">
@@ -491,7 +500,7 @@
                                        <label class="w3-padding-0" for="month">Team Size</label>
                                      </div> 
                                      <div class="col-xs-7">
-                                       <input type="text" class="form-control" name="ThirdPrize" placeholder="Enter Third Prize">
+                                       <input type="text" class="form-control" name="ThirdPrize" placeholder="Enter Team Size">
                                      </div>
                                    </div>
                                    <div class="row w3-margin-bottom">
@@ -552,7 +561,7 @@
                                        <label class="w3-padding-0" for="month">Entry Deadline</label>
                                      </div> 
                                      <div class="col-xs-7">
-                                       <input type="text" class="form-control" name="ThirdPrize" placeholder="Enter Third Prize">
+                                       <input type="text" class="form-control" name="ThirdPrize" placeholder="Enter Entry Deadline">
                                      </div>
                                    </div>
                                    <div class="row w3-margin-bottom">
@@ -560,7 +569,7 @@
                                        <label class="w3-padding-0" for="month">Start Date</label>
                                      </div> 
                                      <div class="col-xs-7">
-                                       <input type="text" class="form-control" name="ThirdPrize" placeholder="Enter Third Prize">
+                                       <input type="text" class="form-control" name="ThirdPrize" placeholder="Enter Start Date">
                                      </div>
                                    </div>
                                    <div class="row w3-margin-bottom">
@@ -568,7 +577,7 @@
                                        <label class="w3-padding-0" for="month">Winner Selection</label>
                                      </div> 
                                      <div class="col-xs-7">
-                                       <input type="text" class="form-control" name="ThirdPrize" placeholder="Enter Third Prize">
+                                       <input type="text" class="form-control" name="ThirdPrize" placeholder="Enter Winner Selection">
                                      </div>
                                   </div>
                                 </div>
@@ -578,7 +587,7 @@
                                        <label class="w3-padding-0" for="month">Application Notification</label>
                                      </div> 
                                      <div class="col-xs-7">
-                                       <input type="text" class="form-control" name="ThirdPrize" placeholder="Enter Third Prize">
+                                       <input type="text" class="form-control" name="ThirdPrize" placeholder="Enter Application Notification">
                                      </div>
                                    </div>
                                    <div class="row">
@@ -586,7 +595,7 @@
                                        <label class="w3-padding-0" for="month">Due Date</label>
                                      </div> 
                                      <div class="col-xs-7">
-                                       <input type="text" class="form-control" name="ThirdPrize" placeholder="Enter Third Prize">
+                                       <input type="text" class="form-control" name="ThirdPrize" placeholder="Enter Due Date">
                                      </div>
                                   </div>
                                 </div>
@@ -619,52 +628,58 @@
                      <div class="col-lg-12">
                        <div class="row breadcrumb w3-card-1 margin-0">
                           <label class="w3-padding-0 w3-margin-bottom" for="month">Company Stakeholders</label>
-                          <div class="w3-light-grey w3-padding">
-                              <label class="w3-padding-0 w3-margin-bottom" for="month">Stakeholder Details</label>
-                              <div class="form-group">
-                                 <div class="w3-row">
-                                    <div class="col-xs-4 text-center">
-                                       <img class="img-responsive center-block w3-margin-bottom" src="" alt="No Pic" style="width:150px; height:150px; background:white; "> 
-                                       <input id="upload" type="file" class="form-control" name="dp" accept="image/*" style="opacity:0; height:1px;">  
-                                       <button type="button" class="w3-btn w3-small w3-orange w3-round-large w3-text-white" onclick="this.previousElementSibling.click();">CHANGE PIC</button>
-                                    </div>
-                                    <div class="col-xs-8">
-                                       <div class="row w3-margin-bottom">
-                                            <div class="col-xs-3">
-                                               <label class="w3-padding-0 text-right" for="month">First Name</label>
-                                            </div> 
-                                            <div class="col-xs-9">
-                                               <input type="text" class="form-control" name="ThirdPrize" placeholder="Enter First Name">
-                                            </div>
+                          <div class="" id="formContainer">
+                             <div class="w3-light-grey w3-padding">
+                                <label class="w3-padding-0 w3-margin-bottom" for="month">Stakeholder Details</label>
+                                <div class="form-group">
+                                   <div class="w3-row">
+                                      <div class="col-xs-4 text-center">
+                                         <div id="" class="stackDp_div w3-round text-center w3-section w3-animate-opacity" style="display:block;">
+                                             <img class="img-responsive center-block w3-margin-bottom stackDp" src="" alt="No Pic" style="width:150px; height:150px; background:white; "> 
+                                         </div>
+                                         <input id="" type="file" class="stackPicUpload form-control" name="dp" accept="image/*" style="opacity:0; height:1px;">  
+                                         <button type="button" class="w3-btn w3-small w3-orange w3-round-large w3-text-white" onclick="this.previousElementSibling.click();">CHANGE PIC</button>
+                                         <button id="" class="crop upload-result w3-btn w3-small w3-orange w3-round-large w3-text-white w3-hide">CROP</button>
+                                      </div>
+                                      <div class="col-xs-8">
+                                         <div class="row w3-margin-bottom">
+                                              <div class="col-xs-3">
+                                                 <label class="w3-padding-0 text-right" for="month">First Name</label>
+                                              </div> 
+                                              <div class="col-xs-9">
+                                                 <input type="text" class="form-control" name="ThirdPrize" placeholder="Enter First Name">
+                                              </div>
+                                         </div>
+                                         <div class="row w3-margin-bottom">
+                                              <div class="col-xs-3">
+                                                 <label class="w3-padding-0 text-right" for="month">Last Name</label>
+                                              </div> 
+                                              <div class="col-xs-9">
+                                                 <input type="text" class="form-control" name="ThirdPrize" placeholder="Enter Last Name">
+                                              </div>
+                                         </div>
+                                         <div class="row w3-margin-bottom">
+                                              <div class="col-xs-3">
+                                                 <label class="w3-padding-0 text-right" for="month">Title</label>
+                                              </div> 
+                                              <div class="col-xs-9">
+                                                 <input type="text" class="form-control" name="ThirdPrize" placeholder="Enter Title">
+                                              </div>
+                                         </div>
+                                         <div class="row w3-margin-bottom">
+                                              <div class="col-xs-3">
+                                                 <label class="w3-padding-0 text-right" for="month">Business Unit</label>
+                                              </div> 
+                                              <div class="col-xs-9">
+                                                 <input type="text" class="form-control" name="ThirdPrize" placeholder="Enter Business Unit">
+                                              </div>
+                                         </div>
                                        </div>
-                                       <div class="row w3-margin-bottom">
-                                            <div class="col-xs-3">
-                                               <label class="w3-padding-0 text-right" for="month">Last Name</label>
-                                            </div> 
-                                            <div class="col-xs-9">
-                                               <input type="text" class="form-control" name="ThirdPrize" placeholder="Enter Last Name">
-                                            </div>
-                                       </div>
-                                       <div class="row w3-margin-bottom">
-                                            <div class="col-xs-3">
-                                               <label class="w3-padding-0 text-right" for="month">Title</label>
-                                            </div> 
-                                            <div class="col-xs-9">
-                                               <input type="text" class="form-control" name="ThirdPrize" placeholder="Enter Title">
-                                            </div>
-                                       </div>
-                                       <div class="row w3-margin-bottom">
-                                            <div class="col-xs-3">
-                                               <label class="w3-padding-0 text-right" for="month">Business Unit</label>
-                                            </div> 
-                                            <div class="col-xs-9">
-                                               <input type="text" class="form-control" name="ThirdPrize" placeholder="Enter Business Unit">
-                                            </div>
-                                       </div>
-                                     </div>
-                                  </div> 
-                              </div>
+                                    </div> 
+                                </div>
+                              </div> 
                           </div>
+                          <a href="javascript:appendForm();" class="w3-leftbar w3-border-grey w3-text-black w3-light-grey w3-small w3-padding-4 w3-hover-text-blue text-center w3-right col-md-3 col-sm-3 col-xs-3 w3-section"><strong class="w3-medium">+</strong>&nbsp;ADD<span class="hidden-xs">&nbsp;MORE STACKHOLDER</span></a>
                        </div> 
                     </div>
 
@@ -703,14 +718,14 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.1/js/select2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
     <script type="text/javascript" src="js/croppie.min.js"></script>
 
     <script type="text/javascript">
 
-      dp_id = document.getElementById("dp");
+      var curStack;
 
-      dp_id.onchange = function(e){
+      $('#dp_id, .stackDp_id').on('change', function (e) { 
             var ext = this.value.match(/\.([^\.]+)$/)[1];
             switch(ext)
             {
@@ -727,7 +742,7 @@
                     this.value='';
             }
 
-      };
+      });
 
            
       function popupResult(result) {
@@ -746,16 +761,50 @@
 
       }
 
-      style = '<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.1/css/select2.min.css" rel="stylesheet" /> <link rel="stylesheet" href="css/croppie.css">';
+      function stack_popupResult(result) {
+        var html;
+        if (result.html) {
+          html = result.html; 
+        }
+        if (result.src) {
+          html = '<img  src="' + result.src + '" />';
+        }
+
+        $('#stackDp').attr('src',result.src);
+        $('#stackDp').removeClass('w3-hide');
+        $('#upload-demo,.crop').addClass('w3-hide');
+        $('#dp_div').removeClass('w3-hide');
+
+      }
+
+      style = '<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" rel="stylesheet" /> <link rel="stylesheet" href="css/croppie.css">';
 
 
       $(document).ready(function(){
         $('head').append(style);
 
-        $('select').wrap('<div class="select-wrapper"></div>');
+
+        var skills = ["Accounting", "Advertising", "Brand Strategy", "Business Development", "C-Level Presentations", "Change Management", "Consumer Banking", "Consumer Behavior", "Consumer Products & Goods", "Copy Writing", "CPA", "Creative Writing", "Customer Acquisition", "Data Analysis", "Ecommerce", "Economics", "Editing", "Engineering", "Equity Research", "Finance", "Financial Accounting", "Financial Modeling", "Financial Reporting", "Graphic Design", "Healthcare", "Hospitality", "HR Expertise", "International experience", "Lawyer", "Leadership", "Lean Manufacturing", "Litigation", "Luxury", "Management Consulting", "Manufacturing", "Marketing", "MD", "Microsoft Excel", "Microsoft PowerPoint", "Microsoft Word", "MPH", "Negotiations", "Non-Profit", "Operations", "Organizational Behavior", "Product Management", "Project Management", "Public Relations", "Public Speaking", "Quality Assurance", "R&D", "Real Estate", "Research", "Retail", "Sales", "Six SIgma", "Social Impact", "Social Media", "Software Development", "Start-ups", "Statistical Analysis", "Strategy", "Strategy/Consulting", "UX/UI", "Valuation", "Video/Editing", "Web Design", "Writing" ];
+        
+        skills.sort();
+
+        skills = $.unique(skills);
+        $("#skills").select2({
+          placeholder: "ADD SKILLS",
+          multiple: true,
+          data: skills,
+          tags: true,
+          maximumSelectionLength: 6,
+          allowClear: true,
+          
+          
+          
+        }).val(["Business Development","Accounting"]).trigger("change");
+
+        $('select:not(#skills)').wrap('<div class="select-wrapper"></div>');
         $('.select-wrapper').append('<div class="next-icon"><i class="fa fa-angle-down"></i></div>');
 
-        var $uploadCrop;
+        var $uploadCrop, $uploadCrop4stack ;
 
         function readFile(input) {
           $('#upload-demo,#crop').removeClass('w3-hide');
@@ -805,6 +854,9 @@
 
       });
 
+      //for stackholder
+      
+
       $(window).load(function() {
         // Animate loader off screen
         $(".se-pre-con").fadeOut("slow");
@@ -824,6 +876,22 @@
       span = anchor.find('span');
       span.html('<i class="fa fa-fw fa-caret-down pull-right"></i>');
       }
+
+      function appendForm() {
+          form = '<div class="w3-light-grey w3-padding w3-margin-top w3-animate-opacity"><label class="w3-padding-0 w3-margin-bottom" for="month">Stakeholder Details</label><a class="pull-right w3-xlarge removeThis" href="" title="remove this">&times;</a><div class="form-group"><div class="w3-row"><div class="col-xs-4 text-center"><img class="img-responsive center-block w3-margin-bottom" src="" alt="No Pic" style="width:150px;height:150px;background:white"><input id="upload" type="file" class="form-control" name="dp" accept="image/*" style="opacity:0;height:1px"><button type="button" class="w3-btn w3-small w3-orange w3-round-large w3-text-white" onclick="this.previousElementSibling.click()">CHANGE PIC</button></div><div class="col-xs-8"><div class="row w3-margin-bottom"><div class="col-xs-3"><label class="w3-padding-0 text-right" for="month">First Name</label></div><div class="col-xs-9"><input type="text" class="form-control" name="ThirdPrize" placeholder="Enter First Name"></div></div><div class="row w3-margin-bottom"><div class="col-xs-3"><label class="w3-padding-0 text-right" for="month">Last Name</label></div><div class="col-xs-9"><input type="text" class="form-control" name="ThirdPrize" placeholder="Enter Last Name"></div></div><div class="row w3-margin-bottom"><div class="col-xs-3"><label class="w3-padding-0 text-right" for="month">Title</label></div><div class="col-xs-9"><input type="text" class="form-control" name="ThirdPrize" placeholder="Enter Title"></div></div><div class="row w3-margin-bottom"><div class="col-xs-3"><label class="w3-padding-0 text-right" for="month">Business Unit</label></div><div class="col-xs-9"><input type="text" class="form-control" name="ThirdPrize" placeholder="Enter Business Unit"></div></div></div></div></div></div>';
+         $('#formContainer').append(form); 
+         $(".removeThis").off("click");
+          $(".removeThis").on("click",function (e) {
+              e.preventDefault();
+              $(this).parent().remove();
+          });
+      }
+
+      // function removeThis(argument) {
+      //   alert($(argument).parent().text());
+      //   $(argument).parent().remove();
+      // }
+
     </script>
 </body>
 

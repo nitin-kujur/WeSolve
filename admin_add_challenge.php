@@ -671,7 +671,7 @@
                                    <div class="w3-row">
                                       <div class="col-xs-4 text-center">
                                          <div id="" class="stackDp_div w3-round text-center w3-section w3-animate-opacity" style="display:block;">
-                                             <img class="img-responsive center-block img-circle w3-margin-bottom stackDp w3-text-white" src="images/Chauntell B.png" alt="&#x0D;&#x0A;&#x0D;&#x0A;No Pic" style="width:180px; height:180px; background:#4a90e2; white-space:pre;"> 
+                                             <img class="img-responsive center-block img-circle w3-margin-bottom stackDp w3-text-white" src="" alt="&#x0D;&#x0A;&#x0D;&#x0A;No Pic" style="width:180px; height:180px; background:#4a90e2; white-space:pre;"> 
                                          </div>
                                          <!-- <input id="" type="file" class="stackPicUpload form-control" name="dp" accept="image/*" style="opacity:0; height:1px;">   -->
                                          <button type="button" class="w3-btn w3-small w3-orange w3-round-large w3-text-white" data-toggle="modal" data-target="#profileModal" onclick="uploadClick(this.previousElementSibling);">CHANGE PIC</button>

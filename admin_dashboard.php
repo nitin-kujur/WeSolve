@@ -233,10 +233,10 @@
                         <a href="javascript:;" data-toggle="collapse" data-target="#company"><i class="fa fa-fw fa-arrows-v"></i> <i class="fa fa-building"></i> Companies <span><i class="fa fa-fw fa-caret-up pull-right"></i></span></a>
                         <ul id="company" class="collapse in">
                             <li>
-                                <a href="#"><i class="fa fa-fw fa-plus"></i> Add Company</a>
+                                <a href="admin_add_company.php"><i class="fa fa-fw fa-plus"></i> Add Company</a>
                             </li>
                             <li>
-                                <a href="#"><i class="fa fa-fw fa-gear"></i> Manage Companies</a>
+                                <a href="admin_manage_companies.php"><i class="fa fa-fw fa-gear"></i> Manage Companies</a>
                             </li>
                         </ul>
                     </li>
@@ -245,10 +245,10 @@
                         <a href="javascript:;" data-toggle="collapse" data-target="#challenge"><i class="fa fa-fw fa-arrows-v"></i> <i class="fa fa-tasks"></i> Challenges <span><i class="fa fa-fw fa-caret-up pull-right"></i></span></a>
                         <ul id="challenge" class="collapse in">
                             <li>
-                                <a href="admin_inde  "><i class="fa fa-fw fa-plus"></i> Add Challenge</a>
+                                <a href="admin_add_challenge.php"><i class="fa fa-fw fa-plus"></i> Add Challenge</a>
                             </li>
                             <li>
-                                <a href="#"><i class="fa fa-fw fa-gear"></i> Manage Challenges</a>
+                                <a href="admin_manage_challenges.php"><i class="fa fa-fw fa-gear"></i> Manage Challenges</a>
                             </li>
                         </ul>
                     </li>
@@ -293,7 +293,7 @@
                       <div class="row breadcrumb w3-card-1 margin-0">
                         <h2><i class="fa fa-building"></i> Companies  <small>Total: 10</small>  <small>Active:7</small>  <small>Inactive:3</small></h2>
                         <div class="col-md-12 w3-padding-0">
-                          <a class="w3-orange w3-btn w3-round-large w3-text-white"><i class="fa fa-fw fa-plus"></i> Add Company</a>
+                          <a class="w3-orange w3-btn w3-round-large w3-text-white" href="admin_add_company.php"><i class="fa fa-fw fa-plus"></i> Add Company</a>
                           <a class="w3-orange w3-btn w3-margin w3-round-large w3-text-white"><i class="fa fa-fw fa-gear"></i> Manage Companies</a> 
                         </div>
                       </div> 

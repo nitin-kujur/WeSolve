@@ -17,7 +17,7 @@
 		 <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900' rel='stylesheet' type='text/css'>
 		 <link rel="stylesheet" href="css/owl.carousel.css">
 		 <link rel="stylesheet" href="css/spinner.css">
-		 <link rel="stylesheet" href="css/bootstrap20grid.min.css">
+		 <!-- <link rel="stylesheet" href="css/bootstrap20grid.min.css"> -->
 
 		 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 		 <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
@@ -36,7 +36,7 @@
 		 <script type="text/javascript">
 
 		 	$(document).ready(function(){
-		 		$('select:not:[#]').wrap('<div class="select-wrapper"></div>');
+		 		$('select:not(#skills)').wrap('<div class="select-wrapper"></div>');
 		 		$('.select-wrapper').append('<div class="next-icon"><i class="fa fa-angle-down"></i></div>');
 		 	});
 

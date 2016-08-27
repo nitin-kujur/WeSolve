@@ -400,7 +400,7 @@
                     <div class="col-lg-12">
                       <div class="row breadcrumb w3-card-1 margin-0">
                         <label class="control-label col-sm-2" for="month">Select Company</label>
-                        <div class="form-group col-sm-10">
+                        <div class="form-group col-sm-10" style="margin-bottom:0px;">
                           <div class="col-md-12" style="max-width:350px;">
                             <select class="form-control" id="company" name="company">
                               <option value="January">January</option>

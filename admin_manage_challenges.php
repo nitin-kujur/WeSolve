@@ -217,7 +217,7 @@
                     <div class="col-lg-12" style='color:black;'>
                       <div class="row breadcrumb w3-card-11 margin-0" style="background-color:transparent;">
                          <div class="col-md-12">
-                             <li><strong>Showing 10 of 50</strong></li>
+                             <li><strong>Showing 1-10 of 50</strong></li>
                          </div>
                       </div>
                     </div>
@@ -445,7 +445,7 @@
                     <div class="col-lg-12">
                       <div class="row breadcrumb1 w3-card-11 margin-0">
                          <ul class="pagination">
-                          <li class="disabled"><a href="#">1</a></li>
+                          <li class="disabled1 active"><a href="#">1</a></li>
                           <li><a href="#">2</a></li>
                           <li><a href="#">3</a></li>
                           <li><a href="#">4</a></li>

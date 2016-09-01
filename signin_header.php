@@ -73,6 +73,10 @@
 				</div>
 				<div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav navbar-right">
+					  <li id="li1"><a href="wesolvers.php"><h6 class="w3-text-dark-blue text-center">WeSOLVERS</h6></a></li>
+					  <li class="hidden-sm hidden-xs">&nbsp;&nbsp;</li>
+					  <li id="li2"><a href="wefeed.php"><h6 class="w3-text-dark-blue text-center">WeFEED</h6></a></li>
+					  <li class="hidden-sm hidden-xs">&nbsp;&nbsp;</li>
 					  <li id="li1"><a href="companies.php"><h6 class="w3-text-dark-blue text-center">COMPANIES</h6></a></li>
 					  <li class="hidden-sm hidden-xs">&nbsp;&nbsp;</li>
 					  <li id="li2"><a href="challenges.php"><h6 class="w3-text-dark-blue text-center">CHALLANGES</h6></a></li>
@@ -82,8 +86,8 @@
 					  <li id="li4"><a href="messages.php"><h6 class="w3-text-dark-blue text-center">MESSAGES <span class="w3-text-orange">(2)</span></h6></a></li>
 					  <li class="hidden-sm hidden-xs">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
 					  <li>
-					  	<a href="javascript:void(0);" class="w3-text-dark-blue text-center hidden-xs" data-toggle="popover" data-placement="bottom" title="" data-html="true" data-content="<a class='w3-hover-text-white' href='#'><strong> ACCOUNT </strong></a><hr style='margin:0px auto; color:lightgrey;'><a class='w3-hover-text-white' href='index.php'><strong> LOG OUT </strong></a>"><h6 class="w3-text-dark-blue text-center">Hi, Stella</h6></a>
-					  	<a href="javascript:void(0);" class="w3-text-dark-blue text-center visible-xs" data-toggle="popover" data-placement="top" title="" data-html="true" data-content="<a class='w3-hover-text-white' href='#'><strong> ACCOUNT </strong></a><hr style='margin:0px auto; color:lightgrey;'><a class='w3-hover-text-white' href='index.php'><strong> LOG OUT </strong></a>"><h6 class="w3-text-dark-blue text-center">Hi, Stella</h6></a>
+					  	<a href="javascript:void(0);" class="w3-text-dark-blue text-center hidden-xs" data-toggle="popover" data-placement="bottom" title="" data-html="true" data-content="<a class='w3-hover-text-white' href='signin.php'><strong> ACCOUNT </strong></a><hr style='margin:0px auto; color:lightgrey;'><a class='w3-hover-text-white' href='index.php'><strong> LOG OUT </strong></a>"><h6 class="w3-text-dark-blue text-center">Hi, Stella</h6></a>
+					  	<a href="javascript:void(0);" class="w3-text-dark-blue text-center visible-xs" data-toggle="popover" data-placement="top" title="" data-html="true" data-content="<a class='w3-hover-text-white' href='signin.php'><strong> ACCOUNT </strong></a><hr style='margin:0px auto; color:lightgrey;'><a class='w3-hover-text-white' href='index.php'><strong> LOG OUT </strong></a>"><h6 class="w3-text-dark-blue text-center">Hi, Stella</h6></a>
 					  </li>
 					  <li class="hidden-sm hidden-xs">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
 					</ul>

@@ -5,18 +5,18 @@
 		<div class="container-fluid w3-padding-0 filter1">
 			<div class="row w3-section" style="margin-top:25px !important;">
 				<div class="col-md-12 col-sm-12 col-xs-12 text-center w3-section hidden-xs">
-					<h1 class="w3-jumbo w3-section"><strong>A diverse network of talented MBA<br/>students aimed at critical business<br/>challenges.</strong></h1>
-					<h3 class="w3-section w3-xlarge text-left col-md-offset-3 col-md-9">WeSolv curates a centralized ecosystem of diverse students from<br/>across the nation and top companies to create more access and<br/>opportunities for collaboration and to solve real business challenges.</h3>
+					<h1 class="w3-section"><span style="white-space:nowrap;">A diverse network of talented MBA students<br/>aimed at critical business challenges.</span></h1>
 					<h3 class="w3-section w3-xlarge text-left col-md-offset-3 col-md-9">Professional business students want opportunities to engage target<br/>companies and apply fresh thinking to solve real challenges<br/>they care about.</h3>
+					<h3 class="w3-section w3-xlarge text-left col-md-offset-3 col-md-9">WeSolv curates a centralized ecosystem of diverse students from<br/>across the nation and top companies to create more access and<br/>opportunities for collaboration and to solve real business challenges.</h3>
 					<h3 class="w3-section w3-xlarge text-left col-md-offset-3 col-md-9">WeSolv Company Challenges provide motivated students valuable<br/>experiential learning opportunities and the chance to showcase their<br/>talents to potential employers.</h3>
-					<button class="w3-btn w3-round w3-card-2 w3-orange w3-text-white w3-section"><h4 class="w3-large"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SIGN UP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></h4></button>
+					<button class="w3-btn w3-round w3-card-2 w3-orange w3-text-white w3-section"><h4 class="w3-large"><strong style="margin-left:70px; margin-right:70px;">SIGN UP</strong></h4></button>
 				</div>
 				<div class="col-md-12 col-sm-12 col-xs-12 text-center w3-section visible-xs">
-					<h1 class="w3-xlarge w3-section"><strong>A diverse network of talented MBA<br/>students aimed at critical business<br/>challenges.</strong></h1>
-					<h3 class="w3-section w3-large text-left col-md-offset-3 col-md-9">WeSolv curates a centralized ecosystem of diverse students from<br/>across the nation and top companies to create more access and<br/>opportunities for collaboration and to solve real business challenges.</h3>
+					<h1 class="w3-xlarge w3-section"><strong>A diverse network of talented MBA<br/>students aimed at critical business challenges.</strong></h1>
 					<h3 class="w3-section w3-large text-left col-md-offset-3 col-md-9">Professional business students want opportunities to engage target<br/>companies and apply fresh thinking to solve real challenges<br/>they care about.</h3>
+					<h3 class="w3-section w3-large text-left col-md-offset-3 col-md-9">WeSolv curates a centralized ecosystem of diverse students from<br/>across the nation and top companies to create more access and<br/>opportunities for collaboration and to solve real business challenges.</h3>
 					<h3 class="w3-section w3-large text-left col-md-offset-3 col-md-9">WeSolv Company Challenges provide motivated students valuable<br/>experiential learning opportunities and the chance to showcase their<br/>talents to potential employers.</h3>
-					<button class="w3-btn w3-round w3-card-2 w3-orange w3-text-white w3-section"><h4 class="w3-large"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SIGN UP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></h4></button>
+					<button class="w3-btn w3-round w3-card-2 w3-orange w3-text-white w3-section"><h4 class="w3-large"><strong style="margin-left:70px; margin-right:70px;">SIGN UP</strong></h4></button>
 				</div>
 			</div>
 		<!-- </div>
@@ -25,44 +25,44 @@
 				<div class="col-md-3 col-sm-6 col-xs-6 w3-margin-top">
 					<div class="row text-center">
 							<div class="col-md-4 col-sm-4 col-xs-4">
-								<img src="images/apple-touch-icon.png" class="img-responsive">	
+								<img src="images/apple-touch-icon.png" class="img-responsive w3-padding-small">	
 							</div>
 							<div class="col-md-8 col-sm-8 col-xs-8">
-								<h3 class="text-left hidden-xs">Equity and Access to Advancement</h3>	
-								<h3 class="text-left w3-medium visible-xs">Equity and Access to Advancement</h3>	
+								<h3 class="hidden-xs">Equity and Access to Advancement</h3>	
+								<h3 class="w3-medium visible-xs">Equity and Access to Advancement</h3>	
 							</div>
 					</div>
 				</div>
 				<div class="col-md-3 col-sm-6 col-xs-6 w3-margin-top">
 					<div class="row text-center">
 							<div class="col-md-4 col-sm-4 col-xs-4">
-								<img src="images/apple-touch-icon.png" class="img-responsive">	
+								<img src="images/apple-touch-icon.png" class="img-responsive w3-padding-small">	
 							</div>
 							<div class="col-md-8 col-sm-8 col-xs-8">
-								<h3 class="text-left hidden-xs">Innovation via Collaboration and Diversity</h3>	
-								<h3 class="text-left w3-medium visible-xs">Innovation via Collaboration and Diversity</h3>	
+								<h3 class="hidden-xs">Innovation via Collaboration & Diversity of Thought</h3>	
+								<h3 class="w3-medium visible-xs">Innovation via Collaboration & Diversity of Thought</h3>	
 							</div>
 					</div>
 				</div>
 				<div class="col-md-3 col-sm-6 col-xs-6 w3-margin-top">
 					<div class="row text-center">
 							<div class="col-md-4 col-sm-4 col-xs-4">
-								<img src="images/apple-touch-icon.png" class="img-responsive">	
+								<img src="images/apple-touch-icon.png" class="img-responsive w3-padding-small">	
 							</div>
 							<div class="col-md-8 col-sm-8 col-xs-8">
-								<h3 class="text-left hidden-xs">Engaging Learning Experiences</h3>	
-								<h3 class="text-left w3-medium visible-xs">Engaging Learning Experiences</h3>	
+								<h3 class="hidden-xs">Engaging Learning Experiences</h3>	
+								<h3 class="w3-medium visible-xs">Engaging Learning Experiences</h3>	
 							</div>
 					</div>
 				</div>
 				<div class="col-md-3 col-sm-6 col-xs-6 w3-margin-top">
 					<div class="row text-center">
 							<div class="col-md-4 col-sm-4 col-xs-4">
-								<img src="images/apple-touch-icon.png" class="img-responsive">	
+								<img src="images/apple-touch-icon.png" class="img-responsive w3-padding-small">	
 							</div>
 							<div class="col-md-8 col-sm-8 col-xs-8">
-								<h3 class="text-left hidden-xs">Career Discovery and Fit</h3>	
-								<h3 class="text-left w3-medium visible-xs">Career Discovery and Fit</h3>	
+								<h3 class="hidden-xs">Career Discovery and the Right Fit</h3>	
+								<h3 class="w3-medium visible-xs">Career Discovery and the Right Fit</h3>	
 							</div>
 					</div>
 				</div>
@@ -163,31 +163,31 @@
 			<div class="jumbotron w3-blue  w3-padding-0">
 			  <div class="container-fluid text-center">
 			  	<br/><br/>
-					<span class="w3-text-white w3-xxlarge">We are here&nbsp;</span> <img src="images/wesolv_logo_bulb_white_BG.png" class="img-responsive nav-btn"  alt="p" width="150" height="15" style="object-fit: contain; display:inline;"><br/> 
+					<span class="w3-text-white w3-xxlarge">We are&nbsp;</span> <img src="images/wesolv_logo_bulb_white_BG.png" class="img-responsive nav-btn"  alt="p" width="150" height="15" style="object-fit: contain; display:inline;"><br/> 
 					<br/>
 					<div class="row w3-padding-0">
 							<div class="col-md-offset-2 col-md-8 w3-text-white">
-								<h4 class="text-left">FOUNDERS</h4>
-								<hr class="w3-border-orange w3-margin-0" style="border-width:2px !important;">
+								<h4 class="text-left">EXECUTIVE TEAM</h4>
+								<hr class="w3-border-orange w3-margin-0" style="border-width:1px !important;">
 									<div class="container w3-padding-jumbo">
 										<div class="owl-carousel-founder">
 												<div class="item text-center">
 													<br/>
-														<img src="images/Stella Ashaolu.png" class="img-responsive center-block img-circle"  alt="p" width="180" height="auto" style="object-fit: contain;">
+														<img src="images/Stella Ashaolu.png" class="img-responsive center-block w3-padding-large img-circle"  alt="p" width="180" height="auto" style="object-fit: contain;">
 														<h6 class="w3-text-white">STELLA ASHAOLU</h6>
 														<h6 class="w3-text-white">Founder, CEO</h6>
 														<br/>
 												</div>
 												<div class="item text-center">
 													<br/>
-														<img src="images/Stella Ashaolu.png" class="img-responsive center-block img-circle"  alt="p" width="180" height="auto" style="object-fit: contain;">
+														<img src="images/Stella Ashaolu.png" class="img-responsive center-block w3-padding-large img-circle"  alt="p" width="180" height="auto" style="object-fit: contain;">
 														<h6 class="w3-text-white">CHRIS WATKINS</h6>
 														<h6 class="w3-text-white">Strategy and Operations</h6>
 														<br/>
 												</div>
 												<div class="item text-center">
 													<br/>
-														<img src="images/Stella Ashaolu.png" class="img-responsive center-block img-circle"  alt="p" width="180" height="auto" style="object-fit: contain;">
+														<img src="images/Stella Ashaolu.png" class="img-responsive center-block w3-padding-large img-circle"  alt="p" width="180" height="auto" style="object-fit: contain;">
 														<h6 class="w3-text-white">KEVIN WOLF</h6>
 														<h6 class="w3-text-white">Technical Adviser</h6>
 														<br/>
@@ -201,24 +201,24 @@
 					<div class="row w3-padding-0">
 							<div class="col-md-offset-2 col-md-8 w3-text-white">
 								<h4 class="text-left">USER EXPERIENCE</h4>
-								<hr class="w3-border-orange w3-margin-0" style="border-width:2px !important;">
+								<hr class="w3-border-orange w3-margin-0" style="border-width:1px !important;">
 									<div class="container w3-padding-jumbo">
 										<div class="owl-carousel-founder">
 												<div class="item text-center">
 													<br/>
-														<img src="images/John Lim.png" class="img-responsive center-block  img-circle"  alt="p" width="180" height="auto" style="object-fit: contain;">
+														<img src="images/John Lim.png" class="img-responsive center-block w3-padding-large img-circle"  alt="p" width="180" height="auto" style="object-fit: contain;">
 														<h6 class="w3-text-white">JON LIM</h6>
 														<br/>
 												</div>
 												<div class="item text-center">
 													<br/>
-														<img src="images/Libby S.png" class="img-responsive center-block  img-circle"  alt="p" width="180" height="auto" style="object-fit: contain;">
+														<img src="images/Libby Spencer.png" class="img-responsive center-block w3-padding-large img-circle"  alt="p" width="180" height="auto" style="object-fit: contain;">
 														<h6 class="w3-text-white">LIBBY SPENCER</h6>
 														<br/>
 												</div>
 												<div class="item text-center">
 													<br/>
-														<img src="images/Maria K.png" class="img-responsive center-block  img-circle"  alt="p" width="180" height="auto" style="object-fit: contain;">
+														<img src="images/Maria Kreighbaum.png" class="img-responsive center-block w3-padding-large img-circle"  alt="p" width="180" height="auto" style="object-fit: contain;">
 														<h6 class="w3-text-white">MARIA KREIGHBAUM</h6>
 														<br/>
 												</div>
@@ -232,24 +232,24 @@
 					<div class="row w3-padding-0">
 							<div class="col-md-offset-2 col-md-8 w3-text-white">
 								<h4 class="text-left">USER INTERFACE</h4>
-								<hr class="w3-border-orange w3-margin-0" style="border-width:2px !important;">
+								<hr class="w3-border-orange w3-margin-0" style="border-width:1px !important;">
 									<div class="container w3-padding-jumbo">
 										<div class="owl-carousel-founder">
 												<div class="item text-center">
 													<br/>
-														<img src="images/Kyle Jordan.png" class="img-responsive center-block  img-circle"  alt="p" width="180" height="auto" style="object-fit: contain;">
+														<img src="images/Kyle Jordan.png" class="img-responsive center-block w3-padding-large img-circle"  alt="p" width="180" height="auto" style="object-fit: contain;">
 														<h6 class="w3-text-white">KYLE JORDAN</h6>
 														<br/>
 												</div>
 												<div class="item text-center">
 													<br/>
-														<img src="images/Rocio Werner.png" class="img-responsive center-block  img-circle"  alt="p" width="180" height="auto" style="object-fit: contain;">
+														<img src="images/Rocio Werner.png" class="img-responsive center-block w3-padding-large img-circle"  alt="p" width="180" height="auto" style="object-fit: contain;">
 														<h6 class="w3-text-white">ROCIO WERNER</h6>
 														<br/>
 												</div>
 												<!-- <div class="item text-center">
 													<br/>
-														<img src="images/Maria K.png" class="img-responsive center-block  img-circle"  alt="p" width="180" height="auto" style="object-fit: contain;">
+														<img src="images/Maria K.png" class="img-responsive center-block w3-padding-large img-circle"  alt="p" width="180" height="auto" style="object-fit: contain;">
 														<h6 class="w3-text-white">STELLA ASHAOLU</h6>
 														<br/>
 												</div> -->
@@ -262,25 +262,25 @@
 					<div class="row w3-padding-0">
 							<div class="col-md-offset-2 col-md-8 w3-text-white">
 								<h4 class="text-left">INTERNS</h4>
-								<hr class="w3-border-orange w3-margin-0" style="border-width:2px !important;">
+								<hr class="w3-border-orange w3-margin-0" style="border-width:1px !important;">
 									<div class="container w3-padding-jumbo">
 										<div class="owl-carousel-founder">
 												<div class="item text-center">
 													<br/>
-														<img src="images/Stella Ashaolu.png" class="img-responsive center-block  img-circle"  alt="p" width="180" height="auto" style="object-fit: contain;">
+														<img src="images/Gurameen Chadha.jpg" class="img-responsive center-block w3-padding-large img-circle"  alt="p" width="180" height="auto" style="object-fit: contain;">
 														<h6 class="w3-text-white">GURAMEEN CHADHA</h6>
 														<br/>
 												</div>
 												<div class="item text-center">
 													<br/>
-														<img src="images/Stella Ashaolu.png" class="img-responsive center-block  img-circle"  alt="p" width="180" height="auto" style="object-fit: contain;">
+														<img src="images/Stella Ashaolu.png" class="img-responsive center-block w3-padding-large img-circle"  alt="p" width="180" height="auto" style="object-fit: contain;">
 														<h6 class="w3-text-white">CHRIS GUAJARDO</h6>
 														<br/>
 												</div>
 												<div class="item text-center">
 													<br/>
-														<img src="images/Stella Ashaolu.png" class="img-responsive center-block  img-circle"  alt="p" width="180" height="auto" style="object-fit: contain;">
-														<h6 class="w3-text-white">TONY WANG</h6>
+														<img src="images/Elizabeth Tyger.jpg" class="img-responsive center-block w3-padding-large img-circle"  alt="p" width="180" height="auto" style="object-fit: contain;">
+														<h6 class="w3-text-white">ELIZABETH TYGER</h6>
 														<br/>
 												</div>
 										</div>

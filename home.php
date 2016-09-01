@@ -5,11 +5,11 @@
 			<div class="jumbotron bg-transparent jumbo" data-stellar-background-ratio="0.8">
 			  <div class="container w3-text-white">
 			  	<br/><br/><br/>
-					<h2 class="w3-text-white w3-jumbo">Real<br/>Projects <span class="w3-text-orange"><i class="fa fa-plus"></i></span><br/>Top Companies</h2><p style="font-size:8px;">&nbsp;</p><h2 class="w3-text-white">Connect.   Engage.   Solve.</h2>
-					<p class="w3-margin-top"><b>Work on a diverse team of MBA students on case<br/>
-						challanges to solve real world problems and engage<br/>
-						companies you're interested in. Gain resume<br/>
-						experience, win cash awards, or evn score a job.</b></p>
+					<h1 class="w3-text-white w3-jumbo1">Real<br/>Projects <span class="w3-text-orange"><i class="fa fa-plus"></i></span><br/>Top Companies</h1><p style="font-size:8px;">&nbsp;</p><h2 style="font-size:50px;" class="w3-text-white">Connect.   Engage.   Solve.</h2>
+					<p style="font-size:30px; font-weight:300;" class="w3-margin-top">Work on a diverse team of MBA students on<br/>
+						challanges and engage the companies you're<br/>
+						real case interested in. Gain resume experience, <br/>
+						win cash awards, and find the right career.</p>
 				  <!-- <br/> -->
 					<div class="container row">
 							<!-- <div class="col-md-4 col-sm-6 col-xs-6">
@@ -17,7 +17,7 @@
 							</div> -->
 							<div class="col-md-12 col-sm-12 col-xs-12">
 									<div class="text-center">
-											<button data-toggle="modal" data-target="#signupModal" class="w3-btn w3-xlarge w3-round w3-card-2 w3-padding-large w3-orange w3-text-white">&nbsp;&nbsp;&nbsp;&nbsp;SIGN UP&nbsp;&nbsp;&nbsp;&nbsp;</button>
+											<button data-toggle="modal" data-target="#signupModal" class="w3-btn w3-xlarge w3-round w3-card-2 w3-padding-medium w3-orange w3-text-white"><span style="margin-left:70px; margin-right:70px;">SIGN UP</span></button>
 											<h6 class="">Already A Member?</h6>
 											<a href="javascript:void(0)" data-toggle="modal" data-target="#loginModal"><h6 class="w3-text-black"><strong>Login</strong></h6></a>
 									</div>
@@ -81,6 +81,7 @@
 						
 						<div class="col-md-2 col-sm-12 col-xs-12 w3-padding-0 w3-margin-0">
 								<img src="images/HIW-1.png" class="img-responsive center-block"  alt="p" width="auto" height="auto" style="object-fit: contain;">
+								<h4>PROJECTS POSTED</h4>
 								<h6>Companies post projects for real business challenges they are facing.</h6>
 						</div>
 						
@@ -89,6 +90,7 @@
 						</div>
 						<div class="col-md-2 col-sm-12 col-xs-12">
 								<img src="images/HIW-2.png" class="img-responsive center-block"  alt="p" width="auto" height="auto">
+								<h4>CONNECT</h4>
 								<h6>Students apply with a team to projects they are intrested in or form a team on the site.</h6>
 						</div>
 						
@@ -97,6 +99,7 @@
 						</div>
 						<div class="col-md-2 col-sm-12 col-xs-12">
 								<img src="images/HIW-3.png" class="img-responsive center-block"  alt="p" width="auto" height="auto">
+								<h4>COLLABORATE</h4>
 								<h6>Student teams work on the project with ongoing support and ineraction with the company.</h6>
 						</div>
 						
@@ -105,6 +108,7 @@
 						</div>
 						<div class="col-md-2 col-sm-12 col-xs-12">
 								<img src="images/HIW-4.png" class="img-responsive center-block"  alt="p" width="auto" height="auto">
+								<h4>INNOVATE</h4>
 								<h6>Innovative solutions and ideas are presented according to challenge criteria.</h6>
 						</div>
 						
@@ -113,6 +117,7 @@
 						</div>
 						<div class="col-md-2 col-sm-12 col-xs-12">
 								<img src="images/HIW-5.png" class="img-responsive center-block"  alt="p" width="auto" height="auto">
+								<h4>SELECT</h4>
 								<h6>The company selects winning team, and offer feedback, interviews, and awards.</h6>
 						</div>
 
@@ -123,6 +128,7 @@
 						<div class=" owl-carousel-hiw">
 						<div class="item">
 								<img src="images/HIW-1.png" class="img-responsive center-block"  alt="p" width="180px" height="180px" style="object-fit: contain;">
+								<h4>PROJECTS POSTED</h4>
 								<h6>Companies post projects for real business challenges they are facing.</h6>
 						</div>
 						<div class="item">
@@ -132,6 +138,7 @@
 						
 						<div class="item">
 								<img src="images/HIW-2.png" class="img-responsive center-block"  alt="p" width="180px" height="180px">
+								<h4>CONNECT</h4>
 								<h6>Students apply with a team to projects they are intrested in or form a team on the site.</h6>
 						</div>
 						<div class="item">
@@ -141,6 +148,7 @@
 
 						<div class="item">
 								<img src="images/HIW-3.png" class="img-responsive center-block"  alt="p" width="180px" height="180px">
+								<h4>COLLABORATE</h4>
 								<h6>Student teams work on the project with ongoing support and ineraction with the company.</h6>
 						</div>
 						<div class="item">
@@ -150,6 +158,7 @@
 						
 						<div class="item">
 								<img src="images/HIW-4.png" class="img-responsive center-block"  alt="p" width="180px" height="180px">
+								<h4>INNOVATE</h4>
 								<h6>Innovative solutions and ideas are presented according to challenge criteria.</h6>
 						</div>
 						<div class="item">
@@ -159,6 +168,7 @@
 						
 						<div class="item">
 								<img src="images/HIW-5.png" class="img-responsive center-block"  alt="p" width="180px" height="180px">
+								<h4>SELECT</h4>
 								<h6>The company selects winning team, and offer feedback, interviews, and awards.</h6>
 						</div>
 					  </div>
@@ -166,7 +176,7 @@
 <!-- -------------------------------------------------------------------------------------------------------------------------- -->
 					<div class="col-md-12 col-sm-12 col-xm-12 text-center">
 							
-							<button class="w3-btn w3-round w3-card-2 w3-padding-large w3-margin-top w3-orange w3-text-white">LEARN MORE ABOUT WESOLV</button>
+							<a class="w3-btn w3-round w3-card-2 w3-padding-large w3-margin-top w3-orange w3-text-white" href="about.php">LEARN MORE ABOUT WESOLV</a>
 					</div>
 				</div>
 				<br/><br/><br/>
@@ -184,74 +194,34 @@
 					<div class="owl-carousel-mba-stu">
 							<div class="item text-center">
 								<br/>
-									<img src="images/Chauntell B.png" class="img-responsive center-block"  alt="p" width="180" height="auto" style="object-fit: contain;">
-									<h6 class="w3-text-dark-blue">U of C, Booth Class of 2011</h6>
-									<h6 class="w3-text-dark-blue">"My classmates and I would have been so excited for the opportunity to build networks with like-minded students nationwide."</h6>
-									<h6 class="w3-text-dark-blue">- Chauntell B</h6>
-									<br/>
-							</div>
-							<div class="item text-center">
-								<br/>
-									<img src="images/Kyle Jordan.png" class="img-responsive center-block"  alt="p" width="180" height="auto" style="object-fit: contain;">
-									<h6 class="w3-text-dark-blue">Stanford, GSB Class of 2016</h6>
-									<h6 class="w3-text-dark-blue">"I am interested in getting an opportunity to connect with leading tech companies to show them what I can bring to the table."</h6>
-									<h6 class="w3-text-dark-blue">- Kyle Jordan</h6>
-									<br/>
-							</div>
-							<div class="item text-center">
-								<br/>
-									<img src="images/Eric H.png" class="img-responsive center-block"  alt="p" width="180" height="auto" style="object-fit: contain;">
+									<img src="images/Eric Harris.png" class="img-responsive img-circle w3-padding-large center-block"  alt="p" width="180" height="auto" style="object-fit: contain;">
 									<h6 class="w3-text-dark-blue">Michigan, Ross Class of 2017</h6>
 									<h6 class="w3-text-dark-blue">"I can’t wait to be able to easily find the projects that I am interested in, working with the people that I want to work with."</h6>
-									<h6 class="w3-text-dark-blue">- Eric H</h6>
+									<h6 class="w3-text-dark-blue">- Eric Harris</h6>
 									<br/>
 							</div>
 							<div class="item text-center">
 								<br/>
-									<img src="images/Cindy H.png" class="img-responsive center-block"  alt="p" width="180" height="auto" style="object-fit: contain;">
-									<h6 class="w3-text-dark-blue">NYU, Stern Class of 2017</h6>
-									<h6 class="w3-text-dark-blue">"I want to work on projects with an impact on my community and the world."</h6>
-									<h6 class="w3-text-dark-blue">- Cindy H</h6>
+									<img src="images/Elena Giralt.png" class="img-responsive img-circle w3-padding-large center-block"  alt="p" width="180" height="auto" style="object-fit: contain;">
+									<h6 class="w3-text-dark-blue">NYU, Stern Class of 2018</h6>
+									<h6 class="w3-text-dark-blue">"My classmates and I are so excited for the opportunity build networks with like-minded students nation wide."</h6>
+									<h6 class="w3-text-dark-blue">- Elena Giralt</h6>
 									<br/>
 							</div>
 							<div class="item text-center">
 								<br/>
-									<img src="images/Stella Ashaolu.png" class="img-responsive center-block"  alt="p" width="180" height="auto" style="object-fit: contain;">
-									<h6 class="w3-text-dark-blue">U of C, Booth Class of 2011</h6>
-									<h6 class="w3-text-dark-blue">"My classmates and I would have been so excited for the opportunity to build networks with like-minded students nationwide."</h6>
-									<h6 class="w3-text-dark-blue">- Stella Ashaolu</h6>
+									<img src="images/Stella Ashaolu.png" class="img-responsive img-circle w3-padding-large center-block"  alt="p" width="180" height="auto" style="object-fit: contain;">
+									<h6 class="w3-text-dark-blue">UCLA, Anderson Class of 2017</h6>
+									<h6 class="w3-text-dark-blue">"I am interested in getting an opportunity to connect with leading tech companies to show them what I can bring to the table."</h6>
+									<h6 class="w3-text-dark-blue">- Alan, Smith</h6>
 									<br/>
 							</div>
 							<div class="item text-center">
 								<br/>
-									<img src="images/John Lim.png" class="img-responsive center-block"  alt="p" width="180" height="auto" style="object-fit: contain;">
-									<h6 class="w3-text-dark-blue">U of C, Booth Class of 2011</h6>
-									<h6 class="w3-text-dark-blue">"My classmates and I would have been so excited for the opportunity to build networks with like-minded students nationwide."</h6>
-									<h6 class="w3-text-dark-blue">- John Lim</h6>
-									<br/>
-							</div>
-							<div class="item text-center">
-								<br/>
-									<img src="images/Maria K.png" class="img-responsive center-block"  alt="p" width="180" height="auto" style="object-fit: contain;">
-									<h6 class="w3-text-dark-blue">U of C, Booth Class of 2011</h6>
-									<h6 class="w3-text-dark-blue">"My classmates and I would have been so excited for the opportunity to build networks with like-minded students nationwide."</h6>
-									<h6 class="w3-text-dark-blue">- Maria K</h6>
-									<br/>
-							</div>
-							<div class="item text-center">
-								<br/>
-									<img src="images/Libby S.png" class="img-responsive center-block"  alt="p" width="180" height="auto" style="object-fit: contain;">
-									<h6 class="w3-text-dark-blue">U of C, Booth Class of 2011</h6>
-									<h6 class="w3-text-dark-blue">"My classmates and I would have been so excited for the opportunity to build networks with like-minded students nationwide."</h6>
-									<h6 class="w3-text-dark-blue">- Libby S</h6>
-									<br/>
-							</div>
-							<div class="item text-center">
-								<br/>
-									<img src="images/Rocio Werner.png" class="img-responsive center-block"  alt="p" width="180" height="auto" style="object-fit: contain;">
-									<h6 class="w3-text-dark-blue">U of C, Booth Class of 2011</h6>
-									<h6 class="w3-text-dark-blue">"My classmates and I would have been so excited for the opportunity to build networks with like-minded students nationwide."</h6>
-									<h6 class="w3-text-dark-blue">- Rocio Werner</h6>
+									<img src="images/Elizabeth Tench.jpg" class="img-responsive img-circle w3-padding-large center-block"  alt="p" width="180" height="auto" style="object-fit: contain;">
+									<h6 class="w3-text-dark-blue">U of C, Booth Class of 2016</h6>
+									<h6 class="w3-text-dark-blue">"I want to work on real projects with a social impact on my community and the world"</h6>
+									<h6 class="w3-text-dark-blue">- Elizabeth Tench</h6>
 									<br/>
 							</div>
 					</div>
@@ -273,7 +243,7 @@
 								<div class="col-md-3"></div>
 						</div>  <br/>
 						<h4 class="w3-text-white">Sign up now for early access to challenges hosted by top companies.<br/>
-							Check back for companies and Enterprise Challenges being added daily.</h4>
+							Check back for companies and QuickFire and Case Challenges being added daily.</h4>
 			  </div>
 			  <br/>
 			</div>
@@ -327,21 +297,41 @@
 					<div class="col-md-8 col-sm-12 col-xs-12">
 						<div class="owl-carousel-challenge">
 							<div class="item col-md-12">
-								<img src="images/tesla back.png" class="img-responsive center-block">
+									<div class="jumbotron w3-padding-0 featured_challenges" style="height:300px; background:url('images/St-Louis-cityscape_1.jpg') no-repeat center center; background-size: cover;">
+										<div class="container-fluid filter" style="height:inherit;">
+											<div class="row">
+												<div class="col-sm-9 col-md-9 col-xs-9 text-left">
+													<br/><span class="hidden-xs"><br/><br/></span>
+													<h3><strong>The Consortium QuickFire Challenges 2016</strong></h3>
+													<h3>Work with 1 of 4 real projects with one of our top corporate partners</h3>			
+												</div>	 
+											</div>
+										</div>
+									</div>
 								<div class="carousel-caption top-right">
-									<p class="pull-right btn-trans"><img src="images/tesla_logo_white.png" class="img-responsive hidden-xs" width="auto" height="auto"></p>
+									<p class="pull-right btn-trans"><img src="images/consortium-logo.png" class="img-responsive hidden-xs-img" width="150px" height="auto"></p>
 								</div>
 								<div class="carousel-caption bottom-right">
-									<button class="w3-btn w3-round w3-card-2 w3-padding-large w3-orange w3-text-white pull-right">JOIN A CHALLANGE</button>
+									<button class="w3-btn w3-round w3-card-2 w3-padding-large w3-orange w3-text-white pull-right" data-toggle="modal" data-target="#signupModal">JOIN A CHALLANGE</button>
 								</div>
 							</div>
-							<div class="item">
-								<img src="images/tesla back.png" class="img-responsive center-block">
+							<div class="item col-md-12">
+								<div class="jumbotron w3-padding-0 featured_challenges" style="height:300px; background:url('images/tesla-6.jpg') no-repeat center center; background-size: cover;">
+									<div class="container-fluid filter" style="height:inherit;">
+										<div class="row">
+											<div class="col-sm-9 col-md-9 col-xs-9 text-left">
+												<br/><span class="hidden-xs"><br/><br/></span>
+												<h3><strong>Tesla SUV Project 2016</strong></h3>
+												<h3>How do we price and segment the market for a 2017 luxury electric vehicle?</h3>			
+											</div>	
+										</div>
+									</div>
+								</div>
 								<div class="carousel-caption top-right">
-									<p class="pull-right btn-trans"><img src="images/tesla_logo_white.png" class="img-responsive  hidden-xs" width="auto" height="auto"></p>
+									<p class="pull-right btn-trans"><img src="images/tesla_logo_white.png" class="img-responsive  hidden-xs-img" width="150px" height="auto"></p>
 								</div>
 								<div class="carousel-caption bottom-right">
-									<button class="w3-btn w3-round w3-card-2 w3-padding-large w3-orange w3-text-white pull-right">JOIN A CHALLANGE</button>
+									<button class="w3-btn w3-round w3-card-2 w3-padding-large w3-orange w3-text-white pull-right" data-toggle="modal" data-target="#signupModal">JOIN A CHALLANGE</button>
 								</div>
 							</div>
 						</div>
@@ -395,10 +385,11 @@
 							    </div>
 							    <div class="form-group">
 							      <select class="w3-select w3-border w3-border-orange w3-text-dark-blue w3-leftbar w3-rightbar w3-topbar w3-bottombar w3-round" name="option">
-									  <option value="" disabled selected>I am a company</option>
-									  <option value="1">Option 1</option>
-									  <option value="2">Option 2</option>
-									  <option value="3">Option 3</option>
+									  <option value="" disabled selected>I am a Company Representative</option>
+									  <option value="1">I am a Student</option>
+									  <option value="2">I am a University Representative</option>
+									  <option value="3">I am a Media Representative</option>
+									  <option value="4">Other</option>
 									</select>
 							    </div>
 							    <div class="form-group">

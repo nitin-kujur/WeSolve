@@ -56,14 +56,14 @@
 											<div class="visible-sm visible-xs col-sm-2 col-xs-12"></div>
 									</div>
 									<div class="row">
-											<div class="col-md-4 col-sm-2 col-xs-12"></div>
+											<!-- <div class="col-md-4 col-sm-2 col-xs-12"></div>
 											<div class="col-md-4 col-sm-4 col-xs-5 text-right">
 													<div class="fa-container text-center pull-right"><i class="fa ficon fa-phone"></i></div>
 											</div>
 											<div class="col-md-4 col-sm-4 col-xs-7">
 													<h4 class="hidden-sm hidden-xs">408-315-1485</h4><h6 class="visible-sm visible-xs">408-315-1485</h6>
 											</div>
-											<div class="visible-sm visible-xs col-sm-2 col-xs-12"></div>
+											<div class="visible-sm visible-xs col-sm-2 col-xs-12"></div> -->
 											<br/><br/><br/>
 									</div>
 							</div>
@@ -110,7 +110,9 @@
 				                    			<button type="button" class="close pull-left" data-dismiss="modal" aria-hidden="true"><p> </p>&times;</button>
 				                    			<br/><br/><br/>
 				                    			<div class="col-md-6 col-sm-6">
-				                    				<h2>ARE</h2><h2>YOU</h2><h2>READY</h2><h2>TO&nbsp;MAKE&nbsp;A</h2><h2>DIFFERENCE&nbsp;?</h2>
+				                    				<!-- <h2>ARE</h2><h2>YOU</h2><h2>READY</h2><h2>TO&nbsp;MAKE&nbsp;A</h2><h2>DIFFERENCE&nbsp;?</h2> -->
+				                    				<br/><br/>
+				                    				<h2>Welcome</h2><h2>back</h2>
 				                    			<br/><br/>	
 					                    		</div>
 					                    		<div class="col-md-6 col-sm-6 text-center">
@@ -170,9 +172,10 @@
 				                    <div class="container-fluid" style="height:auto; padding:0px;">
 				                    		<div class="col-md-6 col-sm-6 hidden-xs w3-blue">
 				                    			<button type="button" class="close pull-left" data-dismiss="modal" aria-hidden="true"><p> </p>&times;</button>
-				                    			<br/><br/><br/><br/>
+				                    			<br/><br/><br/><br/><br/><br/>
 				                    			<div class="col-md-6 col-sm-6">
-				                    				<h2>ARE</h2><h2>YOU</h2><h2>READY</h2><h2>TO&nbsp;MAKE&nbsp;A</h2><h2>DIFFERENCE&nbsp;?</h2>
+				                    				<!-- <h2>ARE</h2><h2>YOU</h2><h2>READY</h2><h2>TO&nbsp;MAKE&nbsp;A</h2><h2>DIFFERENCE&nbsp;?</h2> -->
+				                    				<h2>Take Control</h2><h2>of your</h2><h2>MBA.</h2><h2>This is your</h2><h2>Future !</h2>
 				                    			<br/><br/>	
 					                    		</div>
 					                    		<div class="col-md-6 col-sm-6 text-center">
@@ -277,7 +280,7 @@
 				 $(document).ready(function(){
 
 				 			$('.owl-carousel-founder').owlCarousel({
-						 			loop:true,
+						 			
 							    margin:75,
 							    // autoplay:true,
 							    // autoplaySpeed:2000,
@@ -286,7 +289,8 @@
 							        0:{
 							            items:2,
 							            autoplay:true,
-											    autoplaySpeed:2000
+							            loop:true,
+									    autoplaySpeed:2000
 							            
 							            
 							        },
@@ -304,7 +308,7 @@
 							});
 
 						 	$('.owl-carousel-mba-stu').owlCarousel({
-						 			loop:true,
+						 			
 							    margin:75,
 							    // autoplay:true,
 							    // autoplaySpeed:2000,
@@ -313,13 +317,15 @@
 							        0:{
 							            items:2,
 							            autoplay:true,
-											    autoplaySpeed:2000
+					            		loop:true,
+									    autoplaySpeed:2000
 							            
 							        },
 							        600:{
 							            items:3,
 							            autoplay:true,
-											    autoplaySpeed:2000
+					            		loop:true,
+									    autoplaySpeed:2000
 							            
 							        },
 							        1000:{
@@ -331,7 +337,7 @@
 							});
 
 							$('.owl-carousel-hiw').owlCarousel({
-						 			loop:true,
+						 			// loop:true,
 							    margin:0,
 							    // autoWidth:true,
 							     items:9,

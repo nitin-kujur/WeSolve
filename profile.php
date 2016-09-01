@@ -101,13 +101,13 @@
 
 <div class="jumbotron prof-jumbo">
 	<div class="container w3-padding-64">
-		<div class="row">
+		<!-- <div class="row">
 
 			<h6 class="text-center">Connect your Linkedin profile to automatically populate your profile.</h6>
 			<div class="col-md-12 col-sm-12 col-xs-12 text-center center-block">
 	    	<button type="submit" class="w3-orange w3-btn w3-text-white w3-round-large" style="padding-left:0px !important; padding-right: !important;"><span class="w3-padding-small w3-blue" style="padding-top:30px !important; padding-bottom:30px !important; height:24px; width:auto;"><i class="fa fa-linkedin"></i></span><span class="w3-padding">CONNECT LINKEDIN</span></button>	
 	    </div>
-	    <h6 class="text-center">(recomended)</h6>
+	    <h6 class="text-center">(recomended)</h6> -->
 
 			<div class="col-md-5 padding-25">
 				<!-- <div class="row"> -->

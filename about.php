@@ -180,14 +180,14 @@
 												</div>
 												<div class="item text-center">
 													<br/>
-														<img src="images/Stella Ashaolu.png" class="img-responsive center-block w3-padding-large img-circle"  alt="p" width="180" height="auto" style="object-fit: contain;">
+														<img src="images/Chris Watkins.jpg" class="img-responsive center-block w3-padding-large img-circle"  alt="p" width="180" height="auto" style="object-fit: contain;">
 														<h6 class="w3-text-white">CHRIS WATKINS</h6>
 														<h6 class="w3-text-white">Strategy and Operations</h6>
 														<br/>
 												</div>
 												<div class="item text-center">
 													<br/>
-														<img src="images/Stella Ashaolu.png" class="img-responsive center-block w3-padding-large img-circle"  alt="p" width="180" height="auto" style="object-fit: contain;">
+														<img src="images/Kevin Wolf avatar.png" class="img-responsive center-block w3-padding-large img-circle"  alt="p" width="180" height="auto" style="object-fit: contain;">
 														<h6 class="w3-text-white">KEVIN WOLF</h6>
 														<h6 class="w3-text-white">Technical Adviser</h6>
 														<br/>
@@ -273,7 +273,7 @@
 												</div>
 												<div class="item text-center">
 													<br/>
-														<img src="images/Stella Ashaolu.png" class="img-responsive center-block w3-padding-large img-circle"  alt="p" width="180" height="auto" style="object-fit: contain;">
+														<img src="" class="img-responsive center-block w3-padding-large img-circle w3-white"  alt="No Pic" width="180" height="auto" style="object-fit: contain; width:170px; height:170px;">
 														<h6 class="w3-text-white">CHRIS GUAJARDO</h6>
 														<br/>
 												</div>

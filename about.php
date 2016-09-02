@@ -273,7 +273,7 @@
 												</div>
 												<div class="item text-center">
 													<br/>
-														<img src="http://placehold.it/180" class="img-responsive center-block w3-padding-large img-circle"  alt="No Pic" width="180" height="auto" style="object-fit: contain;">
+														<img src="https://placeholdit.imgix.net/~text?txtsize=35&bg=333333&txtclr=1a1a1a&txt=CHRIS+GUAJARDO&w=180&h=180&txttrack=0" class="img-responsive center-block w3-padding-large img-circle"  alt="No Pic" width="180" height="auto" style="object-fit: contain;">
 														<h6 class="w3-text-white">CHRIS GUAJARDO</h6>
 														<br/>
 												</div>

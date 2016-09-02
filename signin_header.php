@@ -73,16 +73,16 @@
 				</div>
 				<div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav navbar-right">
-					  <li id="li1"><a href="wesolvers.php"><h6 class="w3-text-dark-blue text-center">WeSOLVERS</h6></a></li>
-					  <li class="hidden-sm hidden-xs">&nbsp;&nbsp;</li>
-					  <li id="li2"><a href="wefeed.php"><h6 class="w3-text-dark-blue text-center">WeFEED</h6></a></li>
-					  <li class="hidden-sm hidden-xs">&nbsp;&nbsp;</li>
 					  <li id="li1"><a href="companies.php"><h6 class="w3-text-dark-blue text-center">COMPANIES</h6></a></li>
 					  <li class="hidden-sm hidden-xs">&nbsp;&nbsp;</li>
 					  <li id="li2"><a href="challenges.php"><h6 class="w3-text-dark-blue text-center">CHALLANGES</h6></a></li>
 					  <li class="hidden-sm hidden-xs">&nbsp;&nbsp;</li>
-					  <li id="li3"><a href="members.php"><h6 class="w3-text-dark-blue text-center">MEMBERS</h6></a></li>
+					  <li id="li1"><a href="wesolvers.php"><h6 class="w3-text-dark-blue text-center">WeSOLVERS</h6></a></li>
 					  <li class="hidden-sm hidden-xs">&nbsp;&nbsp;</li>
+					  <li id="li2"><a href="wefeed.php"><h6 class="w3-text-dark-blue text-center">WeFEED</h6></a></li>
+					  <li class="hidden-sm hidden-xs">&nbsp;&nbsp;</li>
+					  <!-- <li id="li3"><a href="members.php"><h6 class="w3-text-dark-blue text-center">MEMBERS</h6></a></li>
+					  <li class="hidden-sm hidden-xs">&nbsp;&nbsp;</li> -->
 					  <li id="li4"><a href="messages.php"><h6 class="w3-text-dark-blue text-center">MESSAGES <span class="w3-text-orange">(2)</span></h6></a></li>
 					  <li class="hidden-sm hidden-xs">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
 					  <li>

@@ -119,7 +119,7 @@
                     </ul>
 				</div>	
 
-				<div class="col-md-12 col-sm-12 col-xs-12 w3-padding-0 w3-wrapper">
+				<!-- <div class="col-md-12 col-sm-12 col-xs-12 w3-padding-0 w3-wrapper"> -->
 
 					<div class="w3-white col-md-12 col-sm-12 col-xs-12 w3-card-1 padding-15">
 						<div class="row">
@@ -347,9 +347,9 @@
 
 
 
-				</div>
+				<!-- </div> -->
 
-				<div class="col-md-12 col-sm-12 col-xs-12 w3-padding-48 text-center">
+				<div class="col-md-12 col-sm-12 col-xs-12 w3-padding-4 text-center">
 					<ul class="pagination">
 					  <li><a class="disabled" href="javascript:;"><i class="fa fa-angle-left"></i>&nbsp;Previous</a></li>
                       <li class="disabled1 active"><a href="#">1</a></li>

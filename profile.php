@@ -119,8 +119,8 @@
 						<h5 class="col-md-6  col-sm-6 col-xs-6 w3-text-dark-blue">Concentration 1</h5> <h5 class="col-md-6  col-sm-6 col-xs-6 w3-text-dark-blue">Concentration 2</h5>
 						<h5 class="col-md-12 col-sm-12 col-xs-12 w3-text-dark-blue">Chikago, IL</h5>
 						<div class="col-md-12 col-sm-12 col-xs-12">
-							<div class="fa-container-pro w3-left w3-margin-right w3-margin-top text-center"><i class="fa ficon-pro fa-twitter"></i></div>
-							<div class="fa-container-pro w3-left w3-margin-right w3-margin-top text-center"><i class="fa ficon-pro fa-linkedin"></i></div>
+							<a href="#" data-toggle="modal" data-target="#socialModal"><div class="fa-container-pro w3-left w3-margin-right w3-margin-top text-center"><i class="fa ficon-pro fa-twitter"></i></div></a>
+							<a href="#" data-toggle="modal" data-target="#socialModal"><div class="fa-container-pro w3-left w3-margin-right w3-margin-top text-center"><i class="fa ficon-pro fa-linkedin"></i></div></a>
 							<div class="fa-container-pro w3-left w3-margin-right w3-margin-top text-center"><i class="fa ficon-pro fa-envelope"></i></div>
 						</div>
 					</div>	
@@ -560,6 +560,35 @@
 	</div>
 </div>
 
+
+<!-- Social import Modal popup -->
+            <div class="modal fade text-center" id="socialModal" tabindex="-1" role="dialog" aria-labelledby="socialModal" aria-hidden="true" style="position:fixed; z-index:999999999;">
+                    <div class="modal-dialog">
+                        <div class="modal-content" style="background:transparent; box-shadow:0px 0px 0px 0px;">
+                            <div class="modal-body w3-card-2 w3-blue" style="background:white; padding:0px; border-radius: 2px;"> 
+                                <div>
+                                    <div class="container-fluid" style="height:auto; padding:0px;">
+                                            <div class="col-md-12 col-sm-12 col-xs-12 w3-blue text-center">
+                                                <button type="button" class="close pull-left" data-dismiss="modal" aria-hidden="true"><p> </p>&times;</button>
+                                                <br/><br/>
+                                                <h2 class="w3-text-white text-center">Allow User to populate info for following social networks.</h2>
+                                                <div class="form-group">
+                                                    <button class="w3-btn w3-orange w3-large w3-round w3-text-white w3-section" style="min-width:200px; font-family:Arial, FontAwesome, Roboto;"  onclick="this.innerHTML = '&#xf14a;&nbsp;&nbsp;'+this.innerHTML; this.disabled = true;">Allow for Twitter&nbsp;&nbsp;<i class="fa w3-xlarge fa-twitter"></i></button> 
+                                                    <button class="w3-margin-left w3-btn w3-orange w3-large w3-round w3-text-white w3-section" style="min-width:200px; font-family:Arial, FontAwesome, Roboto;" onclick="this.innerHTML = '&#xf14a;&nbsp;&nbsp;'+this.innerHTML; this.disabled = true;">Allow for LinkedIn&nbsp;&nbsp;<i class="fa w3-xlarge fa-linkedin"></i></button> <br/><br/>
+                                                    <button type="button" class="w3-btn w3-orange w3-round-large w3-text-white" data-dismiss="modal" onclick="doneAct();">CANCEL</button>
+                                                </div>
+
+                                            </div>
+                                            
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>  
+<!-- Social import Modal popup -->
+
+
 <!-- profile Image Modal popup -->
 			<div class="modal fade text-center" id="profileModal" tabindex="-1" role="dialog" aria-labelledby="profileModal" aria-hidden="true" style="position:fixed;">
 				    <div class="modal-dialog">
@@ -594,7 +623,7 @@
 																				 	 <br/>
 																			 		 <label for="">Concentration 1:</label>
 																				 	 <div class="col-md-12 w3-padding-0">
-																				      <select class="form-control" id="month" name="option">
+																				      <select class="form-control w3-border" id="month" name="option">
 																							  <option value="January">January</option>
 																							  <option value="February" selected>February</option>
 																							  <option value="March">March</option>
@@ -615,7 +644,7 @@
 																				 	 <br/>
 																			 		 <label for="">Concentration 2:</label>
 																				 	 <div class="col-md-12 w3-padding-0">
-																				      <select class="form-control" id="month" name="option">
+																				      <select class="form-control w3-border" id="month" name="option">
 																							  <option value="January">January</option>
 																							  <option value="February" selected>February</option>
 																							  <option value="March">March</option>
@@ -636,7 +665,7 @@
 																				 	 <br/>
 																				 	 <div class="col-md-6 w3-padding-0 w3-padding-right">
 																				 	 		<label for="">State:</label>
-																				      <select class="form-control" id="month" name="option">
+																				      <select class="form-control w3-border" id="month" name="option">
 																							  <option value="January">January</option>
 																							  <option value="February" selected>February</option>
 																							  <option value="March">March</option>
@@ -654,7 +683,7 @@
 
 																					 	<div class="col-md-6 w3-padding-0 w3-padding-left">
 																				 	 		<label for="">Country:</label>
-																				      <select class="form-control" id="month" name="option">
+																				      <select class="form-control w3-border" id="month" name="option">
 																							  <option value="January">January</option>
 																							  <option value="February" selected>February</option>
 																							  <option value="March">March</option>

@@ -572,10 +572,37 @@
                                                 <button type="button" class="close pull-left" data-dismiss="modal" aria-hidden="true"><p> </p>&times;</button>
                                                 <br/><br/>
                                                 <h2 class="w3-text-white text-center">Allow User to populate info for following social networks.</h2>
-                                                <div class="form-group">
-                                                    <button class="w3-btn w3-orange w3-large w3-round w3-text-white w3-section" style="min-width:200px; font-family:Arial, FontAwesome, Roboto;"  onclick="this.innerHTML = '&#xf14a;&nbsp;&nbsp;'+this.innerHTML; this.disabled = true;">Allow for Twitter&nbsp;&nbsp;<i class="fa w3-xlarge fa-twitter"></i></button> 
-                                                    <button class="w3-margin-left w3-btn w3-orange w3-large w3-round w3-text-white w3-section" style="min-width:200px; font-family:Arial, FontAwesome, Roboto;" onclick="this.innerHTML = '&#xf14a;&nbsp;&nbsp;'+this.innerHTML; this.disabled = true;">Allow for LinkedIn&nbsp;&nbsp;<i class="fa w3-xlarge fa-linkedin"></i></button> <br/><br/>
-                                                    <button type="button" class="w3-btn w3-orange w3-round-large w3-text-white" data-dismiss="modal" onclick="doneAct();">CANCEL</button>
+                                                <div class="col-md-12 col-sm-12 col-xs-12 ">
+                                                    <!-- <button class="w3-btn w3-orange w3-large w3-round w3-text-white w3-section" style="min-width:200px; font-family:Arial, FontAwesome, Roboto;"  onclick="this.innerHTML = '&#xf14a;&nbsp;&nbsp;'+this.innerHTML; this.disabled = true;">Allow for Twitter&nbsp;&nbsp;<i class="fa w3-xlarge fa-twitter"></i></button> 
+                                                    <button class="w3-margin-left w3-btn w3-orange w3-large w3-round w3-text-white w3-section" style="min-width:200px; font-family:Arial, FontAwesome, Roboto;" onclick="this.innerHTML = '&#xf14a;&nbsp;&nbsp;'+this.innerHTML; this.disabled = true;">Allow for LinkedIn&nbsp;&nbsp;<i class="fa w3-xlarge fa-linkedin"></i></button> <br/><br/> -->
+                                                    <form class="text-center w3-section" action="" method="GET" role="form">
+														<div class="input-group w3-card-2">
+														<input class="form-control" placeholder="Your twitter profile URL" name="shv" id="keyword" type="text" style="outline: none !important;"  value="" >
+														<div class="input-group-btn">
+														<button id="searchBtn" class="btn btn-default w3-left w3-text-white" type="button" style="background-color:#4099FF; border-color:#4099FF;"> Allow for &nbsp;<i class="fa fa-twitter"></i></button>
+														</div>
+														</div>
+													</form>
+
+													<form class="text-center w3-section" action="" method="GET" role="form">
+														<div class="input-group w3-card-2">
+														<input class="form-control" placeholder="Your LinkedIn profile URL" name="shv" id="keyword1" type="text" style="outline: none !important;"  value="" >
+														<div class="input-group-btn">
+														<button id="searchBtn" class="btn btn-default w3-left w3-text-white" type="button" style="background-color:#3b5998; border-color:#3b5998;"> Allow for &nbsp;<i class="fa fa-linkedin"></i></button>
+														</div>
+														</div>
+													</form>
+
+													<form class="text-center w3-section" action="" method="GET" role="form">
+														<div class="input-group w3-card-2">
+														<input class="form-control" placeholder="Your Google profile URL" name="shv" id="keyword2" type="text" style="outline: none !important;"  value="" >
+														<div class="input-group-btn">
+														<button id="searchBtn" class="btn btn-default w3-left w3-red" type="button" style="background-color:#db3236; border-color:#db3236;"> Allow for &nbsp;<i class="fa fa-google-plus"></i></button>
+														</div>
+														</div>
+													</form>
+
+                                                    <button type="button" class="w3-btn w3-section w3-orange w3-round-large w3-text-white" data-dismiss="modal" onclick="doneAct();">CANCEL</button>
                                                 </div>
 
                                             </div>

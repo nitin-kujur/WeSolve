@@ -164,155 +164,17 @@
 
 			<div class="col-md-8 padding-25">  <!-- col 8 start -->
 
-				<div class="col-md-12 col-sm-12 col-xs-12 w3-text-dark-blue w3-section">
-					<span class="w3-xxlarge"><b>Welcome to</b>&nbsp;</span> <img src="images/wesolv_logo_bulb_white_BG.png" class="img-responsive nav-btn"  alt="p" width="150" height="15" style="object-fit: contain; display:inline;">
-					<h4><b>Start connecting, engaging and solving.</b></h4>
-				</div>	
 
-
-				<div class="row text-left w3-text-dark-blue">
-					<div class="col-md-12 w3-margin-top">
-						<div class="row text-center">
-								<div class="col-md-3 col-sm-4 col-xs-4">
-									<img src="images/apple-touch-icon.png" class="img-responsive w3-padding-large" style="max-width:100px; height:auto;">	
-								</div>
-								<div class="col-md-9 col-sm-8 col-xs-8 text-left"><br/>
-									<a href="#"><h4 class="w3-medium1"><b>Browse other WeSolvers.</b></h4></a>
-								</div>
-						</div>
-					</div>
-					<div class="col-md-12 w3-margin-top">
-						<div class="row text-center">
-								<div class="col-md-3 col-sm-4 col-xs-4">
-									<img src="images/apple-touch-icon.png" class="img-responsive w3-padding-large" style="max-width:100px; height:auto;">	
-								</div>
-								<div class="col-md-9 col-sm-8 col-xs-8 text-left"><br/>
-									<a href="#"><h4 class="w3-medium1"><b>Post, comment and share.</b></h4></a>
-								</div>
-						</div>
-					</div>
-					<div class="col-md-12 w3-margin-top">
-						<div class="row text-center">
-								<div class="col-md-3 col-sm-4 col-xs-4">
-									<img src="images/apple-touch-icon.png" class="img-responsive w3-padding-large" style="max-width:100px; height:auto;">	
-								</div>
-								<div class="col-md-9 col-sm-8 col-xs-8 text-left"><br/>
-									<a href="#"><h4 class="w3-medium1"><b>Check out the current open challenge.</b></h4></a>
-								</div>
-						</div>
-					</div>
-					<div class="col-md-12 w3-margin-top">
-						<div class="row text-center">
-								<div class="col-md-3 col-sm-4 col-xs-4">
-									<img src="images/apple-touch-icon.png" class="img-responsive w3-padding-large" style="max-width:100px; height:auto;">	
-								</div>
-								<div class="col-md-9 col-sm-8 col-xs-8 text-left"><br/>
-									<a href="#"><h4 class="w3-medium1"><b>Check out top companies.</b></h4></a>
-								</div>
-						</div>
-					</div>
-				</div><br/>
-
-
-				<div class="col-md-12 col-sm-12 col-xs-12 w3-padding-0 w3-wrapper">
-
+				<div class="col-md-12 col-sm-12 col-xs-12 w3-white padding-15 w3-card-1">
 					
-					<div class="w3-white col-md-12 col-sm-12 col-xs-12 w3-card-1 padding-15">
-						<div class="row w3-padding-0">
-							<div class="col-md-3 col-sm-3 col-xs-3 w3-padding-0">
-								<label>TESLA MORTORS</label>	
-								<h6>Good Times, IL</h6>
-								<img class="img-responsive" src="images/tesla_logo.png" style="width:150px; height:150px;">
-							</div>	
-							<div class="col-md-9 col-sm-9 col-xs-9 w3-padding-0">
-								<label><a href="challenge_detail.php"><u>How do we price and segment the market for a 2017 luxury electric SUV ?</u></a></label>		
-								<h6>Marketing, Strategy</h6>
-								<h6><b>Entry Deadline:</b> 6/15/2016</h6>
-								<h6><b>Start Date:</b> 6/15/2016</h6>
-								<h6><b>Due Date:</b> 6/15/2016</h6>
-								<h6><b>Project Skills:</b><span class="w3-margin-left">Price Modelling</span><span class="w3-margin-left">Competitive Analysis</span></h6>								
-							</div>	
-						</div>
-						<div class="w3-right">
-							<div class="text-center w3-left w3-margin-right">
-								<a href="#"><i class="fa fa-share-square-o w3-xlarge"></i><h6><b>Share</b></h6></a>
-							</div>	
-							<!-- <div class="text-center w3-left w3-margin-left w3-margin-right">
-								<a href="#" style="display:inline;"><i class="fa fa-floppy-o w3-xlarge"></i><h6><b>Save</b></h6></a>
-							</div>	 -->
-						</div>
-						<div class="w3-clear"></div>
-					</div>	
-
-
-
-					<div class="w3-white col-md-12 col-sm-12 col-xs-12 w3-card-1 padding-15">
-						<div class="row w3-padding-0">
-							<div class="col-md-3 col-sm-3 col-xs-3 w3-padding-0">
-								<label>JUNC FOODS</label>	
-								<h6>Corn City, IL</h6>
-								<img class="img-responsive" src="images/tesla_logo.png" style="width:150px; height:150px;">
-							</div>	
-							<div class="col-md-9 col-sm-9 col-xs-9 w3-padding-0">
-								<label><u>How do we operational efficiencies for distributin junk food product x ?</u></label>		
-								<h6>Operations, Logistics</h6>
-								<h6><b>Entry Deadline:</b> 6/15/2016</h6>
-								<h6><b>Start Date:</b> 6/15/2016</h6>
-								<h6><b>Due Date:</b> 6/15/2016</h6>
-								<h6><b>Project Skills:</b> Supply Chain Management</h6>
-							</div>	
-						</div>
-						<div class="w3-right">
-							<div class="text-center w3-left w3-margin-right">
-								<a href="#"><i class="fa fa-share-square-o w3-xlarge"></i><h6><b>Share</b></h6></a>
-							</div>	
-							<!-- <div class="text-center w3-left w3-margin-left w3-margin-right">
-								<a href="#" style="display:inline;"><i class="fa fa-floppy-o w3-xlarge"></i><h6><b>Save</b></h6></a>
-							</div>	 -->
-						</div>
-						<div class="w3-clear"></div>
-					</div>	
-
-
-					<div class="w3-white col-md-12 col-sm-12 col-xs-12 w3-card-1 padding-15">
-						<div class="row w3-padding-0">
-							<div class="col-md-3 col-sm-3 col-xs-3 w3-padding-0">
-								<label>JUNC FOODS</label>	
-								<h6>Corn City, IL</h6>
-								<img class="img-responsive" src="images/tesla_logo.png" style="width:150px; height:150px;">
-							</div>	
-							<div class="col-md-9 col-sm-9 col-xs-9 w3-padding-0">
-								<label><u>How do we operational efficiencies for distributin junk food product x ?</u></label>		
-								<h6>Operations, Logistics</h6>
-								<h6><b>Entry Deadline:</b> 6/15/2016</h6>
-								<h6><b>Start Date:</b> 6/15/2016</h6>
-								<h6><b>Due Date:</b> 6/15/2016</h6>
-								<h6><b>Project Skills:</b> Supply Chain Management</h6>
-							</div>	
-						</div>
-						<div class="w3-right">
-							<div class="text-center w3-left w3-margin-right">
-								<a href="#"><i class="fa fa-share-square-o w3-xlarge"></i><h6><b>Share</b></h6></a>
-							</div>	
-							<!-- <div class="text-center w3-left w3-margin-left w3-margin-right">
-								<a href="#" style="display:inline;"><i class="fa fa-floppy-o w3-xlarge"></i><h6><b>Save</b></h6></a>
-							</div>	 -->
-						</div>
-						<div class="w3-clear"></div>
-					</div>	
-
-
-				</div>
-
-				<div class="col-md-12 col-sm-12 col-xs-12 w3-padding-0">
-					
-					<h2 class="col-md-2 col-sm-2 col-xs-3"><i class="fa fa-file-text-o" style="font-size:32px"></i><i class="fa fa-pencil" style="font-size:20px; position:relative; left:-5px; top:-5px;"></i></h2>
-					<br/><br/>
+					<a class="w3-text-black" href=""><h6 class="col-md-4 col-sm-6 col-xs-6"><span class="w3-circle w3-border-black w3-border"><i class="fa fa-camera  w3-padding-tiny" style="font-size:"></i></span> Upload Photo/Video</h6></a>
+					<a class="w3-text-black" href=""><h6 class="col-md-4 col-sm-6 col-xs-6"><span class="w3-circle w3-black w3-border-black w3-border"><i class="fa fa-link w3-padding-tiny" style="font-size:"></i></span> Upload Link</h6></a>
+					<br/>
 					
 					<form role="form" class="" id="updateForm">
 					  <div class="form-group">
-				      <textarea class="form-control" id="updateEdit" placeholder="Post an update or link" style="padding-left:200px; padding-top:20px; min-height:200px;"></textarea>
-				      	<div class="col-md-4 col-sm-6 col-xs-12" style="position:absolute; top:80px; left:5px;">
+				      <textarea class="form-control" id="updateEdit" placeholder="Post an update or link" style="padding-left:200px; padding-top:50px; min-height:200px;"></textarea>
+				      	<div class="col-md-4 col-sm-6 col-xs-12" style="position:absolute; top:80px; left:15px;">
 							<img class="img-responsive img-circle img-thumbnail" src="images/Chauntell B.png" style="max-width:150px; height:height">
 						</div>
 							<span class="col-md-6  col-sm-6 col-xs-6"></span>
@@ -323,6 +185,141 @@
 					</form>
 
 				</div>	
+
+
+				<div class="col-md-12 col-sm-12 col-xs-12 w3-white padding-15 w3-card-1">
+					<div class="row w3-padding-0">
+						<div class="col-md-2 col-sm-2 col-xs-2 w3-padding-0">
+							<img class="img-responsive img-circle" src="images/Chauntell B.png" style="width:150px; height:auto;">
+						</div>	
+						<div class="col-md-9 col-sm-9 col-xs-8 w3-padding-0 w3-padding-left w3-text-dark-blue">
+							<!-- <label><u>How do we operational efficiencies for distributin junk food product x ?</u></label> -->		
+							<h4><b>Tammy Gonzalez</b></h4>
+							<h6><b>New York University, Part time MBA</b></h6>
+							<h6><b>Chikago, IL</b></h6>
+						</div>	
+						<div class="col-md-1 col-sm-1 col-xs-2 w3-padding-0 w3-text-dark-blue text-right">
+							<h6><b>2m</b></h6>
+						</div>	
+					</div>
+					<hr>
+					<div class="row w3-padding-0">
+						<div class="col-md-9 col-sm-9 col-xs-9 w3-padding-0">
+							<h6><b>An Interesting Article Thought share with you guys .... worth reading</b></h6>
+						</div>	
+						<div class="w3-right">
+							<div class="text-center w3-left w3-margin-right">
+								<a href="#"><h6><i class="fa fa-share-square-o w3-xlarge"></i> <b>Share</b></h6></a>
+							</div>	
+						</div>
+						<div class="col-md-12 col-sm-12 col-xs-12 w3-padding-0 lightgray-bg">
+							<img class="img-responsive center-block" src="images/tesla-6.jpg" style="width:auto; height:auto;">
+							<div class="w3-padding-left">
+								<h4><b>IUT Teacher Assistant to receive education in UK.</b></h4>
+								<h6>Teacher Assistant of Inha University in Tashkent Sarvar Nishonboev won a scholarship of Chevening programe to obtain Master's degree in one of the universities of Great Britain. <a class="w3-text-dark-blue" href="#">Read More...</a></h6>
+							</div>
+						</div>	
+					</div>
+
+					<div class="row w3-padding-0" style="padding-top:20px !important;">
+						
+						<div class="col-md-11 col-sm-11 col-xs-11 w3-padding-0">
+							<textarea class="form-control w3-border-none self-comment" id="updateEdit" placeholder="Write a comment..."></textarea>
+							<div class="col-md-2 col-sm-2 col-xs-2 w3-padding-0" style="position:absolute; top:10px; left:15px;">
+								<img class="img-responsive img-circle" src="images/Chauntell B.png" style="width:60px; height:auto;">
+							</div>
+						</div>
+						<a href="#" class="w3-btn w3-text-white w3-dark-blue col-md-1 col-sm-1 col-xs-1 w3-padding-0" style="min-height:80px; line-height:80px; border-radius:0px;">
+							Post
+						</a>
+					</div>
+				</div>	
+
+
+
+				<div class="col-md-12 col-sm-12 col-xs-12 w3-white padding-15 w3-card-1">
+					<div class="row w3-padding-0">
+						<div class="col-md-2 col-sm-2 col-xs-2 w3-padding-0">
+							<img class="img-responsive img-circle" src="images/Chauntell B.png" style="width:150px; height:auto;">
+						</div>	
+						<div class="col-md-9 col-sm-9 col-xs-8 w3-padding-0 w3-padding-left w3-text-dark-blue">
+							<!-- <label><u>How do we operational efficiencies for distributin junk food product x ?</u></label> -->		
+							<h4><b>Tammy Gonzalez</b></h4>
+							<h6><b>New York University, Part time MBA</b></h6>
+							<h6><b>Chikago, IL</b></h6>
+						</div>	
+						<div class="col-md-1 col-sm-1 col-xs-2 w3-padding-0 w3-text-dark-blue text-right">
+							<h6><b>2m</b></h6>
+						</div>	
+					</div>
+					<hr>
+					<div class="row w3-padding-0">
+						<div class="col-md-9 col-sm-9 col-xs-9 w3-padding-0">
+							<h6><b>An Interesting Article Thought share with you guys .... worth reading</b></h6>
+						</div>	
+						<div class="w3-right">
+							<div class="text-center w3-left w3-margin-right">
+								<a href="#"><h6><i class="fa fa-share-square-o w3-xlarge"></i> <b>Share</b></h6></a>
+							</div>	
+						</div>
+						<div class="col-md-12 col-sm-12 col-xs-12 w3-padding-0 lightgray-bg">
+							<img class="img-responsive center-block" src="images/tesla-6.jpg" style="width:auto; height:auto;">
+							<div class="w3-padding-left">
+								<h4><b>IUT Teacher Assistant to receive education in UK.</b></h4>
+								<h6>Teacher Assistant of Inha University in Tashkent Sarvar Nishonboev won a scholarship of Chevening programe to obtain Master's degree in one of the universities of Great Britain. <a class="w3-text-dark-blue" href="#">Read More...</a></h6>
+							</div>
+						</div>	
+					</div>
+
+					<div class="row w3-padding-0" style="padding-top:20px !important;">
+						<div class="row-height">
+							<div class="col-height col-md-11 col-sm-11 col-xs-11 w3-padding-0">
+								<div class="others-comment" id="updateEdit" placeholder="Write a comment...">
+									<h5 class="w3-text-dark-blue">Peter Parker</h5>
+									<h6>Clinton still ows the American people an explaination, but it's been 275 days since she held apress confrence...</h6>
+								</div>
+								<div class="col-md-2 col-sm-2 col-xs-2 w3-padding-0" style="position:absolute; top:10px; left:15px;">
+									<img class="img-responsive img-circle" src="images/Chauntell B.png" style="width:60px; height:auto;">
+								</div>
+							</div>
+							<div class="col-height col-md-1 col-sm-1 col-xs-2 w3-padding-0 lightgray-bg w3-text-dark-blue text-right w3-padding-right">
+								<h6>1h</h6>
+							</div>	
+						</div>
+					</div>
+
+					<div class="row w3-padding-0" style="padding-top:20px !important;">
+						<div class="row-height">
+							<div class="col-height col-md-11 col-sm-11 col-xs-11 w3-padding-0">
+								<div class="others-comment" id="updateEdit" placeholder="Write a comment...">
+									<h5 class="w3-text-dark-blue">Peter Parker</h5>
+									<h6>Clinton still ows the American people an explaination, but it's been 275 days since she held apress confrence...</h6>
+								</div>
+								<div class="col-md-2 col-sm-2 col-xs-2 w3-padding-0" style="position:absolute; top:10px; left:15px;">
+									<img class="img-responsive img-circle" src="images/Chauntell B.png" style="width:60px; height:auto;">
+								</div>
+							</div>
+							<div class="col-height col-md-1 col-sm-1 col-xs-2 w3-padding-0 lightgray-bg w3-text-dark-blue text-right w3-padding-right">
+								<h6>2m</h6>
+							</div>	
+						</div>
+					</div>
+
+					<div class="row w3-padding-0" style="padding-top:20px !important;">
+						<div class="col-md-11 col-sm-11 col-xs-11 w3-padding-0">
+							<textarea class="form-control w3-border-none self-comment" id="updateEdit" placeholder="Write a comment..."></textarea>
+							<div class="col-md-2 col-sm-2 col-xs-2 w3-padding-0" style="position:absolute; top:10px; left:15px;">
+								<img class="img-responsive img-circle" src="images/Chauntell B.png" style="width:60px; height:auto;">
+							</div>
+						</div>
+						<a href="#" class="w3-btn w3-text-white w3-dark-blue col-md-1 col-sm-1 col-xs-1 w3-padding-0" style="min-height:80px; line-height:80px; border-radius:0px;">
+							Post
+						</a>
+					</div>
+
+				</div>
+
+
 
 			</div>		<!-- col 8 end	 -->
 

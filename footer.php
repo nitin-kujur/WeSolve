@@ -338,12 +338,12 @@
 
 							$('.owl-carousel-hiw').owlCarousel({
 						 			// loop:true,
-							    margin:0,
+							    margin:20,
 							    // autoWidth:true,
 							     items:9,
 							    // autoplay:true,
 							    // autoplaySpeed:2000,
-							    // responsiveClass:true,
+							    responsiveClass:true,
 							    // responsive:{
 							    //     0:{
 							    //         items:2

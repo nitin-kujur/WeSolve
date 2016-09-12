@@ -64,6 +64,9 @@ body,html{
 					padding: 0% !important;
 					margin: 0% !important;
 				}
+				.w3-dark-blue{
+					background-color: #015DA8 !important;
+				}
 				.w3-text-dark-blue{
 					color: #015DA8 !important; /*rgb(0, 102, 153)*/
 					/*font-weight: bold !important;*/
@@ -613,4 +616,25 @@ body,html{
 	        -ms-transform: translate(-50%);
 	        -oz-transform: translate(-50%);
 	        transform: translate(-50%);
+				} 
+
+				/*---------------wefeeds-post style------------------------*/
+
+				.self-comment{
+					padding-left:100px;
+				  padding-top:20px;
+					 min-height:80px;
+					 outline:none;
+					 border:2px rgb(233,235,238) solid;
+					 border-radius:0px;
+				}
+
+				.others-comment{
+					padding-left:100px;
+				  /*padding-top:20px;*/
+					 min-height:80px;
+					 outline:none;
+					 border:2px rgb(233,235,238) solid;
+					 border-radius:0px;
+					 background-color: rgb(233,235,238);
 				}

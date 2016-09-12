@@ -210,7 +210,7 @@
 							</div>
 							<div class="item text-center">
 								<br/>
-									<img src="images/Stella Ashaolu.png" class="img-responsive img-circle w3-padding-large center-block"  alt="p" width="180" height="auto" style="object-fit: contain;">
+									<img src="images/Alan Smith.jpg" class="img-responsive img-circle w3-padding-large center-block"  alt="p" width="180" height="auto" style="object-fit: contain;">
 									<h6 class="w3-text-dark-blue">UCLA, Anderson Class of 2017</h6>
 									<h6 class="w3-text-dark-blue">"I am interested in getting an opportunity to connect with leading tech companies to show them what I can bring to the table."</h6>
 									<h6 class="w3-text-dark-blue">- Alan, Smith</h6>

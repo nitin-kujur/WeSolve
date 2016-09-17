@@ -69,7 +69,7 @@
 			</div>
 
 
-			<div class="jumbotron w3-blue" style="padding:0px !important; margin:0px !important;">
+			<div class="jumbotron w3-blue" style="">
 			  <div class="container-fluid text-center">
 			  	<br/><br/>
 			  	<div class="row">
@@ -78,11 +78,11 @@
 					
 					<br/>
 <!-- ------------------------------------------------------------------------------------------------------------------------- -->
-					<div class="row visible-sm visible-xs center-block hiw w3-padding-0 text-center">
+					<div class="row visible-sm visible-xs center-block hiw w3-padding-0 text-left">
 						
 						<div class="col-md-2 col-sm-12 col-xs-12 w3-padding-0 w3-margin-0">
-								<img src="images/HIW-1.png" class="img-responsive center-block"  alt="p" width="auto" height="auto" style="object-fit: contain;">
-								<h4>PROJECTS POSTED</h4>
+								<img src="images/HIW-1.png" class="img-responsive center-block img-circle"  alt="p" width="auto" height="auto" style="object-fit: contain;">
+								<h4>PROJECTS POST</h4>
 								<h6>Companies post projects for real business challenges they are facing.</h6>
 						</div>
 						
@@ -90,7 +90,7 @@
 								<h2 class="text-center"><span class="glyphicon glyphicon-arrow-down"></span></h2>
 						</div>
 						<div class="col-md-2 col-sm-12 col-xs-12">
-								<img src="images/HIW-2.png" class="img-responsive center-block"  alt="p" width="auto" height="auto">
+								<img src="images/HIW-2.png" class="img-responsive center-block img-circle"  alt="p" width="auto" height="auto">
 								<h4>CONNECT</h4>
 								<h6>Students apply with a team to projects they are intrested in or form a team on the site.</h6>
 						</div>
@@ -99,7 +99,7 @@
 								<h2 class="text-center"><span class="glyphicon glyphicon-arrow-down"></span></h2>
 						</div>
 						<div class="col-md-2 col-sm-12 col-xs-12">
-								<img src="images/HIW-3.png" class="img-responsive center-block"  alt="p" width="auto" height="auto">
+								<img src="images/HIW-3.png" class="img-responsive center-block img-circle"  alt="p" width="auto" height="auto">
 								<h4>COLLABORATE</h4>
 								<h6>Student teams work on the project with ongoing support and ineraction with the company.</h6>
 						</div>
@@ -108,7 +108,7 @@
 								<h2 class="text-center"><span class="glyphicon glyphicon-arrow-down"></span></h2>
 						</div>
 						<div class="col-md-2 col-sm-12 col-xs-12">
-								<img src="images/HIW-4.png" class="img-responsive center-block"  alt="p" width="auto" height="auto">
+								<img src="images/HIW-4.png" class="img-responsive center-block img-circle"  alt="p" width="auto" height="auto">
 								<h4>INNOVATE</h4>
 								<h6>Innovative solutions and ideas are presented according to challenge criteria.</h6>
 						</div>
@@ -117,7 +117,7 @@
 								<h2 class="text-center"><span class="glyphicon glyphicon-arrow-down"></span></h2>
 						</div>
 						<div class="col-md-2 col-sm-12 col-xs-12">
-								<img src="images/HIW-5.png" class="img-responsive center-block"  alt="p" width="auto" height="auto">
+								<img src="images/HIW-5.png" class="img-responsive center-block img-circle"  alt="p" width="auto" height="auto">
 								<h4>SELECT</h4>
 								<h6>The company selects winning team, and offer feedback, interviews, and awards.</h6>
 						</div>
@@ -125,12 +125,12 @@
 				  </div>
 <!-- -------------------------------------------------------------------------------------------------------------------------- -->
 <!-- ------------------------------------------------------------------------------------------------------------------------- -->
-					<div class="hidden-sm hidden-xs container">
+					<div class="hidden-sm hidden-xs container-fluid text-left" style="paddind:0 4%;">
 						<div class=" owl-carousel-hiw">
 						<div class="item">
-								<img src="images/HIW-1.png" class="img-responsive center-block"  alt="p" width="180px" height="180px" style="object-fit: contain;">
-								<h4>PROJECTS POSTED</h4>
-								<h6>Companies post projects for real business challenges they are facing.</h6>
+								<img src="images/HIW-1.png" class="img-responsive center-block img-circle"  alt="p" width="180px" height="180px" style="object-fit: contain;">
+								<h4 class="text-center">PROJECTS&nbsp;POST</h4>
+								<h6 class="w3-left" style="white-space:nowrap;">Companies post projects<br>for real business challenges<br>they are facing.</h6>
 						</div>
 						<div class="item">
 								<img src="images/sudo.png" class="img-responsive center-block"  alt="p" width="auto" height="180px">
@@ -138,9 +138,9 @@
 						</div>
 						
 						<div class="item">
-								<img src="images/HIW-2.png" class="img-responsive center-block"  alt="p" width="180px" height="180px">
-								<h4>CONNECT</h4>
-								<h6>Students apply with a team to projects they are intrested in or form a team on the site.</h6>
+								<img src="images/HIW-2.png" class="img-responsive center-block img-circle"  alt="p" width="180px" height="180px">
+								<h4 class="text-center">CONNECT</h4>
+								<h6 class="w3-left" style="white-space:nowrap;">Students apply with a<br>team to projects they are<br>intrested in or form a<br>team on the site.</h6>
 						</div>
 						<div class="item">
 								<img src="images/sudo.png" class="img-responsive center-block"  alt="p" width="auto" height="180px">
@@ -148,9 +148,9 @@
 						</div>
 
 						<div class="item">
-								<img src="images/HIW-3.png" class="img-responsive center-block"  alt="p" width="180px" height="180px">
-								<h4>COLLABORATE</h4>
-								<h6>Student teams work on the project with ongoing support and ineraction with the company.</h6>
+								<img src="images/HIW-3.png" class="img-responsive center-block img-circle"  alt="p" width="180px" height="180px">
+								<h4 class="text-center">COLLABORATE</h4>
+								<h6 class="w3-left" style="white-space:nowrap;">Student teams work on<br>the project with ongoing<br>support and ineraction<br>with the company.</h6>
 						</div>
 						<div class="item">
 								<img src="images/sudo.png" class="img-responsive center-block"  alt="p" width="auto" height="180px">
@@ -158,9 +158,9 @@
 						</div>
 						
 						<div class="item">
-								<img src="images/HIW-4.png" class="img-responsive center-block"  alt="p" width="180px" height="180px">
-								<h4>INNOVATE</h4>
-								<h6>Innovative solutions and ideas are presented according to challenge criteria.</h6>
+								<img src="images/HIW-4.png" class="img-responsive center-block img-circle"  alt="p" width="180px" height="180px">
+								<h4 class="text-center">INNOVATE</h4>
+								<h6 class="w3-left" style="white-space:nowrap;">Innovative solutions<br>and ideas are presented<br>according to challenge<br>criteria.</h6>
 						</div>
 						<div class="item">
 								<img src="images/sudo.png" class="img-responsive center-block"  alt="p" width="auto" height="180px">
@@ -168,15 +168,15 @@
 						</div>
 						
 						<div class="item">
-								<img src="images/HIW-5.png" class="img-responsive center-block"  alt="p" width="180px" height="180px">
-								<h4>SELECT</h4>
-								<h6>The company selects winning team, and offer feedback, interviews, and awards.</h6>
+								<img src="images/HIW-5.png" class="img-responsive center-block img-circle"  alt="p" width="180px" height="180px">
+								<h4 class="text-center">SELECT</h4>
+								<h6 class="w3-right" style="white-space:nowrap;">The company selects<br>winning team, and offer<br>feedback, interviews,<br>and awards.</h6>
 						</div>
 					  </div>
 				  </div>
 <!-- -------------------------------------------------------------------------------------------------------------------------- -->
 					<div class="col-md-12 col-sm-12 col-xm-12 text-center">
-							
+							<br>
 							<a class="w3-btn w3-round w3-card-2 w3-padding-large w3-margin-top w3-orange w3-text-white" href="about.php">LEARN MORE ABOUT WESOLV</a>
 					</div>
 				</div>

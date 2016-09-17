@@ -101,7 +101,7 @@ body,html{
 				  background:-moz-linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/home.jpg') no-repeat 50% 65%;
 				  /*background:-ms-linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/home.jpg') no-repeat 50% 65%;*/
 				  background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/home.jpg') no-repeat 50% 65%;
-				  background-attachment: fixed;
+				  /*background-attachment: fixed;*/
 				  background-size: cover;
 				  height: auto;
 				  position: relative;

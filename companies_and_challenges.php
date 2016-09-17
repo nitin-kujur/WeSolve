@@ -130,66 +130,85 @@
 
 			<div class="jumbotron bg-cc bg-cc-2 jumbo view-height" data-stellar-background-ratio="0.8">
 
-			  <div class="container w3-text-white text-center">
+			  <div class="container w3-text-white text-left">
 			  	<br/><br/><br/>
-					<h1 class="w3-text-white w3-jumbo1"><b>Engage Talented Students</b></h1>
+					<h1 class="w3-text-white w3-jumbo1 text-center"><b>Attract the Talent You Want</b></h1><br>
+					<h2 style="font-size:38px;"><b>Competitive employers find ways<br>
+					to better engage top talent</b></h2>
 					<p style="font-size:28px; font-weight:300; line-height:35px;" class="w3-margin-top">
-						WeSolv offer engagement touch points and a way for students to showcase<br/>
-						skills, allowing recruiters to see candidates in action.<br/>
+						WeSolv Challenges are the types of interactions<br/>
+						that attract top talent. Engage our network of talented<br/>
+						students from all of the top programs and attract<br>
+						the talent you want.<br>
 				  
-					<br/><br/><br/><br/><br/><!-- <br/> -->
-					<div class="col-md-12 col-sm-12 col-xm-12 text-center">
+					<br/><!-- <br/><br/><br/><br/><br/> -->
+					<div class="col-md-12 col-sm-12 col-xm-12 text-left">
 							
-							<a href="<?php //echo base_url('Home/about'); ?>" class="w3-btn w3-round w3-card-2 w3-padding-large w3-margin-top w3-orange w3-text-white" href="about.php"><span style="margin-left:35px;margin-right:35px;">HOST A CHALLENGE</span></a>
+							<a href="<?php //echo base_url('Home/about'); ?>" class="w3-btn w3-round w3-card-2 w3-padding-large w3-margin-top w3-orange w3-text-white" href="about.php"><span style="margin-left:35px;margin-right:35px;">ENGAGE TALENT</span></a>
 					</div>
 			  </div>
 			</div>
 
 			<div class="jumbotron bg-cc bg-cc-3 jumbo view-height" data-stellar-background-ratio="0.8">
 
-			  <div class="container w3-text-white text-center">
+			  <div class="container w3-text-white text-right">
 			  	<br/><br/><br/>
-					<h1 class="w3-text-white w3-jumbo1"><b>Innovative Solutions to Real Challenges</b></h1>
+					<h1 class="w3-text-white w3-jumbo1 text-center"><b>Innovative Solutions to Your Real Challenges</b></h1><br>
+					<h2 style="font-size:38px;"><b>Outside perspectives bring innovative ideas<br> 
+					and solutions to your most critical challenges</b></h2>
 					<p style="font-size:28px; font-weight:300; line-height:35px;" class="w3-margin-top">
-						WeSolv provides companies with a platform to host challenges focused on<br/>
-						core business interest.<br/>
+					The WeSolv platform provides companies an<br>
+					opportunity to diverse perspectives to challenges and<br>
+					opportunities pertinent to core business.  The<br>
+					outside perspectives of these  students bring the<br>
+					innovative ideas you want.<br>
 				  
-					<br/><br/><br/><br/><br/><!-- <br/> -->
-					<div class="col-md-12 col-sm-12 col-xm-12 text-center">
+					<br/><!-- <br/><br/><br/><br/><br/> -->
+					<div class="col-md-12 col-sm-12 col-xm-12 text-right">
 							
-							<a href="<?php //echo base_url('Home/about'); ?>" class="w3-btn w3-round w3-card-2 w3-padding-large w3-margin-top w3-orange w3-text-white" href="about.php"><span style="margin-left:35px;margin-right:35px;">HOST A CHALLENGE</span></a>
+							<a href="<?php //echo base_url('Home/about'); ?>" class="w3-btn w3-round w3-card-2 w3-padding-large w3-margin-top w3-orange w3-text-white" href="about.php"><span style="margin-left:35px;margin-right:35px;">GET RESULTS</span></a>
 					</div>
 			  </div>
 			</div>
 
 			<div class="jumbotron bg-cc bg-cc-4 jumbo view-height" data-stellar-background-ratio="0.8">
 
-			  <div class="container w3-text-white text-center">
+			  <div class="container w3-text-white text-left">
 			  	<br/><br/><br/>
-					<h1 class="w3-text-white w3-jumbo1"><b>Access to Top diversity Talent Pools</b></h1>
+					<h1 class="w3-text-white w3-jumbo1 text-center"><b>Access to Top diversity Pools</b></h1><br>
+					<h2 style="font-size:38px;"><b>Access the largest network of diverse<br>
+					students aimed at real business challenges</b></h2>
 					<p style="font-size:28px; font-weight:300; line-height:35px;" class="w3-margin-top">
-						WeSolv enables early identification of diverse candidates from elite programs.<br/>
+					Our partnerships with diversity organizations and<br> 
+					universities have created the largest network of<br> 
+					diverse candidates.  More effectively identify and<br> 
+					access these students from elite programs.<br>  
 				  
-					<br/><br/><br/><br/><br/><!-- <br/> -->
-					<div class="col-md-12 col-sm-12 col-xm-12 text-center">
+					<br/><!-- <br/><br/><br/><br/><br/> -->
+					<div class="col-md-12 col-sm-12 col-xm-12 text-left">
 							
-							<a href="<?php //echo base_url('Home/about'); ?>" class="w3-btn w3-round w3-card-2 w3-padding-large w3-margin-top w3-orange w3-text-white" href="about.php"><span style="margin-left:35px;margin-right:35px;">HOST A CHALLENGE</span></a>
+							<a href="<?php //echo base_url('Home/about'); ?>" class="w3-btn w3-round w3-card-2 w3-padding-large w3-margin-top w3-orange w3-text-white" href="about.php"><span style="margin-left:35px;margin-right:35px;">ACCESS DIVERSITY</span></a>
 					</div>
 			  </div>
 			</div>
 
 			<div class="jumbotron bg-cc bg-cc-1 jumbo view-height" data-stellar-background-ratio="0.8">
 
-			  <div class="container w3-text-white text-center">
+			  <div class="container w3-text-white text-right">
 			  	<br/><br/><br/>
-					<h1 class="w3-text-white w3-jumbo1"><b>In-Depth Analytics Platform</b></h1>
+					<h1 class="w3-text-white w3-jumbo1 text-center"><b>Improve decisions with Data</b></h1><br>
+					<h2 style="font-size:38px;"><b>Make better and faster decisions<br>
+					with data and increase your ROI</b></h2>
 					<p style="font-size:28px; font-weight:300; line-height:35px;" class="w3-margin-top">
-						Provides predictive data and real-time feedback to companies, schools, and students.<br/>
+					WeSolv Challenges provide a wealth of data and<br>
+					feedback to companies, schools and students.<br>  
+					Our predictive data reports will help companies gain<br> 
+					unique insights to talent selection.<br>
 				  
-					<br/><br/><br/><br/><br/><!-- <br/> -->
-					<div class="col-md-12 col-sm-12 col-xm-12 text-center">
+					<br/><!-- <br/><br/><br/><br/><br/> -->
+					<div class="col-md-12 col-sm-12 col-xm-12 text-right">
 							
-							<a href="<?php //echo base_url('Home/about'); ?>" class="w3-btn w3-round w3-card-2 w3-padding-large w3-margin-top w3-orange w3-text-white" href="about.php"><span style="margin-left:35px;margin-right:35px;">HOST A CHALLENGE</span></a>
+							<a href="<?php //echo base_url('Home/about'); ?>" class="w3-btn w3-round w3-card-2 w3-padding-large w3-margin-top w3-orange w3-text-white" href="about.php"><span style="margin-left:35px;margin-right:35px;">INCREASE ROI</span></a>
 					</div>
 			  </div>
 			</div>
@@ -202,7 +221,8 @@
 				$(function(){
 					$.stellar({
 						horizontalScrolling: false,
-						verticalOffset: 40
+						verticalOffset: 40,
+						// responsive: true
 					});
 				});
 			</script>
@@ -390,52 +410,14 @@
 					<div class="col-md-2 hidden-sm hidden-xs text-left pa-height "><h1>&nbsp;</h1><a href="javascript:void(0);" class="prev"><h1 class="w3-text-dark-blue w3-jumbo ver-cent"><i class="fa fa-angle-left"></i></h1></a></div>
 					<div class="col-md-8 col-sm-12 col-xs-12">
 						<div class="owl-carousel-challenge">
-							<!-- <div class="item col-md-12">
-									<div class="jumbotron w3-padding-0 featured_challenges" style="height:300px; background:url('images/St-Louis-cityscape_1.jpg') no-repeat center center; background-size: cover;">
-										<div class="container-fluid filter" style="height:inherit;">
-											<div class="row">
-												<div class="col-sm-9 col-md-9 col-xs-9 text-left">
-													<br/><span class="hidden-xs"><br/><br/></span>
-													<h3><strong>The Consortium QuickFire Challenges 2016</strong></h3>
-													<h3>Work with 1 of 4 real projects with one of our top corporate partners</h3>			
-												</div>	 
-											</div>
-										</div>
-									</div>
-								<div class="carousel-caption top-right">
-									<p class="pull-right btn-trans"><img src="images/consortium-logo.png" class="img-responsive hidden-xs-img" width="150px" height="auto"></p>
-								</div>
-								<div class="carousel-caption bottom-right">
-									<button class="w3-btn w3-round w3-card-2 w3-padding-large w3-orange w3-text-white pull-right" data-toggle="modal" data-target="#signupModal">JOIN A CHALLANGE</button>
-								</div>
-							</div>
-							<div class="item col-md-12">
-								<div class="jumbotron w3-padding-0 featured_challenges" style="height:300px; background:url('images/tesla-6.jpg') no-repeat center center; background-size: cover;">
-									<div class="container-fluid filter" style="height:inherit;">
-										<div class="row">
-											<div class="col-sm-9 col-md-9 col-xs-9 text-left">
-												<br/><span class="hidden-xs"><br/><br/></span>
-												<h3><strong>Tesla SUV Project 2016</strong></h3>
-												<h3>How do we price and segment the market for a 2017 luxury electric vehicle?</h3>			
-											</div>	
-										</div>
-									</div>
-								</div>
-								<div class="carousel-caption top-right">
-									<p class="pull-right btn-trans"><img src="images/tesla_logo_white.png" class="img-responsive  hidden-xs-img" width="150px" height="auto"></p>
-								</div>
-								<div class="carousel-caption bottom-right">
-									<button class="w3-btn w3-round w3-card-2 w3-padding-large w3-orange w3-text-white pull-right" data-toggle="modal" data-target="#signupModal">JOIN A CHALLANGE</button>
-								</div>
-							</div> -->
 							<div class="item col-md-12">
 								<div class="jumbotron w3-padding-0 w3-blue featured_challenges" style="height:300px; transparent; background-size: cover;">
 									<div class="container-fluid filter1" style="height:inherit;">
 										<div class="row">
 											<div class="col-sm-12 col-md-12 col-xs-12 text-center">
 												<br/><h4>WeSolv helps companies find students with the skills they want.</h4><hr class="center-block" style="border:1px white solid; max-width:300px;"><br/>
-												<h3>"One area in which we find that MBAs fall short<br>of employer expectations is those which we<br>would call soft skills - namely leadership,<br>communication, and interpersonal skills."</h3>
-												<h2 class="text-right"><i>- TopMBA.com</i></h2>			
+												<h3>"One area in which we find that MBAs fall short<br>of employer expectations is those which we<br>would call soft skills - namely leadership,<br>communication, and interpersonal skills."</h3><br>
+												<h3 class="text-center" style="margin-left:220px;"><i>- TopMBA.com</i></h3>			
 											</div>	
 										</div>
 									</div>
@@ -447,8 +429,8 @@
 										<div class="row">
 											<div class="col-sm-12 col-md-12 col-xs-12 text-center">
 												<br/><h4>WeSolv helps companies find students with the skills they want.</h4><hr class="center-block" style="border:1px white solid; max-width:300px;"><br/>
-												<h3>"One area in which we find that MBAs fall short<br>of employer expectations is those which we<br>would call soft skills - namely leadership,<br>communication, and interpersonal skills."</h3>
-												<h3 class="text-right"><i>- TopMBA.com</i></h3>			
+												<h3>"One area in which we find that MBAs fall short<br>of employer expectations is those which we<br>would call soft skills - namely leadership,<br>communication, and interpersonal skills."</h3><br>
+												<h3 class="text-center" style="margin-left:220px;"><i>- TopMBA.com</i></h3>			
 											</div>	
 										</div>
 									</div>

@@ -30,10 +30,13 @@
 			</div>
 
 			<script type="text/javascript">
-				$.stellar({
-							    horizontalScrolling: false,
-							    responsive: true
-							});
+				$(function(){
+					$.stellar({
+						horizontalScrolling: false,
+						verticalOffset: 40,
+						// responsive: true
+					});
+				});
 			</script>
 
 			<!-- Utube Modal popup -->
@@ -180,7 +183,7 @@
 							<a class="w3-btn w3-round w3-card-2 w3-padding-large w3-margin-top w3-orange w3-text-white" href="about.php">LEARN MORE ABOUT WESOLV</a>
 					</div>
 				</div>
-				<br/><br/><br/>
+				<br/>
 			</div>
 
 

@@ -139,7 +139,7 @@
 						WeSolv Challenges are the types of interactions<br/>
 						that attract top talent. Engage our network of talented<br/>
 						students from all of the top programs and attract<br>
-						the talent you want.<br>
+						the talent you want.</p>
 				  
 					<br/><!-- <br/><br/><br/><br/><br/> -->
 					<div class="col-md-12 col-sm-12 col-xm-12 text-left">
@@ -161,7 +161,7 @@
 					opportunity to diverse perspectives to challenges and<br>
 					opportunities pertinent to core business.  The<br>
 					outside perspectives of these  students bring the<br>
-					innovative ideas you want.<br>
+					innovative ideas you want.</p>
 				  
 					<br/><!-- <br/><br/><br/><br/><br/> -->
 					<div class="col-md-12 col-sm-12 col-xm-12 text-right">
@@ -182,7 +182,7 @@
 					Our partnerships with diversity organizations and<br> 
 					universities have created the largest network of<br> 
 					diverse candidates.  More effectively identify and<br> 
-					access these students from elite programs.<br>  
+					access these students from elite programs.</p>  
 				  
 					<br/><!-- <br/><br/><br/><br/><br/> -->
 					<div class="col-md-12 col-sm-12 col-xm-12 text-left">
@@ -203,7 +203,7 @@
 					WeSolv Challenges provide a wealth of data and<br>
 					feedback to companies, schools and students.<br>  
 					Our predictive data reports will help companies gain<br> 
-					unique insights to talent selection.<br>
+					unique insights to talent selection.</p>
 				  
 					<br/><!-- <br/><br/><br/><br/><br/> -->
 					<div class="col-md-12 col-sm-12 col-xm-12 text-right">

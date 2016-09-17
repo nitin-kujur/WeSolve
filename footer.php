@@ -258,6 +258,7 @@
 			<!-- fixed-bottom-navbar -->
 			<nav id="navbar-bottom" class="navbar navbar-inverse navbar-fixed-bottom collapse w3-border-0 fade" style="background:rgba(25,25,25,0.9) !important;">
 		 		<div class="container-fluid text-center w3-border-0" style="text-shadow: #444 0 1px 1px; font-weight:bold; color:white;">
+		 			<a href="javascript:;" class="close w3-text-white" style="line-height:50px;" data-toggle="collapse" data-target="#navbar-bottom" aria-label="close">&times;</a>
 		 			<h5>demo flash message</h5>
 		 		</div>
 		 	</nav>
@@ -338,7 +339,7 @@
 
 							$('.owl-carousel-hiw').owlCarousel({
 						 			// loop:true,
-							    margin:20,
+							    margin:0,
 							    // autoWidth:true,
 							     items:9,
 							    // autoplay:true,

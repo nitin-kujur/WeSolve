@@ -95,9 +95,27 @@ body,html{
 				.bg-transparent{
 					text-shadow: #444 0 1px 1px;
 				  /*background:transparent;*/
-				  background: url('../images/home_students1360x721-vib.jpg') no-repeat center center;
+				  /*background:-moz-linear-gradient(rgba(44, 62, 122, 0.5),rgba(44, 62, 122, 0.5)), url('../images/home.jpg') no-repeat 50% 65%;*/
+				  background:-webkit-linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/home.jpg') no-repeat 50% 65%;
+				  background:-o-linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/home.jpg') no-repeat 50% 65%;
+				  background:-moz-linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/home.jpg') no-repeat 50% 65%;
+				  /*background:-ms-linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/home.jpg') no-repeat 50% 65%;*/
+				  background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/home.jpg') no-repeat 50% 65%;
 				  background-attachment: fixed;
 				  background-size: cover;
+				  height: auto;
+				  position: relative;
+				}
+				._bg-transparent:before {
+				  content: '';
+				  position: absolute;
+				  width: inherit;
+				  height: inherit;
+				  top: 0;
+				  left: 0;
+				  bottom: 0;
+				  right:0;
+				  background: rgba(255, 0, 0, 0.5);
 				}
 				.jumbo2{
 					text-shadow: #444 0 1px 1px;
@@ -105,6 +123,7 @@ body,html{
 				  background: url('../images/hero table.png') no-repeat center center;
 				  background-attachment: fixed;
 				  background-size: cover;
+				  position: relative;
 				}
 				.filter{
 					background: rgba(74, 144, 226, 0.45);/*rgba(8, 19, 53, 0.65);*/
@@ -638,3 +657,97 @@ body,html{
 					 border-radius:0px;
 					 background-color: rgb(233,235,238);
 				}
+
+				/*---------------companies & challenges style------------------------*/
+
+				.bg-cc{
+					text-shadow: #444 0 1px 1px;
+					/*background-attachment: fixed !important;*/
+					background-size: cover !important;
+					height: ;
+					position: relative !important;
+				}
+
+				.bg-cc-1{
+				  /*background:-webkit-linear-gradient(rgba(38, 38, 38, 0.5),rgba(38, 38, 38, 0.5)), url('../images/cc-1.jpg') no-repeat 50% 50%;*/
+				  /*background:-o-linear-gradient(rgba(38, 38, 38, 0.5),rgba(38, 38, 38, 0.5)), url('../images/cc-1.jpg') no-repeat 50% 50%;*/
+				  background:-moz-linear-gradient(rgba(38, 38, 38, 0.5),rgba(38, 38, 38, 0.5)), url('../images/cc-1.jpg') no-repeat 50% 50%;
+				  /*background:-ms-linear-gradient(rgba(38, 38, 38, 0.5),rgba(38, 38, 38, 0.5)), url('../images/cc-1.jpg') no-repeat 50% 50%;*/
+				  /*background:linear-gradient(rgba(38, 38, 38, 0.5),rgba(38, 38, 38, 0.5)), url('../images/cc-1.jpg') no-repeat 50% 50%;*/
+				}
+
+				.bg-cc-2{
+				  background:-webkit-linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/cc-2.jpg') no-repeat 50% 50%;
+				  background:-o-linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/cc-2.jpg') no-repeat 50% 50%;
+				  background:-moz-linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/cc-2.jpg') no-repeat 50% 50%;
+				  /*background:-ms-linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/cc-2.jpg') no-repeat 50% 50%;*/
+				  background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/cc-2.jpg') no-repeat 50% 50%;
+				}
+
+				.bg-cc-3{
+				  background:-webkit-linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/cc-3.jpg') no-repeat 50% 50%;
+				  background:-o-linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/cc-3.jpg') no-repeat 50% 50%;
+				  background:-moz-linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/cc-3.jpg') no-repeat 50% 50%;
+				  /*background:-ms-linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/cc-3.jpg') no-repeat 50% 50%;*/
+				  background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/cc-3.jpg') no-repeat 50% 50%;
+				}
+
+				.bg-cc-4{
+				  background:-webkit-linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/cc-4.jpg') no-repeat 50% 50%;
+				  background:-o-linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/cc-4.jpg') no-repeat 50% 50%;
+				  background:-moz-linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/cc-4.jpg') no-repeat 50% 50%;
+				  /*background:-ms-linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/cc-4.jpg') no-repeat 50% 50%;*/
+				  background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/cc-4.jpg') no-repeat 50% 50%;
+				}
+
+				.bg-cc-5{
+				  background:-webkit-linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/cc-4.jpg') no-repeat 50% 50%;
+				  background:-o-linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/cc-4.jpg') no-repeat 50% 50%;
+				  background:-moz-linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/cc-4.jpg') no-repeat 50% 50%;
+				  /*background:-ms-linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/cc-4.jpg') no-repeat 50% 50%;*/
+				  background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/cc-4.jpg') no-repeat 50% 50%;
+				}
+
+				.view-height{
+					min-height: 99.999vh;
+				}
+
+				.top-margin{
+					margin-top: 50px !important;
+				}
+
+				.bulb-bg{
+					text-shadow: #444 0 1px 1px;
+					background:-webkit-linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.5)), url('../images/wesolv_logo_bulb_icon_white_BG.png') no-repeat 50% 50%;
+					background:-o-linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.5)), url('../images/wesolv_logo_bulb_icon_white_BG.png') no-repeat 50% 50%;
+					background:-moz-linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.5)), url('../images/wesolv_logo_bulb_icon_white_BG.png') no-repeat 50% 50%;
+					/*background:-ms-linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.5)), url('../images/wesolv_logo_bulb_icon_white_BG.png') no-repeat 50% 50%;*/
+					background:linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.5)), url('../images/wesolv_logo_bulb_icon_white_BG.png') no-repeat 50% 50%;
+					background-size: contain;
+					height: 300px;
+				}
+
+				.w3-light-blue{
+					background-color: rgb(199,214,233) !important;
+				}
+
+				.w3-light-orange{
+					background-color: rgb(247,156,100) !important;
+				}
+
+				.w3-blue-dark{
+					background-color: rgb(56,111,176) !important;
+				}				
+
+				#datatable td, #datatable td{
+					border:none !important;
+				}
+
+				.cc-btn{
+					min-width: 200px !important;
+					min-height: 60px !important;
+					line-height: 25px;
+					cursor: default;
+					color: white !important;
+				}
+				

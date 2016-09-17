@@ -3,6 +3,7 @@
 			<!-- <div class="jumbotron"><div class="container-fluid">&nbsp;</div></div> -->
 
 			<div class="jumbotron bg-transparent jumbo" data-stellar-background-ratio="0.8">
+
 			  <div class="container w3-text-white">
 			  	<br/><br/><br/>
 					<h1 class="w3-text-white w3-jumbo1">Real<br/>Projects <span class="w3-text-orange"><i class="fa fa-plus"></i></span><br/>Top Companies</h1><p style="font-size:8px;">&nbsp;</p><h2 style="font-size:50px;" class="w3-text-white">Connect.   Engage.   Solve.</h2>
@@ -333,6 +334,25 @@
 								<div class="carousel-caption bottom-right">
 									<button class="w3-btn w3-round w3-card-2 w3-padding-large w3-orange w3-text-white pull-right" data-toggle="modal" data-target="#signupModal">JOIN A CHALLANGE</button>
 								</div>
+							</div>
+							<div class="item col-md-12">
+								<div class="jumbotron w3-padding-0 featured_challenges" style="height:300px; background:url('https://placeholdit.imgix.net/~text?txtsize=60&bg=333333&txtclr=ffffff&txt=No+Featured+Challenge&w=700&h=300&txttrack=0') no-repeat center center; background-size: cover;">
+									<div class="container-fluid filter1" style="height:inherit;">
+										<div class="row">
+											<div class="col-sm-9 col-md-9 col-xs-9 text-left">
+												<br/><span class="hidden-xs"><br/><br/></span>
+												<h3><strong></strong></h3>
+												<h3></h3>			
+											</div>	
+										</div>
+									</div>
+								</div>
+								<!-- <div class="carousel-caption top-right">
+									<p class="pull-right btn-trans"><img src="images/tesla_logo_white.png" class="img-responsive  hidden-xs-img" width="150px" height="auto"></p>
+								</div>
+								<div class="carousel-caption bottom-right">
+									<button class="w3-btn w3-round w3-card-2 w3-padding-large w3-orange w3-text-white pull-right" data-toggle="modal" data-target="#signupModal">JOIN A CHALLANGE</button>
+								</div> -->
 							</div>
 						</div>
 					</div>

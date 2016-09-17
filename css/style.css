@@ -519,7 +519,7 @@ body,html{
 				    max-width: none;
 				    padding: 5px 32px 5px 10px;
 				    text-transform: initial;
-				    width: 100%;
+				    width: 99.9% !important;
 				    color:#808080;
 				}
 

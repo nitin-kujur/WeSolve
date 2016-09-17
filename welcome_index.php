@@ -4,7 +4,7 @@
 	<div class="container-fluid w3-padding-0">
 		<div class="row">
 			<div class="row-height">
-				<div class="col-height col-md-2 w3-padding-0" style="background:url('images/welcome-1.jpg') no-repeat left center; background-size: cover;"><div class="grayout" style="width:100%; height:inherit;"></div></div>
+				<div class="col-height col-md-2 hidden-sm hidden-xs w3-padding-0" style="background:url('images/welcome-1.jpg') no-repeat left center; background-size: cover;"><div class="grayout" style="width:100%; height:inherit;"></div></div>
 				<div class="col-md-12 w3-white w3-padding-32" style="z-index:;">
 					<h2 class="w3-text-dark-blue text-center" style="margin-top:20px; margin-bottom:30px;"><span class="w3-xxxlarge hidden-sm hidden-xs">Welcome to WeSolv!</span><span class="w3-xxlarge visible-sm visible-xs">Welcome to WeSolv!</span></h2>
 					<form role="form">
@@ -207,7 +207,7 @@
 				    
 				  </form>
 				</div>
-				<div class="col-height col-md-2 w3-padding-0" style="background:url('images/welcome-2.jpg') no-repeat left center; background-size: cover;"><div class="grayout" style="width:100%; height:inherit;"></div></div>	
+				<div class="col-height col-md-2 hidden-sm hidden-xs w3-padding-0" style="background:url('images/welcome-2.jpg') no-repeat left center; background-size: cover;"><div class="grayout" style="width:100%; height:inherit;"></div></div>	
 			</div>	
 		</div>
 	</div>

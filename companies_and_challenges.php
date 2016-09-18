@@ -22,6 +22,10 @@
 						the talent you want.</p>
 				  
 					<br/><!-- <br/><br/><br/><br/><br/> -->
+					<div class="col-md-12 col-sm-12 col-xm-12 text-left">
+							
+							<a href="<?php //echo base_url('Home/about'); ?>" class="w3-btn w3-round w3-card-2 w3-padding-large w3-margin-top w3-orange w3-text-white" href="about.php"><span style="margin-left:35px;margin-right:35px;">ENGAGE TALENT</span></a>
+					</div>
 			  </div>
 			</div>
 

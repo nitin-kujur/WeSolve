@@ -84,7 +84,11 @@
 				$('.upload-result').on('click', function (ev) { 
 					$uploadCrop.croppie('result', {
 						type: 'canvas',
-						size: 'viewport'
+						size: {
+			                width:450,
+			                height:450
+			            },
+			            format: 'jpeg'
 					}).then(function (resp) {
 						popupResult({
 							src: resp
@@ -571,38 +575,41 @@
                                             <div class="col-md-12 col-sm-12 col-xs-12 w3-blue text-center">
                                                 <button type="button" class="close pull-left" data-dismiss="modal" aria-hidden="true"><p> </p>&times;</button>
                                                 <br/><br/>
-                                                <h2 class="w3-text-white text-center">Allow User to populate info for following social networks.</h2>
+                                                <h2 class="w3-text-white text-center">Populate Links For Your Social Media Networks.</h2>
                                                 <div class="col-md-12 col-sm-12 col-xs-12 ">
                                                     <!-- <button class="w3-btn w3-orange w3-large w3-round w3-text-white w3-section" style="min-width:200px; font-family:Arial, FontAwesome, Roboto;"  onclick="this.innerHTML = '&#xf14a;&nbsp;&nbsp;'+this.innerHTML; this.disabled = true;">Allow for Twitter&nbsp;&nbsp;<i class="fa w3-xlarge fa-twitter"></i></button> 
                                                     <button class="w3-margin-left w3-btn w3-orange w3-large w3-round w3-text-white w3-section" style="min-width:200px; font-family:Arial, FontAwesome, Roboto;" onclick="this.innerHTML = '&#xf14a;&nbsp;&nbsp;'+this.innerHTML; this.disabled = true;">Allow for LinkedIn&nbsp;&nbsp;<i class="fa w3-xlarge fa-linkedin"></i></button> <br/><br/> -->
-                                                    <form class="text-center w3-section" action="" method="GET" role="form">
-														<div class="input-group w3-card-2">
-														<input class="form-control" placeholder="Your twitter profile URL" name="shv" id="keyword" type="text" style="outline: none !important;"  value="" >
-														<div class="input-group-btn">
-														<button id="searchBtn" class="btn btn-default w3-left w3-text-white" type="button" style="background-color:#4099FF; border-color:#4099FF;"> Allow for &nbsp;<i class="fa fa-twitter"></i></button>
+                                                    <form id="social_url" class="text-center w3-section" action="" method="GET" role="form">
+														<div class="input-group w3-card-2 w3-round w3-section">
+															<span class="input-group-addon w3-text-white" style="background-color:#4099FF; border-color:#4099FF;">&nbsp;<i class="fa fa-twitter"></i></span>
+															<span class="input-group-addon"> https://</span>
+															<input class="form-control" placeholder="Your twitter profile URL" name="shv" id="keyword" type="text" style="outline: none !important;"  value="<?php //echo $twitter ?>" >
 														</div>
+													<!-- </form> -->
+
+													<!-- <form class="text-center w3-section" action="" method="GET" role="form"> -->
+														<div class="input-group w3-card-2 w3-round w3-section">
+															<span class="input-group-addon w3-text-white" style="background-color:#0077b5; border-color:#0077b5;">&nbsp;<i class="fa fa-linkedin"></i></span>
+															<span class="input-group-addon"> https://</span>
+															<input class="form-control" placeholder="Your LinkedIn profile URL" name="shv" id="keyword1" type="text" style="outline: none !important;"  value="<?php //echo $linkedin ?>" >
+														</div>
+													<!-- </form> -->
+
+													<!-- <form class="text-center w3-section" action="" method="GET" role="form"> -->
+														<div class="input-group w3-card-2 w3-round w3-section">
+															<span class="input-group-addon w3-text-white" style="background-color:#3b5998; border-color:#3b5998;">&nbsp;<i class="fa fa-facebook">&nbsp;</i></span>
+															<span class="input-group-addon"> https://</span>
+															<input class="form-control" placeholder="Your Facebook profile URL" name="shv" id="keyword2" type="text" style="outline: none !important;"  value="<?php //echo $google ?>" >
 														</div>
 													</form>
 
-													<form class="text-center w3-section" action="" method="GET" role="form">
-														<div class="input-group w3-card-2">
-														<input class="form-control" placeholder="Your LinkedIn profile URL" name="shv" id="keyword1" type="text" style="outline: none !important;"  value="" >
-														<div class="input-group-btn">
-														<button id="searchBtn" class="btn btn-default w3-left w3-text-white" type="button" style="background-color:#3b5998; border-color:#3b5998;"> Allow for &nbsp;<i class="fa fa-linkedin"></i></button>
-														</div>
-														</div>
-													</form>
-
-													<form class="text-center w3-section" action="" method="GET" role="form">
-														<div class="input-group w3-card-2">
-														<input class="form-control" placeholder="Your Google profile URL" name="shv" id="keyword2" type="text" style="outline: none !important;"  value="" >
-														<div class="input-group-btn">
-														<button id="searchBtn" class="btn btn-default w3-left w3-red" type="button" style="background-color:#db3236; border-color:#db3236;"> Allow for &nbsp;<i class="fa fa-google-plus"></i></button>
-														</div>
-														</div>
-													</form>
-
-                                                    <button type="button" class="w3-btn w3-section w3-orange w3-round-large w3-text-white" data-dismiss="modal" onclick="doneAct();">CANCEL</button>
+													
+													<div class="col-xs-6 text-right">
+	                                                    <button type="button" class="w3-btn w3-section w3-orange w3-round-large w3-text-white" data-dismiss="modal" onclick="doneAct();">CANCEL</button>
+													</div>
+													<div class="col-xs-6 text-left">
+	                                                    <button type="button" class="w3-btn w3-section w3-orange w3-round-large w3-text-white" data-dismiss="modal" onclick="$('form#social_url').submit();">&nbsp;&nbsp;&nbsp;SAVE&nbsp;&nbsp;&nbsp;</button>
+													</div>
                                                 </div>
 
                                             </div>

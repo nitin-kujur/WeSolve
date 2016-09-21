@@ -167,8 +167,9 @@
 
 				<div class="col-md-12 col-sm-12 col-xs-12 w3-white padding-15 w3-card-1">
 					
-					<a class="w3-text-black" href=""><h6 class="col-md-4 col-sm-6 col-xs-6"><span class="w3-circle w3-border-black w3-border"><i class="fa fa-camera  w3-padding-tiny" style="font-size:"></i></span> Upload Photo/Video</h6></a>
-					<a class="w3-text-black" href=""><h6 class="col-md-4 col-sm-6 col-xs-6"><span class="w3-circle w3-black w3-border-black w3-border"><i class="fa fa-link w3-padding-tiny" style="font-size:"></i></span> Upload Link</h6></a>
+					<a class="w3-text-black" href="#" data-toggle='modal' data-target='#imageModal'><h6 class="col-md-4 col-sm-6 col-xs-6"><span class="w3-circle w3-black w3-border-black w3-border" style=""><i class="fa fa-file-image-o  w3-padding-tiny" style="font-size:"></i></span> Upload Photo</h6></a>
+					<a class="w3-text-black" href="#" data-toggle='modal' data-target='#vdoModal'><h6 class="col-md-4 col-sm-6 col-xs-6"><span class="w3-circle w3-black w3-border-black w3-border" style=""><i class="fa fa-file-video-o  w3-padding-tiny" style="font-size:"></i></span> Upload Video</h6></a>
+					<a class="w3-text-black" href="#" data-toggle='modal' data-target='#linkModal'><h6 class="col-md-4 col-sm-6 col-xs-6"><span class="w3-circle w3-black w3-border-black w3-border" style=""><i class="fa fa-link w3-padding-tiny" style="font-size:"></i></span> Upload Link</h6></a>
 					<br/>
 					
 					<form role="form" class="" id="updateForm">
@@ -327,6 +328,141 @@
 	</div>
 </div>
 
+
+<!-- Image Modal popup -->
+            <div class="modal fade text-center" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="imageModal" aria-hidden="true" style="position:fixed; z-index:999999999;">
+                <div class="modal-dialog">
+                    <div class="modal-content" style="background:transparent; box-shadow:0px 0px 0px 0px;">
+                        <div class="modal-body w3-card-2 w3-blue" style="background:white; padding:0px; border-radius: 2px;"> 
+                            <div>
+                                <div class="container-fluid" style="height:auto; padding:0px;">
+                                    <div class="col-md-12 col-sm-12 col-xs-12 w3-blue text-center">
+                                        <button type="button" class="close pull-left" data-dismiss="modal" aria-hidden="true"><p> </p>&times;</button>
+                                        <div id="dp_div_img" class="w3-round text-center w3-section w3-animate-opacity" style="display:block;">
+                                                <br/>
+                                                <img id="dp_img" class="img-responsive center-block w3-text-black" src="" alt="&#x0D;&#x0A;&#x0D;&#x0A;No Image" style="width:480px; height:211px; background:white; white-space:pre;">
+                                                <br/>
+                                        </div>
+                                        <div id="upload-demo_img" class="text-center w3-hide w3-animate-opacity">
+                                                
+                                        </div>
+                                        <div class="form-group">
+                                            <input id="upload_img" type="file" class="form-control" name="dp" accept="image/*" style="opacity:0; height:1px;">  
+                                            <button type="button" class="w3-btn w3-small w3-orange w3-round-large w3-text-white" onclick="this.previousElementSibling.click();">SELECT IMAGE</button>
+                                            <button id="crop_img" class="w3-btn w3-small w3-orange w3-round-large w3-text-white w3-hide">CROP</button>
+                                            <button id="done_img" type="button" class="w3-btn w3-small w3-orange w3-round-large w3-text-white w3-hide" data-dismiss="modal" onclick="">DONE</button>
+                                        </div>
+
+                                    </div>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+<!-- Image Modal popup -->
+
+
+<!-- Video Modal popup -->
+            <div class="modal fade text-center" id="vdoModal" tabindex="-1" role="dialog" aria-labelledby="vdoModal" aria-hidden="true" style="position:fixed; z-index:999999999;">
+                <div class="modal-dialog">
+                    <div class="modal-content" style="background:transparent; box-shadow:0px 0px 0px 0px;">
+                        <div class="modal-body w3-card-2 w3-blue" style="background:white; padding:0px; border-radius: 2px;"> 
+                            <div>
+                                <div class="container-fluid" style="height:auto; padding:0px;">
+                                    <div class="col-md-12 col-sm-12 col-xs-12 w3-blue text-center">
+                                        <button type="button" class="close pull-left" data-dismiss="modal" aria-hidden="true"><p> </p>&times;</button>
+                                        <br/><br/>
+                                        <h2 class="w3-text-white text-center">&nbsp;</h2>
+                                        <div class="col-md-12 col-sm-12 col-xs-12 ">
+                                            <form id="social_url" class="text-center w3-section" action="" method="GET" role="form">
+												<div class="input-group w3-card-2 w3-round w3-section">
+													<span class="input-group-addon w3-text-white" style="background-color:#4099FF; border-color:#4099FF;">&nbsp;<i class="fa fa-file-video-o"></i></span>
+													<input id="upload_vdo_txt" class="form-control" placeholder="No video file Selected.." readonly name="shv" id="keyword" type="text" style="outline: none !important;"  value="<?php //echo $twitter ?>" >
+												</div>
+                                                
+												<div id='progressbar-container' class="progress w3-hide">
+													<div id="progressbar" class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:0%">
+													0%
+													</div>
+												</div>
+
+												<div id="done_upload_vdo" class="col-xs-12 w3-hide text-center">
+														<h4 class="w3-text-white w3-large">Uploading Done !</h4>
+												</div>
+
+												<script type="text/javascript">
+													function uploadVdo(){
+														$('#progressbar-container').removeClass('w3-hide');
+														var elmt = $('#progressbar');
+														var n = 100;
+														var i = 0;
+														(function doOne(){
+														    elmt.attr('aria-valuenow', i);
+														    elmt.css('width', i+'%');
+														    elmt.text(i+'%');
+														    if (i++<n) setTimeout(doOne, 100);
+														    else $('#done_upload_vdo').removeClass('w3-hide');
+														})();
+													}
+												</script>
+
+                                                <div class="form-group">
+                                                	<br/><br/>
+		                                            <input id="upload_vdo" type="file" class="form-control" name="dp" accept="video/*" style="opacity:0; height:1px;">  
+		                                            <button type="button" class="w3-btn w3-small w3-orange w3-round-large w3-text-white" onclick="this.previousElementSibling.click();">SELECT VIDEO</button>
+		                                            <button id="done_vdo" type="button" class="upload-result w3-btn w3-small w3-orange w3-round-large w3-text-white w3-hide" onclick="uploadVdo();">UPLOAD</button>
+		                                        </div>
+		                                    </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+<!-- Video Modal popup -->
+
+
+
+<!-- Link Modal popup -->
+            <div class="modal fade text-center" id="linkModal" tabindex="-1" role="dialog" aria-labelledby="linkModal" aria-hidden="true" style="position:fixed; z-index:999999999;">
+                <div class="modal-dialog">
+                    <div class="modal-content" style="background:transparent; box-shadow:0px 0px 0px 0px;">
+                        <div class="modal-body w3-card-2 w3-blue" style="background:white; padding:0px; border-radius: 2px;"> 
+                            <div>
+                                <div class="container-fluid" style="height:auto; padding:0px;">
+                                    <div class="col-md-12 col-sm-12 col-xs-12 w3-blue text-center">
+                                        <button type="button" class="close pull-left" data-dismiss="modal" aria-hidden="true"><p> </p>&times;</button>
+                                        <br/><br/>
+                                        <h2 class="w3-text-white text-center">Enter URL Link.</h2>
+                                        <div class="col-md-12 col-sm-12 col-xs-12 ">
+                                            <form id="social_url" class="text-center w3-section" action="" method="GET" role="form">
+												<div class="input-group w3-card-2 w3-round w3-section">
+													<span class="input-group-addon w3-text-white" style="background-color:#4099FF; border-color:#4099FF;">&nbsp;<i class="fa fa-link"></i></span>
+													<input id="upload_link" class="form-control" placeholder="Enter Your URL link" name="shv" id="keyword" type="text" style="outline: none !important;"  value="" >
+												</div>
+                                                
+                                                <div class="form-group">
+                                                	<br/><br/>
+		                                            <!-- <input id="upload_link" type="file" class="form-control" name="dp" accept="video/*" style="opacity:0; height:1px;">   -->
+		                                            <!-- <button type="button" class="w3-btn w3-small w3-orange w3-round-large w3-text-white" onclick="this.previousElementSibling.click();">SELECT VIDEO</button> -->
+		                                            <button id="done_link" type="button" class="upload-result w3-btn w3-small w3-orange w3-round-large w3-text-white" data-dismiss="modal" onclick="">SAVE</button>
+		                                        </div>
+		                                    </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+<!-- Link Modal popup -->            
+
+
 <style type="text/css">
 	.w3-wrapper{
 		max-height: 885px !important;
@@ -339,30 +475,129 @@
 	}
 </style>
 
+<script type="text/javascript" src="js/croppie.min.js"></script>
+
 <script type="text/javascript">
-	jQuery.fn.multiselect = function() {
-	    $(this).each(function() {
-	        var checkboxes = $(this).find("input:checkbox");
-	        checkboxes.each(function() {
-	            var checkbox = $(this);
-	            // Highlight pre-selected checkboxes
-	            if (checkbox.prop("checked"))
-	                checkbox.parent().addClass("multiselect-on");
-	 
-	            // Highlight checkboxes that the user selects
-	            checkbox.click(function() {
-	                if (checkbox.prop("checked"))
-	                    checkbox.parent().addClass("multiselect-on");
-	                else
-	                    checkbox.parent().removeClass("multiselect-on");
-	            });
-	        });
-	    });
-	};
-	
-  $(function() {
-	     $(".multiselect").multiselect();
-	});  
+
+
+  $('#upload_img').on('change', function (e) { 
+        var ext = this.value.match(/\.([^\.]+)$/)[1];
+        switch(ext)
+        {
+            case 'jpeg':
+            case 'jpg':
+            case 'gif':
+            case 'bmp':
+            case 'png':
+            case 'tif':
+                // alert('allowed');
+                break;
+            default:
+                alert('invalid file type');
+                this.value='';
+        }
+        $('#done_img').addClass('w3-hide');
+  });
+
+  $('#upload_vdo').on('change', function (e) { 
+        // var ext = this.value.match(/\.([^\.]+)$/)[1];
+        // switch(ext)
+        // {
+        //     case 'jpeg':
+        //     case 'jpg':
+        //     case 'gif':
+        //     case 'bmp':
+        //     case 'png':
+        //     case 'tif':
+        //         // alert('allowed');
+        //         break;
+        //     default:
+        //         alert('invalid file type');
+        //         this.value='';
+        // }
+        upload_vdo_txt.value = upload_vdo.value.replace("fakepath","..");
+        $('#done_vdo').removeClass('w3-hide');
+  });
+
+       
+  function popupResult(result) {
+    var html;
+    if (result.html) {
+      html = result.html; 
+    }
+    if (result.src) {
+      html = '<img  src="' + result.src + '" />';
+    }
+
+    $('#dp_img').attr('src',result.src);
+    $('#dp_img').removeClass('w3-hide');
+    $('#upload-demo_img,#crop_img').addClass('w3-hide');
+    $('#dp_div_img').removeClass('w3-hide');
+
+  }
+
+  style = '<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" rel="stylesheet" /> <link rel="stylesheet" href="css/croppie.css">';
+
+
+  $(document).ready(function(){
+    $('head').append(style);
+
+    var $uploadCrop ;
+
+        function readFile(input) {
+          $('#upload-demo_img,#crop_img').removeClass('w3-hide');
+          $('#dp_div_img').addClass('w3-hide');
+
+          if (input.files && input.files[0]) {
+                  var reader = new FileReader();
+                  
+                  reader.onload = function (e) {
+                    $uploadCrop.croppie('bind', {
+                      url: e.target.result
+                    });
+                    $('.upload-demo_img').addClass('ready');
+                  }
+                  
+                  reader.readAsDataURL(input.files[0]);
+              }
+              else {
+                alert("Sorry - you're browser doesn't support the FileReader API");
+            }
+        }
+
+        $uploadCrop = $('#upload-demo_img').croppie({
+          viewport: {
+            width: 480,
+            height: 211,
+            type: 'square'
+          },
+          boundary: {
+            width: 480,
+            height: 211
+          },
+          //exif: true
+        });
+
+        $('#upload_img').on('change', function () { readFile(this); });
+        $('#crop_img').on('click', function (ev) { 
+          $uploadCrop.croppie('result', {
+            type: 'canvas',
+            size: {
+                width: 960,
+                height: 422
+            },
+            format: 'jpeg'
+          }).then(function (resp) {
+            popupResult({
+              src: resp
+            });
+          });
+
+          $('#done_img').removeClass('w3-hide');
+        });
+
+	});
+
 </script>
 
 <?php include('footer.php'); ?>

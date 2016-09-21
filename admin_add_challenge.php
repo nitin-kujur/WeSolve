@@ -805,7 +805,7 @@
                 case 'bmp':
                 case 'png':
                 case 'tif':
-                    alert('allowed');
+                    // alert('allowed');
                     break;
                 default:
                     alert('invalid file type');
@@ -922,10 +922,14 @@
         });
 
         $('#upload').on('change', function () { readFile(this); });
-        $('.upload-result').on('click', function (ev) { 
+        $('#crop').on('click', function (ev) { 
           $uploadCrop.croppie('result', {
             type: 'canvas',
-            size: 'viewport'
+            size: {
+                width: 960,
+                height: 422
+            },
+            format: 'jpeg'
           }).then(function (resp) {
             popupResult({
               src: resp
@@ -933,7 +937,6 @@
           });
         });
 
-      // });
 
       //for stackholder
       function stack_readFile(input) {
@@ -974,7 +977,11 @@
         $('#crop_stack').on('click', function (ev) { 
           $uploadCrop4stack.croppie('result', {
             type: 'canvas',
-            size: 'viewport'
+            size: {
+                width:450,
+                height:450
+            },
+            format: 'jpeg'
           }).then(function (resp) {
             stack_popupResult({
               src: resp

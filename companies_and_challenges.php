@@ -86,13 +86,13 @@
 									</tr>
 								</table>		
 							</div>	
-			  </div>  <br/>
+			  </div> 
 			</div>
 
 			
 
 			<div class="jumbotron w3-white view-height" style="">
-			  <div class="container-fluid text-center top-margin">
+			  <div class="container-fluid text-center">
 				<h2 class="w3-text-dark-blue w3-xxlarge">Who are WeSolvers ?</h2> <br/>
 				<h4 class="w3-text-dark-blue">Our student user are the top MBA candidates that companies want.</h4> <br><br>
 					<div class="row">

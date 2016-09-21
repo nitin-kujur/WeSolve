@@ -1,11 +1,15 @@
 <?php include "header.php"; ?>
 
+<script type="text/javascript">
+	$("#li2").addClass("w3-light-grey");
+</script>
+
 <div class="container-fluid container-main"><!-- main container start -->
 
 
 			<div class="jumbotron bg-cc bg-cc-1 jumbo view-height" data-stellar-background-ratio="0.8">
 
-			  <div class="container w3-text-white">
+			  <div class="container w3-text-white text-right">
 			  	<br/><br/><br/>
 					<!-- <h1 class="w3-text-white w3-jumbo1"><b>Engage Top Talent</b></h1>
 					<p style="font-size:28px; font-weight:300; line-height:35px;" class="w3-margin-top">Work on a diverse team of MBA students on<br/>
@@ -22,9 +26,9 @@
 						the talent you want.</p>
 				  
 					<br/><!-- <br/><br/><br/><br/><br/> -->
-					<div class="col-md-12 col-sm-12 col-xm-12 text-left">
+					<div class="col-md-12 col-sm-12 col-xm-12 text-right">
 							
-							<a href="<?php //echo base_url('Home/about'); ?>" class="w3-btn w3-round w3-card-2 w3-padding-large w3-margin-top w3-orange w3-text-white" href="about.php"><span style="margin-left:35px;margin-right:35px;">ENGAGE TALENT</span></a>
+							<a href="<?php //echo base_url('Home/about'); ?>" class="w3-btn w3-round w3-card-2 w3-padding-large w3-margin-top w3-orange w3-text-white" href="#" data-toggle="modal" data-target="#contactModal"><span style="margin-left:35px;margin-right:35px;">ENGAGE TALENT</span></a>
 					</div>
 			  </div>
 			</div>
@@ -145,40 +149,48 @@
 					<br/>
 					<div class="col-md-12 col-sm-12 col-xm-12 text-left">
 							
-							<a href="<?php //echo base_url('Home/about'); ?>" class="w3-btn w3-round w3-card-2 w3-padding-large w3-margin-top w3-orange w3-text-white" href="about.php"><span style="margin-left:35px;margin-right:35px;">ENGAGE TALENT</span></a>
+							<a href="<?php //echo base_url('Home/about'); ?>" class="w3-btn w3-round w3-card-2 w3-padding-large w3-margin-top w3-orange w3-text-white" href="#" data-toggle="modal" data-target="#contactModal"><span style="margin-left:35px;margin-right:35px;">ENGAGE TALENT</span></a>
 					</div>
 			  </div>
 			</div> -->
 
-			<div class="jumbotron bg-cc bg-cc-2 jumbo view-height" data-stellar-background-ratio="0.8">
-
-			  <div class="container w3-text-white text-right">
-			  	<br/><br/><br/>
-					<h1 class="w3-text-white w3-jumbo1 text-center"><b>Innovative Solutions to Your Real Challenges</b></h1><br>
-					<h2 style="font-size:38px;"><b>Outside perspectives bring innovative ideas<br> 
-					and solutions to your most critical challenges</b></h2>
-					<p style="font-size:28px; font-weight:300; line-height:35px;" class="w3-margin-top">
-					The WeSolv platform provides companies an<br>
-					opportunity to diverse perspectives to challenges and<br>
-					opportunities pertinent to core business.  The<br>
-					outside perspectives of these  students bring the<br>
-					innovative ideas you want.</p>
-				  
-					<br/><!-- <br/><br/><br/><br/><br/> -->
-					<div class="col-md-12 col-sm-12 col-xm-12 text-right">
-							
-							<a href="<?php //echo base_url('Home/about'); ?>" class="w3-btn w3-round w3-card-2 w3-padding-large w3-margin-top w3-orange w3-text-white" href="about.php"><span style="margin-left:35px;margin-right:35px;">GET RESULTS</span></a>
-					</div>
-			  </div>
+			<div class="jumbotron w3-white jumbo view-height w3-padding-0" data-stellar-background-ratio="0.8">
+				<br/><br/><br/>
+				<h1 class="w3-jumbo1 text-center"><b>Innovative Solutions to Your Real Challenges</b></h1><br>
+				  <div class="container text-left">
+				  		<div class="row">
+			  				<div class="row-height1">
+		  						<div class="col-height1 col-md-6 col-sm-6 col-xs-12">
+						  			<h2 style="font-size:38px;"><b>Outside perspectives bring innovative ideas 
+									and solutions to your most critical challenges</b></h2>
+									<p style="font-size:28px; font-weight:300; line-height:35px;" class="w3-margin-top">
+									The WeSolv platform provides companies an 
+									opportunity to diverse perspectives to challenges and 
+									opportunities pertinent to core business.  The 
+									outside perspectives of these  students bring the 
+									innovative ideas you want.</p>	
+						  		</div>
+						  		<div class="col-height1 col-md-6 col-sm-6 col-xs-12 text-center">
+						  			<img class="img-responsive w3-section center-block" src="images/cc-4.jpg" style="">	
+						  			<a href="<?php //echo base_url('Home/about'); ?>" class="w3-section w3-btn w3-round w3-card-2 w3-padding-large w3-margin-top w3-orange w3-text-white" href="#" data-toggle="modal" data-target="#contactModal"><span style="margin-left:35px;margin-right:35px;">GET RESULTS</span></a>
+						  		</div>
+			  				</div>
+				  		</div>
+				  </div>
+				  <!-- <br/><br/><br/><br/><br/> -->
+					<!-- <div class="col-md-12 col-sm-12 col-xm-12 text-left">
+							<br/>
+							<a href="<?php //echo base_url('Home/about'); ?>" class="w3-btn w3-round w3-card-2 w3-padding-large w3-margin-top w3-orange w3-text-white" href="#" data-toggle="modal" data-target="#contactModal"><span style="margin-left:35px;margin-right:35px;">GET RESULTS</span></a>
+					</div> -->
 			</div>
 
-			<div class="jumbotron bg-cc bg-cc-3 jumbo view-height" data-stellar-background-ratio="0.8">
+			<div class="jumbotron bg-cc bg-cc-2 jumbo view-height" data-stellar-background-ratio="0.8">
 
 			  <div class="container w3-text-white text-left">
 			  	<br/><br/><br/>
 					<h1 class="w3-text-white w3-jumbo1 text-center"><b>Access to Top diversity Pools</b></h1><br>
-					<h2 style="font-size:38px;"><b>Access the largest network of diverse<br>
-					students aimed at real business challenges</b></h2>
+					<h2 style="font-size:38px;"><b>Access the largest network of<br>diverse 
+					students aimed at real<br>business challenges</b></h2>
 					<p style="font-size:28px; font-weight:300; line-height:35px;" class="w3-margin-top">
 					Our partnerships with diversity organizations and<br> 
 					universities have created the largest network of<br> 
@@ -188,12 +200,14 @@
 					<br/><!-- <br/><br/><br/><br/><br/> -->
 					<div class="col-md-12 col-sm-12 col-xm-12 text-left">
 							
-							<a href="<?php //echo base_url('Home/about'); ?>" class="w3-btn w3-round w3-card-2 w3-padding-large w3-margin-top w3-orange w3-text-white" href="about.php"><span style="margin-left:35px;margin-right:35px;">ACCESS DIVERSITY</span></a>
+							<a href="<?php //echo base_url('Home/about'); ?>" class="w3-btn w3-round w3-card-2 w3-padding-large w3-margin-top w3-orange w3-text-white" href="#" data-toggle="modal" data-target="#contactModal"><span style="margin-left:35px;margin-right:35px;">ACCESS DIVERSITY</span></a>
 					</div>
 			  </div>
 			</div>
 
-			<div class="jumbotron bg-cc bg-cc-4 jumbo view-height" data-stellar-background-ratio="0.8">
+			<div class="jumbotron w3-white w3-padding" style="">&nbsp;</div>
+
+			<div class="jumbotron bg-cc bg-cc-3 jumbo view-height" data-stellar-background-ratio="0.8">
 
 			  <div class="container w3-text-white text-right">
 			  	<br/><br/><br/>
@@ -209,7 +223,27 @@
 					<br/><!-- <br/><br/><br/><br/><br/> -->
 					<div class="col-md-12 col-sm-12 col-xm-12 text-right">
 							
-							<a href="<?php //echo base_url('Home/about'); ?>" class="w3-btn w3-round w3-card-2 w3-padding-large w3-margin-top w3-orange w3-text-white" href="about.php"><span style="margin-left:35px;margin-right:35px;">INCREASE ROI</span></a>
+							<a href="<?php //echo base_url('Home/about'); ?>" class="w3-btn w3-round w3-card-2 w3-padding-large w3-margin-top w3-orange w3-text-white" href="#" data-toggle="modal" data-target="#contactModal"><span style="margin-left:35px;margin-right:35px;">INCREASE ROI</span></a>
+					</div>
+			  </div>
+			</div>
+
+			<div class="jumbotron w3-white w3-padding" style="">&nbsp;</div>
+
+			<div class="jumbotron bg-cc bg-cc-5 jumbo view-height" data-stellar-background-ratio="0.8">
+
+			  <div class="container w3-text-white text-left">
+			  	<br/><br/><br/>
+					<h1 class="w3-text-white w3-jumbo1 text-center"><b>In-Depth Analytics Platform</b></h1><br>
+					<!-- <h2 style="font-size:38px;"><b>Competitive employers find ways<br>
+					to better engage top talent</b></h2> -->
+					<p style="font-size:28px; font-weight:300; line-height:35px;" class="w3-margin-top">
+						Provides predictive data and real time feedback to companies, schools and students.<br/>
+				  
+					
+					<div class="col-md-12 col-sm-12 col-xm-12 text-center">
+							<br/><br/><br/><br/><br/>
+							<a href="<?php //echo base_url('Home/about'); ?>" class="w3-btn w3-round w3-card-2 w3-padding-large w3-margin-top w3-orange w3-text-white" href="#" data-toggle="modal" data-target="#contactModal"><span style="margin-left:35px;margin-right:35px;">HOST A CHALLENGE</span></a>
 					</div>
 			  </div>
 			</div>
@@ -339,7 +373,7 @@
 <!-- -------------------------------------------------------------------------------------------------------------------------- -->
 					<div class="col-md-12 col-sm-12 col-xm-12 text-center">
 							<br><br>
-							<a href="<?php //echo base_url('Home/about'); ?>" class="w3-btn w3-round w3-card-2 w3-padding-large w3-margin-top w3-orange w3-text-white" href="about.php">LEARN MORE ABOUT WESOLV</a>
+							<a href="about.php" class="w3-btn w3-round w3-card-2 w3-padding-large w3-margin-top w3-orange w3-text-white">LEARN MORE ABOUT WESOLV</a>
 					</div>
 				</div>
 				<br/><!-- <br/><br/> -->
@@ -466,12 +500,86 @@
 					</div>
 					<div class="col-md-12 col-sm-12 col-xm-12 text-center">
 							<br>
-							<a href="<?php //echo base_url('Home/about'); ?>" class="w3-btn w3-round w3-card-2 w3-padding-large w3-margin-top w3-orange w3-text-white" href="about.php"><span style="margin-left:35px;margin-right:35px;">HOST A CHALLENGE</span></a>
+							<a href="<?php //echo base_url('Home/about'); ?>" class="w3-btn w3-round w3-card-2 w3-padding-large w3-margin-top w3-orange w3-text-white" href="#" data-toggle="modal" data-target="#contactModal"><span style="margin-left:35px;margin-right:35px;">HOST A CHALLENGE</span></a>
 					</div>
 			  </div>  <br/>
 			</div>
 
 
-			
+<!-- Contact Modal popup -->
+            <div class="modal fade text-center" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModal" aria-hidden="true" style="position:fixed; z-index:999999999;">
+                <div class="modal-dialog">
+                    <div class="modal-content" style="background:transparent; box-shadow:0px 0px 0px 0px;">
+                        <div class="modal-body w3-card-2" style="background:white; padding:0px; border-radius: 2px;"> 
+                            <div>
+                                <div class="container-fluid" style="height:auto; padding:0px;">
+                                    <div class="col-md-12 col-sm-12 col-xs-12 w3-white text-center">
+                                        <button type="button" class="close pull-left" data-dismiss="modal" aria-hidden="true"><p> </p>&times;</button>
+                                        <h2 class="w3-text-dark-blue w3-xxlarge w3-section">Contact Us</h2>
+                                        <div class="col-md-12 col-sm-12 col-xs-12 ">
+                                            <form role="form">
+											    <div class="form-group w3-section">
+											      <input id="usr" type="text" class="w3-section w3-input1 col-xs-12 w3-border w3-border-orange w3-text-dark-blue w3-leftbar w3-rightbar w3-topbar w3-bottombar w3-round" placeholder="Company Name">
+											    </div>
+											    <div class="form-group">
+											      <input id="usr" type="text" class="w3-input1 col-xs-12 w3-border w3-border-orange w3-text-dark-blue w3-leftbar w3-rightbar w3-topbar w3-bottombar w3-round" placeholder="First Name and Last Name">
+											    </div>
+											    <div class="form-group">
+											      <input id="pwd" type="email" class="w3-section w3-input1 col-xs-12 w3-border w3-border-orange w3-text-dark-blue w3-leftbar w3-rightbar w3-topbar w3-bottombar w3-round" placeholder="Email">
+											    </div>
+											    <div class="form-group">
+											      <input id="usr" type="number" class="w3-input1 col-xs-12 w3-border w3-border-orange w3-text-dark-blue w3-leftbar w3-rightbar w3-topbar w3-bottombar w3-round" placeholder="Phone Number">
+											    </div>
+											    <div class="form-group">
+													<div class="col-xs-12 w3-section w3-border text-left w3-border-orange w3-text-dark-blue w3-leftbar w3-rightbar w3-topbar w3-bottombar w3-round">
+														<label>What are you looking to do ? (check all that apply)</label>
+														<div class="multiselect" style="border:none;">
+														    <label class="w3-padding-left"><input class="w3-margin-right" type="checkbox" name="option[]" value="1" />Solve a real challenge.</label>
+														    <label class="w3-padding-left"><input class="w3-margin-right" type="checkbox" name="option[]" value="2" />Attract more MBA candidates.</label>
+														    <label class="w3-padding-left"><input class="w3-margin-right" type="checkbox" name="option[]" value="3" />Impact employee value proposition</label>
+														    <label class="w3-padding-left"><input class="w3-margin-right" type="checkbox" name="option[]" value="4" />Engage diverse talent.</label>
+														</div>
+														<br>
+													</div>
+											    </div>
+											    <button type="button" class="w3-section w3-btn w3-round w3-card-2 w3-padding-large w3-orange w3-text-dark-blue w3-text-white">SUBMIT TO HOST A CHALLENGE</button>
+											</form>	
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+<!-- Contact Modal popup --> 
+
+
+<script type="text/javascript">
+	jQuery.fn.multiselect = function() {
+	    $(this).each(function() {
+	        var checkboxes = $(this).find("input:checkbox");
+	        checkboxes.each(function() {
+	            var checkbox = $(this);
+	            // Highlight pre-selected checkboxes
+	            if (checkbox.prop("checked"))
+	                checkbox.parent().addClass("multiselect-on");
+	 
+	            // Highlight checkboxes that the user selects
+	            checkbox.click(function() {
+	                if (checkbox.prop("checked"))
+	                    checkbox.parent().addClass("multiselect-on");
+	                else
+	                    checkbox.parent().removeClass("multiselect-on");
+	            });
+	        });
+	    });
+	};
+	
+  $(function() {
+	     $(".multiselect").multiselect();
+	});  
+</script>
+
 
 <?php include "footer.php"; ?>

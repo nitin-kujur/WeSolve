@@ -399,31 +399,31 @@
 					<div class="container">
 							<div class="col-md-3"></div>
 							<div class="col-md-6">
-									<form role="form">
-							    <div class="form-group">
-							      <input type="text" placeholder="Name" class="w3-input w3-border w3-border-orange w3-text-dark-blue w3-leftbar w3-rightbar w3-topbar w3-bottombar w3-round" id="usr">
-							    </div>
-							    <div class="form-group">
-							      <input type="email" placeholder="Email" class="w3-input w3-border w3-border-orange w3-text-dark-blue w3-leftbar w3-rightbar w3-topbar w3-bottombar w3-round" id="pwd">
-							    </div>
-							    <div class="form-group">
-							      <select class="w3-select w3-border w3-border-orange w3-text-dark-blue w3-leftbar w3-rightbar w3-topbar w3-bottombar w3-round" name="option">
-									  <option value="" disabled selected>I am a Company Representative</option>
-									  <option value="1">I am a Student</option>
-									  <option value="2">I am a University Representative</option>
-									  <option value="3">I am a Media Representative</option>
-									  <option value="4">Other</option>
-									</select>
-							    </div>
-							    <div class="form-group">
-							      <input type="text" placeholder="Subject" class="w3-input w3-border w3-border-orange w3-text-dark-blue w3-leftbar w3-rightbar w3-topbar w3-bottombar w3-round" id="pwd">
-							    </div>
-							    <div class="form-group">
-							      <textarea placeholder="Message" class="w3-input w3-border w3-border-orange w3-text-dark-blue w3-leftbar w3-rightbar w3-topbar w3-bottombar w3-round" id="pwd"></textarea>
-							    </div>
-							    <br/>
-							    <button class="w3-btn w3-round w3-card-2 w3-padding-large w3-orange w3-text-dark-blue w3-text-white">SEND MESSAGE</button>
-							  </form>	
+								<form role="form">
+								    <div class="form-group">
+								      <input type="text" placeholder="Name" class="w3-input w3-border w3-border-orange w3-text-dark-blue w3-leftbar w3-rightbar w3-topbar w3-bottombar w3-round" id="usr">
+								    </div>
+								    <div class="form-group">
+								      <input type="email" placeholder="Email" class="w3-input w3-border w3-border-orange w3-text-dark-blue w3-leftbar w3-rightbar w3-topbar w3-bottombar w3-round" id="pwd">
+								    </div>
+								    <div class="form-group">
+								      <select class="w3-select w3-border w3-border-orange w3-text-dark-blue w3-leftbar w3-rightbar w3-topbar w3-bottombar w3-round" name="option">
+										  <option value="" disabled selected>I am a Company Representative</option>
+										  <option value="1">I am a Student</option>
+										  <option value="2">I am a University Representative</option>
+										  <option value="3">I am a Media Representative</option>
+										  <option value="4">Other</option>
+										</select>
+								    </div>
+								    <div class="form-group">
+								      <input type="text" placeholder="Subject" class="w3-input w3-border w3-border-orange w3-text-dark-blue w3-leftbar w3-rightbar w3-topbar w3-bottombar w3-round" id="pwd">
+								    </div>
+								    <div class="form-group">
+								      <textarea placeholder="Message" class="w3-input w3-border w3-border-orange w3-text-dark-blue w3-leftbar w3-rightbar w3-topbar w3-bottombar w3-round" id="pwd"></textarea>
+								    </div>
+								    <br/>
+								    <button class="w3-btn w3-round w3-card-2 w3-padding-large w3-orange w3-text-dark-blue w3-text-white">SEND MESSAGE</button>
+								</form>	
 							</div>
 					</div>
 			  </div>  <br/>

@@ -69,9 +69,9 @@
 				</div>
 				<div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav navbar-right">
-					  <li><a href="about.php"><h6 class="w3-text-dark-blue text-center">ABOUT</h6></a></li>
+					  <li id="li1"><a href="about.php"><h6 class="w3-text-dark-blue text-center">ABOUT</h6></a></li>
 					  <li class="hidden-sm hidden-xs">&nbsp;&nbsp;</li>
-					  <li><a href="companies_and_challenges.php" data-toggle="collapse" data-target="#navbar-bottom" ><h6 class="w3-text-dark-blue text-center">COMPANIES & CHALLANGES</h6></a></li>
+					  <li id="li2"><a href="companies_and_challenges.php" data-toggle="collapse" data-target="#navbar-bottom" ><h6 class="w3-text-dark-blue text-center">COMPANIES & CHALLANGES</h6></a></li>
 					  <li class="hidden-sm hidden-xs">&nbsp;&nbsp;</li>
 					  <!-- <li><a href="#"><h6 class="w3-text-dark-blue text-center">FOR STUDENTS</h6></a></li> -->
 					  <li class="hidden-sm hidden-xs">&nbsp;&nbsp;</li>

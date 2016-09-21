@@ -1,4 +1,9 @@
 <?php include "header.php"; ?>
+
+<script type="text/javascript">
+	$("#li1").addClass("w3-light-grey");
+</script>
+
 <div class="container-fluid container-main profile" style="margin-top:55px !important; padding-top:0px !important;"><!-- main container start -->
 
 	<div class="jumbotron w3-padding-0 jumbo w3-text-white jumbo2" data-stellar-background-ratio="0.6">

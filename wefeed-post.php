@@ -347,7 +347,7 @@
                                                 
                                         </div>
                                         <div class="form-group">
-                                            <input id="upload_img" type="file" class="form-control" name="dp" accept="image/*" style="opacity:0; height:1px;">  
+                                            <input id="upload_img" type="file" class="form-control" name="dp" accept="image/*" style="opacity:0; max-height:0px; max-width:0px;">  
                                             <button type="button" class="w3-btn w3-small w3-orange w3-round-large w3-text-white" onclick="this.previousElementSibling.click();">SELECT IMAGE</button>
                                             <button id="crop_img" class="w3-btn w3-small w3-orange w3-round-large w3-text-white w3-hide">CROP</button>
                                             <button id="done_img" type="button" class="w3-btn w3-small w3-orange w3-round-large w3-text-white w3-hide" data-dismiss="modal" onclick="">DONE</button>
@@ -410,7 +410,7 @@
 
                                                 <div class="form-group">
                                                 	<br/><br/>
-		                                            <input id="upload_vdo" type="file" class="form-control" name="dp" accept="video/*" style="opacity:0; height:1px;">  
+		                                            <input id="upload_vdo" type="file" class="form-control" name="dp" accept="video/*" style="opacity:0; max-height:0px; max-width:0px;">  
 		                                            <button type="button" class="w3-btn w3-small w3-orange w3-round-large w3-text-white" onclick="this.previousElementSibling.click();">SELECT VIDEO</button>
 		                                            <button id="done_vdo" type="button" class="upload-result w3-btn w3-small w3-orange w3-round-large w3-text-white w3-hide" onclick="uploadVdo();">UPLOAD</button>
 		                                        </div>
@@ -440,6 +440,13 @@
                                         <h2 class="w3-text-white text-center">Enter URL Link.</h2>
                                         <div class="col-md-12 col-sm-12 col-xs-12 ">
                                             <form id="social_url" class="text-center w3-section" action="" method="GET" role="form">
+                                            	<div class="input-group w3-card-2 w3-round w3-section">
+													<span class="input-group-addon" style="">&nbsp;Title</span>
+													<input id="upload_link_title" class="form-control" placeholder="Enter link title" name="shv" id="keyword" type="text" style="outline: none !important;"  value="" >
+												</div>
+												<div class="form-group w3-card-2 w3-round w3-section">
+													<textarea id="upload_link_content" class="form-control" placeholder="Enter link content description" name="shv" id="keyword" type="text" style="outline: none !important;"  value="" ></textarea>
+												</div>
 												<div class="input-group w3-card-2 w3-round w3-section">
 													<span class="input-group-addon w3-text-white" style="background-color:#4099FF; border-color:#4099FF;">&nbsp;<i class="fa fa-link"></i></span>
 													<input id="upload_link" class="form-control" placeholder="Enter Your URL link" name="shv" id="keyword" type="text" style="outline: none !important;"  value="" >

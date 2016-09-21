@@ -1,6 +1,6 @@
 /*---------------home style start------------------------*/
-*, h1, h2, h3, h4, h5, h6, p, span, a, input, button :not(i,.glyphicon){
-	font-family: Roboto;
+h1, h2, h3, h4, h5, h6, p, span, a, input, button{
+	font-family: Roboto !important;
 }
 body,html{
 		 			margin:0px;
@@ -669,19 +669,19 @@ body,html{
 				}
 
 				.bg-cc-1{
-				  /*background:-webkit-linear-gradient(rgba(38, 38, 38, 0.5),rgba(38, 38, 38, 0.5)), url('../images/cc-1.jpg') no-repeat 50% 50%;*/
-				  /*background:-o-linear-gradient(rgba(38, 38, 38, 0.5),rgba(38, 38, 38, 0.5)), url('../images/cc-1.jpg') no-repeat 50% 50%;*/
-				  background:-moz-linear-gradient(rgba(38, 38, 38, 0.5),rgba(38, 38, 38, 0.5)), url('../images/cc-1.jpg') no-repeat 50% 50%;
-				  /*background:-ms-linear-gradient(rgba(38, 38, 38, 0.5),rgba(38, 38, 38, 0.5)), url('../images/cc-1.jpg') no-repeat 50% 50%;*/
-				  /*background:linear-gradient(rgba(38, 38, 38, 0.5),rgba(38, 38, 38, 0.5)), url('../images/cc-1.jpg') no-repeat 50% 50%;*/
+				  background:-webkit-linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/cc-1.jpg') no-repeat 50% 50%;
+				  background:-o-linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/cc-1.jpg') no-repeat 50% 50%;
+				  background:-moz-linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/cc-1.jpg') no-repeat 50% 50%;
+				  /*background:-ms-linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/cc-1.jpg') no-repeat 50% 50%;*/
+				  background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/cc-1.jpg') no-repeat 50% 50%;
 				}
 
 				.bg-cc-2{
-				  background:-webkit-linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/cc-2.jpg') no-repeat 50% 50%;
-				  background:-o-linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/cc-2.jpg') no-repeat 50% 50%;
-				  background:-moz-linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/cc-2.jpg') no-repeat 50% 50%;
-				  /*background:-ms-linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/cc-2.jpg') no-repeat 50% 50%;*/
-				  background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/cc-2.jpg') no-repeat 50% 50%;
+				  background:-webkit-linear-gradient(rgba(38, 38, 38, 0.4),rgba(38, 38, 38, 0.4)), url('../images/cc-2.jpg') no-repeat 50% 50%;
+				  background:-o-linear-gradient(rgba(38, 38, 38, 0.4),rgba(38, 38, 38, 0.4)), url('../images/cc-2.jpg') no-repeat 50% 50%;
+				  background:-moz-linear-gradient(rgba(38, 38, 38, 0.4),rgba(38, 38, 38, 0.4)), url('../images/cc-2.jpg') no-repeat 50% 50%;
+				  /*background:-ms-linear-gradient(rgba(38, 38, 38, 0.4),rgba(38, 38, 38, 0.4)), url('../images/cc-2.jpg') no-repeat 50% 50%;*/
+				  background:linear-gradient(rgba(38, 38, 38, 0.4),rgba(38, 38, 38, 0.4)), url('../images/cc-2.jpg') no-repeat 50% 50%;
 				}
 
 				.bg-cc-3{
@@ -749,6 +749,7 @@ body,html{
 					line-height: 25px;
 					cursor: default;
 					color: white !important;
+					box-shadow: none !important;
 				}
 
 				input[type="number"] {

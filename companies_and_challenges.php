@@ -9,37 +9,29 @@
 
 			<div class="jumbotron bg-cc bg-cc-4 jumbo view-height" data-stellar-background-ratio="0.8">
 
-			  <div class="container w3-text-white text-left">
-			  	<br/><br/><br/>
+			  <div class="container w3-text-white text-center">
+			  	<br/><br/><br/> <br/>
 					<h1 class="w3-text-white w3-jumbo1"><b>Engage Top Talent</b></h1>
 					<p style="font-size:28px; font-weight:300; line-height:35px;" class="w3-margin-top"><br/>
 						WeSolv evolves talent and innovation sourcing by seamlessly connicting top<br/>
 						MBA students to each other to solv real business challenges for the<br/>
 						companies they are interested in.</p>
-				  	<!-- <h1 class="w3-text-white w3-jumbo1 text-center"><b>Attract the Talent You Want</b></h1><br>
-					<h2 style="font-size:38px;"><b>Competitive employers find ways<br>
-					to better engage top talent</b></h2>
-					<p style="font-size:28px; font-weight:300; line-height:35px;" class="w3-margin-top">
-						WeSolv Challenges are the types of interactions<br/>
-						that attract top talent. Engage our network of talented<br/>
-						students from all of the top programs and attract<br>
-						the talent you want.</p> -->
-				  
-					<!-- <br/><br/><br/><br/><br/> -->
-					<div class="col-md-12 col-sm-12 col-xm-12 text-left">
+				  	
+					<div class="col-md-12 col-sm-12 col-xm-12 text-center">
 							<br/><br/><br/>
 							<a href="<?php //echo base_url('Home/about'); ?>" class="w3-btn w3-round w3-card-2 w3-padding-large w3-margin-top w3-orange w3-text-white" href="#" data-toggle="modal" data-target="#contactModal"><span style="margin-left:35px;margin-right:35px;">ENGAGE TALENT</span></a>
 					</div>
 			  </div>
 			</div>
 
-			<div class="jumbotron w3-white view-height w3-padding-0" style="padding-left:0px; padding-right:0px;">
+			<div class="jumbotron w3-white view-height1 w3-padding-0" style="padding-left:0px; padding-right:0px;">
 			  <div class="container-fluid text-center w3-padding-0">
 			  	<div class="row w3-dark-blue w3-padding-0 w3-margin-0">
-			  		<h2 class="w3-text-white col-md-12 col-sm-12 col-xm-12 w3-jumbo" style=""><b>WeSolv at a Glance</b></h2>  		
+			  		<h2 class="w3-text-white col-md-12 col-sm-12 col-xm-12 w3-jumbo w3-padding-large" style=""><b>WeSolv at a Glance</b></h2>  		
 			  	</div>
-				
+					<div class="container">
 						<br><br>
+
 						<div id="" class="table-responsive w3-text-dark-blue w3-section w3-margin-top w3-padding-left w3-padding-right" style="">
 								<table id="datatable" class="table">
 									<tr>
@@ -58,41 +50,42 @@
 									</tr>
 									<tr>
 										<td class="text-left w3-padding-left"><h3><b>Top MBA Talent</b></h3></td>
-										<td class="w3-xxlarge text-center w3-text-blue"><!-- <i class="fa fa-check"></i> --><img class="img-responsive center-block" src="images/cc-check-ico.png" style="width:65px; height:auto;"></td>
-										<td class="w3-xxlarge text-center w3-text-blue"><!-- <i class="fa fa-check"></i> --><img class="img-responsive center-block" src="images/cc-check-ico.png" style="width:65px; height:auto;"></td>
-										<td class="w3-xxlarge text-center w3-text-blue"><!-- <i class="fa fa-check"></i> --><img class="img-responsive center-block" src="images/cc-check-ico.png" style="width:65px; height:auto;"></td>
-										<td class="w3-xxlarge text-center w3-text-blue"><!-- <i class="fa fa-check"></i> --><img class="img-responsive center-block" src="images/cc-check-ico.png" style="width:65px; height:auto;"></td>
+										<td class="w3-xxlarge text-center w3-text-blue"><img class="img-responsive center-block" src="images/cc-check-ico.png" style="width:65px; height:auto;"></td>
+										<td class="w3-xxlarge text-center w3-text-blue"><img class="img-responsive center-block" src="images/cc-check-ico.png" style="width:65px; height:auto;"></td>
+										<td class="w3-xxlarge text-center w3-text-blue"><img class="img-responsive center-block" src="images/cc-check-ico.png" style="width:65px; height:auto;"></td>
+										<td class="w3-xxlarge text-center w3-text-blue"><img class="img-responsive center-block" src="images/cc-check-ico.png" style="width:65px; height:auto;"></td>
 									</tr>
 									<tr>
 										<td class="text-left w3-padding-left"><h3><b>Inovative Business<br>Solutions</b></h3></td>
-										<td class="w3-xxlarge text-center w3-text-blue"><!-- <i class="fa fa-check"></i> --><img class="img-responsive center-block" src="images/cc-check-ico.png" style="width:65px; height:auto;"></td>
-										<td class="w3-xxlarge text-center w3-text-blue"><!-- <i class="fa fa-check"></i> --><img class="img-responsive center-block" src="images/cc-check-ico.png" style="width:65px; height:auto;"></td>
-										<td class="w3-xxlarge text-center w3-text-red"><!-- <i class="fa fa-times"></i> --><img class="img-responsive center-block" src="images/cc-cross-ico.png" style="width:65px; height:auto;"></td>
-										<td class="w3-xxlarge text-center w3-text-red"><!-- <i class="fa fa-times"></i> --><img class="img-responsive center-block" src="images/cc-cross-ico.png" style="width:65px; height:auto;"></td>
+										<td class="w3-xxlarge text-center w3-text-blue"><img class="img-responsive center-block" src="images/cc-check-ico.png" style="width:65px; height:auto;"></td>
+										<td class="w3-xxlarge text-center w3-text-blue"><img class="img-responsive center-block" src="images/cc-check-ico.png" style="width:65px; height:auto;"></td>
+										<td class="w3-xxlarge text-center w3-text-red"><img class="img-responsive center-block" src="images/cc-cross-ico.png" style="width:65px; height:auto;"></td>
+										<td class="w3-xxlarge text-center w3-text-red"><img class="img-responsive center-block" src="images/cc-cross-ico.png" style="width:65px; height:auto;"></td>
 									</tr>
 									<tr>
 										<td class="text-left w3-padding-left"><h3><b>In-Depth Analytics</b></h3></td>
-										<td class="w3-xxlarge text-center w3-text-blue"><!-- <i class="fa fa-check"></i> --><img class="img-responsive center-block" src="images/cc-check-ico.png" style="width:65px; height:auto;"></td>
-										<td class="w3-xxlarge text-center w3-text-red"><!-- <i class="fa fa-times"></i> --><img class="img-responsive center-block" src="images/cc-cross-ico.png" style="width:65px; height:auto;"></td>
-										<td class="w3-xxlarge text-center w3-text-red"><!-- <i class="fa fa-times"></i> --><img class="img-responsive center-block" src="images/cc-cross-ico.png" style="width:65px; height:auto;"></td>
-										<td class="w3-xxlarge text-center w3-text-red"><!-- <i class="fa fa-times"></i> --><img class="img-responsive center-block" src="images/cc-cross-ico.png" style="width:65px; height:auto;"></td>
+										<td class="w3-xxlarge text-center w3-text-blue"><img class="img-responsive center-block" src="images/cc-check-ico.png" style="width:65px; height:auto;"></td>
+										<td class="w3-xxlarge text-center w3-text-red"><img class="img-responsive center-block" src="images/cc-cross-ico.png" style="width:65px; height:auto;"></td>
+										<td class="w3-xxlarge text-center w3-text-red"><img class="img-responsive center-block" src="images/cc-cross-ico.png" style="width:65px; height:auto;"></td>
+										<td class="w3-xxlarge text-center w3-text-red"><img class="img-responsive center-block" src="images/cc-cross-ico.png" style="width:65px; height:auto;"></td>
 									</tr>
 									<tr>
 										<td class="text-left w3-padding-left"><h3><b>Diversity Talent Pools</b></h3></td>
-										<td class="w3-xxlarge text-center w3-text-blue"><!-- <i class="fa fa-check"></i> --><img class="img-responsive center-block" src="images/cc-check-ico.png" style="width:65px; height:auto;"></td>
-										<td class="w3-xxlarge text-center w3-text-red"><!-- <i class="fa fa-times"></i> --><img class="img-responsive center-block" src="images/cc-cross-ico.png" style="width:65px; height:auto;"></td>
-										<td class="w3-xxlarge text-center w3-text-red"><!-- <i class="fa fa-times"></i> --><img class="img-responsive center-block" src="images/cc-cross-ico.png" style="width:65px; height:auto;"></td>
-										<td class="w3-xxlarge text-center w3-text-blue"><!-- <i class="fa fa-check"></i> --><img class="img-responsive center-block" src="images/cc-check-ico.png" style="width:65px; height:auto;"></td>
+										<td class="w3-xxlarge text-center w3-text-blue"><img class="img-responsive center-block" src="images/cc-check-ico.png" style="width:65px; height:auto;"></td>
+										<td class="w3-xxlarge text-center w3-text-red"><img class="img-responsive center-block" src="images/cc-cross-ico.png" style="width:65px; height:auto;"></td>
+										<td class="w3-xxlarge text-center w3-text-red"><img class="img-responsive center-block" src="images/cc-cross-ico.png" style="width:65px; height:auto;"></td>
+										<td class="w3-xxlarge text-center w3-text-blue"><img class="img-responsive center-block" src="images/cc-check-ico.png" style="width:65px; height:auto;"></td>
 									</tr>
 								</table>		
-							</div>	
+						</div>	
+					</div>
 			  </div> 
 			</div>
 
 			
 
 			<div class="jumbotron w3-white w3-padding-0" style="">
-			  <div class="container-fluid text-center">
+			  <div class="container text-center">
 				<h2 class="w3-text-dark-blue w3-xxlarge">Who are WeSolvers ?</h2> <br/>
 				<h4 class="w3-text-dark-blue">Our student user are the top MBA candidates that companies want.</h4> <br><br>
 					<div class="row">
@@ -133,108 +126,117 @@
 			  </div> <br> <br> <br>
 			</div>
 
-			<div class="jumbotron bg-cc bg-cc-1 jumbo view-height" data-stellar-background-ratio="0.8">
+
+
+			<div class="jumbotron bg-cc bg-cc-1 jumbo view-height1" data-stellar-background-ratio="0.8">
 
 			  <div class="container w3-text-white text-right">
-			  	<br/><br/><br/>
-					<h1 class="w3-text-white w3-jumbo1 text-center"><b>Attract the Talent You Want</b></h1><br>
-					<h2 style="font-size:38px;"><b>Competitive employers find ways<br>
-					to better engage top talent</b></h2>
-					<p style="font-size:28px; font-weight:300; line-height:35px;" class="w3-margin-top">
-						WeSolv Challenges are the types of interactions<br/>
-						that attract top talent. Engage our network of talented<br/>
-						students from all of the top programs and attract<br>
-						the talent you want.</p>
-				  
-					<br/>
-					<div class="col-md-12 col-sm-12 col-xm-12 text-right">
-							
-							<a href="<?php //echo base_url('Home/about'); ?>" class="w3-btn w3-round w3-card-2 w3-padding-large w3-margin-top w3-orange w3-text-white" href="#" data-toggle="modal" data-target="#contactModal"><span style="margin-left:35px;margin-right:35px;">ENGAGE TALENT</span></a>
-					</div>
+		  			<h1 class="w3-text-white w3-jumbo1 text-center"><b>Attract the Talent You Want</b></h1><br><br><br>
+			  		<div class="col-md-7"> </div>
+			  				
+			  		<div class="col-md-5 text-left">
+						<h2 style="font-size:38px;"><b>Competitive employers find ways 
+						to better engage top talent</b></h2>
+						<p style="font-size:28px; font-weight:300; line-height:35px;" class="w3-margin-top">
+							WeSolv Challenges are the types of interactions 
+							that attract top talent. Engage our network of talented 
+							students from all of the top programs and attract 
+							the talent you want.</p>
+						<br/>	
+						<a href="<?php //echo base_url('Home/about'); ?>" class="w3-btn w3-round w3-card-2 w3-padding-large w3-margin-top w3-orange w3-text-white" href="#" data-toggle="modal" data-target="#contactModal"><span style="margin-left:35px;margin-right:35px;">ENGAGE TALENT</span></a>
+
+			  		</div>
+					
 			  </div>
 			</div>
 
-			<div class="jumbotron w3-white jumbo view-height w3-padding-0" data-stellar-background-ratio="0.8">
+
+
+			<div class="jumbotron w3-white jumbo view-height1 w3-padding-0" data-stellar-background-ratio="0.8">
 				<br/><br/><br/>
 				<h1 class="w3-jumbo1 text-center" style="font-family:Roboto;"><b>Innovative Solutions to Your Real Challenges</b></h1><br>
-				  <div class="container text-left">
+				  <div class="container-fluid text-left">
 				  		<div class="row">
 	  						<div class="col-md-6 col-sm-6 col-xs-12">
-					  			<h2 style="font-size:38px; font-family:Roboto;"><b>Outside perspectives bring innovative ideas 
+					  			<h2 class="w3-padding-left" style="font-size:38px; font-family:Roboto;"><b>Outside perspectives bring innovative ideas 
 								and solutions to your most critical challenges</b></h2>
-								<p style="font-size:28px; font-weight:300; line-height:35px; font-family:Roboto;" class="w3-margin-top">
+								<p class="w3-padding-left" style="font-size:28px; font-weight:300; line-height:35px; font-family:Roboto;" class="w3-margin-top">
 								The WeSolv platform provides companies an 
 								opportunity to diverse perspectives to challenges and 
 								opportunities pertinent to core business.  The 
 								outside perspectives of these  students bring the 
 								innovative ideas you want.</p>	
+								<br/>
+								<a href="<?php //echo base_url('Home/about'); ?>" class="w3-margin-left w3-btn w3-round w3-card-2 w3-padding-large w3-margin-top w3-orange w3-text-white" href="#" data-toggle="modal" data-target="#contactModal"><span style="margin-left:35px;margin-right:35px;">GET RESULTS</span></a>
+
 					  		</div>
 					  		<div class="col-md-6 col-sm-6 col-xs-12 text-center">
-					  			<img class="img-responsive w3-section center-block" src="images/cc-4.jpg" style="">	
-					  			<a href="<?php //echo base_url('Home/about'); ?>" class="w3-section w3-btn w3-round w3-card-2 w3-padding-large w3-margin-top w3-orange w3-text-white" href="#" data-toggle="modal" data-target="#contactModal"><span style="margin-left:35px;margin-right:35px;">GET RESULTS</span></a>
+					  			<img class="img-responsive w3-section center-block w3-padding-right" src="images/cc-4.jpg" style="">	
 					  		</div>
 				  		</div>
-				  </div>
-				  <!-- <br/><br/><br/><br/><br/> -->
-					<!-- <div class="col-md-12 col-sm-12 col-xm-12 text-left">
-							<br/>
-							<a href="<?php //echo base_url('Home/about'); ?>" class="w3-btn w3-round w3-card-2 w3-padding-large w3-margin-top w3-orange w3-text-white" href="#" data-toggle="modal" data-target="#contactModal"><span style="margin-left:35px;margin-right:35px;">GET RESULTS</span></a>
-					</div> -->
+				  </div><br/><br/>
+				  
 			</div>
 
-			<div class="jumbotron bg-cc bg-cc-2 jumbo view-height" data-stellar-background-ratio="0.8">
+
+
+			<div class="jumbotron bg-cc bg-cc-2 jumbo view-height1" data-stellar-background-ratio="0.8">
 
 			  <div class="container w3-text-white text-left">
-			  	<br/><br/><br/>
-					<h1 class="w3-text-white w3-jumbo1 text-center"><b>Access to Top diversity Pools</b></h1><br>
-					<h2 style="font-size:38px;"><b>Access the largest network of<br>diverse 
-					students aimed at real<br>business challenges</b></h2>
+				<h1 class="w3-text-white w3-jumbo1 text-center"><b>Access to Top diversity Pools</b></h1><br><br><br>
+				<div class="col-md-6 text-left">
+					<h2 style="font-size:38px;"><b>Access the largest network of diverse 
+					students aimed at real business challenges</b></h2>
 					<p style="font-size:28px; font-weight:300; line-height:35px;" class="w3-margin-top">
-					Our partnerships with diversity organizations and<br> 
-					universities have created the largest network of<br> 
-					diverse candidates.  More effectively identify and<br> 
+					Our partnerships with diversity organizations and 
+					universities have created the largest network of 
+					diverse candidates.  More effectively identify and 
 					access these students from elite programs.</p>  
 				  
-					<br/><!-- <br/><br/><br/><br/><br/> -->
-					<div class="col-md-12 col-sm-12 col-xm-12 text-left">
-							
-							<a href="<?php //echo base_url('Home/about'); ?>" class="w3-btn w3-round w3-card-2 w3-padding-large w3-margin-top w3-orange w3-text-white" href="#" data-toggle="modal" data-target="#contactModal"><span style="margin-left:35px;margin-right:35px;">ACCESS DIVERSITY</span></a>
-					</div>
+					<br/>
+					<a href="<?php //echo base_url('Home/about'); ?>" class="w3-btn w3-round w3-card-2 w3-padding-large w3-margin-top w3-orange w3-text-white" href="#" data-toggle="modal" data-target="#contactModal"><span style="margin-left:35px;margin-right:35px;">ACCESS DIVERSITY</span></a>
+
+				</div>
+				<div class="col-md-6"> </div>
 			  </div>
 			</div>
 
+
+
 			<div class="jumbotron w3-white w3-padding" style="">&nbsp;</div>
 
-			<div class="jumbotron bg-cc bg-cc-3 jumbo view-height" data-stellar-background-ratio="0.8">
+
+
+			<div class="jumbotron bg-cc bg-cc-5 jumbo view-height1" data-stellar-background-ratio="0.8">
 
 			  <div class="container w3-text-white text-right">
-			  	<br/><br/><br/>
-					<h1 class="w3-text-white w3-jumbo1 text-center"><b>Improve decisions with Data</b></h1><br>
-					<h2 style="font-size:38px;"><b>Make better and faster decisions<br>
+				<h1 class="w3-text-white w3-jumbo1 text-center"><b>Improve decisions with Data</b></h1><br><br><br>
+			  	<div class="col-md-7"> </div>
+			  				
+		  		<div class="col-md-5 text-left">
+					<h2 style="font-size:38px;"><b>Make better and faster decisions 
 					with data and increase your ROI</b></h2>
 					<p style="font-size:28px; font-weight:300; line-height:35px;" class="w3-margin-top">
-					WeSolv Challenges provide a wealth of data and<br>
-					feedback to companies, schools and students.<br>  
-					Our predictive data reports will help companies gain<br> 
+					WeSolv Challenges provide a wealth of data and 
+					feedback to companies, schools and students.   
+					Our predictive data reports will help companies gain  
 					unique insights to talent selection.</p>
 				  
-					<br/><!-- <br/><br/><br/><br/><br/> -->
-					<div class="col-md-12 col-sm-12 col-xm-12 text-right">
-							
-							<a href="<?php //echo base_url('Home/about'); ?>" class="w3-btn w3-round w3-card-2 w3-padding-large w3-margin-top w3-orange w3-text-white" href="#" data-toggle="modal" data-target="#contactModal"><span style="margin-left:35px;margin-right:35px;">INCREASE ROI</span></a>
-					</div>
+					<br/>
+					<a href="<?php //echo base_url('Home/about'); ?>" class="w3-btn w3-round w3-card-2 w3-padding-large w3-margin-top w3-orange w3-text-white" href="#" data-toggle="modal" data-target="#contactModal"><span style="margin-left:35px;margin-right:35px;">INCREASE ROI</span></a>
+
+				</div>
 			  </div>
 			</div>
 
-			<div class="jumbotron w3-white w3-padding" style="">&nbsp;</div>
+			<!-- <div class="jumbotron w3-white w3-padding" style="">&nbsp;</div>
 
 			<div class="jumbotron bg-cc bg-cc-5 jumbo view-height" data-stellar-background-ratio="0.8">
 
 			  <div class="container w3-text-white text-left">
 			  	<br/><br/><br/>
 					<h1 class="w3-text-white w3-jumbo1 text-center"><b>In-Depth Analytics Platform</b></h1><br>
-					<!-- <h2 style="font-size:38px;"><b>Competitive employers find ways<br>
-					to better engage top talent</b></h2> -->
+					
 					<p style="font-size:28px; font-weight:300; line-height:35px;" class="w3-margin-top">
 						Provides predictive data and real time feedback to companies, schools and students.<br/>
 				  
@@ -244,31 +246,22 @@
 							<a href="<?php //echo base_url('Home/about'); ?>" class="w3-btn w3-round w3-card-2 w3-padding-large w3-margin-top w3-orange w3-text-white" href="#" data-toggle="modal" data-target="#contactModal"><span style="margin-left:35px;margin-right:35px;">HOST A CHALLENGE</span></a>
 					</div>
 			  </div>
-			</div>
+			</div> -->
 
 			<script type="text/javascript">
-				// $.stellar({
-				// 			    horizontalScrolling: false,
-				// 			    responsive: true
-				// 			});
 				$(function(){
 					$.stellar({
 						horizontalScrolling: false,
 						verticalOffset: 40,
-						// responsive: true
 					});
 				});
 			</script>
 
 
 
-			<div class="jumbotron w3-blue view-height" style="">
-			  <div class="container-fluid w3-padding-0 text-center top-margin">
-			  	<!-- <br/><br/> -->
+			<div class="jumbotron w3-blue view-height1" style="">
+			  <div class="container-fluid w3-padding-0 text-center top-margin1">
 			  	<h2 class="w3-text-white w3-jumbo"><b>How It Works</b></h2> <br/> 
-			  	<!-- <div class="row">
-			  		<h2 class="w3-text-white col-md-12 col-sm-12 col-xm-12 w3-xxlarge" style="">How It Works</h2>  		
-			  	</div> -->
 					
 					<br/>
 <!-- ------------------------------------------------------------------------------------------------------------------------- -->
@@ -379,8 +372,8 @@
 
 
 
-			<div class="jumbotron w3-white view-height">
-			  <div class="container-fluid text-center w3-padding-0 top-margin">
+			<div class="jumbotron w3-white view-height1">
+			  <div class="container-fluid text-center w3-padding-0 top-margin1">
 				<h2 class="w3-text-dark-blue w3-jumbo"><b>Top MBA Programs Represented</b></h2> <br/><br/> 
 					<div class="row">
 						<div class="col-md-1 hidden-sm hidden-xs text-left pa-height "><h1>&nbsp;</h1><a href="javascript:void(0);" class="prev"><h1 class="w3-text-black w3-jumbo ver-cent"><i class="fa fa-angle-left"></i></h1></a></div>
@@ -431,14 +424,13 @@
 						</div>
 						<div class="col-md-1 hidden-sm hidden-xs text-right pa-height "><h1>&nbsp;</h1><a href="javascript:void(0);" class="next"><h1 class="w3-text-black w3-jumbo ver-cent"><i class="fa fa-angle-right"></i></h1></a></div>
 					</div>
-			  </div>  <br/>
+			  </div>  
 			</div>
 
 
 
-			<div class="jumbotron w3-blue view-height top-margin">
+			<div class="jumbotron w3-blue view-height1 top-margin1">
 			  <div class="container text-center">
-				<h2 class="w3-text-white w3-xxlarge">&nbsp;</h2> <br/> 
 				<div class="row">
 					<div class="col-md-2 hidden-sm hidden-xs text-left pa-height "><h1>&nbsp;</h1><a href="javascript:void(0);" class="prev"><h1 class="w3-text-dark-blue w3-jumbo ver-cent"><i class="fa fa-angle-left"></i></h1></a></div>
 					<div class="col-md-8 col-sm-12 col-xs-12">
@@ -479,8 +471,8 @@
 
 
 
-			<div class="jumbotron w3-white view-height">
-			  <div class="w3-text-dark-blue container-fluid text-center top-margin">
+			<div class="jumbotron w3-white view-height1">
+			  <div class="w3-text-dark-blue container-fluid text-center top-margin1">
 				<h2 class="w3-jumbo"><b>WeSolv Offers</b></h2> <br/>
 					<div class="row">
 						<div class="col-md-4 bulb-bg">

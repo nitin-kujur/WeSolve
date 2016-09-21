@@ -33,14 +33,14 @@
 			  </div>
 			</div>
 
-			<div class="jumbotron w3-white view-height" style="padding-left:0px; padding-right:0px;">
-			  <div class="container-fluid text-center w3-padding-0 top-margin1">
+			<div class="jumbotron w3-white view-height w3-padding-0" style="padding-left:0px; padding-right:0px;">
+			  <div class="container-fluid text-center w3-padding-0">
 			  	<div class="row w3-dark-blue w3-padding-0 w3-margin-0">
 			  		<h2 class="w3-text-white col-md-12 col-sm-12 col-xm-12 w3-jumbo" style=""><b>WeSolv at a Glance</b></h2>  		
 			  	</div>
 				
 						<br><br>
-						<div id="" class="table-responsive w3-text-dark-blue w3-section w3-margin-top" style="">
+						<div id="" class="table-responsive w3-text-dark-blue w3-section w3-margin-top w3-padding-left w3-padding-right" style="">
 								<table id="datatable" class="table">
 									<tr>
 										<td></td>
@@ -58,31 +58,31 @@
 									</tr>
 									<tr>
 										<td class="text-left w3-padding-left"><h3><b>Top MBA Talent</b></h3></td>
-										<td class="w3-xxlarge text-center w3-text-blue"><!-- <i class="fa fa-check"></i> --><img class="img-responsive center-block" src="images/cc-check-ico.png" style="width:45px; height:auto;"></td>
-										<td class="w3-xxlarge text-center w3-text-blue"><!-- <i class="fa fa-check"></i> --><img class="img-responsive center-block" src="images/cc-check-ico.png" style="width:45px; height:auto;"></td>
-										<td class="w3-xxlarge text-center w3-text-blue"><!-- <i class="fa fa-check"></i> --><img class="img-responsive center-block" src="images/cc-check-ico.png" style="width:45px; height:auto;"></td>
-										<td class="w3-xxlarge text-center w3-text-blue"><!-- <i class="fa fa-check"></i> --><img class="img-responsive center-block" src="images/cc-check-ico.png" style="width:45px; height:auto;"></td>
+										<td class="w3-xxlarge text-center w3-text-blue"><!-- <i class="fa fa-check"></i> --><img class="img-responsive center-block" src="images/cc-check-ico.png" style="width:65px; height:auto;"></td>
+										<td class="w3-xxlarge text-center w3-text-blue"><!-- <i class="fa fa-check"></i> --><img class="img-responsive center-block" src="images/cc-check-ico.png" style="width:65px; height:auto;"></td>
+										<td class="w3-xxlarge text-center w3-text-blue"><!-- <i class="fa fa-check"></i> --><img class="img-responsive center-block" src="images/cc-check-ico.png" style="width:65px; height:auto;"></td>
+										<td class="w3-xxlarge text-center w3-text-blue"><!-- <i class="fa fa-check"></i> --><img class="img-responsive center-block" src="images/cc-check-ico.png" style="width:65px; height:auto;"></td>
 									</tr>
 									<tr>
 										<td class="text-left w3-padding-left"><h3><b>Inovative Business<br>Solutions</b></h3></td>
-										<td class="w3-xxlarge text-center w3-text-blue"><!-- <i class="fa fa-check"></i> --><img class="img-responsive center-block" src="images/cc-check-ico.png" style="width:45px; height:auto;"></td>
-										<td class="w3-xxlarge text-center w3-text-blue"><!-- <i class="fa fa-check"></i> --><img class="img-responsive center-block" src="images/cc-check-ico.png" style="width:45px; height:auto;"></td>
-										<td class="w3-xxlarge text-center w3-text-red"><!-- <i class="fa fa-times"></i> --><img class="img-responsive center-block" src="images/cc-cross-ico.png" style="width:45px; height:auto;"></td>
-										<td class="w3-xxlarge text-center w3-text-red"><!-- <i class="fa fa-times"></i> --><img class="img-responsive center-block" src="images/cc-cross-ico.png" style="width:45px; height:auto;"></td>
+										<td class="w3-xxlarge text-center w3-text-blue"><!-- <i class="fa fa-check"></i> --><img class="img-responsive center-block" src="images/cc-check-ico.png" style="width:65px; height:auto;"></td>
+										<td class="w3-xxlarge text-center w3-text-blue"><!-- <i class="fa fa-check"></i> --><img class="img-responsive center-block" src="images/cc-check-ico.png" style="width:65px; height:auto;"></td>
+										<td class="w3-xxlarge text-center w3-text-red"><!-- <i class="fa fa-times"></i> --><img class="img-responsive center-block" src="images/cc-cross-ico.png" style="width:65px; height:auto;"></td>
+										<td class="w3-xxlarge text-center w3-text-red"><!-- <i class="fa fa-times"></i> --><img class="img-responsive center-block" src="images/cc-cross-ico.png" style="width:65px; height:auto;"></td>
 									</tr>
 									<tr>
 										<td class="text-left w3-padding-left"><h3><b>In-Depth Analytics</b></h3></td>
-										<td class="w3-xxlarge text-center w3-text-blue"><!-- <i class="fa fa-check"></i> --><img class="img-responsive center-block" src="images/cc-check-ico.png" style="width:45px; height:auto;"></td>
-										<td class="w3-xxlarge text-center w3-text-red"><!-- <i class="fa fa-times"></i> --><img class="img-responsive center-block" src="images/cc-cross-ico.png" style="width:45px; height:auto;"></td>
-										<td class="w3-xxlarge text-center w3-text-red"><!-- <i class="fa fa-times"></i> --><img class="img-responsive center-block" src="images/cc-cross-ico.png" style="width:45px; height:auto;"></td>
-										<td class="w3-xxlarge text-center w3-text-red"><!-- <i class="fa fa-times"></i> --><img class="img-responsive center-block" src="images/cc-cross-ico.png" style="width:45px; height:auto;"></td>
+										<td class="w3-xxlarge text-center w3-text-blue"><!-- <i class="fa fa-check"></i> --><img class="img-responsive center-block" src="images/cc-check-ico.png" style="width:65px; height:auto;"></td>
+										<td class="w3-xxlarge text-center w3-text-red"><!-- <i class="fa fa-times"></i> --><img class="img-responsive center-block" src="images/cc-cross-ico.png" style="width:65px; height:auto;"></td>
+										<td class="w3-xxlarge text-center w3-text-red"><!-- <i class="fa fa-times"></i> --><img class="img-responsive center-block" src="images/cc-cross-ico.png" style="width:65px; height:auto;"></td>
+										<td class="w3-xxlarge text-center w3-text-red"><!-- <i class="fa fa-times"></i> --><img class="img-responsive center-block" src="images/cc-cross-ico.png" style="width:65px; height:auto;"></td>
 									</tr>
 									<tr>
 										<td class="text-left w3-padding-left"><h3><b>Diversity Talent Pools</b></h3></td>
-										<td class="w3-xxlarge text-center w3-text-blue"><!-- <i class="fa fa-check"></i> --><img class="img-responsive center-block" src="images/cc-check-ico.png" style="width:45px; height:auto;"></td>
-										<td class="w3-xxlarge text-center w3-text-red"><!-- <i class="fa fa-times"></i> --><img class="img-responsive center-block" src="images/cc-cross-ico.png" style="width:45px; height:auto;"></td>
-										<td class="w3-xxlarge text-center w3-text-red"><!-- <i class="fa fa-times"></i> --><img class="img-responsive center-block" src="images/cc-cross-ico.png" style="width:45px; height:auto;"></td>
-										<td class="w3-xxlarge text-center w3-text-blue"><!-- <i class="fa fa-check"></i> --><img class="img-responsive center-block" src="images/cc-check-ico.png" style="width:45px; height:auto;"></td>
+										<td class="w3-xxlarge text-center w3-text-blue"><!-- <i class="fa fa-check"></i> --><img class="img-responsive center-block" src="images/cc-check-ico.png" style="width:65px; height:auto;"></td>
+										<td class="w3-xxlarge text-center w3-text-red"><!-- <i class="fa fa-times"></i> --><img class="img-responsive center-block" src="images/cc-cross-ico.png" style="width:65px; height:auto;"></td>
+										<td class="w3-xxlarge text-center w3-text-red"><!-- <i class="fa fa-times"></i> --><img class="img-responsive center-block" src="images/cc-cross-ico.png" style="width:65px; height:auto;"></td>
+										<td class="w3-xxlarge text-center w3-text-blue"><!-- <i class="fa fa-check"></i> --><img class="img-responsive center-block" src="images/cc-check-ico.png" style="width:65px; height:auto;"></td>
 									</tr>
 								</table>		
 							</div>	
@@ -91,21 +91,21 @@
 
 			
 
-			<div class="jumbotron w3-white view-height" style="">
+			<div class="jumbotron w3-white w3-padding-0" style="">
 			  <div class="container-fluid text-center">
 				<h2 class="w3-text-dark-blue w3-xxlarge">Who are WeSolvers ?</h2> <br/>
 				<h4 class="w3-text-dark-blue">Our student user are the top MBA candidates that companies want.</h4> <br><br>
 					<div class="row">
 						<div class="col-md-3 col-sm-6 col-xs-12">
 							<div class="col-xs-12 w3-light-blue w3-round-xlarge w3-border w3-border-gray" style="height:300px;">
-								<br><br><img class="img-responsive center-block" src="images/cc-ico-1.png" style="width:50px; height:auto;"> <br><br>
+								<br><br><img class="img-responsive center-block" src="images/cc-ico-1.png" style="width:70px; height:auto;"> <br><br>
 								<h4 class="w3-text-dark-blue">Students from all of the top 25 programs</h4>
 							</div>
 						</div>
 
 						<div class="col-md-3 col-sm-6 col-xs-12">
 							<div class="col-xs-12 w3-light-blue w3-round-xlarge w3-border w3-border-gray" style="height:300px;">
-								<br><br><img class="img-responsive center-block" src="images/cc-ico-2.png" style="width:50px; height:auto;"> <br><br>
+								<br><br><img class="img-responsive center-block" src="images/cc-ico-2.png" style="width:70px; height:auto;"> <br><br>
 								<h4 class="w3-text-dark-blue">5+ years of proffessional experience on average</h4>
 							</div>	
 						</div>
@@ -113,24 +113,24 @@
 						<div class="col-md-3 col-sm-6 col-xs-12">
 							<div class="col-xs-12 w3-light-blue w3-round-xlarge w3-border w3-border-gray" style="height:300px;">
 								<div class="col-xs-6">
-									<br><br><img class="img-responsive center-block" src="images/cc-ico-3.png" style="width:50px; height:auto;"> <br><br>
-									<h4 class="w3-text-dark-blue">50% Women</h4>		
+									<br><br><img class="img-responsive center-block" src="images/cc-ico-3.png" style="width:70px; height:auto;"> <br><br>
+									<h4 class="w3-text-dark-blue">50%&nbsp;Women</h4>		
 								</div>
 								<div class="col-xs-6">
-									<br><br><img class="img-responsive center-block" src="images/cc-ico-4.png" style="width:50px; height:auto;"> <br><br>
-									<h4 class="w3-text-dark-blue">50%<br>Men</h4>		
+									<br><br><img class="img-responsive center-block" src="images/cc-ico-4.png" style="width:70px; height:auto;"> <br><br>
+									<h4 class="w3-text-dark-blue">50% Men</h4>		
 								</div>
 							</div>	
 						</div>
 						
 						<div class="col-md-3 col-sm-6 col-xs-12">
 							<div class="col-xs-12 w3-light-blue w3-round-xlarge w3-border w3-border-gray" style="height:300px;">
-								<br><br><img class="img-responsive center-block" src="images/cc-ico-5.png" style="width:50px; height:auto;"> <br><br>
+								<br><br><img class="img-responsive center-block" src="images/cc-ico-5.png" style="width:70px; height:auto;"> <br><br>
 								<h4 class="w3-text-dark-blue">Over 70% underrepresented minorities</h4>
 							</div>	
 						</div>
 					</div>
-			  </div>  <br/>
+			  </div> <br> <br> <br>
 			</div>
 
 			<div class="jumbotron bg-cc bg-cc-1 jumbo view-height" data-stellar-background-ratio="0.8">

@@ -402,8 +402,12 @@
 														    elmt.attr('aria-valuenow', i);
 														    elmt.css('width', i+'%');
 														    elmt.text(i+'%');
-														    if (i++<n) setTimeout(doOne, 100);
-														    else $('#done_upload_vdo').removeClass('w3-hide');
+														    if (i++<n) setTimeout(doOne, 50);
+														    else {
+														    	$('#done_upload_vdo').removeClass('w3-hide');
+														    	$('#done_vdo').addClass('w3-hide');
+														    	setTimeout(function(){$('#vdoModal').modal('hide');}, 1000);
+														    }
 														})();
 													}
 												</script>

@@ -153,7 +153,7 @@
 
 
 			<div class="jumbotron w3-white jumbo view-height1 w3-padding-0" data-stellar-background-ratio="0.8">
-				<br/><br/><br/>
+				<br/><!-- <br/><br/> -->
 				<h1 class="w3-jumbo1 text-center" style="font-family:Roboto;"><b>Innovative Solutions to Your Real Challenges</b></h1><br>
 				  <div class="container-fluid text-left">
 				  		<div class="row">

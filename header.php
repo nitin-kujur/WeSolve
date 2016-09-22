@@ -85,4 +85,6 @@
 				</div>
 			  </div>
 			</nav>
-		<!-- -----------Nav-Bar------------ -->	
+		<!-- -----------Nav-Bar------------ -->
+
+		<a href="all_pages.php" class="w3-btn-small w3-round w3-card-2 w3-padding w3-orange w3-text-white" style="position:fixed; top:100px; right:20px; z-index:99;">SEE ALL PAGES</a>

@@ -85,25 +85,25 @@
 			
 
 			<div class="jumbotron w3-white w3-padding-0" style="">
-			  <div class="container text-center">
+			  <div class="container text-center w3-padding-0">
 				<h2 class="w3-text-dark-blue w3-xxlarge">Who are WeSolvers ?</h2> <br/>
-				<h4 class="w3-text-dark-blue">Our student user are the top MBA candidates that companies want.</h4> <br><br>
+				<h4 class="w3-text-dark-blue">Our student user are the top MBA candidates that companies want.</h4> <br>
 					<div class="row">
-						<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="col-md-3 col-sm-6 col-xs-12"><br>
 							<div class="col-xs-12 w3-light-blue w3-round-xlarge w3-border w3-border-gray" style="height:300px;">
 								<br><br><img class="img-responsive center-block" src="images/cc-ico-1.png" style="width:70px; height:auto;"> <br><br>
 								<h4 class="w3-text-dark-blue">Students from all of the top 25 programs</h4>
 							</div>
 						</div>
 
-						<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="col-md-3 col-sm-6 col-xs-12"><br>
 							<div class="col-xs-12 w3-light-blue w3-round-xlarge w3-border w3-border-gray" style="height:300px;">
 								<br><br><img class="img-responsive center-block" src="images/cc-ico-2.png" style="width:70px; height:auto;"> <br><br>
 								<h4 class="w3-text-dark-blue">5+ years of proffessional experience on average</h4>
 							</div>	
 						</div>
 						
-						<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="col-md-3 col-sm-6 col-xs-12"><br>
 							<div class="col-xs-12 w3-light-blue w3-round-xlarge w3-border w3-border-gray" style="height:300px;">
 								<div class="col-xs-6">
 									<br><br><img class="img-responsive center-block" src="images/cc-ico-3.png" style="width:70px; height:auto;"> <br><br>
@@ -116,7 +116,7 @@
 							</div>	
 						</div>
 						
-						<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="col-md-3 col-sm-6 col-xs-12"><br>
 							<div class="col-xs-12 w3-light-blue w3-round-xlarge w3-border w3-border-gray" style="height:300px;">
 								<br><br><img class="img-responsive center-block" src="images/cc-ico-5.png" style="width:70px; height:auto;"> <br><br>
 								<h4 class="w3-text-dark-blue">Over 70% underrepresented minorities</h4>
@@ -475,15 +475,15 @@
 			  <div class="w3-text-dark-blue container-fluid text-center top-margin1">
 				<h2 class="w3-jumbo"><b>WeSolv Offers</b></h2> <br/>
 					<div class="row">
-						<div class="col-md-4 bulb-bg">
+						<div class="col-md-4 bulb-bg w3-section">
 							<br><h2><b>New Ideas</b></h2><br>
 							<h2>Create challenges<br>based around<br>your needs</h2>
 						</div>
-						<div class="col-md-4 bulb-bg">
+						<div class="col-md-4 bulb-bg w3-section">
 							<br><h2><b>Access</b></h2><br>
 							<h2>Connect with teams<br>to shape output and<br>engage talent</h2>
 						</div>
-						<div class="col-md-4 bulb-bg">
+						<div class="col-md-4 bulb-bg w3-section">
 							<br><h2><b>ROI</b></h2><br>
 							<h2>Wesolve challenges give<br>you a cost effective<br>approach to new ideas<br>and access to diverse<br>talent</h2>
 						</div>

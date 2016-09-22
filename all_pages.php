@@ -184,6 +184,10 @@
                         <a href="admin_dashboard.php" target="iFrame" onclick="currentActive(this)">Admin Page</a>
                     </li>
 
+                    <li>
+                        <a href="404.html" target="iFrame" onclick="currentActive(this)">404 Error page</a>
+                    </li>
+
                 </ul>
             </div>
             <div class="w3-clear"></div>

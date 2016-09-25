@@ -393,6 +393,7 @@
 							    margin:80,
 							    autoplay:true,
 							    autoplaySpeed:2000,
+							    stopOnHover:true,
 							    responsiveClass:true,
 							    responsive:{
 							        0:{
@@ -418,6 +419,7 @@
 							    margin:300,
 							    autoplay:true,
 							    autoplaySpeed:2000,
+							    stopOnHover:true,
 							    items:1,
 							    nav:true,
 							    navText:["&nbsp;","&nbsp;"]

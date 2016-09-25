@@ -181,7 +181,10 @@
                         <a href="wesolvers.php" target="iFrame" onclick="currentActive(this)">WeSolvers Page</a>
                     </li>
                     <li>
-                        <a href="admin_dashboard.php" target="iFrame" onclick="currentActive(this)">Admin Page</a>
+                        <a href="admin_login.php" target="iFrame" onclick="currentActive(this)">Admin Login Page</a>
+                    </li>
+                    <li>
+                        <a href="admin_dashboard.php" target="iFrame" onclick="currentActive(this)">Admin Dashboard Page</a>
                     </li>
 
                     <li>

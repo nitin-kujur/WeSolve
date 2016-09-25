@@ -10,15 +10,15 @@
 			<div class="jumbotron bg-cc bg-cc-4 jumbo view-height" data-stellar-background-ratio="0.8">
 
 			  <div class="container w3-text-white text-center">
-			  	<br/><br/><br/> <br/>
+			  	<br/><br/><br/> <br/><br/><br/>
 					<h1 class="w3-text-white w3-jumbo1"><b>Engage Top Talent</b></h1>
-					<p style="font-size:28px; font-weight:300; line-height:35px;" class="w3-margin-top"><br/>
+					<p style="font-size:28px; font-weight:300; line-height:35px;" class="w3-margin-top"><br/><br/>
 						WeSolv evolves talent and innovation sourcing by seamlessly connicting top<br/>
 						MBA students to each other to solv real business challenges for the<br/>
 						companies they are interested in.</p>
 				  	
 					<div class="col-md-12 col-sm-12 col-xm-12 text-center">
-							<br/><br/><br/>
+							<br/>
 							<a href="<?php //echo base_url('Home/about'); ?>" class="w3-btn w3-round w3-card-2 w3-padding-large w3-margin-top w3-orange w3-text-white" href="#" data-toggle="modal" data-target="#contactModal"><span style="margin-left:35px;margin-right:35px;">ENGAGE TALENT</span></a>
 					</div>
 			  </div>
@@ -135,9 +135,9 @@
 			  		<div class="col-md-7"> </div>
 			  				
 			  		<div class="col-md-5 text-left">
-						<h2 style="font-size:38px;"><b>Competitive employers find ways 
+						<h2 style="font-size:30px;"><b>Competitive employers find ways 
 						to better engage top talent</b></h2>
-						<p style="font-size:28px; font-weight:300; line-height:35px;" class="w3-margin-top">
+						<p style="font-size:20px; font-weight:300; line-height:35px;" class="w3-margin-top">
 							WeSolv Challenges are the types of interactions 
 							that attract top talent. Engage our network of talented 
 							students from all of the top programs and attract 
@@ -155,12 +155,12 @@
 			<div class="jumbotron w3-white jumbo view-height1 w3-padding-0" data-stellar-background-ratio="0.8">
 				<br/><!-- <br/><br/> -->
 				<h1 class="w3-jumbo1 text-center" style="font-family:Roboto;"><b>Innovative Solutions to Your Real Challenges</b></h1><br>
-				  <div class="container-fluid text-left">
+				  <div class="container text-left">
 				  		<div class="row">
-	  						<div class="col-md-6 col-sm-6 col-xs-12">
-					  			<h2 class="w3-padding-left" style="font-size:38px; font-family:Roboto;"><b>Outside perspectives bring innovative ideas 
+	  						<div class="col-md-5 col-sm-6 col-xs-12">
+					  			<h2 class="w3-padding-left" style="font-size:30px; font-family:Roboto;"><b>Outside perspectives bring innovative ideas 
 								and solutions to your most critical challenges</b></h2>
-								<p class="w3-padding-left" style="font-size:28px; font-weight:300; line-height:35px; font-family:Roboto;" class="w3-margin-top">
+								<p class="w3-padding-left" style="font-size:20px; font-weight:300; line-height:35px; font-family:Roboto;" class="w3-margin-top">
 								The WeSolv platform provides companies an 
 								opportunity to diverse perspectives to challenges and 
 								opportunities pertinent to core business.  The 
@@ -170,6 +170,7 @@
 								<a href="<?php //echo base_url('Home/about'); ?>" class="w3-margin-left w3-btn w3-round w3-card-2 w3-padding-large w3-margin-top w3-orange w3-text-white" href="#" data-toggle="modal" data-target="#contactModal"><span style="margin-left:35px;margin-right:35px;">GET RESULTS</span></a>
 
 					  		</div>
+					  		<div class="col-md-1 hidden-sm hidden-xs"></div>
 					  		<div class="col-md-6 col-sm-6 col-xs-12 text-center">
 					  			<img class="img-responsive w3-section center-block w3-padding-right" src="images/cc-4.jpg" style="">	
 					  		</div>
@@ -184,10 +185,10 @@
 
 			  <div class="container w3-text-white text-left">
 				<h1 class="w3-text-white w3-jumbo1 text-center"><b>Access to Top diversity Pools</b></h1><br><br><br>
-				<div class="col-md-6 text-left">
-					<h2 style="font-size:38px;"><b>Access the largest network of diverse 
+				<div class="col-md-5 text-left">
+					<h2 style="font-size:30px;"><b>Access the largest network of diverse 
 					students aimed at real business challenges</b></h2>
-					<p style="font-size:28px; font-weight:300; line-height:35px;" class="w3-margin-top">
+					<p style="font-size:20px; font-weight:300; line-height:35px;" class="w3-margin-top">
 					Our partnerships with diversity organizations and 
 					universities have created the largest network of 
 					diverse candidates.  More effectively identify and 
@@ -197,7 +198,7 @@
 					<a href="<?php //echo base_url('Home/about'); ?>" class="w3-btn w3-round w3-card-2 w3-padding-large w3-margin-top w3-orange w3-text-white" href="#" data-toggle="modal" data-target="#contactModal"><span style="margin-left:35px;margin-right:35px;">ACCESS DIVERSITY</span></a>
 
 				</div>
-				<div class="col-md-6"> </div>
+				<div class="col-md-7"> </div>
 			  </div>
 			</div>
 
@@ -214,9 +215,9 @@
 			  	<div class="col-md-7"> </div>
 			  				
 		  		<div class="col-md-5 text-left">
-					<h2 style="font-size:38px;"><b>Make better and faster decisions 
+					<h2 style="font-size:30px;"><b>Make better and faster decisions 
 					with data and increase your ROI</b></h2>
-					<p style="font-size:28px; font-weight:300; line-height:35px;" class="w3-margin-top">
+					<p style="font-size:20px; font-weight:300; line-height:35px;" class="w3-margin-top">
 					WeSolv Challenges provide a wealth of data and 
 					feedback to companies, schools and students.   
 					Our predictive data reports will help companies gain  
@@ -453,9 +454,9 @@
 									<div class="container-fluid filter1" style="height:inherit;">
 										<div class="row">
 											<div class="col-sm-12 col-md-12 col-xs-12 text-center">
-												<br/><h4>WeSolv helps companies find students with the skills they want.</h4><hr class="center-block" style="border:1px white solid; max-width:300px;"><br/>
-												<h3>"One area in which we find that MBAs fall short<br>of employer expectations is those which we<br>would call soft skills - namely leadership,<br>communication, and interpersonal skills."</h3><br>
-												<h3 class="text-center" style="margin-left:220px;"><i>- TopMBA.com</i></h3>			
+												<br/><h4>WeSolv streamlines the difficult modern recruitment process.</h4><hr class="center-block" style="border:1px white solid; max-width:300px;"><br/>
+												<h3>"The vast majority of MBA employers<br>rate proven ability to perform as the<br>most critical attribute they seek in<br>potential new hires."</h3><br>
+												<h3 class="text-center" style="margin-left:220px;"><i>- GMAC MBA survey</i></h3>		
 											</div>	
 										</div>
 									</div>
@@ -532,7 +533,7 @@
 														<br>
 													</div>
 											    </div>
-											    <button type="button" class="w3-section w3-btn w3-round w3-card-2 w3-padding-large w3-orange w3-text-dark-blue w3-text-white">SUBMIT TO HOST A CHALLENGE</button>
+											    <button type="button" class="w3-section w3-btn w3-round w3-card-2 w3-padding-large w3-orange w3-text-dark-blue w3-text-white">CONTACT US</button>
 											</form>	
                                         </div>
                                     </div>

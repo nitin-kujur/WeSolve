@@ -7,7 +7,8 @@
 			  <div class="container w3-text-white">
 			  	<br/><br/><br/>
 					<h1 class="w3-text-white w3-jumbo1">Real<br/>Projects <span class="w3-text-orange"><i class="fa fa-plus"></i></span><br/>Top Companies</h1><p style="font-size:8px;">&nbsp;</p><h2 style="font-size:50px;" class="w3-text-white">Connect.   Engage.   Solve.</h2>
-					<p style="font-size:30px; font-weight:300;" class="w3-margin-top">Work on a diverse team of MBA students on<br/>
+					<p style="font-size:30px; font-weight:300;" class="w3-margin-top">
+						Work on a diverse team of MBA students on<br/>
 						challanges and engage the companies you're<br/>
 						real case interested in. Gain resume experience, <br/>
 						win cash awards, and find the right career.</p>
@@ -59,24 +60,24 @@
 			
 			
 
-			<div class="jumbotron w3-red" style="padding:0px !important; margin:0px !important; height:0px !important; display:block;" >
+			<!-- <div class="jumbotron" style="padding:0px !important; margin:0px !important; height:0px !important; display:block;" >
 			  <div class="container-fluid text-center">
 						<div class="row">
 								<div class="col-md-3 col-sm-2"></div>
 				  			<div class="col-md-6 col-sm-8 col-xs-12">
-			            <iframe class="w3-card-2" width="100%" height="320" style="top:-120px; position:relative; border:0px; max-width:569px;" src="https://www.youtube.com/embed/R4eHn8xulSY?showinfo=0" allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen"></iframe>
+			            <iframe class="w3-card-2" width="100%" height="320" style="top:-120px; position:relative; border:0px; max-width:569px; background-color:white;" alt="Coming Soon" src="" allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen"></iframe>
 			          </div>
 			          <div class="col-md-3 col-sm-2" style="clear:both;"></div>
 			      </div>
       	</div>
-			</div>
+			</div> -->
 
 
 			<div class="jumbotron w3-blue" style="">
 			  <div class="container-fluid text-center">
-			  	<br/><br/>
+			  	<!-- <br/><br/> -->
 			  	<div class="row">
-			  		<h2 class="w3-text-white col-md-12 col-sm-12 col-xm-12 w3-xxlarge" style="position:relative; top:-50px;">How It Works</h2>  		
+			  		<h2 class="w3-text-white col-md-12 col-sm-12 col-xm-12 w3-xxlarge" style="position:relative; <!-- top:-50px; -->">How It Works</h2>  		
 			  	</div>
 					
 					<br/>

@@ -7,7 +7,7 @@
 			  <div class="container w3-text-white">
 			  	<br/><br/><br/>
 					<h1 class="w3-text-white w3-jumbo1">Real<br/>Projects <span class="w3-text-orange"><i class="fa fa-plus"></i></span><br/>Top Companies</h1><p style="font-size:8px;">&nbsp;</p><h2 style="font-size:50px;" class="w3-text-white">Connect.   Engage.   Solve.</h2>
-					<p style="font-size:30px; font-weight:300;" class="w3-margin-top">
+					<p style="font-size:30px; font-weight:300;line-height:35px;" class="w3-margin-top">
 						Work on a diverse team of MBA students on<br/>
 						challanges and engage the companies you're<br/>
 						real case interested in. Gain resume experience, <br/>
@@ -19,6 +19,7 @@
 							</div> -->
 							<div class="col-md-12 col-sm-12 col-xs-12">
 									<div class="text-center">
+											<br/>
 											<button data-toggle="modal" data-target="#signupModal" class="w3-btn w3-xlarge w3-round w3-card-2 w3-padding-medium w3-orange w3-text-white"><span style="margin-left:70px; margin-right:70px;">SIGN UP</span></button>
 											<h6 class="">Already A Member?</h6>
 											<a href="javascript:void(0)" data-toggle="modal" data-target="#loginModal"><h6 class="w3-text-black"><strong>Login</strong></h6></a>
@@ -70,14 +71,14 @@
 			          <div class="col-md-3 col-sm-2" style="clear:both;"></div>
 			      </div>
       	</div>
-			</div> -->
+			</div> --> <!-- top:-50px; -->
 
 
 			<div class="jumbotron w3-blue" style="">
 			  <div class="container-fluid text-center">
 			  	<!-- <br/><br/> -->
 			  	<div class="row">
-			  		<h2 class="w3-text-white col-md-12 col-sm-12 col-xm-12 w3-xxlarge" style="position:relative; <!-- top:-50px; -->">How It Works</h2>  		
+			  		<h2 class="w3-text-white col-md-12 col-sm-12 col-xm-12 w3-xxlarge" style="position:relative; ">How It Works</h2>  		
 			  	</div>
 					
 					<br/>

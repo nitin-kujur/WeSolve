@@ -9,6 +9,7 @@
 			<div class="col-xs-12">
 				<br>
 				<h2 class="w3-xxlarge"><b>Terms and Conditions</b></h2>
+				<p class="font_8">&nbsp;</p>
 				<p class="font_8">Welcome to WeSolv, operated by WeSolv, LLC. (“WeSolv” and sometimes referred to as “our” or “we”) and located at 1255 S. State St. Chicago, IL 60605. &nbsp;Thank you for using or visiting our products and services (“Services”). Our Services are a platform through which students and recent graduates of particular educational institutions (each, a “Student”) can find and connect with providers of case competitions (also referred to as Enterprise Challenges) (each, a “Business”).</p>
 
 				<p class="font_8">The following terms and conditions (“Terms”) govern your use of our Services.&nbsp;By accessing, viewing, or using our Services, you indicate that you have read and understand these Terms, that you agree to them and intend to be legally bound by them.&nbsp;If you do not agree to these Terms, or if you are under 18 years of age, or if you are not a legal resident of the United States, you are not granted permission to use our Services and must exit immediately. If you agree to this agreement on behalf of an entity, you represent and warrant that you have the authority to bind that entity to this agreement. In that event, “you” and “your” will refer and apply to that entity.</p>

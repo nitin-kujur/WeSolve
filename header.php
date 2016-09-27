@@ -87,4 +87,37 @@
 			</nav>
 		<!-- -----------Nav-Bar------------ -->
 
+		<script>
+	       $.fn.extend({
+	               animateCss: function (animationName) { 
+	               var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+	               $(this).addClass('animated ' + animationName).one(animationEnd, function() {
+	               $(this).removeClass('animated ' + animationName);
+	              });
+	            }
+	          });
+
+	       function goUp(){
+            $('#goUpbtn').animateCss('bounceIn');
+            jQuery("html, body").animate({
+                  scrollTop: "0"
+                }, 1000);
+           }
+
+	    </script>
+
 		<a href="all_pages.php" class="w3-btn-small w3-round w3-card-2 w3-padding w3-orange w3-text-white" style="position:fixed; top:100px; right:20px; z-index:99;">SEE ALL PAGES</a>
+
+		<div id="goUpbtn" class="w3-card-4 w3-hover-shadow w3-orange w3-text-white" onclick="goUp()"  style="border-radius: 50%;
+          text-align: center; 
+          width: 48px; height: 48px; 
+          position: fixed; 
+          bottom: 10px; right: 10px; 
+          font-size: 20px;
+          cursor: pointer;"><i id="ficon" class="glyphicon glyphicon-circle-arrow-up" style="font-size:24px;
+          position: relative;
+          top: 50%;
+          transform: translateY(-50%);
+          -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);"></i>
+		</div>

@@ -766,4 +766,6 @@ body,html{
 
 				.font_8{
 					font-size: 17px !important;
+					text-align: justify;
+				    text-justify: inter-word;
 				}

@@ -16,11 +16,11 @@
 
 					<p class="font_8">WeSolv is committed to protecting your privacy. We don't just solve challenges, we protect you to avoid them. This privacy policy tells you about our online collection, use and disclosure of personal information. The terms of this policy apply to all personal information collected by WeSolv on the website WeSolv.co and other WeSolv websites or email which are linked to WeSolv.co</p>
 
-					<p class="font_8">&nbsp;</p>
+					<!-- <p class="font_8">&nbsp;</p> -->
 
 					<p class="font_8">This site is operated by WeSolv, LLC. ("WeSolv") and may be accessed in the United States and abroad. For personal information protection purposes, WeSolv is the controller and, unless otherwise noted, is also the processor of the personal information. Information collected may be retained as long as it is reasonably required for the purposes it was collected.</p>
 
-					<p class="font_8">&nbsp;</p>
+					<!-- <p class="font_8">&nbsp;</p> -->
 
 					<p class="font_8">This Privacy Policy is incorporated into WeSolv’s Terms and Conditions by reference, as if set forth fully therein, which must be reviewed and accepted by you. Our Services are not intended for children under the age of 18. WeSolv does not knowingly collect personal information online from visitors in this age group.</p>
 

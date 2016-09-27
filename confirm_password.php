@@ -60,6 +60,8 @@
       }
       .form button:hover,.form button:active,.form button:focus {
         background: #db5a0a;
+        outline: none !important;
+        text-decoration: none !important;
       }
       .form .message {
         margin: 15px 0 0;
@@ -125,11 +127,11 @@
       }
       @-webkit-keyframes go_red{
         from{background-color: #f2f2f2;}
-        to{background-color: #f44336;}
+        to{background-color: #ef9a9a;}
       }
       @keyframes go_red{
         from{background-color: #f2f2f2;}
-        to{background-color: #f44336;}
+        to{background-color: #ef9a9a;}
       }
       .go_green {
         -webkit-animation-name: go_green 1s ease-in 0s forwards;
@@ -140,11 +142,17 @@
       }
       @-webkit-keyframes go_green{
         from{background-color: #f2f2f2;}
-        to{background-color: #66bb6a;}
+        to{background-color: #a5d6a7;}
       }
       @keyframes go_green{
         from{background-color: #f2f2f2;}
-        to{background-color: #66bb6a;}
+        to{background-color: #a5d6a7;}
+      }
+      .go_green::after{
+        /*position: relative;*/
+        content: 'matched';
+        /*left:-20px;*/
+        color: #4caf50;
       }
       button:disabled{
         opacity: 0.5;
@@ -157,30 +165,39 @@
       <div class="form">
         <div class="" style="text-align:center; margin: 0 0 15px;">
           <img src="images/wesolv_logo_bulb_white_BG.png" class="img-responsive nav-btn"  alt="p" width="150px" height="45x" style="position: relative !important;
-          top: -7px !important;"> <span style="">Password<br><span style="margin-left:150px;">change Pannel</span></span>
+          top: -7px !important;"> <span style="">Password<br><span style="margin-left:150px;">Change Pannel</span></span>
         </div>
         <form class="login-form">
           <input id="pass1" type="password" placeholder="new password" />
           <input id="pass2" type="password" placeholder="confirm password" onkeyup="verifyThis()"/>
-          <button type="submit" disabled>Change & Save</button>
+          <button id="btn" type="submit" disabled>Change & Save</button>
         </form>
       </div>
     </div>
 
     <script type="text/javascript">
+      jQuery.fn.extend({
+          disable: function(state) {
+              return this.each(function() {
+                  this.disabled = state;
+              });
+          }
+      });
       function verifyThis(argument) {
         pass1 = $('#pass1').val();
         elm = $('#pass2');
         pass2 = elm.val();
-        btn = $('form button');
+        btn = $('#btn');
 
         if(pass1 === pass2){
-          elm.removeClass('go_red').addClass('go_green');
-          btn.prop('disabled',false);
+          elm.removeClass('go_red');
+          elm.addClass('go_green');
+          btn[0].disabled = false;
         }
         else
-          elm.removeClass('go_green').addClass('go_red');
-          btn.prop('disabled',true);
+          elm.removeClass('go_green');
+          elm.addClass('go_red');
+          // btn[0].disabled = true;
       }
     </script>
 

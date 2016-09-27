@@ -148,12 +148,6 @@
         from{background-color: #f2f2f2;}
         to{background-color: #a5d6a7;}
       }
-      .go_green::after{
-        /*position: relative;*/
-        content: 'matched';
-        /*left:-20px;*/
-        color: #4caf50;
-      }
       button:disabled{
         opacity: 0.5;
       }

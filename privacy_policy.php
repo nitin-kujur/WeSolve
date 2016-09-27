@@ -10,27 +10,27 @@
 				<br>
 				<h2 class="w3-xxlarge"><b>We Take Your Privacy Seriously!</b></h2>
 
-				<p class="font_8">&nbsp;</p>
+				<br>
 
 				<p class="font_8"><b>WeSolv Privacy Policy</b></p>
 
 				<p class="font_8">WeSolv is committed to protecting your privacy. We don't just solve challenges, we protect you to avoid them. This privacy policy tells you about our online collection, use and disclosure of personal information. The terms of this policy apply to all personal information collected by WeSolv on the website WeSolv.co and other WeSolv websites or email which are linked to WeSolv.co</p>
 
-				<!-- <p class="font_8">&nbsp;</p> -->
+				<!-- <br> -->
 
 				<p class="font_8">This site is operated by WeSolv, LLC. ("WeSolv") and may be accessed in the United States and abroad. For personal information protection purposes, WeSolv is the controller and, unless otherwise noted, is also the processor of the personal information. Information collected may be retained as long as it is reasonably required for the purposes it was collected.</p>
 
-				<!-- <p class="font_8">&nbsp;</p> -->
+				<!-- <br> -->
 
 				<p class="font_8">This Privacy Policy is incorporated into WeSolv’s Terms and Conditions by reference, as if set forth fully therein, which must be reviewed and accepted by you. Our Services are not intended for children under the age of 18. WeSolv does not knowingly collect personal information online from visitors in this age group.</p>
 
-				<p class="font_8">&nbsp;</p>
+				<!-- <br> -->
 
 				<p class="font_8"><span style="font-weight:bold;">Privacy Personnel</span></p>
 
 				<p class="font_8">We have personnel of WeSolv to be accountable for our policies and practices with respect to the management of personal information. You may forward any questions, comments or complaints that you might have about this privacy policy to info@wesolv.co.</p>
 
-				<p class="font_8">&nbsp;</p>
+				<br>
 
 				<p class="font_8"><span style="font-weight:bold;">Information Collection and Use</span></p>
 
@@ -66,7 +66,7 @@
 
 				<p class="font_8">When you register for the Platform, you will be opting-in to receive WeSolv emails, newsletters, marketing and/or promotional materials. , we will also use your Personal Information to send this content to you. If you decide at any time that you no longer wish to receive such communications from us, you can opt-out or customize the type of messages you receive from WeSolv by by emailing us at&nbsp;info@WeSolv.co. &nbsp;Please note that any such opt-out applies solely to marketing related emails. WeSolv will still need to communicate with you via email with regarding non-marketing related matters related to the Platform and you acknowledge and agree that WeSolv has the right to do so.</p>
 
-				<p class="font_8">&nbsp;</p>
+				<br>
 
 				<p class="font_8"><span style="font-weight:bold;">WeSolv's Use of Personal Information&nbsp;</span><br>
 				WeSolv uses Personal Information for the following general purposes:</p>
@@ -101,13 +101,13 @@
 					</li>
 				</ul>
 
-				<p class="font_8">&nbsp;</p>
+				<br>
 
 				<p class="font_8">We may employ third party companies and individuals to facilitate our Platform, to provide the services of the Platform on our behalf, to perform Site-related services (e.g., without limitation, maintenance services, database management, web analytics, payment processing, fraud detection and improvement of the Siteʼs features) or to assist us in analyzing how our Site and Platform are used. These third parties have access to your Personal Information only to perform these tasks on our behalf and are obligated not to disclose or use it for any other purpose. Although we ensure that our third party agents (“Agents”) receiving your information are bound by confidentiality obligations. WeSolv is not responsible for and shall not be liable for any issues that may arise regarding the Privacy Policies of any of its agents, affiliates, advertiser and/or any other third parties. By using this website, you do hereby agree to hold WeSolv indemnify, defend and hold harmless WeSolv from any claims and/or damages that may arise from the actions of any of WeSolvʼs Agents, affiliates and/or advertisers.</p>
 
 				<p class="font_8">Two things drive WeSolvʼs decisions regarding the use of information collected from users: 1) improving user experience by offering personalized services, content and advertising, and 2) market research.</p>
 
-				<p class="font_8">&nbsp;</p>
+				<br>
 
 				<p class="font_8">Ads are a standard part of user experience on the Internet, and WeSolv believes that targeted advertising enhances this experience. WeSolv may use Cookies (defined below) and other technologies and Personal Information to place ads where they believe interested parties will see them. In addition to banner ads, WeSolv may advertise products, companies and events that we think might interest you through the email address you provide.</p>
 
@@ -129,7 +129,7 @@
 
 				<p class="font_8">WeSolv may use your cell phone number to call or text you in order to provide the Platform. If you would like more information about our policy, or to opt out, please review our Terms of Service, available at&nbsp;<object height="0"><a class="auto-generated-link" data-auto-recognition="true" data-content="www.WeSolv.co" href="http://www.WeSolv.co" target="_blank" data-type="external">www.WeSolv.co</a></object> &nbsp;and email &nbsp;<object height="0"><a class="auto-generated-link" data-auto-recognition="true" data-content="info@WeSolv.co" href="mailto:info@WeSolv.co" data-type="mail">info@WeSolv.co</a></object> ; by accepting these Terms of Service you are indicating your consent to be contacted at the phone number you have provided for the purposes described above.</p>
 
-				<p class="font_8">&nbsp;</p>
+				<br>
 
 				<p class="font_8"><span style="font-weight:bold;">Information Sharing</span></p>
 
@@ -154,31 +154,31 @@
 					</li>
 				</ul>
 
-				<p class="font_8">&nbsp;</p>
+				<br>
 
 				<p class="font_8">Student-Company Communication and Work Product</p>
 
 				<p class="font_8">As part of the Services, we may collect information and communication transferred between Student and Company, including without limitation the Work Product. Such data may include information input, sent or delivered by the Student or Company &nbsp;such as a memo, project details and timeline and responses to queries. WeSolv may use this information for statistical analysis, product development, marketing and research. Except as noted above, we do not treat information contained in these communications as Personal Information, but we may use such information in association with Personal Information, and we may aggregate, analyze and evaluate such information for the same purposes as stated above regarding other Non-Identifying Information.</p>
 
-				<p class="font_8">&nbsp;</p>
+				<br>
 
 				<p class="font_8"><span style="font-weight:bold;">Log Data</span></p>
 
 				<p class="font_8">When you visit the Site, whether as a registered user or a non-registered user just browsing the Site (a ‘User”), our servers automatically record information that your browser sends whenever you visit a website (“Log Data ” ). This Log Data may include information such as your computerʼs Internet Protocol (‘IP”) address, browser type, browser software version or the webpage you were visiting before you came to our Site, pages of our Site that you visit, the time spent on those pages, information you search for on our Site, access times and dates, and other statistics. In addition, we may use third party services such as Google Analytics that collect, monitor and analyze this type of information in order to increase our Siteʼs functionality and user-friendliness, to better tailor it to our visitorsʼ needs, and to detect suspicious activity. These third party service providers have their own privacy policies addressing how they use such information. We do not treat Log Data as Personal Information, but we may use it in association with Personal Information, and we may aggregate, analyze and evaluate such Log Data for the same purposes as stated above regarding other Non-Identifying Information.</p>
 
-				<p class="font_8">&nbsp;</p>
+				<br>
 
 				<p class="font_8"><span style="font-weight:bold;">Cookies</span></p>
 
 				<p class="font_8">Like many websites, we use ”Cookies”, a small data file that we transfer to your computerʼs hard disk for record-keeping purposes, to collect information. We use Cookies for two purposes. First, we utilize persistent Cookies to save your registration ID and login password for future logins to the Site and to track your compliance with our marketplace policies. Second, we utilize session ID Cookies to enable certain features of the Site, to better understand how you interact with the Site and to monitor aggregate usage by WeSolv Users and web traffic routing on the Site. Unlike persistent Cookies, session Cookies are deleted from your computer when you log off from the Site and Platform and then close your browser. You can instruct your browser, by changing its options, to stop accepting Cookies or to prompt you before accepting a Cookie from the websites you visit. If you do not accept Cookies, however, you may not be able to use all portions of the Site or all functionality of the Platform.</p>
 
-				<p class="font_8">&nbsp;</p>
+				<br>
 
 				<p class="font_8"><span style="font-weight:bold;">No PHI</span></p>
 
 				<p class="font_8">While WeSolv takes security and privacy very seriously, WeSolv is not a HIPAA Business Associate and the WeSolv Platform is not HIPAA-compliant and should not be used to store any protected health information (“PHI”). You agree that you will not upload or store any documents containing PHI. To do so would be a violation of our Terms of Service.</p>
 
-				<p class="font_8">&nbsp;</p>
+				<br>
 
 				<p class="font_8"><span style="font-weight:bold;">Phishing</span></p>
 
@@ -186,47 +186,47 @@
 
 				<p class="font_8">Student Profiles</p>
 
-				<p class="font_8">&nbsp;</p>
+				<br>
 
 				<p class="font_8">If you choose to use the Platform as a Student, you will be able to create a profile, which will be publicly viewable via the Platform. Such profile information may include, but not limited to, profile picture, name, location, information on Challenges previously performed via the Platform and outside the Platform, skills, tests taken, University and feedback/rating information. You may edit your Student profile via your account.</p>
 
-				<p class="font_8">&nbsp;</p>
+				<br>
 
 				<p class="font_8"><span style="font-weight:bold;">Enterprise Challenges</span></p>
 
 				<p class="font_8">If you choose to post an Enterprise Challenge llisting via the Platform as a Company , the contents of such Challenge listing will be viewable via the Platform. Challenge listings may include information such as prizes, location, history of Challenge listing by the Company. If you choose to apply for a Challenges as a Student via the Platform, we will share with the applicable Company information related to your application, including, but not limited to, the information contained in your Company &nbsp;profile.</p>
 
-				<p class="font_8">&nbsp;</p>
+				<br>
 
 				<p class="font_8"><span style="font-weight:bold;">Changing or Deleting Your Information</span></p>
 
 				<p class="font_8">All registered users may review, update, correct or delete the Personal Information in their registration profile by contacting us or by making edits via their accounts. If you completely delete all such information, then your account may become deactivated. If you would like us to delete your account in our system, please contact us at&nbsp;info@WeSolv.co. If you have a Student or Company &nbsp;profile on the Platform, you may update the information stored in your profile by logging in to your account. We will use commercially reasonable efforts to honor your request; however, your Personal Information may remain in our archives. We may retain an archived copy of your records as required by law or for legitimate business purposes. Please bear in mind that neither you nor WeSolv can delete all copies of information that has been previously shared with others on the Site.</p>
 
-				<p class="font_8">&nbsp;</p>
+				<br>
 
 				<p class="font_8"><span style="font-weight:bold;">Security</span></p>
 
 				<p class="font_8">WeSolv is very concerned with safeguarding your Personal Information. The security of such Personal Information is important to us. But remember that no method of transmission over the Internet, or method of electronic storage, is 100% secure. When you use the Platform to share Work Product and Personal Information, that Work Product and Personal Information will be made available to the Users with whom you agree to share such information. These Users, and not WeSolv will be responsible for the privacy and security of your Work Product and Personal Information in accordance with the terms of any arrangement, including, without limitation, any non-disclosure agreement entered into with these other Users.</p>
 
-				<p class="font_8">&nbsp;</p>
+				<br>
 
 				<p class="font_8"><span style="font-weight:bold;">International Transfer</span></p>
 
 				<p class="font_8">Your information may be transferred outside of the jurisdiction in which you reside and may be stored or otherwise maintained on &mdash; information systems and devices located in jurisdictions where the privacy laws differ from and in some cases may not be as protective as those in your jurisdiction. If you are located outside the United States and choose to provide information to us, WeSolv transfers Personal Information to the United States and processes it there. Your consent to this Privacy Policy followed by your submission of such information represents your agreement to that transfer and your acknowledgement and acceptance of the fact that the treatment of such information will governed by the applicable laws of the United States.</p>
 
-				<p class="font_8">&nbsp;</p>
+				<br>
 
 				<p class="font_8"><span style="font-weight:bold;">Links to Other Sites</span></p>
 
 				<p class="font_8">Our Site will contains links to other websites. If you choose to click on a third party link, you will be directed to that third partyʼs website. The fact that we link to a website is not an endorsement, authorization or representation of our affiliation with that third party, nor is it an endorsement of their privacy or information security policies or practices. We do not exercise control over third party websites. These other websites may place their own Cookies or other files on your computer, collect data or solicit Personal Information from you. Other sites follow different rules regarding the use or disclosure of the Personal Information you submit to them. We encourage you to read the privacy policies or statements of the other websites you visit.</p>
 
-				<p class="font_8">&nbsp;</p>
+				<br>
 
 				<p class="font_8"><span style="font-weight:bold;">Children</span></p>
 
 				<p class="font_8">This Site is not directed to persons under 18. We do not knowingly collect personally identifiable information from children under 13. If a parent or guardian becomes aware that his or her child has provided us with Personal Information without their consent, he or she should contact us at&nbsp;info@WeSolv.co. If we become aware that a child under 13 has provided us with Personal Information, we will use commercially reasonable efforts to delete such information from our files.</p>
 
-				<p class="font_8">&nbsp;</p>
+				<br>
 
 				<p class="font_8"><span style="font-weight:bold;">Contacting Us</span></p>
 

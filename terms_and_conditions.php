@@ -9,7 +9,7 @@
 			<div class="col-xs-12">
 				<br>
 				<h2 class="w3-xxlarge"><b>Terms and Conditions</b></h2>
-				<p class="font_8">&nbsp;</p>
+				<br>
 				<p class="font_8">Welcome to WeSolv, operated by WeSolv, LLC. (“WeSolv” and sometimes referred to as “our” or “we”) and located at 1255 S. State St. Chicago, IL 60605. &nbsp;Thank you for using or visiting our products and services (“Services”). Our Services are a platform through which students and recent graduates of particular educational institutions (each, a “Student”) can find and connect with providers of case competitions (also referred to as Enterprise Challenges) (each, a “Business”).</p>
 
 				<p class="font_8">The following terms and conditions (“Terms”) govern your use of our Services.&nbsp;By accessing, viewing, or using our Services, you indicate that you have read and understand these Terms, that you agree to them and intend to be legally bound by them.&nbsp;If you do not agree to these Terms, or if you are under 18 years of age, or if you are not a legal resident of the United States, you are not granted permission to use our Services and must exit immediately. If you agree to this agreement on behalf of an entity, you represent and warrant that you have the authority to bind that entity to this agreement. In that event, “you” and “your” will refer and apply to that entity.</p>
@@ -18,7 +18,7 @@
 
 				<p class="font_8">This Agreement includes and hereby incorporates by reference the agreements and polices referred to or linked herein, including our Privacy Policy, as such agreements and policies may be modified by WeSolv from time to time in its sole discretion. In the event of a conflict between such policies and agreements and this Agreement, this Agreement controls.</p>
 
-				<p class="font_8">&nbsp;</p>
+				<br>
 
 				<p class="font_8"><b>1. THE WESOLV PLATFORM.</b></p>
 
@@ -34,7 +34,7 @@
 
 				<p class="font_8">By registering, you are subscribing to transactional notification emails that will inform you when Challenges are open. You can unsubscribe or manage your notification frequency by sending a request to info@wesolv.co.</p>
 
-				<p class="font_8">&nbsp;</p>
+				<br>
 
 				<p class="font_8"><b>2. WESOLV GENERAL POLICIES.</b></p>
 
@@ -78,7 +78,7 @@
 
 				<p class="font_8"><b>(d)</b> Prior Agreements. With respect to any Service Contract, Student hereby covenants that, except as Student fully discloses previously in writing to the applicable Company, Student is not bound by the terms of any agreement with any other party to refrain from using or disclosing any trade secret or confidential or proprietary information in the course of Studentʼs engagement by the applicable Company or to refrain from competing, directly or indirectly, with the business of such other party. Student further covenants that Studentʼs performance of all the terms of any Service Contract will not breach any agreement to keep in confidence proprietary information, knowledge or data acquired by Student in confidence or in trust prior to Studentʼs engagement with the applicable Company. Student will not disclose to any Company or induce any Company to use any confidential or proprietary information or material belonging to others.</p>
 
-				<p class="font_8">&nbsp;</p>
+				<br>
 
 				<p class="font_8"><b>3. PAYMENT TERMS, INVOICES AND PAYMENT METHODS.</b></p>
 
@@ -118,7 +118,7 @@
 
 				<p class="font_8">Company hereby authorizes WeSolv to run, or have run, credit card authorizations on all credit cards provided by Company, to store credit card details as Companyʼs method of payment for Services, and to charge Companyʼs credit card (or any other form of payment authorized by WeSolv or mutually agreed to between Company and WeSolv).</p>
 
-				<p class="font_8">&nbsp;</p>
+				<br>
 
 				<p class="font_8"><b>4. YOUR ACKNOWLEDGMENT OF WESOLV’S ROLE.</b></p>
 
@@ -128,13 +128,13 @@
 
 				<p class="font_8">WeSolv facilitates introductions of Students to Companies and helps Students find enterprise Challenges. Additionally, WeSolv provides search tools and automatic email notifications that may facilitate such introductions. WeSolv merely makes the WeSolv Platform available to enable Students to identify and determine the suitability of Companies and Enterprise Challanges for themselves, and to enable Companies to identify and determine the suitability of Students for themselves. WeSolv does not direct, has no control over, makes no representations, and does not guarantee the quality, safety or legality of Services and Challenges advertised, the truth or accuracy of listings, the qualifications, background, or identities of users, the ability of Students to deliver Services, the ability of Companies to pay for Services, or that a Company or Student can or will actually complete a transaction.</p>
 
-				<p class="font_8">&nbsp;</p>
+				<br>
 
 				<p class="font_8"><b>5. NO BACKGROUND CHECKS.</b></p>
 
 				<p class="font_8">WeSolv is not required to and does not verify any information given to us by Students or Companies, nor does WeSolv perform background checks on Students or Companies. WeSolv may provide information about a Student or Company, such as a strength or risk score, geographical location or third party feedback, background check or verification of identity or credentials. However, such information is based solely on data that Student or Company submits. WeSolv provides such information solely for the convenience of its users and is not an introduction, endorsement or recommendation by WeSolv.</p>
 
-				<p class="font_8">&nbsp;</p>
+				<br>
 
 				<p class="font_8"><b>6.&nbsp; WESOLV’S PROPRIETARY RIGHTS.</b></p>
 
@@ -146,7 +146,7 @@
 
 				<p class="font_8">You retain all right, title and interest in and to the User Content that you submit and all intellectual property rights embodied therein. Upon your submission of User Content or other material or information to WeSolv, you grant WeSolv a worldwide, perpetual, irrevocable, transferable, license to access, use, distribute, reproduce, display, modify, host, communicate, publish, publicly perform, publicly distribute, and create derivative works based upon, and sublicense, the User Content, all without any compensation to you whatsoever. This license continues even if you stop using our Services. If you believe that any content or postings on our Services or the Application violate your intellectual property or other rights, please follow our Complaint Procedure in Section 12 of these Terms.</p>
 
-				<p class="font_8">&nbsp;</p>
+				<br>
 
 				<p class="font_8"><b>7. UNAUTHORIZED ACTIVITIES</b></p>
 
@@ -156,73 +156,73 @@
 
 				<p class="font_8">The WeSolv Platform may provide, or third parties may provide, links or other access to other sites and resources on the Internet. WeSolv has no control over such sites and resources and WeSolv is not responsible for and does not endorse such sites and resources. You further acknowledge and agree that WeSolv will not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with use of or reliance on any content, events, goods or services available on or through any such site or resource. Any dealings you have with third parties found while using the WeSolv Platform are between you and the third party, and you agree that WeSolv is not liable for any loss or claim that you may have against any such third party.</p>
 
-				<p class="font_8">&nbsp;</p>
+				<br>
 
 				<p class="font_8"><b>6. AVAILABILITY OF THE SERVICES.</b></p>
 
 				<p class="font_8">WeSolv uses reasonable efforts to ensure that our Services are generally available. However, there will be occasions when access to our Services will be interrupted or unavailable. WeSolv will use reasonable efforts to minimize such disruption where it is within its reasonable control. You agree that WeSolv shall not be liable for any modification, suspension, or discontinuance of our Services and that all amounts paid under these Terms are non-refundable</p>
 
-				<p class="font_8">&nbsp;</p>
+				<br>
 
 				<p class="font_8"><b>7. DISCLAIMER.</b></p>
 
 				<p class="font_8">The information on our Services is for informational purposes only. Without limiting anything else in these Terms or otherwise, WeSolv is not responsible for any errors or omissions in our Services or the Services Materials. WeSolv, its subsidiaries, and affiliates, are not responsible for and do not guarantee the accuracy or completeness of any Services Materials, User Content, products, data, services (whether performed by WeSolv, any Student or Business, or any third party), links, advertisements, or other items contained within our Services. WeSolv reserves the right to immediately remove any Services Materials or User Content for any reason or for no reason. WeSolv cannot and does not review all communications or products made available on or through our Services, but, although not obligated to, may review, verify, make changes to or remove any User Content, Services Materials, the products or services made available in connection with our Services, including information submitted in connection with the Services Materials or other features at any time, with or without notice in its sole discretion</p>
 
-				<p class="font_8">&nbsp;</p>
+				<br>
 
 				<p class="font_8"><b>8. WARRANTY DISCLAIMER.</b></p>
 
 				<p class="font_8">WESOLV MAKES NO EXPRESS REPRESENTATIONS OR WARRANTIES WITH REGARD TO THE SERVICES, WORK PRODUCT, SITE, WESOLV PLATFORM OR ANY ACTIVITIES OR ITEMS RELATED TO THIS AGREEMENT. TO THE MAXIMUM EXTENT PERMITTED BY LAW, WESOLV DISCLAIMS ALL EXPRESS OR IMPLIED CONDITIONS, REPRESENTATIONS AND WARRANTIES INCLUDING, BUT NOT LIMITED TO, THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. SECTION 9.2 below (TERMINATION) STATES YOUR SOLE AND EXCLUSIVE REMEDY AGAINST WESOLV WITH RESPECT TO ANY DEFECTS, NON-CONFORMANCES OR DISSATISFACTION.</p>
 
-				<p class="font_8">&nbsp;</p>
+				<br>
 
 				<p class="font_8"><b>9. LIMITATION OF LIABILITY.</b></p>
 
 				<p class="font_8">IN NO EVENT WILL WESOLV BE LIABLE FOR ANY SPECIAL, CONSEQUENTIAL, INCIDENTAL, EXEMPLARY OR INDIRECT COSTS OR DAMAGES, LITIGATION COSTS, INSTALLATION AND REMOVAL COSTS OR LOSS OF DATA, PRODUCTION OR PROFIT. THE LIABILITY OF WESOLV TO ANY USER FOR ANY CLAIM ARISING OUT OF OR IN CONNECTION WITH THIS AGREEMENT WILL NOT EXCEED THE GREATER OF: (A) US$2,500; AND (B) ANY WESOLV FEES RETAINED BY WESOLV WITH RESPECT TO CONTRACTS ON WHICH YOU WERE INVOLVED AS COMPANY OR STUDENT DURING THE SIX (6) MONTH PERIOD PRECEDING THE DATE OF THE CLAIM. THESE LIMITATIONS WILL APPLY TO ANY LIABILITY, ARISING FROM ANY CAUSE OF ACTION WHATSOEVER, WHETHER IN CONTRACT, TORT (INCLUDING NEGLIGENCE), STRICT LIABILITY OR OTHERWISE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH COSTS OR DAMAGES AND EVEN IF THE LIMITED REMEDIES PROVIDED HEREIN FAIL OF THEIR ESSENTIAL PURPOSE.</p>
 
-				<p class="font_8">&nbsp;</p>
+				<br>
 
 				<p class="font_8"><b>10. INDEMNIFICATION.</b></p>
 
 				<p class="font_8">You will indemnify, defend and hold harmless WeSolv and its subsidiaries, affiliates, officers, agents, employees, representatives and agents (each, an “Indemnified Party”) from any and all claims, actions, damages, liabilities, costs, and expenses (including, but not limited to, reasonable attorneysʼ fees and all related costs and expenses) arising from or relating to your use of the WeSolv Platform, any Services or any Service Contract entered into by you (including without limitation claims that Student was misclassified as an independent Student or that WeSolv was an employer or joint employer of Student, as well as claims under any employment-related laws, such as those relating to employment termination, employment discrimination, harassment or retaliation, as well as any claims for overtime pay, sick leave, holiday or vacation pay, retirement benefits, workerʼs compensation benefits, unemployment benefits, or any other employee benefits), any User Content, your violation of these Terms of Service, your violation of any rights of another.</p>
 
-				<p class="font_8">&nbsp;</p>
+				<br>
 
 				<p class="font_8"><b>11. COMPLAINT PROCEDURES</b></p>
 
 				<p class="font_8">If you believe that any content or postings on our Services violates your intellectual property or other rights, please notify WeSolv by email at <object height="0"><a class="auto-generated-link" data-auto-recognition="true" data-content="info@WeSolv.com" href="mailto:info@WeSolv.com" data-type="mail">info@WeSolv.com</a></object> a comprehensive detailed message setting forth the following information: (a) your name and the name of your company, if any; (b) your contact information, including your email address; (c) the nature and substance of your complaint, the specific rights at issue, and your basis for making the complaint, including the content or posting that is objectionable; and (d) the following statement: “The statements, representations, and assertions made in this message are true, complete, and accurate and I have the full legal authority to make each and every such statement, representation, and assertion and to make and be granted any demand made in this message.”</p>
 
-				<p class="font_8">&nbsp;</p>
+				<br>
 
 				<p class="font_8"><b>12. CHANGES TO THESE TERMS</b></p>
 
 				<p class="font_8">WeSolv reserves the right at any time to modify, alter, or update these Terms. Your use of our Services following any changes means that you agree to follow and be bound by the terms as changed. Any change to these Terms shall be effective as to any visitor who has visited our Services before the change was made. It is the obligation of users using our Services before the change to learn of changes to the Terms since their last visit. WeSolv may suspend or terminate your account and/or your ability to use our Services, for failure to comply with these Terms, for inactivity on our Services, for providing WeSolv with untrue or inaccurate information about yourself, for infringement upon WeSolv proprietary rights, or for any other reason whatsoever or for no reason.</p>
 
-				<p class="font_8">&nbsp;</p>
+				<br>
 
 				<p class="font_8"><b>13. RELATIONSHIP BETWEEN THE PARTIES</b></p>
 
 				<p class="font_8">Nothing in these Terms shall be construed as making either party the partner, joint venturer, agent, legal representative, employer, contractor, or employee of the other.</p>
 
-				<p class="font_8">&nbsp;</p>
+				<br>
 
 				<p class="font_8"><b>14. GOVERNING LAW AND JURISDICTION</b></p>
 
 				<p class="font_8">These Terms represent the entire agreement between you and WeSolv with respect to the subject matter hereof, and supersede all prior and contemporaneous written and oral representations, understandings, and agreements, express and implied, and will be governed by and construed in accordance with the laws of the State of New York, without reference to its conflict of law rules;&nbsp;PROVIDED, HOWEVER, THAT THE TERMS OF ANY APPLICABLE LAW NOW OR HEREAFTER ENACTED THAT IS BASED ON, DERIVED FROM, SIMILAR TO, OR CONNECTED WITH THE UNIFORM COMPUTER INFORMATION TRANSACTIONS ACT DRAFTED BY THE NATIONAL CONFERENCE OF COMMISSIONERS ON UNIFORM STATE LAWS SHALL NOT APPLY EXCEPT TO THE EXTENT THAT THE LAW EXPRESSLY PROHIBITS ALTERATION BY THESE TERMS OF THE APPLICABILITY OF ONE OR MORE SECTIONS OF THE LAW. By accessing, viewing, or using the services, works, content, or materials on our Services, you consent and agree to (a) the exclusive jurisdiction of the federal and state courts located in the Borough of Manhattan in the City of New York, New York; (b) accept service of process by personal delivery or mail; and (c) irrevocably waive the right to trial by jury and any jurisdictional and venue defenses otherwise available.</p>
 
-				<p class="font_8">&nbsp;</p>
+				<br>
 
 				<p class="font_8"><b>15. YOUR PRIVACY.</b></p>
 
 				<p class="font_8">At WeSolv, we respect the privacy of our users. For details please see our Privacy Policy. By using the WeSolv Platform, you consent to our collection and use of personal data as outlined therein.</p>
 
-				<p class="font_8">&nbsp;</p>
+				<br>
 
 				<p class="font_8"><b>16. NOTICE FOR CALIFORNIA USERS.</b></p>
 
 				<p class="font_8">Under California Civil Code Section 1789.3, users of the WeSolv Platform from California are entitled to the following specific consumer rights notice: The Complaint Assistance Unit of the Division of Consumer Services of the California Department of Consumer Affairs may be contacted in writing at 1625 North Market Blvd., Suite N 112, Sacramento, CA 95834, or by telephone at (916) 445-1254 or (800) 952-5210. You may contact us at WeSolv, Inc., 617-446-3734.</p>
 
-				<p class="font_8">&nbsp;</p>
+				<br>
 
 				<p class="font_8"><b>17. MISCELLANEOUS.</b></p>
 

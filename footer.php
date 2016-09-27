@@ -23,8 +23,8 @@
 											<a href="index.php"><h4 class="hidden-sm hidden-xs">HOME</h4><h6 class="visible-sm visible-xs">HOME</h6></a>
 											<a href="about.php"><h4 class="hidden-sm hidden-xs">ABOUT</h4><h6 class="visible-sm visible-xs">ABOUT</h6></a>
 											<a href="#"><h4 class="hidden-sm hidden-xs">BLOG</h4><h6 class="visible-sm visible-xs">BLOG</h6></a>
-											<a href="#"><h4 class="hidden-sm hidden-xs">TERMS</h4><h6 class="visible-sm visible-xs">TERMS</h6></a>
-											<a href="#"><h4 class="hidden-sm hidden-xs">PRIVACY</h4><h6 class="visible-sm visible-xs">PRIVACY</h6></a>
+											<a href="terms_and_conditions.php"><h4 class="hidden-sm hidden-xs">TERMS</h4><h6 class="visible-sm visible-xs">TERMS</h6></a>
+											<a href="privacy_policy.php"><h4 class="hidden-sm hidden-xs">PRIVACY</h4><h6 class="visible-sm visible-xs">PRIVACY</h6></a>
 									</div>
 									<div class="col-md-9 col-sm-8 col-xs-8">
 											<a href="#"><h4 class="hidden-sm hidden-xs">PARTNER COMPANIES</h4><h6 class="visible-sm visible-xs">PARTNER COMPANIES</h6></a>

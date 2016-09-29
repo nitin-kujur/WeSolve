@@ -169,9 +169,9 @@
                     <li>
                         <a href="javascript:;" data-toggle="collapse" data-target="#student"><i class="fa fa-fw fa-arrows-v"></i> <i class="fa fa-users"></i> Students <span><i class="fa fa-fw fa-caret-up pull-right"></i></span></a>
                         <ul id="student" class="collapse in">
-                            <li>
+                            <!-- <li>
                                 <a href="#"><i class="fa fa-fw fa-user-plus"></i> Add Student</a>
-                            </li>
+                            </li> -->
                             <li>
                                 <a href="#"><i class="fa fa-fw fa-gear"></i> Manage Students</a>
                             </li>
@@ -207,7 +207,7 @@
                         <h2><i class="fa fa-building"></i> Companies  <small>Total: 10</small>  <small>Active:7</small>  <small>Inactive:3</small></h2>
                         <div class="col-md-12 w3-padding-0">
                           <a class="w3-orange w3-btn w3-round-large w3-text-white" href="admin_add_company.php"><i class="fa fa-fw fa-plus"></i> Add Company</a>
-                          <a class="w3-orange w3-btn w3-margin w3-round-large w3-text-white"><i class="fa fa-fw fa-gear"></i> Manage Companies</a> 
+                          <a class="w3-orange w3-btn w3-margin w3-round-large w3-text-white" href='admin_manage_companies.php'><i class="fa fa-fw fa-gear"></i> Manage Companies</a> 
                         </div>
                       </div> 
 
@@ -215,15 +215,15 @@
                         <h2><i class="fa fa-tasks"></i> Challenges  <small>Total: 10</small>  <small>Active:7</small>  <small>Inactive:3</small></h2>
                         <div class="col-md-12 w3-padding-0">
                           <a class="w3-orange w3-btn w3-round-large w3-text-white" href="admin_add_challenge.php"><i class="fa fa-fw fa-plus"></i> Add Challenge</a>
-                          <a class="w3-orange w3-btn w3-margin w3-round-large w3-text-white"><i class="fa fa-fw fa-gear"></i> Manage Challenges</a> 
+                          <a class="w3-orange w3-btn w3-margin w3-round-large w3-text-white" href='admin_manage_challenges.php'><i class="fa fa-fw fa-gear"></i> Manage Challenges</a> 
                         </div>
                       </div> 
 
                       <div class="row breadcrumb w3-card-1 margin-0">
                         <h2><i class="fa fa-users"></i> Students  <small>Total: 10</small>  <small>Active:7</small>  <small>Inactive:3</small></h2>
                         <div class="col-md-12 w3-padding-0">
-                          <a class="w3-orange w3-btn w3-round-large w3-text-white"><i class="fa fa-fw fa-plus"></i> Add Student</a>
-                          <a class="w3-orange w3-btn w3-margin w3-round-large w3-text-white"><i class="fa fa-fw fa-gear"></i> Manage Students</a> 
+                          <!-- <a class="w3-orange w3-btn w3-round-large w3-text-white"><i class="fa fa-fw fa-plus"></i> Add Student</a> -->
+                          <a class="w3-orange w3-btn w3-margin w3-round-large w3-text-white" href="admin_manage_students.php"><i class="fa fa-fw fa-gear"></i> Manage Students</a> 
                         </div>
                       </div> 
 

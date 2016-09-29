@@ -224,19 +224,19 @@
 
                     <div class="col-lg-12" style='color:dark-gray;'>
                       <div class="row breadcrumb w3-card-1 margin-0">
-                        <div class="col-md-1">
+                        <div class="col-md-1" style="max-width:40px; padding-left:0px;">
                           <li><strong>Sr. No.</strong></li>  
                         </div>
-                        <div class="col-md-5">
+                        <div class="col-md-4">
                            <li><strong>Challenges</strong></li> 
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-md-2" style="padding-right:0px;">
                            <li><strong>Challenges type</strong></li> 
                         </div>
                         <div class="col-md-2">
                            <li><strong>Company</strong></li> 
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-md-3" style="padding-right:0px;">
                            <li><strong>Action</strong></li> 
                         </div>
                       </div>
@@ -244,59 +244,122 @@
 
                     <div class="col-lg-12">
                       <div class="row breadcrumb w3-card-1 margin-0">
-                        <div class="col-md-1">
+                        <div class="col-md-1" style="max-width:40px; padding-left:0px;">
                           <li>01.</li>  
                         </div>
-                        <div class="col-md-5">
+                        <div class="col-md-4">
                            <li>How do we price and segment the market for a 2017...</li> 
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-md-2" style="padding-right:0px;">
                            <li>Quick fire Challenge</li> 
                         </div>
                         <div class="col-md-2">
                            <li>Tesla Morters</li> 
                         </div>
-                        <div class="col-md-2">
+                        <!-- <div class="col-md-2">
                            <li><a href="#">Edit</a> / <a href="#">Remove</a> / <a href="#">UnPublish</a></li> 
+                        </div> -->
+                        <div class="col-md-3" style="padding-right:0px;">
+                           <li>
+                            <div class="row">
+                              <div class="col-xs-4">
+                                <div class="dropdown">
+                                  <button class="btn btn-default dropdown-toggle w3-tiny" type="button" id="menu1" data-toggle="dropdown">Action
+                                  <span class="caret"></span></button>
+                                  <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                    <li role="presentation"><a role="menuitem" class="w3-small" tabindex="-1" href="#">Edit</a></li>
+                                    <li role="presentation" class="divider"></li>
+                                    <li role="presentation" title="Challenge and all associated records will be deleted."><a role="menuitem" class="w3-small" tabindex="-1" href="#">Remove</a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                              <div class="col-xs-4">
+                                <div class="dropdown">
+                                  <button class="btn btn-default dropdown-toggle w3-tiny" type="button" id="menu11" data-toggle="dropdown">Status
+                                  <span class="caret"></span></button>
+                                  <ul class="dropdown-menu" role="menu" aria-labelledby="menu11">
+                                    <li role="presentation" title="People can sign up, challenge is NOT complete."><a role="menuitem" class="w3-small" tabindex="-1" href="#">Open</a></li>
+                                    <li role="presentation" class="divider"></li>
+                                    <li role="presentation" title="Challenge is not complete, but people CAN NOT sign up."><a role="menuitem" class="w3-small" tabindex="-1" href="#">Closed</a></li>
+                                    <li role="presentation" class="divider"></li>
+                                    <li role="presentation" title="Challenge is completed, everything is done."><a role="menuitem" class="w3-small" tabindex="-1" href="#">Complete</a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                              <div class="col-xs-4">
+                                <a href="#" style="margin-left:15px;">UnPublish</a>
+                              </div>
+                            </div>
+                          </li> 
                         </div>
                       </div>
                     </div>
 
                     <div class="col-lg-12">
                       <div class="row breadcrumb w3-card-1 margin-0">
-                        <div class="col-md-1">
+                        <div class="col-md-1" style="max-width:40px; padding-left:0px;">
                           <li>02.</li>  
                         </div>
-                        <div class="col-md-5">
+                        <div class="col-md-4">
                            <li>How do we price and segment the market for a 2017...</li> 
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-md-2" style="padding-right:0px;">
                            <li>Case Challenge</li> 
                         </div>
                         <div class="col-md-2">
                            <li>Tesla Morters</li> 
                         </div>
-                        <div class="col-md-2">
-                           <li><a href="#">Edit</a> / <a href="#">Remove</a> / <a href="#">Publish</a></li> 
+                        <div class="col-md-3" style="padding-right:0px;">
+                           <li>
+                            <div class="row">
+                              <div class="col-xs-4">
+                                <div class="dropdown">
+                                  <button class="btn btn-default dropdown-toggle w3-tiny" type="button" id="menu2" data-toggle="dropdown">Action
+                                  <span class="caret"></span></button>
+                                  <ul class="dropdown-menu" role="menu" aria-labelledby="menu2">
+                                    <li role="presentation"><a role="menuitem" class="w3-small" tabindex="-1" href="#">Edit</a></li>
+                                    <li role="presentation" class="divider"></li>
+                                    <li role="presentation" title="Challenge and all associated records will be deleted."><a role="menuitem" class="w3-small" tabindex="-1" href="#">Remove</a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                              <div class="col-xs-4">
+                                <div class="dropdown">
+                                  <button class="btn btn-default dropdown-toggle w3-tiny" type="button" id="menu21" data-toggle="dropdown">Completed
+                                  <span class="caret"></span></button>
+                                  <ul class="dropdown-menu" role="menu" aria-labelledby="menu21">
+                                    <li role="presentation" title="People can sign up, challenge is NOT complete."><a role="menuitem" class="w3-small" tabindex="-1" href="#">Open</a></li>
+                                    <li role="presentation" class="divider"></li>
+                                    <li role="presentation" title="Challenge is not complete, but people CAN NOT sign up."><a role="menuitem" class="w3-small" tabindex="-1" href="#">Closed</a></li>
+                                    <!-- <li role="presentation" class="divider"></li> -->
+                                    <!-- <li role="presentation" title="Challenge is completed, everything is done."><a role="menuitem" class="w3-small" tabindex="-1" href="#">Complete</a></li> -->
+                                  </ul>
+                                </div>
+                              </div>
+                              <div class="col-xs-4">
+                                <a href="#" style="margin-left:15px;"> Publish</a>
+                              </div>
+                            </div>
+                          </li> 
                         </div>
                       </div>
                     </div>
 
                     <div class="col-lg-12">
                       <div class="row breadcrumb w3-card-1 margin-0">
-                        <div class="col-md-1">
+                        <div class="col-md-1" style="max-width:40px; padding-left:0px;">
                           <li>03.</li>  
                         </div>
-                        <div class="col-md-5">
+                        <div class="col-md-4">
+                           <li></li> 
+                        </div>
+                        <div class="col-md-2" style="padding-right:0px;">
                            <li></li> 
                         </div>
                         <div class="col-md-2">
                            <li></li> 
                         </div>
-                        <div class="col-md-2">
-                           <li></li> 
-                        </div>
-                        <div class="col-md-2">
+                        <div class="col-md-3">
                            <li></li> 
                         </div>
                       </div>
@@ -304,19 +367,19 @@
 
                     <div class="col-lg-12">
                       <div class="row breadcrumb w3-card-1 margin-0">
-                        <div class="col-md-1">
+                        <div class="col-md-1" style="max-width:40px; padding-left:0px;">
                           <li>04.</li>  
                         </div>
-                        <div class="col-md-5">
+                        <div class="col-md-4">
+                           <li></li> 
+                        </div>
+                        <div class="col-md-2" style="padding-right:0px;">
                            <li></li> 
                         </div>
                         <div class="col-md-2">
                            <li></li> 
                         </div>
-                        <div class="col-md-2">
-                           <li></li> 
-                        </div>
-                        <div class="col-md-2">
+                        <div class="col-md-3">
                            <li></li> 
                         </div>
                       </div>
@@ -324,19 +387,19 @@
 
                     <div class="col-lg-12">
                       <div class="row breadcrumb w3-card-1 margin-0">
-                        <div class="col-md-1">
+                        <div class="col-md-1" style="max-width:40px; padding-left:0px;">
                           <li>05.</li>  
                         </div>
-                        <div class="col-md-5">
+                        <div class="col-md-4">
+                           <li></li> 
+                        </div>
+                        <div class="col-md-2" style="padding-right:0px;">
                            <li></li> 
                         </div>
                         <div class="col-md-2">
                            <li></li> 
                         </div>
-                        <div class="col-md-2">
-                           <li></li> 
-                        </div>
-                        <div class="col-md-2">
+                        <div class="col-md-3">
                            <li></li> 
                         </div>
                       </div>
@@ -344,19 +407,19 @@
 
                     <div class="col-lg-12">
                       <div class="row breadcrumb w3-card-1 margin-0">
-                        <div class="col-md-1">
+                        <div class="col-md-1" style="max-width:40px; padding-left:0px;">
                           <li>06.</li>  
                         </div>
-                        <div class="col-md-5">
+                        <div class="col-md-4">
+                           <li></li> 
+                        </div>
+                        <div class="col-md-2" style="padding-right:0px;">
                            <li></li> 
                         </div>
                         <div class="col-md-2">
                            <li></li> 
                         </div>
-                        <div class="col-md-2">
-                           <li></li> 
-                        </div>
-                        <div class="col-md-2">
+                        <div class="col-md-3">
                            <li></li> 
                         </div>
                       </div>
@@ -364,19 +427,19 @@
 
                     <div class="col-lg-12">
                       <div class="row breadcrumb w3-card-1 margin-0">
-                        <div class="col-md-1">
+                        <div class="col-md-1" style="max-width:40px; padding-left:0px;">
                           <li>07.</li>  
                         </div>
-                        <div class="col-md-5">
+                        <div class="col-md-4">
+                           <li></li> 
+                        </div>
+                        <div class="col-md-2" style="padding-right:0px;">
                            <li></li> 
                         </div>
                         <div class="col-md-2">
                            <li></li> 
                         </div>
-                        <div class="col-md-2">
-                           <li></li> 
-                        </div>
-                        <div class="col-md-2">
+                        <div class="col-md-3">
                            <li></li> 
                         </div>
                       </div>
@@ -384,19 +447,19 @@
 
                     <div class="col-lg-12">
                       <div class="row breadcrumb w3-card-1 margin-0">
-                        <div class="col-md-1">
+                        <div class="col-md-1" style="max-width:40px; padding-left:0px;">
                           <li>08.</li>  
                         </div>
-                        <div class="col-md-5">
+                        <div class="col-md-4">
+                           <li></li> 
+                        </div>
+                        <div class="col-md-2" style="padding-right:0px;">
                            <li></li> 
                         </div>
                         <div class="col-md-2">
                            <li></li> 
                         </div>
-                        <div class="col-md-2">
-                           <li></li> 
-                        </div>
-                        <div class="col-md-2">
+                        <div class="col-md-3">
                            <li></li> 
                         </div>
                       </div>
@@ -404,10 +467,10 @@
 
                     <div class="col-lg-12">
                       <div class="row breadcrumb w3-card-1 margin-0">
-                        <div class="col-md-1">
+                        <div class="col-md-1" style="max-width:40px; padding-left:0px;">
                           <li>09.</li>  
                         </div>
-                        <div class="col-md-5">
+                        <div class="col-md-4">
                            <li></li> 
                         </div>
                         <div class="col-md-2">
@@ -416,7 +479,7 @@
                         <div class="col-md-2">
                            <li></li> 
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-md-3">
                            <li></li> 
                         </div>
                       </div>
@@ -424,23 +487,25 @@
 
                     <div class="col-lg-12">
                       <div class="row breadcrumb w3-card-1 margin-0">
-                        <div class="col-md-1">
+                        <div class="col-md-1" style="max-width:40px; padding-left:0px;">
                           <li>10.</li>  
                         </div>
-                        <div class="col-md-5">
+                        <div class="col-md-4">
+                           <li></li> 
+                        </div>
+                        <div class="col-md-2" style="padding-right:0px;">
                            <li></li> 
                         </div>
                         <div class="col-md-2">
                            <li></li> 
                         </div>
-                        <div class="col-md-2">
-                           <li></li> 
-                        </div>
-                        <div class="col-md-2">
+                        <div class="col-md-3">
                            <li></li> 
                         </div>
                       </div>
                     </div>
+
+                    
 
                     <div class="col-lg-12">
                       <div class="row breadcrumb1 w3-card-11 margin-0">

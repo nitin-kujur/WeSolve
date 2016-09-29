@@ -773,3 +773,27 @@ body,html{
 				.coming-soon-bg{
 					background-color: rgb(54,85,142) !important;
 				}
+
+				.display-table{
+				    display: table;
+				    table-layout: fixed;
+				}
+
+				.display-cell{
+				    display: table-cell;
+				    vertical-align:middle;
+				    float: none;
+				}
+
+				.mssg-blue-1{
+					background-color: rgb(118,154,198) !important;
+				}
+
+				.mssg-blue-2{
+					background-color: rgb(138,182,233) !important;
+				}
+
+				.mssg-grey{
+					background-color: rgb(216,216,216) !important;
+					box-shadow: 0px 0px 2px 1px gray;
+				}

@@ -24,7 +24,7 @@
 				</div>
 	    </div>
 
-			<div class="col-md-5 padding-25">  <!-- col 4 start <i class="material-icons">mail_outline</i>-->
+			<div class="col-md-5 padding-25">  <!-- col 4 start -->
 
 					<div class="w3-white col-md-12 col-sm-12 col-xs-12 w3-card-1 padding-15">
 						<form class="text-center" role="form">
@@ -311,14 +311,14 @@
 						<div class="w3-clear"></div>
 						<div class="col-xs-4">
 							<img class="w3-margin-right img-responsive img-circle center-block col-md-6 col-sm-6 col-xs-12 w3-padding-0" src="images/Chauntell B.png" style="max-width:70px; height:height">	
-							<span class="col-md-6 col-sm-6 col-xs-12 w3-padding-0"><b>Stella Bobo</b></span>
+							<span class="col-md-6 col-sm-6 col-xs-12 w3-padding-0"><b>Lina</b></span>
 						</div>
 						<div class="col-xs-8">
 							<div class="mssg-grey col-md-12 col-sm-12 col-xs-12 w3-card-1 w3-text-dark-blue padding-15">
 								<h6>Hey Lina,</h6>
 								<h6>Here is the article we were discussing earlier. www.interviewinterview.com</h6>
 								<br>
-								<h6>-Stella</h6>
+								<h6>-Lina</h6>
 							</div>	
 						</div>
 					</div>
@@ -345,14 +345,14 @@
 						<div class="w3-clear"></div>
 						<div class="col-xs-4">
 							<img class="w3-margin-right img-responsive img-circle center-block col-md-6 col-sm-6 col-xs-12 w3-padding-0" src="images/Chauntell B.png" style="max-width:70px; height:height">	
-							<span class="col-md-6 col-sm-6 col-xs-12 w3-padding-0"><b>Stella Bobo</b></span>
+							<span class="col-md-6 col-sm-6 col-xs-12 w3-padding-0"><b>Lina</b></span>
 						</div>
 						<div class="col-xs-8">
 							<div class="mssg-grey col-md-12 col-sm-12 col-xs-12 w3-card-1 w3-text-dark-blue padding-15">
 								<h6>Hey Lina,</h6>
 								<h6>Here is the article we were discussing earlier. www.interviewinterview.com</h6>
 								<br>
-								<h6>-Stella</h6>
+								<h6>-Lina</h6>
 							</div>	
 						</div>
 					</div>
@@ -379,14 +379,14 @@
 						<div class="w3-clear"></div>
 						<div class="col-xs-4">
 							<img class="w3-margin-right img-responsive img-circle center-block col-md-6 col-sm-6 col-xs-12 w3-padding-0" src="images/Chauntell B.png" style="max-width:70px; height:height">	
-							<span class="col-md-6 col-sm-6 col-xs-12 w3-padding-0"><b>Stella Bobo</b></span>
+							<span class="col-md-6 col-sm-6 col-xs-12 w3-padding-0"><b>Lina</b></span>
 						</div>
 						<div class="col-xs-8">
 							<div class="mssg-grey col-md-12 col-sm-12 col-xs-12 w3-card-1 w3-text-dark-blue padding-15">
 								<h6>Hey Lina,</h6>
 								<h6>Here is the article we were discussing earlier. www.interviewinterview.com</h6>
 								<br>
-								<h6>-Stella</h6>
+								<h6>-Lina</h6>
 							</div>	
 						</div>
 					</div>

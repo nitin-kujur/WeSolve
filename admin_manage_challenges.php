@@ -263,6 +263,9 @@
                            <li>
                             <div class="row">
                               <div class="col-xs-4">
+                                <a href="#" style="margin-left:15px;">UnPublish</a>
+                              </div>
+                              <div class="col-xs-4">
                                 <div class="dropdown">
                                   <button class="btn btn-default dropdown-toggle w3-tiny" type="button" id="menu1" data-toggle="dropdown">Action
                                   <span class="caret"></span></button>
@@ -285,9 +288,6 @@
                                     <li role="presentation" title="Challenge is completed, everything is done."><a role="menuitem" class="w3-small" tabindex="-1" href="#">Complete</a></li>
                                   </ul>
                                 </div>
-                              </div>
-                              <div class="col-xs-4">
-                                <a href="#" style="margin-left:15px;">UnPublish</a>
                               </div>
                             </div>
                           </li> 
@@ -313,6 +313,9 @@
                            <li>
                             <div class="row">
                               <div class="col-xs-4">
+                                <a href="#" style="margin-left:15px;"> Publish</a>
+                              </div>
+                              <div class="col-xs-4">
                                 <div class="dropdown">
                                   <button class="btn btn-default dropdown-toggle w3-tiny" type="button" id="menu2" data-toggle="dropdown">Action
                                   <span class="caret"></span></button>
@@ -335,9 +338,6 @@
                                     <!-- <li role="presentation" title="Challenge is completed, everything is done."><a role="menuitem" class="w3-small" tabindex="-1" href="#">Complete</a></li> -->
                                   </ul>
                                 </div>
-                              </div>
-                              <div class="col-xs-4">
-                                <a href="#" style="margin-left:15px;"> Publish</a>
                               </div>
                             </div>
                           </li> 

@@ -516,10 +516,10 @@
 											      <input id="usr" type="text" class="w3-input1 col-xs-12 w3-border w3-border-orange w3-text-dark-blue w3-leftbar w3-rightbar w3-topbar w3-bottombar w3-round" placeholder="First Name and Last Name">
 											    </div>
 											    <div class="form-group">
-											      <input id="pwd" type="email" class="w3-section w3-input1 col-xs-12 w3-border w3-border-orange w3-text-dark-blue w3-leftbar w3-rightbar w3-topbar w3-bottombar w3-round" placeholder="Email">
+											      <input id="pwd" type="text" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" title="Email eg: example@.com" class="w3-section w3-input1 col-xs-12 w3-border w3-border-orange w3-text-dark-blue w3-leftbar w3-rightbar w3-topbar w3-bottombar w3-round" placeholder="Email">
 											    </div>
 											    <div class="form-group">
-											      <input id="usr" type="number" class="w3-input1 col-xs-12 w3-border w3-border-orange w3-text-dark-blue w3-leftbar w3-rightbar w3-topbar w3-bottombar w3-round" placeholder="Phone Number">
+											      <input id="usr" type="text" pattern="[0-9]+" title="Enter Contact Number" class="w3-input1 col-xs-12 w3-border w3-border-orange w3-text-dark-blue w3-leftbar w3-rightbar w3-topbar w3-bottombar w3-round" placeholder="Phone Number">
 											    </div>
 											    <div class="form-group">
 													<div class="col-xs-12 w3-section w3-border text-left w3-border-orange w3-text-dark-blue w3-leftbar w3-rightbar w3-topbar w3-bottombar w3-round">

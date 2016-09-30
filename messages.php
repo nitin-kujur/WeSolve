@@ -266,22 +266,23 @@
 			</div>	<!-- col 4 end -->
 
 
-			<div class="col-md-7 padding-25" style="border:2px #015DA8 solid;">  <!-- col 8 start -->
+			<div class="col-md-7 padding-25">  <!-- col 8 start -->
+				<div class="row"  style="border:2px #015DA8 solid;">
 
-
-				<div class="col-md-12 col-sm-12 col-xs-12 padding-15 w3-text-dark-blue">
+				<div class="col-md-12 col-sm-12 col-xs-12 padding-10 w3-text-dark-blue">
 					<div class="row">
-						<h4><b>Interview Article</b></h4>
-					</div>
-					<div class="w3-right">
-						<div class="text-center w3-left w3-margin-right">
-							<a href="#"><i class="ionicons ion-person-add w3-xlarge w3-text-black"></i><h6 class="w3-tiny"><b>Add Poeple</b></h6></a>
-						</div>	
-						<div class="text-center w3-left w3-margin-right">
-							<a href="#"><i class="ionicons ion-android-drafts w3-xlarge w3-text-black"></i><h6 class="w3-tiny"><b>Mark Unread</b></h6></a>
-						</div>	
-						<div class="text-center w3-left w3-margin-0">
-							<a href="#" style="display:inline;"><i class="ionicons ion-ios-trash w3-xlarge w3-text-black"></i><h6 class="w3-tiny"><b>Delete</b></h6></a>
+						<span class="w3-large"><b>Interview Article</b></span class="w3-large">
+					
+						<div class="w3-right">
+							<div class="text-center w3-left w3-margin-right">
+								<a href="#"><i class="ionicons ion-person-add w3-xlarge w3-text-black"></i><h6 class="w3-tiny"><b>Add Poeple</b></h6></a>
+							</div>	
+							<div class="text-center w3-left w3-margin-right">
+								<a href="#"><i class="ionicons ion-android-drafts w3-xlarge w3-text-black"></i><h6 class="w3-tiny"><b>Mark Unread</b></h6></a>
+							</div>	
+							<div class="text-center w3-left w3-margin-0">
+								<a href="#" style="display:inline;"><i class="ionicons ion-ios-trash w3-xlarge w3-text-black"></i><h6 class="w3-tiny"><b>Delete</b></h6></a>
+							</div>
 						</div>
 					</div>
 					<div class="w3-clear"></div>
@@ -293,11 +294,11 @@
 						<h6 class="w3-small pull-right w3-margin-right" style=""><b>Aug 6, 9:00 a.m.</b></h6>
 						<div class="w3-clear"></div>
 						<div class="col-xs-4">
-							<img class="w3-margin-right img-responsive img-circle center-block col-md-6 col-sm-6 col-xs-12 w3-padding-0" src="images/Chauntell B.png" style="max-width:70px; height:height">	
+							<img class="w3-margin-left w3-margin-right img-responsive img-circle center-block col-md-6 col-sm-6 col-xs-12 w3-padding-0" src="images/Chauntell B.png" style="max-width:70px; height:height">	
 							<span class="col-md-6 col-sm-6 col-xs-12 w3-padding-0"><b>Stella Bobo</b></span>
 						</div>
 						<div class="col-xs-8">
-							<div class="mssg-blue-2 col-md-12 col-sm-12 col-xs-12 w3-card-1 w3-text-dark-blue padding-15">
+							<div class="mssg-blue-2 col-md-12 col-sm-12 col-xs-12 w3-card-1 w3-text-dark-blue padding-10">
 								<h6>Hey Lina,</h6>
 								<h6>Here is the article we were discussing earlier. www.interviewinterview.com</h6>
 								<br>
@@ -310,11 +311,11 @@
 						<h6 class="w3-small pull-right w3-margin-right" style=""><b>Aug 6, 9:00 a.m.</b></h6>
 						<div class="w3-clear"></div>
 						<div class="col-xs-4">
-							<img class="w3-margin-right img-responsive img-circle center-block col-md-6 col-sm-6 col-xs-12 w3-padding-0" src="images/Chauntell B.png" style="max-width:70px; height:height">	
+							<img class="w3-margin-left w3-margin-right img-responsive img-circle center-block col-md-6 col-sm-6 col-xs-12 w3-padding-0" src="images/Chauntell B.png" style="max-width:70px; height:height">	
 							<span class="col-md-6 col-sm-6 col-xs-12 w3-padding-0"><b>Lina</b></span>
 						</div>
 						<div class="col-xs-8">
-							<div class="mssg-grey col-md-12 col-sm-12 col-xs-12 w3-card-1 w3-text-dark-blue padding-15">
+							<div class="mssg-grey col-md-12 col-sm-12 col-xs-12 w3-card-1 w3-text-dark-blue padding-10">
 								<h6>Hey Lina,</h6>
 								<h6>Here is the article we were discussing earlier. www.interviewinterview.com</h6>
 								<br>
@@ -327,11 +328,11 @@
 						<h6 class="w3-small pull-right w3-margin-right" style=""><b>Aug 6, 9:00 a.m.</b></h6>
 						<div class="w3-clear"></div>
 						<div class="col-xs-4">
-							<img class="w3-margin-right img-responsive img-circle center-block col-md-6 col-sm-6 col-xs-12 w3-padding-0" src="images/Chauntell B.png" style="max-width:70px; height:height">	
+							<img class="w3-margin-left w3-margin-right img-responsive img-circle center-block col-md-6 col-sm-6 col-xs-12 w3-padding-0" src="images/Chauntell B.png" style="max-width:70px; height:height">	
 							<span class="col-md-6 col-sm-6 col-xs-12 w3-padding-0"><b>Stella Bobo</b></span>
 						</div>
 						<div class="col-xs-8">
-							<div class="mssg-blue-2 col-md-12 col-sm-12 col-xs-12 w3-card-1 w3-text-dark-blue padding-15">
+							<div class="mssg-blue-2 col-md-12 col-sm-12 col-xs-12 w3-card-1 w3-text-dark-blue padding-10">
 								<h6>Hey Lina,</h6>
 								<h6>Here is the article we were discussing earlier. www.interviewinterview.com</h6>
 								<br>
@@ -344,11 +345,11 @@
 						<h6 class="w3-small pull-right w3-margin-right" style=""><b>Aug 6, 9:00 a.m.</b></h6>
 						<div class="w3-clear"></div>
 						<div class="col-xs-4">
-							<img class="w3-margin-right img-responsive img-circle center-block col-md-6 col-sm-6 col-xs-12 w3-padding-0" src="images/Chauntell B.png" style="max-width:70px; height:height">	
+							<img class="w3-margin-left w3-margin-right img-responsive img-circle center-block col-md-6 col-sm-6 col-xs-12 w3-padding-0" src="images/Chauntell B.png" style="max-width:70px; height:height">	
 							<span class="col-md-6 col-sm-6 col-xs-12 w3-padding-0"><b>Lina</b></span>
 						</div>
 						<div class="col-xs-8">
-							<div class="mssg-grey col-md-12 col-sm-12 col-xs-12 w3-card-1 w3-text-dark-blue padding-15">
+							<div class="mssg-grey col-md-12 col-sm-12 col-xs-12 w3-card-1 w3-text-dark-blue padding-10">
 								<h6>Hey Lina,</h6>
 								<h6>Here is the article we were discussing earlier. www.interviewinterview.com</h6>
 								<br>
@@ -361,11 +362,11 @@
 						<h6 class="w3-small pull-right w3-margin-right" style=""><b>Aug 6, 9:00 a.m.</b></h6>
 						<div class="w3-clear"></div>
 						<div class="col-xs-4">
-							<img class="w3-margin-right img-responsive img-circle center-block col-md-6 col-sm-6 col-xs-12 w3-padding-0" src="images/Chauntell B.png" style="max-width:70px; height:height">	
+							<img class="w3-margin-left w3-margin-right img-responsive img-circle center-block col-md-6 col-sm-6 col-xs-12 w3-padding-0" src="images/Chauntell B.png" style="max-width:70px; height:height">	
 							<span class="col-md-6 col-sm-6 col-xs-12 w3-padding-0"><b>Stella Bobo</b></span>
 						</div>
 						<div class="col-xs-8">
-							<div class="mssg-blue-2 col-md-12 col-sm-12 col-xs-12 w3-card-1 w3-text-dark-blue padding-15">
+							<div class="mssg-blue-2 col-md-12 col-sm-12 col-xs-12 w3-card-1 w3-text-dark-blue padding-10">
 								<h6>Hey Lina,</h6>
 								<h6>Here is the article we were discussing earlier. www.interviewinterview.com</h6>
 								<br>
@@ -378,11 +379,11 @@
 						<h6 class="w3-small pull-right w3-margin-right" style=""><b>Aug 6, 9:00 a.m.</b></h6>
 						<div class="w3-clear"></div>
 						<div class="col-xs-4">
-							<img class="w3-margin-right img-responsive img-circle center-block col-md-6 col-sm-6 col-xs-12 w3-padding-0" src="images/Chauntell B.png" style="max-width:70px; height:height">	
+							<img class="w3-margin-left w3-margin-right img-responsive img-circle center-block col-md-6 col-sm-6 col-xs-12 w3-padding-0" src="images/Chauntell B.png" style="max-width:70px; height:height">	
 							<span class="col-md-6 col-sm-6 col-xs-12 w3-padding-0"><b>Lina</b></span>
 						</div>
 						<div class="col-xs-8">
-							<div class="mssg-grey col-md-12 col-sm-12 col-xs-12 w3-card-1 w3-text-dark-blue padding-15">
+							<div class="mssg-grey col-md-12 col-sm-12 col-xs-12 w3-card-1 w3-text-dark-blue padding-10">
 								<h6>Hey Lina,</h6>
 								<h6>Here is the article we were discussing earlier. www.interviewinterview.com</h6>
 								<br>
@@ -394,7 +395,7 @@
 
 				</div>
 
-				<div class="col-md-12 col-sm-12 col-xs-12 padding-15">
+				<div class="col-md-12 col-sm-12 col-xs-12 padding-15" style="margin-bottom:0px;">
 					
 					<form role="form" class="" id="updateForm">
 					  <div class="form-group" style="position:relative;">
@@ -407,7 +408,7 @@
 
 
 				
-
+			</div>
 
 
 			</div>		<!-- col 8 end	 -->
@@ -419,7 +420,7 @@
 
 <style type="text/css">
 	.w3-wrapper{
-		max-height: 1180px !important;
+		max-height: 1255px !important;
 		overflow: hidden;
 	}
 

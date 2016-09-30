@@ -51,7 +51,7 @@
 													<div class="fa-container text-center pull-right"><i class="fa ficon fa-envelope"></i></div>
 											</div>
 											<div class="col-md-4 col-sm-4 col-xs-7">
-													<h4 class="hidden-sm hidden-xs">info@wesolv.co</h4><h6 class="visible-sm visible-xs">info@wesolv.co</h6>
+													<a href="mailto:info@wesolv.co"><h4 class="hidden-sm hidden-xs">info@wesolv.co</h4><h6 class="visible-sm visible-xs">info@wesolv.co</h6></a>
 											</div>
 											<div class="visible-sm visible-xs col-sm-2 col-xs-12"></div>
 									</div>
@@ -61,7 +61,7 @@
 													<div class="fa-container text-center pull-right"><i class="fa ficon fa-phone"></i></div>
 											</div>
 											<div class="col-md-4 col-sm-4 col-xs-7">
-													<h4 class="hidden-sm hidden-xs">408-315-1485</h4><h6 class="visible-sm visible-xs">408-315-1485</h6>
+													<a href="tel:4083151485"><h4 class="hidden-sm hidden-xs">408-315-1485</h4><h6 class="visible-sm visible-xs">408-315-1485</h6></a>
 											</div>
 											<div class="visible-sm visible-xs col-sm-2 col-xs-12"></div> -->
 											<br/><br/><br/>
@@ -480,6 +480,22 @@
 					    // $(window).on("resize", function(){
 					    //     $(".modal:visible").each(alignModal);
 					    // });   
+
+						// $('form input, form textarea').each(function(index, elem) {
+						// 	$e = $(elem);
+						// 	if($e.val() == '' || $e.text() == ''){
+						// 		$e.val($e.attr('placeholder'));
+						// 		// $e.text($e.attr('placeholder'));
+						// 	}
+
+						// 	$e.focusin(function(event) {
+						// 		if(this.value == this.placeholder) this.value = '';
+						// 	});
+
+						// 	$e.focusout(function(event) {
+						// 		if(this.value == '') this.value = this.placeholder;
+						// 	});
+						// });
 				 });
 
 			  //FUNCTION TO GET AND AUTO PLAY YOUTUBE VIDEO FROM DATATAG

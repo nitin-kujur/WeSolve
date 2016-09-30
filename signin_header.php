@@ -99,4 +99,4 @@
 			</nav>
 		<!-- -----------Nav-Bar------------ -->	
 
-		<a href="all_pages.php" class="w3-btn-small w3-round w3-card-2 w3-padding w3-orange w3-text-white" style="position:fixed; top:100px; right:20px; z-index:99;">SEE ALL PAGES</a>
+		<a href="all_pages.php" class="w3-btn-small w3-round w3-card-2 w3-padding w3-orange w3-text-white" onmouseover="this.style.opacity = 1;" onmouseout="this.style.opacity = 0.4;" style="position:fixed; top:100px; right:20px; z-index:99; opacity:0.4;">SEE ALL PAGES</a>

@@ -343,6 +343,10 @@ body,html{
 				.padding-25{
 					padding: 25px;
 				}
+				.padding-10{
+					padding: 15px;
+					margin-bottom: 15px;
+				}
 				.padding-5{
 					padding-top: 5px;
 				}
@@ -352,6 +356,11 @@ body,html{
 				}
 
 				@media only screen and (max-width: 480px) {
+						.padding-10{
+							padding: 5px;
+							margin-bottom: 15px;
+						}
+
 						.padding-25{
 							padding: 8px;
 						}
@@ -629,19 +638,19 @@ body,html{
 
 				.spinner2{
 					position: absolute;
-	        top: -40%;
-	        left: 50%;
-	        -webkit-transform: translate(-50%);
-	        -ms-transform: translate(-50%);
-	        -oz-transform: translate(-50%);
-	        transform: translate(-50%);
+			        top: -40%;
+			        left: 50%;
+			        -webkit-transform: translate(-50%);
+			        -ms-transform: translate(-50%);
+			        -oz-transform: translate(-50%);
+			        transform: translate(-50%);
 				} 
 
 				/*---------------wefeeds-post style------------------------*/
 
 				.self-comment{
 					padding-left:100px;
-				  padding-top:20px;
+					  padding-top:20px;
 					 min-height:80px;
 					 outline:none;
 					 border:2px rgb(233,235,238) solid;
@@ -797,3 +806,19 @@ body,html{
 					background-color: rgb(216,216,216) !important;
 					box-shadow: 0px 0px 2px 1px gray;
 				}
+
+				/*::-webkit-input-placeholder-shown, ::-moz-placeholder-shown, :-ms-input-placeholder, :-moz-placeholder-shown{
+					opacity:1 !important;
+					color:pink !important;
+				}*/
+
+				input::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease;}
+				input::-moz-placeholder                {opacity: 1; transition: opacity 0.3s ease;}
+				input:-moz-placeholder                 {opacity: 1; transition: opacity 0.3s ease;}
+				input:-ms-input-placeholder            {opacity: 1; transition: opacity 0.3s ease;}
+				input:placeholder-shown                {opacity: 1; transition: opacity 0.3s ease;}
+				input:focus::-webkit-input-placeholder {opacity: 0.5; transition: opacity 0.3s ease;}
+				input:focus::-moz-placeholder          {opacity: 0.5; transition: opacity 0.3s ease;}
+				input:focus:-moz-placeholder           {opacity: 0.5; transition: opacity 0.3s ease;}
+				input:focus:-ms-input-placeholder      {opacity: 0.5; transition: opacity 0.3s ease;}
+				input:focus:placeholder-shown          {opacity: 0.5; transition: opacity 0.3s ease;}

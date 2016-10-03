@@ -38,6 +38,15 @@
 		 
 		 <script type="text/javascript">
 
+		 	$.fn.extend({
+	               animateCss: function (animationName) { 
+	               var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+	               $(this).addClass('animated ' + animationName).one(animationEnd, function() {
+	               $(this).removeClass('animated ' + animationName);
+	              });
+	            }
+			});
+
 		 	$(document).ready(function(){
 			 	$('.loader-on').append('<div class="se-pre-con"><div class="spinner spinner2"><img  src="images/favicon.ico" style="width:30px; height:30px; margin:15% auto; top:-50%;"></div></div>');
 			 	$('select:not(#skills)').wrap('<div class="select-wrapper"></div>');
@@ -56,6 +65,13 @@
 		 	$(window).load(function(argument) {
 	         	$(".se-pre-con").delay(1000).fadeOut("slow");
 		    });
+
+		    function goUp(){
+	            $('#goUpbtn').animateCss('bounceIn');
+	            jQuery("html, body").animate({
+	                  scrollTop: "0"
+	                }, 1000);
+			}
 
 		 </script>
 	</head>
@@ -89,8 +105,8 @@
 					  <li id="li5"><a href="messages.php"><h6 class="w3-text-dark-blue text-center">MESSAGES <span class="w3-text-orange">(2)</span></h6></a></li>
 					  <li class="hidden-sm hidden-xs">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
 					  <li>
-					  	<a href="javascript:void(0);" class="w3-text-dark-blue text-center hidden-xs" data-toggle="popover" data-placement="bottom" title="" data-html="true" data-content="<a class='w3-hover-text-white' href='signin.php'><strong> ACCOUNT </strong></a><hr style='margin:0px auto; color:lightgrey;'><a class='w3-hover-text-white' href='index.php'><strong> LOG OUT </strong></a>"><h6 class="w3-text-dark-blue text-center">Hi, Stella</h6></a>
-					  	<a href="javascript:void(0);" class="w3-text-dark-blue text-center visible-xs" data-toggle="popover" data-placement="top" title="" data-html="true" data-content="<a class='w3-hover-text-white' href='signin.php'><strong> ACCOUNT </strong></a><hr style='margin:0px auto; color:lightgrey;'><a class='w3-hover-text-white' href='index.php'><strong> LOG OUT </strong></a>"><h6 class="w3-text-dark-blue text-center">Hi, Stella</h6></a>
+					  	<a href="javascript:void(0);" class="w3-text-dark-blue text-center hidden-xs" data-toggle="popover" data-placement="bottom" title="" data-html="true" data-content="<a class='w3-hover-text-white' href='signin.php'><strong> ACCOUNT </strong></a><hr style='margin:0px auto; color:lightgrey;'><a class='w3-hover-text-white' href='javascript:void(0);' data-toggle='modal' data-target='#settingsModal'><strong> SETTINGS </strong></a><hr style='margin:0px auto; color:lightgrey;'><a class='w3-hover-text-white' href='session_out.php'><strong> LOG OUT </strong></a>"><h6 class="w3-text-dark-blue text-center">Hi, Stella</h6></a>
+					  	<a href="javascript:void(0);" class="w3-text-dark-blue text-center visible-xs" data-toggle="popover" data-placement="top" title="" data-html="true" data-content="<a class='w3-hover-text-white' href='signin.php'><strong> ACCOUNT </strong></a><hr style='margin:0px auto; color:lightgrey;'><a class='w3-hover-text-white' href='javascript:void(0);' data-toggle='modal' data-target='#settingsModal'><strong> SETTINGS </strong></a><hr style='margin:0px auto; color:lightgrey;'><a class='w3-hover-text-white' href='session_out.php'><strong> LOG OUT </strong></a>"><h6 class="w3-text-dark-blue text-center">Hi, Stella</h6></a>
 					  </li>
 					  <li class="hidden-sm hidden-xs">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
 					</ul>
@@ -99,4 +115,18 @@
 			</nav>
 		<!-- -----------Nav-Bar------------ -->	
 
-		<a href="all_pages.php" class="w3-btn-small w3-round w3-card-2 w3-padding w3-orange w3-text-white" onmouseover="this.style.opacity = 1;" onmouseout="this.style.opacity = 0.4;" style="position:fixed; top:100px; right:20px; z-index:99; opacity:0.4;">SEE ALL PAGES</a>
+		<a href="all_pages.php" class="w3-btn-small w3-round w3-card-2 w3-padding w3-orange w3-text-white" onmouseover="this.style.opacity = 1;" onmouseout="this.style.opacity = 0.3;" style="position:fixed; top:100px; right:20px; z-index:99; opacity:0.3;">SEE ALL PAGES</a>
+
+		<div id="goUpbtn" class="w3-card-4 w3-hover-shadow w3-orange w3-text-white" onclick="goUp()" onmouseover="this.style.opacity = 1;" onmouseout="this.style.opacity = 0.3;" style="border-radius: 50%; opacity:0.3; z-index:99;
+          text-align: center; 
+          width: 48px; height: 48px; 
+          position: fixed; 
+          bottom: 10px; right: 10px; 
+          font-size: 20px;
+          cursor: pointer;"><i id="ficon" class="glyphicon glyphicon-circle-arrow-up" style="font-size:24px;
+          position: relative;
+          top: 50%;
+          transform: translateY(-50%);
+          -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);"></i>
+		</div>

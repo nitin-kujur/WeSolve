@@ -131,7 +131,7 @@
 																			  <div class="tab-content container col-md-12 col-sm-12 col-xs-12 text-center">
 																			    <div id="login" class="tab-pane fade in active">
 																			      <br/><br/><br/><br/>
-																					  <form class="" action="signin.php">
+																					  <form class="" action="session_in.php">
 																						<p>
 																						<input class="w3-input w3-border" placeholder="School email" name="email" type="text" style="border-top-right-radius:10px !important; border-top-left-radius:10px !important; outline: none !important;">
 																						<input class="w3-input w3-border" placeholder="Password" name="password" type="password" style="border-bottom-right-radius:10px !important; border-bottom-left-radius:10px !important; outline: none !important;"></p>

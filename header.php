@@ -1,3 +1,5 @@
+<?php session_start(); ?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 	<head>
@@ -77,10 +79,18 @@
 					  <li class="hidden-sm hidden-xs">&nbsp;&nbsp;</li>
 					  <li><h6 class="text-center"><button class="w3-btn w3-round w3-card-2 w3-padding-large w3-orange w3-text-white nav-btn-top">FOR COMPANIES</button></h6></li>
 					  <li class="hidden-sm hidden-xs">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+					<?php if(isset($_SESSION['LOG'])){ ?>
+					  <li><a href="signin.php" class="w3-text-dark-blue text-center"><h6 class="w3-text-dark-blue text-center">PROFILE</h6></a></li>
+					  <li class="hidden-sm hidden-xs">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+					  <li><a href="session_out.php" class="w3-text-dark-blue text-center"><h6 class="w3-text-dark-blue text-center">LOG OUT</h6></a></li>
+					  <li class="hidden-sm hidden-xs">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+					<?php } else { ?>
 					  <li><a href="javascript:void(0);" class="w3-text-dark-blue text-center" data-toggle="modal" data-target="#signupModal"><h6 class="w3-text-dark-blue text-center">SIGN UP</h6></a></li>
 					  <li class="hidden-sm hidden-xs">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
 					  <li><a href="javascript:void(0);" class="w3-text-dark-blue text-center" data-toggle="modal" data-target="#loginModal"><h6 class="w3-text-dark-blue text-center">LOG IN</h6></a></li>
 					  <li class="hidden-sm hidden-xs">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+					<?php } ?>
+
 					</ul>
 				</div>
 			  </div>
@@ -95,7 +105,7 @@
 	               $(this).removeClass('animated ' + animationName);
 	              });
 	            }
-	          });
+			});
 
 	       function goUp(){
             $('#goUpbtn').animateCss('bounceIn');
@@ -106,9 +116,9 @@
 
 	    </script>
 
-		<a href="all_pages.php" class="w3-btn-small w3-round w3-card-2 w3-padding w3-orange w3-text-white" style="position:fixed; top:100px; right:20px; z-index:99;">SEE ALL PAGES</a>
+		<a href="all_pages.php" class="w3-btn-small w3-round w3-card-2 w3-padding w3-orange w3-text-white" onmouseover="this.style.opacity = 1;" onmouseout="this.style.opacity = 0.3;" style="position:fixed; top:100px; right:20px; z-index:99; opacity:0.3;">SEE ALL PAGES</a>
 
-		<div id="goUpbtn" class="w3-card-4 w3-hover-shadow w3-orange w3-text-white" onclick="goUp()"  style="border-radius: 50%;
+		<div id="goUpbtn" class="w3-card-4 w3-hover-shadow w3-orange w3-text-white" onclick="goUp()" onmouseover="this.style.opacity = 1;" onmouseout="this.style.opacity = 0.3;" style="border-radius: 50%; opacity:0.3; z-index:99;
           text-align: center; 
           width: 48px; height: 48px; 
           position: fixed; 

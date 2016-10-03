@@ -756,7 +756,67 @@
 				        </div>
 				    </div>
 					</div>	
-			<!-- profile Image Modal popup -->
+<!-- profile Image Modal popup -->
+
+
+<!-- Profile Setting Modal popup -->
+            <div class="modal fade text-center" id="settingsModal" tabindex="-1" role="dialog" aria-labelledby="settingsModal" aria-hidden="true" style="position:fixed; z-index:999999999;">
+                    <div class="modal-dialog">
+                        <div class="modal-content" style="background:transparent; box-shadow:0px 0px 0px 0px;">
+                            <div class="modal-body w3-card-2 w3-blue" style="background:white; padding:0px; border-radius: 2px;"> 
+                                <div>
+                                    <div class="container-fluid" style="height:auto; padding:0px;">
+                                            <div class="col-md-12 col-sm-12 col-xs-12 w3-blue text-center">
+                                                <button type="button" class="close pull-left" data-dismiss="modal" aria-hidden="true"><p> </p>&times;</button>
+                                                <br/><br/>
+                                                <h2 class="w3-text-white text-center">Profile Settings.</h2>
+                                                <div class="col-md-12 col-sm-12 col-xs-12 ">
+                                                    <form id="social_url" class="text-center w3-section" action="" method="GET" role="form">
+														<div class="input-group w3-card-2 w3-round w3-section">
+															<span class="input-group-addon"><i class="ionicons ion-at"></i></span>
+															<input class="form-control" placeholder="" name="shv" id="keyword" type="text" style="outline: none !important;" disabled readonly value="example@gmail.com" >
+														</div>
+
+														<div class="input-group w3-card-2 w3-round w3-section">
+															<span class="input-group-addon"><i class="ionicons ion-person"></i></span>
+															<input class="form-control" placeholder="Name" name="shv" id="keyword2" type="text" style="outline: none !important;"  value="Name Name" >
+														</div>
+
+														<div class="input-group w3-card-2 w3-round w3-section">
+															<span class="input-group-addon"><i class="fa fa-key"></i></span>
+															<input class="form-control" placeholder="Current Password" name="shv" id="keyword1" type="text" style="outline: none !important;"  value="<?php //echo $linkedin ?>" >
+														</div>
+
+														<div class="input-group w3-card-2 w3-round w3-section">
+															<span class="input-group-addon"><i class="fa fa-key"></i></span>
+															<input class="form-control" placeholder="New Password" name="shv" id="keyword2" type="text" style="outline: none !important;"  value="<?php //echo $google ?>" >
+														</div>
+
+														<div class="input-group w3-card-2 w3-round w3-section">
+															<span class="input-group-addon"><i class="fa fa-key"></i></span>
+															<input class="form-control" placeholder="Confirm Password" name="shv" id="keyword2" type="text" style="outline: none !important;"  value="<?php //echo $google ?>" >
+														</div>
+													</form>
+
+													
+													<div class="col-xs-6 text-right">
+	                                                    <button type="button" class="w3-btn w3-section w3-orange w3-round-large w3-text-white" data-dismiss="modal" onclick="doneAct();">CANCEL</button>
+													</div>
+													<div class="col-xs-6 text-left">
+	                                                    <button type="button" class="w3-btn w3-section w3-orange w3-round-large w3-text-white" data-dismiss="modal" onclick="$('form#social_url').submit();">&nbsp;&nbsp;&nbsp;SAVE&nbsp;&nbsp;&nbsp;</button>
+													</div>
+                                                </div>
+
+                                            </div>
+                                            
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>  
+<!-- Profile Setting Modal popup -->
+
 
 <script type="text/javascript">
 

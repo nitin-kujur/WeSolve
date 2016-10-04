@@ -784,11 +784,6 @@
 
 														<div class="input-group w3-card-2 w3-round w3-section">
 															<span class="input-group-addon"><i class="fa fa-key"></i></span>
-															<input class="form-control" placeholder="Current Password" name="shv" id="keyword1" type="text" style="outline: none !important;"  value="<?php //echo $linkedin ?>" >
-														</div>
-
-														<div class="input-group w3-card-2 w3-round w3-section">
-															<span class="input-group-addon"><i class="fa fa-key"></i></span>
 															<input class="form-control" placeholder="New Password" name="shv" id="keyword2" type="text" style="outline: none !important;"  value="<?php //echo $google ?>" >
 														</div>
 

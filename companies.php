@@ -108,7 +108,7 @@
 							<div class="col-md-3 col-sm-3 col-xs-3">
 								<label>TESLA MORTORS</label>	
 								<h6>>1,000 Employees</h6>
-								<img class="img-responsive" src="images/tesla_logo.png" style="width:150px; height:150px;">
+								<img class="img-responsive" src="images/tesla_logo.png" style="width:150px; height:auto;">
 							</div>	
 							<div class="col-md-7 col-sm-7 col-xs-7">
 								<label>Locations:</label> <span class="w3-margin-left">Good Times, IL</span><span class="w3-margin-left">Nowhere, NJ</span><span class="w3-margin-left">Palo Alto, CA</span>
@@ -131,7 +131,7 @@
 							<div class="col-md-3 col-sm-3 col-xs-3">
 								<label>JUNC FOODS</label>	
 								<h6>501-1,000 Employees</h6>
-								<img class="img-responsive" src="images/tesla_logo.png" style="width:150px; height:150px;">
+								<img class="img-responsive" src="images/tesla_logo.png" style="width:150px; height:auto;">
 							</div>	
 							<div class="col-md-7 col-sm-7 col-xs-7">
 								<label>Locations:</label> <span class="w3-margin-left">Corn City, IL</span><span class="w3-margin-left">Carrotville, MD</span>
@@ -181,5 +181,11 @@
 	     $(".multiselect").multiselect();
 	});  
 </script>
+
+<style type="text/css">
+	.multiselect label{
+		font-weight: normal !important;
+	}
+</style>
 
 <?php include('footer.php'); ?>

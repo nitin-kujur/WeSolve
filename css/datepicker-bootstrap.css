@@ -83,12 +83,48 @@
 	background-color: #4289cc;
 }
 .ui-datepicker .ui-datepicker-current-day a {
-	color: #fff
+	color: #fff;
+}
+.ui-datepicker .ui-datepicker-current-day:hover{
+	position: relative;
+}
+.ui-datepicker .ui-datepicker-current-day:hover:after{
+	position: absolute;
+	content: "selected date"; 
+	background-color: white;
+	color: #000;
+	border: 1px black solid;
+	box-shadow: 0 0 8px rgba(102,175,233,.6);
+	white-space: nowrap;
+	padding-left: 5px;
+	padding-right: 5px;
+	bottom:-20px;
 }
 .ui-datepicker .ui-datepicker-calendar .ui-datepicker-unselectable:hover {
 	background-color: #fff;
 	cursor: default;
 }
-.ui-state-disabled{
+.ui-datepicker .ui-state-disabled{
     color: #b9b9b9
+}
+.ui-datepicker .ui-datepicker-today{
+	background-color: #66AFE9;
+}
+.ui-datepicker .ui-datepicker-today:hover{
+	position: relative;
+}
+.ui-datepicker .ui-datepicker-today:hover:after{
+	position: absolute;
+	content: "today's date"; 
+	background-color: white;
+	color: #000;
+	border: 1px black solid;
+	box-shadow: 0 0 8px rgba(102,175,233,.6);
+	white-space: nowrap;
+	padding-left: 5px;
+	padding-right: 5px;
+	bottom:-20px;
+}
+.ui-datepicker .ui-state-highlight{
+	color: #fff;
 }

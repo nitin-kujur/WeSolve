@@ -211,4 +211,10 @@
 	});  
 </script>
 
+<style type="text/css">
+	.multiselect label{
+		font-weight: normal !important;
+	}
+</style>
+
 <?php include('footer.php'); ?>

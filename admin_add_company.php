@@ -728,8 +728,8 @@
 
         $('.datepicker').datepicker({
             showAnim: "drop",
-            dateFormat: "yy-mm-dd",
-            inline: true,
+            dateFormat: "dd-mm-yy",
+            // inline: true,
             showOtherMonths: true
         });
 

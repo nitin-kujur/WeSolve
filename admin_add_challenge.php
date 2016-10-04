@@ -859,7 +859,7 @@
         
         $('.datepicker').datepicker({
             showAnim: "drop",
-            dateFormat: "yy-mm-dd",
+            dateFormat: "dd-mm-yy",
             // inline: true,
             showOtherMonths: true
         });

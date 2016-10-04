@@ -772,7 +772,7 @@
                                                 <h2 class="w3-text-white text-center">Profile Settings.</h2>
                                                 <div class="col-md-12 col-sm-12 col-xs-12 ">
                                                     <form id="social_url" class="text-center w3-section" action="" method="GET" role="form">
-														<div class="input-group w3-card-2 w3-round w3-section">
+														<div class="input-group w3-card-2 w3-round w3-section" title="Non Editable">
 															<span class="input-group-addon"><i class="ionicons ion-at"></i></span>
 															<input class="form-control" placeholder="" name="shv" id="keyword" type="text" style="outline: none !important;" disabled readonly value="example@gmail.com" >
 														</div>

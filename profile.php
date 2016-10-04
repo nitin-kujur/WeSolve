@@ -199,7 +199,7 @@
 
 					<div class="w3-white col-md-12 col-sm-12 col-xs-12 w3-card-1 padding-15">
 						<h2 class="col-md-2 col-sm-2 col-xs-3"><span class="glyphicon glyphicon-education" style="font-size:32px"></span></h2>
-						<h6 class="w3-text-black col-md-7 col-sm-7 col-xs-6">EDUCATION</h6><a href="javascript:showThis('#educationForm')" class="w3-leftbar w3-border-grey w3-text-black w3-light-grey w3-small w3-padding-4 w3-hover-text-blue text-center w3-right col-md-3 col-sm-3 col-xs-3"><strong class="w3-medium">+</strong>&nbsp;ADD<span class="hidden-xs hidden-sm">&nbsp;EDUCATION</span></a>
+						<h6 class="w3-text-black col-md-7 col-sm-7 col-xs-6">EDUCATION</h6><a href="javascript:showThis('#educationForm')" class="w3-leftbar w3-border-grey w3-text-black w3-light-grey w3-small w3-padding-4 w3-hover-text-blue text-center w3-right col-md-3 col-sm-3 col-xs-3"><strong class="w3-medium">+</strong>&nbsp;ADD<span style="position:relative; top:3px; left:5px;">&nbsp;<i class="glyphicon glyphicon-education" style="font-size:20px;"></i></span></a>
 						<br/><br/><br/>
 
 						<div class="col-md-12 col-sm-12 col-xs-12 w3-light-grey padding-15 w3-hide w3-animate-opacity" id="educationForm">
@@ -313,7 +313,7 @@
 
 					<div class="w3-white col-md-12 col-sm-12 col-xs-12 w3-card-1 padding-15">
 						<h2 class="col-md-2 col-sm-2 col-xs-3"><span class="glyphicon glyphicon-briefcase" style="font-size:32px"></span></h2>
-						<h6 class="w3-text-black col-md-7 col-sm-7 col-xs-6">EXPERIENCE</h6><a href="javascript:showThis('#experienceForm')" class="w3-leftbar w3-border-grey w3-text-black w3-light-grey w3-small w3-padding-4 w3-hover-text-blue text-center w3-right col-md-3 col-sm-3 col-xs-3"><strong class="w3-medium">+</strong>&nbsp;ADD<span class="hidden-xs hidden-sm">&nbsp;COMPANY</span></a>
+						<h6 class="w3-text-black col-md-7 col-sm-7 col-xs-6">EXPERIENCE</h6><a href="javascript:showThis('#experienceForm')" class="w3-leftbar w3-border-grey w3-text-black w3-light-grey w3-small w3-padding-4 w3-hover-text-blue text-center w3-right col-md-3 col-sm-3 col-xs-3"><strong class="w3-medium">+</strong>&nbsp;ADD<span style="position:relative; top:3px; left:5px;">&nbsp;<i class="glyphicon glyphicon-briefcase" style="font-size:20px;"></i></span></a>
 						<br/><br/>
 						<div class="col-md-12 col-sm-12 col-xs-12 w3-light-grey padding-15 w3-hide w3-animate-opacity" id="experienceForm">
 								<form role="form">
@@ -402,7 +402,7 @@
 
 					<div class="w3-white col-md-12 col-sm-12 col-xs-12 w3-card-1 padding-15">
 						<h2 class="col-md-2 col-sm-2 col-xs-3"><i class="fa fa-users" style="font-size:32px"></i></h2>
-						<h6 class="w3-text-black col-md-7 col-sm-7 col-xs-6">ORGANISATIONS</h6><a href="javascript:showThis('#organisationForm')" class="w3-leftbar w3-border-grey w3-text-black w3-light-grey w3-small text-center w3-padding-4 w3-hover-text-blue w3-right col-md-3 col-sm-3 col-xs-3"><strong class="w3-medium">+</strong>&nbsp;ADD<span class="hidden-xs hidden-sm">&nbsp;ORGANISATION</span></a>		
+						<h6 class="w3-text-black col-md-7 col-sm-7 col-xs-6">ORGANISATIONS</h6><a href="javascript:showThis('#organisationForm')" class="w3-leftbar w3-border-grey w3-text-black w3-light-grey w3-small text-center w3-padding-4 w3-hover-text-blue w3-right col-md-3 col-sm-3 col-xs-3"><strong class="w3-medium">+</strong>&nbsp;ADD<span style="position:relative; top:3px; left:5px;">&nbsp;<i class="fa fa-users" style="font-size:20px;"></i></span></a>		
 						<br/><br/>
 
 						<div class="col-md-12 col-sm-12 col-xs-12 w3-light-grey padding-15 w3-hide w3-animate-opacity" id="organisationForm">
@@ -500,7 +500,7 @@
 
 					<div class="w3-white col-md-12 col-sm-12 col-xs-12 w3-card-1 padding-15 w3-margin-0">
 						<h2 class="col-md-2 col-sm-2 col-xs-3"><i class="ionicons ion-ribbon-b" style="font-size:32px"></i></h2>
-						<h6 class="w3-text-black col-md-7 col-sm-7 col-xs-6">AWARDS</h6><a href="javascript:showThis('#awardsForm')" class="w3-leftbar w3-border-grey w3-text-black text-center w3-light-grey w3-small w3-padding-4 w3-hover-text-blue w3-right col-md-3 col-sm-3 col-xs-3"><strong class="w3-medium">+</strong>&nbsp;ADD<span class="hidden-xs hidden-sm">&nbsp;AWARDS</span></a>
+						<h6 class="w3-text-black col-md-7 col-sm-7 col-xs-6">AWARDS</h6><a href="javascript:showThis('#awardsForm')" class="w3-leftbar w3-border-grey w3-text-black text-center w3-light-grey w3-small w3-padding-4 w3-hover-text-blue w3-right col-md-3 col-sm-3 col-xs-3"><strong class="w3-medium">+</strong>&nbsp;ADD<span style="position:relative; top:3px; left:5px;">&nbsp;<i class="ionicons ion-ribbon-b" style="font-size:20px;"></i></span></a>
 						<br/><br/>
 
 						<div class="col-md-12 col-sm-12 col-xs-12 w3-light-grey padding-15 w3-hide w3-animate-opacity" id="awardsForm">

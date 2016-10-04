@@ -16,6 +16,7 @@
     <link rel="apple-touch-icon" sizes="152x152" href="images/apple-touch-icon_152.png">
 
     <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link href="css/datepicker-bootstrap.css" rel="stylesheet">
     <!-- <link rel="stylesheet" href="css/style.css"> -->
 
     <!-- Bootstrap Core CSS -->
@@ -502,7 +503,7 @@
                                        <label class="w3-padding-0" for="month">Founded</label>
                                      </div> 
                                      <div class="col-xs-7">
-                                       <input type="text" class="form-control" name="ThirdPrize" placeholder="Enter Founded">
+                                       <input type="text" class="form-control datepicker" name="ThirdPrize" placeholder="Enter Founded">
                                      </div>
                                    </div>
                                    <div class="row w3-margin-bottom">
@@ -652,7 +653,9 @@
             <!-- profile Image Modal popup -->
 
     <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script> <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
@@ -723,6 +726,12 @@
       $(document).ready(function(){
         $('head').append(style);
 
+        $('.datepicker').datepicker({
+            showAnim: "drop",
+            dateFormat: "yy-mm-dd",
+            inline: true,
+            showOtherMonths: true
+        });
 
         var skills = ["Accounting", "Advertising", "Brand Strategy", "Business Development", "C-Level Presentations", "Change Management", "Consumer Banking", "Consumer Behavior", "Consumer Products & Goods", "Copy Writing", "CPA", "Creative Writing", "Customer Acquisition", "Data Analysis", "Ecommerce", "Economics", "Editing", "Engineering", "Equity Research", "Finance", "Financial Accounting", "Financial Modeling", "Financial Reporting", "Graphic Design", "Healthcare", "Hospitality", "HR Expertise", "International experience", "Lawyer", "Leadership", "Lean Manufacturing", "Litigation", "Luxury", "Management Consulting", "Manufacturing", "Marketing", "MD", "Microsoft Excel", "Microsoft PowerPoint", "Microsoft Word", "MPH", "Negotiations", "Non-Profit", "Operations", "Organizational Behavior", "Product Management", "Project Management", "Public Relations", "Public Speaking", "Quality Assurance", "R&D", "Real Estate", "Research", "Retail", "Sales", "Six SIgma", "Social Impact", "Social Media", "Software Development", "Start-ups", "Statistical Analysis", "Strategy", "Strategy/Consulting", "UX/UI", "Valuation", "Video/Editing", "Web Design", "Writing" ];
         

@@ -777,9 +777,19 @@
 															<input class="form-control" placeholder="" name="shv" id="keyword" type="text" style="outline: none !important;" disabled readonly value="example@gmail.com" >
 														</div>
 
-														<div class="input-group w3-card-2 w3-round w3-section">
-															<span class="input-group-addon"><i class="ionicons ion-person"></i></span>
-															<input class="form-control" placeholder="Name" name="shv" id="keyword2" type="text" style="outline: none !important;"  value="Name Name" >
+														<div class="row w3-section">
+															<div class="col-xs-6 w3-padding-0 w3-padding-right">
+																<div class="input-group w3-card-2 w3-round">
+																	<span class="input-group-addon"><i class="ionicons ion-person"></i></span>
+																	<input class="form-control" placeholder="First Name" name="shv" id="keyword2" type="text" style="outline: none !important;"  value="FirstName" >
+																</div>
+															</div>
+															<div class="col-xs-6 w3-padding-0 w3-padding-left">
+																<div class="input-group w3-card-2 w3-round">
+																	<span class="input-group-addon"><i class="ionicons ion-person"></i></span>
+																	<input class="form-control" placeholder="Last Name" name="shv" id="keyword2" type="text" style="outline: none !important;"  value="LastName" >
+																</div>
+															</div>
 														</div>
 
 														<div class="input-group w3-card-2 w3-round w3-section">

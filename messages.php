@@ -15,7 +15,7 @@
 					<div class="col-md-5">
 						<div class="row w3-padding-0">
 							<div class="col-md-12 text-center">
-								<span class="pull-right"><i class="fa fa-file-text-o" style="font-size:25px"></i><i class="fa fa-pencil" style="font-size:15px; position:relative; left:-5px; top:-5px;"></i></span>	
+								<a class="pull-right" href="javascript:void(0);" title="Click to Compose Message" data-toggle="modal" data-target="#composeModal"><i class="fa fa-file-text-o" style="font-size:25px"></i><i class="fa fa-pencil" style="font-size:15px; position:relative; left:-5px; top:-5px;"></i></a>	
 								<h6 class="w3-text-dark-blue"><b>MESSAGES</b></h6>	
 							</div>	
 						</div>	
@@ -63,7 +63,7 @@
 							</div>	
 							<div class="display-cell col-md-3 col-sm-3 col-xs-3 w3-padding-0">
 								<div class="text-center w3-left w3-margin-right">
-									<a href="#"><i class="ionicons ion-android-drafts w3-xlarge w3-text-black"></i><h6 class="w3-tiny"><b>Mark Unread</b></h6></a>
+									<a href="#"><i class="ionicons ion-email-unread w3-xlarge w3-text-black"></i><h6 class="w3-tiny"><b>Mark Read</b></h6></a>
 								</div>	
 								<div class="text-center w3-left w3-margin-0">
 									<a href="#" style="display:inline;"><i class="ionicons ion-ios-trash w3-xlarge w3-text-black"></i><h6 class="w3-tiny"><b>Delete</b></h6></a>
@@ -418,6 +418,116 @@
 </div>
 
 
+<!-- Compose Message Modal popup -->
+            <div class="modal fade text-center" id="composeModal" tabindex="-1" role="dialog" aria-labelledby="composeModal" aria-hidden="true" style="position:fixed; z-index:1050;">
+                    <div class="modal-dialog">
+                        <div class="modal-content" style="background:transparent; box-shadow:0px 0px 0px 0px;">
+                            <div class="modal-body w3-card-2 w3-blue" style="background:white; padding:0px; border-radius: 2px;"> 
+                                <div>
+                                    <div class="container-fluid" style="height:auto; padding:0px;">
+                                            <div class="col-md-12 col-sm-12 col-xs-12 w3-blue text-center">
+                                                <button type="button" class="close pull-left" data-dismiss="modal" aria-hidden="true"><p> </p>&times;</button>
+                                                <br/>
+                                                <h2 class="w3-text-white text-center">Compose Message.</h2>
+                                                <div class="col-md-12 col-sm-12 col-xs-12 ">
+                                                    <form id="social_url" class="w3-section" action="" method="GET" role="form">
+														<div class="input-group select2-bootstrap-prepend w3-card-2 w3-round w3-section">
+															<span class="input-group-addon"><i class="ionicons ion-at"></i></span>
+															<!-- <input class="form-control" placeholder="" name="shv" id="keyword" type="text" style="outline: none !important;" value="example@gmail.com" > -->
+															<select id="message-to"class="form-control select2-allow-clear w3-round" name="shv" type="text" style="width:100%;" multiple>
+																<option></option>
+																<option title="example@gmail.com" value="example@gmail.com">FirstName LastName</option>
+																<option title="example@gmail.com" value="example@gmail.com">FirstName LastName</option>
+																<option title="example@gmail.com" value="example@gmail.com">FirstName LastName</option>
+																<option title="example@gmail.com" value="example@gmail.com">FirstName LastName</option>
+																<option title="example@gmail.com" value="example@gmail.com">FirstName LastName</option>
+																<option title="example@gmail.com" value="example@gmail.com">FirstName LastName</option>
+																<option title="example@gmail.com" value="example@gmail.com">FirstName LastName</option>
+																<option title="example@gmail.com" value="example@gmail.com">FirstName LastName</option>
+																<option title="example@gmail.com" value="example@gmail.com">FirstName LastName</option>
+																<option title="example@gmail.com" value="example@gmail.com">FirstName LastName</option>
+																<option title="example@gmail.com" value="example@gmail.com">FirstName LastName</option>
+																<option title="example@gmail.com" value="example@gmail.com">FirstName LastName</option>
+																<option title="example@gmail.com" value="example@gmail.com">FirstName LastName</option>
+																<option title="example@gmail.com" value="example@gmail.com">FirstName LastName</option>
+																<option title="example@gmail.com" value="example@gmail.com">FirstName LastName</option>
+																<option title="example@gmail.com" value="example@gmail.com">FirstName LastName</option>
+															</select>
+														</div>
+
+														<div class="input-group w3-card-2 w3-round w3-section">
+															<span class="input-group-addon"><i class="fa fa-align-justify"></i></span>
+															<input class="form-control" placeholder="Subject" name="shv" id="keyword" type="text" style="outline: none !important;" value="" >
+														</div>
+
+														<div class="form-group w3-card-2 w3-round w3-section">
+															<textarea class="form-control" placeholder="Message..." name="shv" id="keyword2" type="text" style="outline: none !important;"  value="<?php //echo $google ?>" ></textarea>
+														</div>
+													</form>
+
+													
+													<div class="col-xs-6 text-right">
+	                                                    <button type="button" class="w3-btn w3-section w3-orange w3-round-large w3-text-white" data-dismiss="modal" onclick="doneAct();">CANCEL</button>
+													</div>
+													<div class="col-xs-6 text-left">
+	                                                    <button type="button" class="w3-btn w3-section w3-orange w3-round-large w3-text-white" data-dismiss="modal" onclick="$('form#social_url').submit();">&nbsp;&nbsp;&nbsp;SEND&nbsp;&nbsp;&nbsp;</button>
+													</div>
+                                                </div>
+
+                                            </div>
+                                            
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>  
+<!-- Compose Message Modal popup -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
+
+<script type="text/javascript">
+	style = '<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" rel="stylesheet" />  <link href="https://cdnjs.cloudflare.com/ajax/libs/select2-bootstrap-theme/0.1.0-beta.9/select2-bootstrap.min.css" rel="stylesheet" />';
+	
+	$(document).ready(function() {
+		$('head').append(style);
+
+		function formatResult(item) {
+	      // if(!item.id) {
+	      //   // return `text` for optgroup
+	      //   return item.text;
+	      // }
+	      // return item template
+	      return item.text + " < " + item.title + " >" ;
+	    }
+
+	    function formatSelection(item) {
+	      // return selection template
+	      return item.text;
+	    }
+
+		$("#message-to").select2({
+			placeholder: "Message to",
+			multiple: true,
+	  	    // tags: true,
+	  	    theme: "bootstrap",
+		    // tokenSeparators: [','],
+		    allowClear: true,
+		  	// Specify format function for dropdown item
+			templateResult: formatResult,
+			// Specify format function for selected item
+			templateSelection: formatSelection,
+
+			// escapeMarkup: function (m) {
+   //                  return m;
+   //              }
+		  
+		});	
+
+	});
+
+</script>
+
 <style type="text/css">
 	.w3-wrapper{
 		max-height: 1255px !important;
@@ -427,6 +537,13 @@
 	.disabled{
 		cursor: not-allowed;
 		background: transparent;
+	}
+	.select-wrapper{
+		border-top-right-radius: 5px;
+		border-bottom-right-radius: 5px;
+	}
+	.select2-search__field{
+		width: 100% !important;
 	}
 </style>
 

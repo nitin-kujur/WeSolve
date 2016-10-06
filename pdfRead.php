@@ -37,10 +37,10 @@
 					// $term_count = ($term_count > 1) ? ($term_count - 1) : $term_count;
 					$copy_result = preg_replace("/".$search_term."/i", "<span>".$search_term."</span>", $result);
 					echo "<div>File contents:</div><br><br><pre>" . $copy_result . "</pre>";
-					echo '<br><br><div>found ' . $term_count . ' occurance.</div>';
+					echo '<br><br><div>found ' . $term_count . ' occurance for ' . $search_term . '.</div>';
 				}
 				else
-					echo '<br><br><div>No occurance found.</div>';
+					echo '<br><br><div>No occurance found for ' . $search_term . '.</div>';
 			}
 
 			else {

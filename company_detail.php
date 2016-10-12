@@ -68,9 +68,9 @@
 
 					<div class="container-fluid padding-15 w3-white w3-card-1">
 							<div class="row">
-									<h6><strong>Recent Changes</strong></h6>
+									<h6><strong>Recent Challanges</strong></h6>
 									<div class="col-md-4 col-sm-4 col-xs-12 w3-padding">
-										<div class="jumbotron w3-padding-0"style="background:url('images/tesla-6.jpg') no-repeat center center; background-size: cover;">
+										<div class="jumbotron w3-padding-0"style="background:url('images/default/challange-default.jpg') no-repeat center center; background-size: cover;">
 											<div class="container-fluid w3-padding-0" style="background:rgba(255, 255, 255, 0.7);">
 												<div class="w3-padding">
 													<h6>How do we price and segment the market for a 2017 luxury electric SUV ?</h6> <br/>
@@ -146,7 +146,7 @@
 							<div class="row">
 									<div class="col-md-4 col-sm-4 col-xs-12 text-center">
 										<h6><strong>Company Website</strong></h6>
-										<img src="images/tesla_logo.png" class="img-responsive w3-section center-block" style="width:150px; height:150px;">
+										<img src="images/default/company-school-default.jpg" srcx="images/tesla_logo.png" class="img-responsive w3-section center-block" style="width:150px; height:150px;">
 										<!-- <div class="text-center" style="width:150px; height:150px; background:rgb(186,48,39);">
 												<img src="images/tesla_logo_white.png" class="img-responsive w3-section center-block" style="width:150px; height:150px;">
 										</div> -->

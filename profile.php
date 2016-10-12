@@ -118,7 +118,7 @@
 
 					<div class="w3-white col-md-12 col-sm-12 col-xs-12 w3-card-1 padding-15">
 						<br/>
-						<img class="img-responsive center-block img-circle" style="width:180px; height:auto;" src="images/Chauntell B.png" >	
+						<img class="img-responsive center-block img-circle text-center" alt="No Pic" style="max-width:180px; height:180px; display:block; line-height:180px; white-space:pre; background:#4a90e2; color:white; text-shadow: #444 0 1px 1px;" src="images/Chauntell B.png1" >	
 						<h2 class="w3-text-dark-blue col-md-9  col-sm-9 col-xs-9">Stella Bobo</h2>	<a href="javascript:void(0);" data-toggle="modal" data-target="#profileModal" class="w3-text-grey w3-hover-text-blue text-right col-md-3 col-sm-3 col-xs-3"><h2><i class="fa fa-pencil" style="font-size:24px"></i></h2></a>		
 						<h5 class="col-md-6  col-sm-6 col-xs-6 w3-text-dark-blue">Concentration 1</h5> <h5 class="col-md-6  col-sm-6 col-xs-6 w3-text-dark-blue">Concentration 2</h5>
 						<h5 class="col-md-12 col-sm-12 col-xs-12 w3-text-dark-blue">Chikago, IL</h5>
@@ -634,7 +634,7 @@
 				                    			<button type="button" class="close pull-left" data-dismiss="modal" aria-hidden="true"><p> </p>&times;</button>
 				                    			<div id="dp_div" class="w3-round text-center w3-section w3-animate-opacity" style="display:block;">
 				                    					<br/>
-				                    					<img id="dp" class="img-responsive img-circle center-block" style="width:180px; height:auto;" src="images/Chauntell B.png">
+				                    					<img id="dp" class="img-responsive img-circle center-block text-center" alt="No Pic" style="width:180px; height:180px; font-family:Arial, FontAwesome; display:block; line-height:180px; white-space:pre; background:white; color:black; text-shadow: #444 0 1px 1px;" src="images/Chauntell B.png1">
 				                    					<br/>
 				                    			</div>
 				                    			<div id="upload-demo" class="text-center w3-hide w3-animate-opacity">

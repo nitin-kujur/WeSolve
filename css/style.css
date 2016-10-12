@@ -833,3 +833,8 @@ body,html{
 				textarea:focus:-moz-placeholder           {opacity: 0.5; transition: opacity 0.3s ease;}
 				textarea:focus:-ms-input-placeholder      {opacity: 0.5; transition: opacity 0.3s ease;}
 				textarea:focus:placeholder-shown          {opacity: 0.5; transition: opacity 0.3s ease;}
+
+				.justify{
+					text-align: justify;
+				    text-justify: inter-word;
+				}

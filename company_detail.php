@@ -18,6 +18,9 @@
 													<h4>Company</h4>
 													<h2>TESLA MORTERS</h2>
 									</div>
+									<div class="carousel-caption top-right">
+										<p class="pull-right btn-trans"><img src="images/tesla_logo_white.png" class="img-responsive  hidden-xs-img" width="100px" height="auto"></p>
+									</div>
 								</div>	
 							<div class="col-height col-md-4 col-sm-4 col-xs-12 w3-card-1 w3-white">
 								<div class="row w3-padding-0">
@@ -51,11 +54,11 @@
 
 					<div class="container-fluid padding-15 w3-white w3-card-1" style="margin-top:50px;">
 							<div class="row">
-									<div class="col-md-6 col-sm-6 col-xs-12">
+									<div class="col-md-6 col-sm-6 col-xs-12 justify">
 										<h6><strong>About</strong></h6>
 										<h6>lorem ipsum lorem ipsum tesla tesla tesla suv suv SUV SUV lorem ipsum lorem ipsum tesla tesla tesla suv suv SUV SUV lorem ipsum lorem ipsum tesla tesla tesla suv suv SUV SUV lorem ipsum lorem ipsum tesla tesla tesla suv suv SUV SUV lorem ipsum lorem ipsum tesla tesla tesla suv suv SUV SUV lorem ipsum lorem ipsum tesla tesla tesla suv suv SUV SUV lorem ipsum lorem ipsum tesla tesla tesla suv suv SUV SUV lorem ipsum lorem ipsum tesla tesla tesla suv suv SUV SUV </h6>
 									</div>
-									<div class="col-md-6 col-sm-6 col-xs-12">
+									<div class="col-md-6 col-sm-6 col-xs-12 justify">
 										<h6><strong>Why We WeSolv</strong></h6>
 										<h6>lorem ipsum lorem ipsum tesla tesla tesla suv suv SUV SUV lorem ipsum lorem ipsum tesla tesla tesla suv suv SUV SUV lorem ipsum lorem ipsum tesla tesla tesla suv suv SUV SUV lorem ipsum lorem ipsum tesla tesla tesla suv suv SUV SUV lorem ipsum lorem ipsum tesla tesla tesla suv suv SUV SUV lorem ipsum lorem ipsum tesla tesla tesla suv suv SUV SUV lorem ipsum lorem ipsum tesla tesla tesla suv suv SUV SUV lorem ipsum lorem ipsum tesla tesla tesla suv suv SUV SUV </h6>
 									</div>
@@ -105,10 +108,10 @@
 									<h6><strong>Recognition</strong></h6>
 									<div class="col-md-4">
 										<div class="row">
-											<div class="col-md-2 col-sm-2 col-xs-2">
+											<div class="col-md-2 col-sm-2 col-xs-2 text-center w3-padding-0">
 												<i class="ionicons ion-ribbon-b" style="font-size:30px"></i>
 											</div>
-											<div class="col-md-10 col-sm-10 col-xs-10">
+											<div class="col-md-10 col-sm-10 col-xs-10 w3-padding-0">
 													<h6># 15 Best Luxury Clown Car</h6>
 													<h6>2015 Clowning Around Reviews</h6>
 											</div>
@@ -116,10 +119,10 @@
 									</div>
 									<div class="col-md-4">
 										<div class="row">
-											<div class="col-md-2 col-sm-2 col-xs-2">
+											<div class="col-md-2 col-sm-2 col-xs-2 text-center w3-padding-0">
 												<i class="ionicons ion-ribbon-b" style="font-size:30px"></i>
 											</div>
-											<div class="col-md-10 col-sm-10 col-xs-10">
+											<div class="col-md-10 col-sm-10 col-xs-10 w3-padding-0">
 													<h6># 15 Best Luxury Clown Car</h6>
 													<h6>2015 Clowning Around Reviews</h6>
 											</div>
@@ -127,10 +130,10 @@
 									</div>
 									<div class="col-md-4">
 										<div class="row">
-											<div class="col-md-2 col-sm-2 col-xs-2">
+											<div class="col-md-2 col-sm-2 col-xs-2 text-center w3-padding-0">
 												<i class="ionicons ion-ribbon-b" style="font-size:30px"></i>
 											</div>
-											<div class="col-md-10 col-sm-10 col-xs-10">
+											<div class="col-md-10 col-sm-10 col-xs-10 w3-padding-0">
 													<h6># 15 Best Luxury Clown Car</h6>
 													<h6>2015 Clowning Around Reviews</h6>
 											</div>

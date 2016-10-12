@@ -927,7 +927,8 @@
             width: 960,
             height: 422
           },
-          //exif: true
+          //exif: true,
+          enforceBoundary: false
         });
 
         $('#upload').on('change', function () { readFile(this); });

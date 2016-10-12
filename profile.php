@@ -123,9 +123,9 @@
 						<h5 class="col-md-6  col-sm-6 col-xs-6 w3-text-dark-blue">Concentration 1</h5> <h5 class="col-md-6  col-sm-6 col-xs-6 w3-text-dark-blue">Concentration 2</h5>
 						<h5 class="col-md-12 col-sm-12 col-xs-12 w3-text-dark-blue">Chikago, IL</h5>
 						<div class="col-md-12 col-sm-12 col-xs-12">
-							<a href="#" data-toggle="modal" data-target="#socialModal"><div class="fa-container-pro w3-left w3-margin-right w3-margin-top text-center"><i class="fa ficon-pro fa-twitter"></i></div></a>
+							<a data-toggle="modal" data-target="socialModal"><div class="social-disable-container fa-container-pro w3-left w3-margin-right w3-margin-top text-center"><i class="social-disable-facon fa ficon-pro fa-twitter"></i></div></a>
 							<a href="#" data-toggle="modal" data-target="#socialModal"><div class="fa-container-pro w3-left w3-margin-right w3-margin-top text-center"><i class="fa ficon-pro fa-linkedin"></i></div></a>
-							<div class="fa-container-pro w3-left w3-margin-right w3-margin-top text-center"><i class="fa ficon-pro fa-facebook"></i></div>
+							<a href="https://www.facebook.com/wesolv/" target="_blank"><div class="fa-container-pro w3-left w3-margin-right w3-margin-top text-center"><i class="fa ficon-pro fa-facebook"></i></div></a>
 						</div>
 					</div>	
 
@@ -149,6 +149,10 @@
 									<a href="javascript:skillEnable(false);" class="w3-grey w3-btn w3-small w3-round-large w3-text-white col-md-3 col-sm-3 col-xs-3 w3-margin pull-right">CANCEL</a>
 							  </div>
 							</form>
+						</div>
+
+						<div class="col-12-xs .justify w3-padding w3-gray">
+							<b>Business, Designing, Business, Designing, Business, Designing</b>
 						</div>
 					</div>
 
@@ -822,6 +826,17 @@
             </div>  
 <!-- Profile Setting Modal popup -->
 
+<style type="text/css">
+	.social-disable-container{
+		border: 3px solid lightgray !important;
+		color: lightgray !important;
+		cursor: not-allowed;
+	}
+	.social-disable-facon{
+		color: lightgray !important;
+		cursor: not-allowed;
+	}
+</style>
 
 <script type="text/javascript">
 

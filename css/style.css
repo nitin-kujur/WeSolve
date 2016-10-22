@@ -341,7 +341,7 @@ body,html{
 					background-color: rgb(233,235,238);
 				}
 				.padding-25{
-					padding: 25px;
+					padding: 12px;
 				}
 				.padding-10{
 					padding: 15px;
@@ -352,7 +352,7 @@ body,html{
 				}
 				.padding-15{
 					padding: 15px;
-					margin-bottom: 50px;
+					margin-bottom: 25px;
 				}
 
 				@media only screen and (max-width: 480px) {
@@ -367,7 +367,7 @@ body,html{
 						
 						.padding-15{
 							padding: 5px;
-							margin-bottom: 25px;
+							margin-bottom: 15px;
 						}
 
 						.prof-jumbo{

@@ -8,7 +8,7 @@
 
 <div class="jumbotron prof-jumbo">
 	<div class="container-fluid w3-padding-64">
-		<div class="row w3-padding-0">
+		<!-- <div class="row w3-padding-0">
 
 			<div class="col-md-12 col-sm-12 col-xs-12 text-center center-block">
 				<div class="row w3-padding-0">
@@ -24,7 +24,7 @@
 						</div>	
 					</div>
 				</div>
-	    </div>
+	    </div> -->
 
 			<div class="col-md-4 padding-25">  <!-- col 4 start -->
 
@@ -42,7 +42,7 @@
 						</div> -->
 					</div>	
 
-					<h2 class="w3-text-dark-blue text-center padding-15" style="margin-bottom:65px;"><b>Who Else Is on WeSolv</b></h2>
+					<h2 class="w3-text-dark-blue text-center padding-15"><b>Who Else Is on WeSolv</b></h2>
 
 					<div class="w3-white col-md-12 col-sm-12 col-xs-12 w3-card-1 padding-15">
 						<div class="row">
@@ -171,42 +171,42 @@
 
 
 				<div class="row text-left w3-text-dark-blue">
-					<div class="col-md-12 w3-margin-top">
+					<div class="col-md-12">
 						<div class="row text-center">
-								<div class="col-md-3 col-sm-4 col-xs-4">
+								<div class="col-md-2 col-sm-3 col-xs-3 w3-padding-0">
 									<img src="images/apple-touch-icon.png" class="img-responsive w3-padding-large" style="max-width:100px; height:auto;">	
 								</div>
-								<div class="col-md-9 col-sm-8 col-xs-8 text-left"><br/>
+								<div class="col-md-10 col-sm-9 col-xs-9 text-left w3-padding-0"><br/>
 									<a href="#"><h4 class="w3-medium1"><b>Browse other WeSolvers.</b></h4></a>
 								</div>
 						</div>
 					</div>
-					<div class="col-md-12 w3-margin-top">
+					<div class="col-md-12">
 						<div class="row text-center">
-								<div class="col-md-3 col-sm-4 col-xs-4">
+								<div class="col-md-2 col-sm-3 col-xs-3 w3-padding-0">
 									<img src="images/apple-touch-icon.png" class="img-responsive w3-padding-large" style="max-width:100px; height:auto;">	
 								</div>
-								<div class="col-md-9 col-sm-8 col-xs-8 text-left"><br/>
+								<div class="col-md-10 col-sm-9 col-xs-9 text-left w3-padding-0"><br/>
 									<a href="#"><h4 class="w3-medium1"><b>Post, comment and share.</b></h4></a>
 								</div>
 						</div>
 					</div>
-					<div class="col-md-12 w3-margin-top">
+					<div class="col-md-12">
 						<div class="row text-center">
-								<div class="col-md-3 col-sm-4 col-xs-4">
+								<div class="col-md-2 col-sm-3 col-xs-3 w3-padding-0">
 									<img src="images/apple-touch-icon.png" class="img-responsive w3-padding-large" style="max-width:100px; height:auto;">	
 								</div>
-								<div class="col-md-9 col-sm-8 col-xs-8 text-left"><br/>
+								<div class="col-md-10 col-sm-9 col-xs-9 text-left w3-padding-0"><br/>
 									<a href="#"><h4 class="w3-medium1"><b>Check out the current open challenge.</b></h4></a>
 								</div>
 						</div>
 					</div>
-					<div class="col-md-12 w3-margin-top">
+					<div class="col-md-12">
 						<div class="row text-center">
-								<div class="col-md-3 col-sm-4 col-xs-4">
+								<div class="col-md-2 col-sm-3 col-xs-3 w3-padding-0">
 									<img src="images/apple-touch-icon.png" class="img-responsive w3-padding-large" style="max-width:100px; height:auto;">	
 								</div>
-								<div class="col-md-9 col-sm-8 col-xs-8 text-left"><br/>
+								<div class="col-md-10 col-sm-9 col-xs-9 text-left w3-padding-0"><br/>
 									<a href="#"><h4 class="w3-medium1"><b>Check out top companies.</b></h4></a>
 								</div>
 						</div>
@@ -339,6 +339,10 @@
 	.disabled{
 		cursor: not-allowed;
 		background: transparent;
+	}
+
+	.padding-15{
+		padding:15px;
 	}
 </style>
 

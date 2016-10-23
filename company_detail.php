@@ -68,7 +68,7 @@
 
 					<div class="container-fluid padding-15 w3-white w3-card-1">
 							<div class="row">
-									<h6><strong>Recent Challanges</strong></h6>
+									<h6 class="w3-padding-left"><strong>Recent Challanges</strong></h6>
 									<div class="col-md-4 col-sm-4 col-xs-12 w3-padding">
 										<div class="jumbotron w3-padding-0"style="background:url('images/default/challange-default.jpg') no-repeat center center; background-size: cover;">
 											<div class="container-fluid w3-padding-0" style="background:rgba(255, 255, 255, 0.7);">
@@ -105,7 +105,7 @@
 
 					<div class="container-fluid padding-15 w3-white w3-card-1">
 							<div class="row">
-									<h6><strong>Recognition</strong></h6>
+									<h6 class="w3-padding-left"><strong>Recognition</strong></h6>
 									<div class="col-md-4">
 										<div class="row">
 											<div class="col-md-2 col-sm-2 col-xs-2 text-center w3-padding-0">

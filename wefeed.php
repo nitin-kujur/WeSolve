@@ -28,7 +28,7 @@
 
 			<div class="col-md-4 padding-25">  <!-- col 4 start -->
 
-					<div class="w3-white col-md-12 col-sm-12 col-xs-12 w3-card-1 padding-15">
+					<div class="w3-white col-md-12 col-sm-12 col-xs-12 w3-card-1 padding-15" style="margin-bottom:50px;">
 						<br/>
 						<img class="img-responsive center-block img-circle" src="images/Chauntell B.png" >	
 						<h2 class="w3-text-dark-blue col-md-9  col-sm-9 col-xs-9"><b>Stella Bobo</b></h2>	<!-- <a href="javascript:void(0);" data-toggle="modal" data-target="#profileModal" class="w3-text-grey w3-hover-text-blue text-right col-md-3 col-sm-3 col-xs-3"><h2><i class="fa fa-pencil" style="font-size:24px"></i></h2></a> -->		
@@ -42,7 +42,7 @@
 						</div> -->
 					</div>	
 
-					<h2 class="w3-text-dark-blue text-center padding-15"><b>Who Else Is on WeSolv</b></h2>
+					<h2 class="w3-text-dark-blue text-center padding-15" style="margin-bottom:0px;"><b>Who Else Is on WeSolv</b></h2>
 
 					<div class="w3-white col-md-12 col-sm-12 col-xs-12 w3-card-1 padding-15">
 						<div class="row">

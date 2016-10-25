@@ -173,40 +173,40 @@
 				<div class="row text-left w3-text-dark-blue">
 					<div class="col-md-12">
 						<div class="row text-center">
-								<div class="col-md-2 col-sm-3 col-xs-3 w3-padding-0">
+								<div class="col-md-1 col-sm-2 col-xs-2 w3-padding-0">
 									<img src="images/apple-touch-icon.png" class="img-responsive w3-padding-large" style="max-width:100px; height:auto;">	
 								</div>
-								<div class="col-md-10 col-sm-9 col-xs-9 text-left w3-padding-0"><br/>
+								<div class="col-md-11 col-sm-10 col-xs-10 text-left w3-padding-large">
 									<a href="#"><h4 class="w3-medium1"><b>Browse other WeSolvers.</b></h4></a>
 								</div>
 						</div>
 					</div>
 					<div class="col-md-12">
 						<div class="row text-center">
-								<div class="col-md-2 col-sm-3 col-xs-3 w3-padding-0">
+								<div class="col-md-1 col-sm-2 col-xs-2 w3-padding-0">
 									<img src="images/apple-touch-icon.png" class="img-responsive w3-padding-large" style="max-width:100px; height:auto;">	
 								</div>
-								<div class="col-md-10 col-sm-9 col-xs-9 text-left w3-padding-0"><br/>
+								<div class="col-md-11 col-sm-10 col-xs-10 text-left w3-padding-large">
 									<a href="#"><h4 class="w3-medium1"><b>Post, comment and share.</b></h4></a>
 								</div>
 						</div>
 					</div>
 					<div class="col-md-12">
 						<div class="row text-center">
-								<div class="col-md-2 col-sm-3 col-xs-3 w3-padding-0">
+								<div class="col-md-1 col-sm-2 col-xs-2 w3-padding-0">
 									<img src="images/apple-touch-icon.png" class="img-responsive w3-padding-large" style="max-width:100px; height:auto;">	
 								</div>
-								<div class="col-md-10 col-sm-9 col-xs-9 text-left w3-padding-0"><br/>
+								<div class="col-md-11 col-sm-10 col-xs-10 text-left w3-padding-large">
 									<a href="#"><h4 class="w3-medium1"><b>Check out the current open challenge.</b></h4></a>
 								</div>
 						</div>
 					</div>
 					<div class="col-md-12">
 						<div class="row text-center">
-								<div class="col-md-2 col-sm-3 col-xs-3 w3-padding-0">
+								<div class="col-md-1 col-sm-2 col-xs-2 w3-padding-0">
 									<img src="images/apple-touch-icon.png" class="img-responsive w3-padding-large" style="max-width:100px; height:auto;">	
 								</div>
-								<div class="col-md-10 col-sm-9 col-xs-9 text-left w3-padding-0"><br/>
+								<div class="col-md-11 col-sm-10 col-xs-10 text-left w3-padding-large">
 									<a href="#"><h4 class="w3-medium1"><b>Check out top companies.</b></h4></a>
 								</div>
 						</div>

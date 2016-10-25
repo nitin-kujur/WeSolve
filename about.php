@@ -186,7 +186,7 @@
 												<div class="item text-center">
 													<br/>
 														<img src="images/Eileen Castellanos.jpg" class="img-responsive center-block w3-padding-large img-circle"  alt="p" width="180" height="auto" style="object-fit: contain;">
-														<h6 class="w3-text-white">CHRIS WATKINS</h6>
+														<h6 class="w3-text-white">EILEEN CASTELLANOS</h6>
 														<h6 class="w3-text-white">Strategy and Operations</h6>
 														<br/>
 												</div>

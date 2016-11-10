@@ -796,7 +796,7 @@
             width: 960,
             height: 422
           },
-          //exif: true
+          enforceBoundary: false
         });
 
         $('#upload').on('change', function () { readFile(this); });
@@ -845,7 +845,7 @@
             width: 250,
             height: 250
           },
-          //exif: true
+          enforceBoundary: false
         });
 
         $('#upload_stack').on('change', function () { stack_readFile(this); });

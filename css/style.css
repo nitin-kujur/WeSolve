@@ -633,13 +633,14 @@ body,html{
 				}
 
 				.loader-on{
-					position: relative;
+					position: relative !important;
 				}
 
 				.spinner2{
 					position: absolute;
-			        top: -40%;
-			        left: 50%;
+			        top: 48%;
+			        left: 48%;
+			        margin: 0 auto !important;
 			        -webkit-transform: translate(-50%);
 			        -ms-transform: translate(-50%);
 			        -oz-transform: translate(-50%);

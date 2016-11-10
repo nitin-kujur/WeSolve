@@ -48,7 +48,7 @@
 			});
 
 		 	$(document).ready(function(){
-			 	$('.loader-on').append('<div class="se-pre-con"><div class="spinner spinner2"><img  src="images/favicon.ico" style="width:30px; height:30px; margin:15% auto; top:-50%;"></div></div>');
+			 	$('.loader-on').append('<div class="se-pre-con" style="display: none;"><div class="spinner spinner2"><img  src="images/favicon.ico" style="width:30px; height:30px; margin:15% auto; top:-50%;"></div></div>');
 			 	$('select:not(#skills)').wrap('<div class="select-wrapper"></div>');
 		 		$('.select-wrapper').append('<div class="next-icon"><i class="fa fa-angle-down"></i></div>');
 
@@ -63,7 +63,7 @@
 
 
 		 	$(window).load(function(argument) {
-	         	$(".se-pre-con").delay(1000).fadeOut("slow");
+	         	// $(".se-pre-con").delay(1000).fadeOut("slow");
 		    });
 
 		    function goUp(){

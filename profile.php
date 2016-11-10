@@ -767,7 +767,7 @@
             <div class="modal fade text-center" id="settingsModal" tabindex="-1" role="dialog" aria-labelledby="settingsModal" aria-hidden="true" style="position:fixed; z-index:999999999;">
                     <div class="modal-dialog">
                         <div class="modal-content" style="background:transparent; box-shadow:0px 0px 0px 0px;">
-                            <div class="modal-body w3-card-2 w3-blue" style="background:white; padding:0px; border-radius: 2px;"> 
+                            <div class="modal-body w3-card-2 w3-blue loader-on" style="background:white; padding:0px; border-radius: 2px;"> 
                                 <div>
                                     <div class="container-fluid" style="height:auto; padding:0px;">
                                             <div class="col-md-12 col-sm-12 col-xs-12 w3-blue text-center">
@@ -814,6 +814,9 @@
 													<div class="col-xs-6 text-left">
 	                                                    <button type="button" class="w3-btn w3-section w3-orange w3-round-large w3-text-white" data-dismiss="modal" onclick="$('form#social_url').submit();">&nbsp;&nbsp;&nbsp;SAVE&nbsp;&nbsp;&nbsp;</button>
 													</div>
+
+													<button type="button" class="w3-btn w3-section w3-orange w3-round-large w3-text-white" onclick='$(".se-pre-con").fadeToggle("slow");' style="position:relative; z-index:999999;">&nbsp;&nbsp;&nbsp;TOGGLE LOADER&nbsp;&nbsp;&nbsp;</button>
+
                                                 </div>
 
                                             </div>

@@ -78,6 +78,7 @@
 						height: 210
 					},
 					//exif: true
+					enforceBoundary: false
 				});
 
 				$('#upload').on('change', function () { readFile(this); });

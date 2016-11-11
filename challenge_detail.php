@@ -19,7 +19,7 @@
 										<h2>TESLA MORTERS <a href="company_detail.php" class="w3-medium"> <u><strong>See Profile</strong></u></a></h2>
 									</div>
 									<br/><br/><br><br/><br/><br>
-									<div class="row">
+									<div id='challenges_deadline' class="row">
 										<div class="col-md-6 col-xs-12">
 												<h4>Case Challange</h4>
 												<h2>How do we price and segment the market for a 2017 luxury electric vehicle?</h2> <br/>
@@ -105,6 +105,7 @@
 									<div class="col-md-12 col-sm-12 col-xs-12">
 										<h6><strong>Timeline</strong></h6>
 										<div class="row w3-padding-0">
+											<div class="col-md-1 hidden-sm hidden-xs w3-padding-0" style="width:4.5%;"></div>
 											<div class="col-md-2 col-sm-2 col-xs-2 w3-padding-0">
 												<h4><strong><span class="hidden-sm hidden-xs">October 1</span><span class="visible-sm visible-xs">Oct 1</span></strong></h4>		
 												<i class="fa fa-circle"></i><hr>
@@ -125,7 +126,7 @@
 												<i class="fa fa-circle"></i><hr>
 												<h6><strong>Due date</strong></h6>
 											</div>	
-											<div class="col-md-2 col-sm-2 col-xs-2 w3-padding-0">
+											<div class="col-md-2 col-sm-2 col-xs-2 w3-padding-0" style="width: auto;">
 												<h4><strong><span class="hidden-sm hidden-xs">December 3</span><span class="visible-sm visible-xs">Dec 3</span></strong></h4>		
 												<i class="fa fa-circle"></i>
 												<h6><strong>Winner Selection</strong></h6>
@@ -137,15 +138,15 @@
 
 					<div class="container-fluid padding-15 w3-white w3-card-1">
 							<div class="row">
-									<div class="col-md-4">
+									<div class="col-md-5">
 										<h6><strong>Deliverables</strong></h6>
 										<h6>lorem ipsum lorem ipsum tesla tesla tesla suv suv SUV SUV lorem ipsum lorem ipsum tesla tesla tesla suv suv SUV SUV </h6>
 									</div>
-									<div class="col-md-4">
+									<div class="col-md-2">
 										<h6><strong>Supporting Materials</strong></h6>
 										<h6>lorem ipsum lorem ipsum tesla tesla tesla suv suv SUV SUV lorem ipsum lorem ipsum tesla tesla tesla suv suv SUV SUV </h6>
 									</div>
-									<div class="col-md-4">
+									<div class="col-md-5">
 										<h6><strong>Requirements</strong></h6>
 										<h6>lorem ipsum lorem ipsum tesla tesla tesla suv suv SUV SUV lorem ipsum lorem ipsum tesla tesla tesla suv suv SUV SUV </h6>
 									</div>

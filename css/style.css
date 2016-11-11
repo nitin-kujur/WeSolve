@@ -616,6 +616,11 @@ body,html{
 			    right: 0;
 			    left: 0;
 				}
+
+				@media (min-width: 992px) {
+					#challenges_deadline .col-md-6:not(:first-of-type){ padding-left:55px !important; }
+				}
+
 				/*---------------loader style------------------------*/
 
 				/*.no-js #loader { display: none;  }

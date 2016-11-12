@@ -646,7 +646,7 @@
 				                    					
 				                    			</div>
 				                    			<div class="form-group">
-				                    				<input id="upload" type="file" class="form-control" name="dp" accept="image/*" style="opacity:0; height:1px;">	
+				                    				<input id="upload" type="file" class="form-control" name="dp" accept="image/*" style="opacity:0; max-height:0px; max-width:0px; overflow:hidden;">	
 				                    				<button type="button" class="w3-btn w3-small w3-orange w3-round-large w3-text-white" onclick="this.previousElementSibling.click();">CHANGE PROFOLE PIC</button>
 				                    				<button id="crop" class="upload-result w3-btn w3-small w3-orange w3-round-large w3-text-white w3-hide">CROP</button>
 				                    				<!-- <img id="dpfake" src="">
@@ -746,7 +746,7 @@
 																				 				<button class="w3-grey w3-btn w3-small w3-round-large w3-text-white col-md-12 col-sm-12 col-xs-12" data-dismiss="modal">CANCEL</button>	
 																				 			</div>
 																				 			<div class="col-md-6 col-sm-6 col-xs-6 text-center">
-																				 				<button class="w3-orange w3-btn w3-small w3-round-large w3-text-white col-md-12 col-sm-12 col-xs-12">SAVE</button>	
+																				 				<button id="prof_submit" class="w3-orange w3-btn w3-small w3-round-large w3-text-white col-md-12 col-sm-12 col-xs-12">SAVE</button>	
 																				 			</div>
 																				 		</div>
 																				 		<br/>
@@ -844,7 +844,7 @@
 
 <script type="text/javascript">
 
-	dp_id = document.getElementById("dp");
+	dp_id = document.getElementById("upload");
 
 	dp_id.onchange = function(e){
 		    var ext = this.value.match(/\.([^\.]+)$/)[1];
@@ -856,7 +856,8 @@
 		        case 'bmp':
 		        case 'png':
 		        case 'tif':
-		            alert('allowed');
+		            // alert('allowed');
+		            $('#prof_submit').prop('disabled', true); 
 		            break;
 		        default:
 		            alert('invalid file type');
@@ -893,7 +894,7 @@
 		$('#dp').removeClass('w3-hide');
 		$('#upload-demo,#crop').addClass('w3-hide');
 		$('#dp_div').removeClass('w3-hide');
-
+		$('#prof_submit').removeAttr('disabled')
   }
 
   // function fake () {

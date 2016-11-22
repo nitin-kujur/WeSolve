@@ -77,7 +77,7 @@
 					  <li class="hidden-sm hidden-xs">&nbsp;&nbsp;</li>
 					  <!-- <li><a href="#"><h6 class="w3-text-dark-blue text-center">FOR STUDENTS</h6></a></li> -->
 					  <li class="hidden-sm hidden-xs">&nbsp;&nbsp;</li>
-					  <li><h6 class="text-center"><button class="w3-btn w3-round w3-card-2 w3-padding-large w3-orange w3-text-white nav-btn-top">FOR COMPANIES</button></h6></li>
+					  <li><h6 class="text-center"><button class="w3-btn w3-round w3-card-2 w3-padding-large w3-light-gray w3-text-dark-blue w3-border-dark-blue nav-btn-top">FOR COMPANIES</button></h6></li>
 					  <li class="hidden-sm hidden-xs">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
 					<?php if(isset($_SESSION['LOG'])){ ?>
 					  <li><a href="signin.php" class="w3-text-dark-blue text-center"><h6 class="w3-text-dark-blue text-center">PROFILE</h6></a></li>

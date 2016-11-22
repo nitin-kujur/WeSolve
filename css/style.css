@@ -67,6 +67,11 @@ body,html{
 				.w3-dark-blue{
 					background-color: #015DA8 !important;
 				}
+
+				.w3-border-dark-blue{
+					border: 2px solid #015DA8 !important;
+				}
+
 				.w3-text-dark-blue{
 					color: #015DA8 !important; /*rgb(0, 102, 153)*/
 					/*font-weight: bold !important;*/
@@ -580,6 +585,15 @@ body,html{
 				    color:#ffffff;
 				    background-color:#4a90e2; /*#000099; 4a90e2 015DA8*/
 				}
+
+				@media (min-width: 992px) {
+					.fluid-col .col-md-41{
+						max-width: 33.3333% !important;
+						float: left;
+						padding-left: 50px;
+					}
+				}
+				
 
 				/*---------------challenges style end------------------------*/
 

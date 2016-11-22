@@ -137,16 +137,16 @@
 					</div>
 
 					<div class="container-fluid padding-15 w3-white w3-card-1">
-							<div class="row">
-									<div class="col-md-5">
+							<div class="row fluid-col">
+									<div class="col-md-41">
 										<h6><strong>Deliverables</strong></h6>
-										<h6>lorem ipsum lorem ipsum tesla tesla tesla suv suv SUV SUV lorem ipsum lorem ipsum tesla tesla tesla suv suv SUV SUV </h6>
+										<h6>lorem ipsum lorem <!-- ipsum tesla tesla tesla suv suv SUV SUV lorem ipsum lorem ipsum tesla tesla tesla suv suv SUV SUV --> </h6>
 									</div>
-									<div class="col-md-2">
+									<div class="col-md-41">
 										<h6><strong>Supporting Materials</strong></h6>
-										<h6>lorem ipsum lorem ipsum tesla tesla tesla suv suv SUV SUV lorem ipsum lorem ipsum tesla tesla tesla suv suv SUV SUV </h6>
+										<h6>lorem ipsum <!-- lorem ipsum tesla tesla tesla suv suv SUV SUV lorem ipsum lorem ipsum tesla tesla tesla suv suv SUV SUV --> </h6>
 									</div>
-									<div class="col-md-5">
+									<div class="col-md-41">
 										<h6><strong>Requirements</strong></h6>
 										<h6>lorem ipsum lorem ipsum tesla tesla tesla suv suv SUV SUV lorem ipsum lorem ipsum tesla tesla tesla suv suv SUV SUV </h6>
 									</div>

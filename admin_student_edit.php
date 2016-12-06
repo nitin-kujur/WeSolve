@@ -482,7 +482,7 @@
                     <div class="col-lg-12">
                        <div class="row breadcrumb1 1w3-card-1 w3-margin text-right w3-clear">
                         <div class="col-md-12">
-                          <button type="button" class="w3-orange w3-btn w3-margin w3-round-large w3-text-white" onclick="window.location.assign('admin_dashboard.php');">CANCEL</button>
+                          <button type="button" class="w3-orange w3-btn w3-margin w3-round-large w3-text-white" onclick="window.location.assign('admin_manage_students.php');">Back</button>
                           <!-- <button class="w3-orange w3-btn w3-margin w3-round-large w3-text-white">SAVE</button> -->
                           <!-- <button class="w3-orange w3-btn w3-margin w3-round-large w3-text-white">SAVE & PUBLISH</button>  if (window.location.hostname == '')-->
                         </div>

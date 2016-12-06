@@ -217,7 +217,18 @@
 
                     <div class="col-lg-12" style='color:black;'>
                       <div class="row breadcrumb w3-card-11 margin-0" style="background-color:transparent;">
-                         <div class="col-md-12">
+                          <div class="col-xs-6">
+                            <form class="text-center" role="form">
+                                <div class="input-group">
+                                  <input class="form-control" placeholder="Search Student.." name="keyword" id="keyword" type="text" style="outline: none !important;">
+                                  <div class="input-group-btn">
+                                    <button id="searchBtn" class="btn btn-default w3-left" type="submit" name="keySearch"><i class="glyphicon glyphicon-search"></i>&nbsp;</button>
+                                  </div>
+                                </div>
+                            </form>
+                          </div>
+
+                         <div class="col-xs-6">
                              <li><strong>Showing 1-10 of 50</strong></li>
                          </div>
                       </div>

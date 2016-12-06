@@ -482,9 +482,9 @@
                     <div class="col-lg-12">
                        <div class="row breadcrumb1 1w3-card-1 w3-margin text-right w3-clear">
                         <div class="col-md-12">
-                          <button type="button" class="w3-orange w3-btn w3-margin w3-round-large w3-text-white" onclick="window.location.assign('/WeSolv/admin_dashboard.php');">CANCEL</button>
+                          <button type="button" class="w3-orange w3-btn w3-margin w3-round-large w3-text-white" onclick="window.location.assign('admin_dashboard.php');">CANCEL</button>
                           <!-- <button class="w3-orange w3-btn w3-margin w3-round-large w3-text-white">SAVE</button> -->
-                          <!-- <button class="w3-orange w3-btn w3-margin w3-round-large w3-text-white">SAVE & PUBLISH</button>  -->
+                          <!-- <button class="w3-orange w3-btn w3-margin w3-round-large w3-text-white">SAVE & PUBLISH</button>  if (window.location.hostname == '')-->
                         </div>
                        </div> 
                     </div>
@@ -511,7 +511,7 @@
                                         <div class="col-md-12 col-sm-12 col-xs-12 w3-blue1 text-center">
                                             <button type="button" class="close pull-left" data-dismiss="modal" aria-hidden="true"><p> </p>&times;</button>
                                             
-                                            <iframe class="border:none;" frameborder="0" width="100%" height="520px" src="/WeSolv/admin_profile_edit.php"></iframe>
+                                            <iframe class="border:none;" frameborder="0" width="100%" height="520px" src="admin_profile_edit.php"></iframe>
 
                                         </div>
                                         

@@ -26,6 +26,7 @@
 
     <!-- Custom Fonts -->
     <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -154,25 +155,25 @@
                         </ul>
                     </li>
 
-                    <li class="active">
+                    <li>
                         <a href="javascript:;" data-toggle="collapse" data-target="#challenge"><i class="fa fa-fw fa-arrows-v"></i> <i class="fa fa-tasks"></i> Challenges <span><i class="fa fa-fw fa-caret-up pull-right"></i></span></a>
                         <ul id="challenge" class="collapse in">
                             <li>
                                 <a href="admin_add_challenge.php"><i class="fa fa-fw fa-plus"></i> Add Challenge</a>
                             </li>
                             <li>
-                                <a class="current-active" href="admin_manage_challenges.php"><i class="fa fa-fw fa-gear"></i> Manage Challenges</a>
+                                <a href="admin_manage_challenges.php"><i class="fa fa-fw fa-gear"></i> Manage Challenges</a>
                             </li>
                         </ul>
                     </li>
 
-                    <li>
+                    <li class="active">
                         <a href="javascript:;" data-toggle="collapse" data-target="#student"><i class="fa fa-fw fa-arrows-v"></i> <i class="fa fa-users"></i> Students <span><i class="fa fa-fw fa-caret-up pull-right"></i></span></a>
                         <ul id="student" class="collapse in">
                             <!-- <li>
                                 <a href="#"><i class="fa fa-fw fa-user-plus"></i> Add Student</a>
                             </li> -->
-                            <li>
+                            <li class="current-active">
                                 <a href="admin_manage_students.php"><i class="fa fa-fw fa-gear"></i> Manage Students</a>
                             </li>
                         </ul>
@@ -192,18 +193,18 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <h1 class="page-header">
-                            Challenges
-                            <small>Manage Challenges</small>
+                            Students
+                            <small>Manage Students</small>
                         </h1>
                         <ol class="breadcrumb w3-card-1">
                             <li>
                                 <i class="fa fa-dashboard"></i>  <a href="admin_dashboard.php">Dashboard</a>
                             </li>
                             <li>
-                                <i class="fa fa-tasks"></i>  Challenges
+                                <i class="fa fa-tasks"></i>  Students
                             </li>
                             <li class="active">
-                                <i class="fa fa-gear"></i> Manage Challenges
+                                <i class="fa fa-gear"></i> Manage Students
                             </li>
                         </ol>
                     </div>
@@ -227,16 +228,19 @@
                         <div class="col-md-1" style="max-width:40px; padding-left:0px;">
                           <li><strong>Sr. No.</strong></li>  
                         </div>
-                        <div class="col-md-4">
-                           <li><strong>Challenges</strong></li> 
+                        <div class="col-md-2" style="padding-right:0px;">
+                           <li><strong>Profile Pic</strong></li> 
+                        </div>
+                        <div class="col-md-3">
+                           <li><strong>Student Name</strong></li> 
                         </div>
                         <div class="col-md-2" style="padding-right:0px;">
-                           <li><strong>Challenges type</strong></li> 
+                           <li><strong>E-mail Id</strong></li> 
                         </div>
                         <div class="col-md-2">
-                           <li><strong>Company</strong></li> 
+                           <li><strong>Status</strong></li> 
                         </div>
-                        <div class="col-md-3" style="padding-right:0px;">
+                        <div class="col-md-2" style="padding-right:0px;">
                            <li><strong>Action</strong></li> 
                         </div>
                       </div>
@@ -245,52 +249,22 @@
                     <div class="col-lg-12">
                       <div class="row breadcrumb w3-card-1 margin-0">
                         <div class="col-md-1" style="max-width:40px; padding-left:0px;">
-                          <li>01.</li>  
-                        </div>
-                        <div class="col-md-4">
-                           <li>How do we price and segment the market for a 2017...</li> 
+                          <li style="line-height:100px;">01.</li>  
                         </div>
                         <div class="col-md-2" style="padding-right:0px;">
-                           <li>Quick fire Challenge</li> 
+                           <li><img class="img-responsive center-block img-circle text-center" alt="No Pic" style="max-width:100px; height:auto; display:block; line-height:100px; white-space:pre; background:#4a90e2; color:white; text-shadow: #444 0 1px 1px;" src="images/default/female-<?php echo rand(1, 5); ?>-default.jpg" > </li> 
+                        </div>
+                        <div class="col-md-3">
+                           <li style="line-height:100px;">Stella Bobo</li> 
+                        </div>
+                        <div class="col-md-2" style="padding-right:0px;">
+                           <li style="line-height:100px;"><a href="mailto:stella@wesolv.co">stella@wesolv.co</a></li> 
                         </div>
                         <div class="col-md-2">
-                           <li>Tesla Morters</li> 
+                           <li style="line-height:100px;"><a href="admin_student_edit.php">Manage</a></li> 
                         </div>
-                        <!-- <div class="col-md-2">
-                           <li><a href="#">Edit</a> / <a href="#">Remove</a> / <a href="#">UnPublish</a></li> 
-                        </div> -->
-                        <div class="col-md-3" style="padding-right:0px;">
-                           <li>
-                            <div class="row">
-                              <div class="col-xs-4">
-                                <a href="#" style="margin-left:15px;">UnPublish</a>
-                              </div>
-                              <div class="col-xs-4">
-                                <div class="dropdown">
-                                  <button class="btn btn-default dropdown-toggle w3-tiny" type="button" id="menu1" data-toggle="dropdown">Action
-                                  <span class="caret"></span></button>
-                                  <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-                                    <li role="presentation"><a role="menuitem" class="w3-small" tabindex="-1" href="#">Edit</a></li>
-                                    <li role="presentation" class="divider"></li>
-                                    <li role="presentation" title="Challenge and all associated records will be deleted."><a role="menuitem" class="w3-small" tabindex="-1" href="#">Remove</a></li>
-                                  </ul>
-                                </div>
-                              </div>
-                              <div class="col-xs-4">
-                                <div class="dropdown">
-                                  <button class="btn btn-default dropdown-toggle w3-tiny" type="button" id="menu11" data-toggle="dropdown">Status
-                                  <span class="caret"></span></button>
-                                  <ul class="dropdown-menu" role="menu" aria-labelledby="menu11">
-                                    <li role="presentation" title="People can sign up, challenge is NOT complete."><a role="menuitem" class="w3-small" tabindex="-1" href="#">Open</a></li>
-                                    <li role="presentation" class="divider"></li>
-                                    <li role="presentation" title="Challenge is not complete, but people CAN NOT sign up."><a role="menuitem" class="w3-small" tabindex="-1" href="#">Closed</a></li>
-                                    <li role="presentation" class="divider"></li>
-                                    <li role="presentation" title="Challenge is completed, everything is done."><a role="menuitem" class="w3-small" tabindex="-1" href="#">Complete</a></li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </div>
-                          </li> 
+                        <div class="col-md-2">
+                           <li style="line-height:100px;"><input checked data-toggle="toggle" data-size="mini" data-on="Active" data-off="Blocked" data-onstyle="success" data-offstyle="warning" type="checkbox"></li> 
                         </div>
                       </div>
                     </div>
@@ -298,59 +272,35 @@
                     <div class="col-lg-12">
                       <div class="row breadcrumb w3-card-1 margin-0">
                         <div class="col-md-1" style="max-width:40px; padding-left:0px;">
-                          <li>02.</li>  
-                        </div>
-                        <div class="col-md-4">
-                           <li>How do we price and segment the market for a 2017...</li> 
+                          <li style="line-height:100px;">02.</li>  
                         </div>
                         <div class="col-md-2" style="padding-right:0px;">
-                           <li>Case Challenge</li> 
+                           <li><img class="img-responsive center-block img-circle text-center" alt="No Pic" style="max-width:100px; height:auto; display:block; line-height:100px; white-space:pre; background:#4a90e2; color:white; text-shadow: #444 0 1px 1px;" src="images/default/female-<?php echo rand(1, 5); ?>-default.jpg" > </li> 
+                        </div>
+                        <div class="col-md-3">
+                           <li style="line-height:100px;">Stella Bobo</li> 
+                        </div>
+                        <div class="col-md-2" style="padding-right:0px;">
+                           <li style="line-height:100px;"><a href="mailto:stella@wesolv.co">stella@wesolv.co</a></li> 
                         </div>
                         <div class="col-md-2">
-                           <li>Tesla Morters</li> 
+                           <li style="line-height:100px;"><a href="admin_student_edit.php">Manage</a></li> 
                         </div>
-                        <div class="col-md-3" style="padding-right:0px;">
-                           <li>
-                            <div class="row">
-                              <div class="col-xs-4">
-                                <a href="#" style="margin-left:15px;"> Publish</a>
-                              </div>
-                              <div class="col-xs-4">
-                                <div class="dropdown">
-                                  <button class="btn btn-default dropdown-toggle w3-tiny" type="button" id="menu2" data-toggle="dropdown">Action
-                                  <span class="caret"></span></button>
-                                  <ul class="dropdown-menu" role="menu" aria-labelledby="menu2">
-                                    <li role="presentation"><a role="menuitem" class="w3-small" tabindex="-1" href="#">Edit</a></li>
-                                    <li role="presentation" class="divider"></li>
-                                    <li role="presentation" title="Challenge and all associated records will be deleted."><a role="menuitem" class="w3-small" tabindex="-1" href="#">Remove</a></li>
-                                  </ul>
-                                </div>
-                              </div>
-                              <div class="col-xs-4">
-                                <div class="dropdown">
-                                  <button class="btn btn-default dropdown-toggle w3-tiny" type="button" id="menu21" data-toggle="dropdown">Completed
-                                  <span class="caret"></span></button>
-                                  <ul class="dropdown-menu" role="menu" aria-labelledby="menu21">
-                                    <li role="presentation" title="People can sign up, challenge is NOT complete."><a role="menuitem" class="w3-small" tabindex="-1" href="#">Open</a></li>
-                                    <li role="presentation" class="divider"></li>
-                                    <li role="presentation" title="Challenge is not complete, but people CAN NOT sign up."><a role="menuitem" class="w3-small" tabindex="-1" href="#">Closed</a></li>
-                                    <!-- <li role="presentation" class="divider"></li> -->
-                                    <!-- <li role="presentation" title="Challenge is completed, everything is done."><a role="menuitem" class="w3-small" tabindex="-1" href="#">Complete</a></li> -->
-                                  </ul>
-                                </div>
-                              </div>
-                            </div>
-                          </li> 
+                        <div class="col-md-2">
+                           <li style="line-height:100px;"><input data-toggle="toggle" data-size="mini" data-on="Active" data-off="Blocked" data-onstyle="success" data-offstyle="warning" type="checkbox"></li> 
                         </div>
                       </div>
-                    </div>
+                    </div>                    
 
                     <div class="col-lg-12">
                       <div class="row breadcrumb w3-card-1 margin-0">
                         <div class="col-md-1" style="max-width:40px; padding-left:0px;">
                           <li>03.</li>  
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-2">
+                           <li></li> 
+                        </div>
+                        <div class="col-md-3">
                            <li></li> 
                         </div>
                         <div class="col-md-2" style="padding-right:0px;">
@@ -370,7 +320,10 @@
                         <div class="col-md-1" style="max-width:40px; padding-left:0px;">
                           <li>04.</li>  
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-2">
+                           <li></li> 
+                        </div>
+                        <div class="col-md-3">
                            <li></li> 
                         </div>
                         <div class="col-md-2" style="padding-right:0px;">
@@ -390,7 +343,10 @@
                         <div class="col-md-1" style="max-width:40px; padding-left:0px;">
                           <li>05.</li>  
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-2">
+                           <li></li> 
+                        </div>
+                        <div class="col-md-3">
                            <li></li> 
                         </div>
                         <div class="col-md-2" style="padding-right:0px;">
@@ -410,7 +366,10 @@
                         <div class="col-md-1" style="max-width:40px; padding-left:0px;">
                           <li>06.</li>  
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-2">
+                           <li></li> 
+                        </div>
+                        <div class="col-md-3">
                            <li></li> 
                         </div>
                         <div class="col-md-2" style="padding-right:0px;">
@@ -430,7 +389,10 @@
                         <div class="col-md-1" style="max-width:40px; padding-left:0px;">
                           <li>07.</li>  
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-2">
+                           <li></li> 
+                        </div>
+                        <div class="col-md-3">
                            <li></li> 
                         </div>
                         <div class="col-md-2" style="padding-right:0px;">
@@ -450,7 +412,10 @@
                         <div class="col-md-1" style="max-width:40px; padding-left:0px;">
                           <li>08.</li>  
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-2">
+                           <li></li> 
+                        </div>
+                        <div class="col-md-3">
                            <li></li> 
                         </div>
                         <div class="col-md-2" style="padding-right:0px;">
@@ -490,7 +455,10 @@
                         <div class="col-md-1" style="max-width:40px; padding-left:0px;">
                           <li>10.</li>  
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-2">
+                           <li></li> 
+                        </div>
+                        <div class="col-md-3">
                            <li></li> 
                         </div>
                         <div class="col-md-2" style="padding-right:0px;">
@@ -535,6 +503,8 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
 
     <script type="text/javascript">
       $(".collapse").on("shown.bs.collapse", arrowdown);

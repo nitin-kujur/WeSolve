@@ -31,7 +31,7 @@
 										</div>
 									</div>
 									<div class="row w3-margin">
-										<div class="text-center w3-left w3-margin-right">
+										<div class="text-center w3-left w3-margin-right w3-padding-left">
 											<a href="#"><i class="fa fa-share-square-o w3-xlarge"></i><h6><b>Share</b></h6></a>
 										</div>	
 										<div class="text-center w3-left w3-margin-left w3-margin-right">
@@ -88,7 +88,7 @@
 					</div>
 
 					<div class="container-fluid padding-15 w3-white w3-card-1">
-							<div class="row">
+							<div class="row fluid-col">
 									<div class="col-md-8">
 										<h6><strong>The Opportunity</strong></h6>
 										<h6>lorem ipsum lorem ipsum tesla tesla tesla suv suv SUV SUV lorem ipsum lorem ipsum tesla tesla tesla suv suv SUV SUV </h6>

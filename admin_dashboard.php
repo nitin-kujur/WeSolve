@@ -173,7 +173,7 @@
                                 <a href="#"><i class="fa fa-fw fa-user-plus"></i> Add Student</a>
                             </li> -->
                             <li>
-                                <a href="#"><i class="fa fa-fw fa-gear"></i> Manage Students</a>
+                                <a href="admin_manage_students.php"><i class="fa fa-fw fa-gear"></i> Manage Students</a>
                             </li>
                         </ul>
                     </li>

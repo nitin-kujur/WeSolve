@@ -152,7 +152,7 @@
 							</form>
 						</div>
 
-						<div class="col-12-xs .justify w3-padding w3-gray">
+						<div class="col-12-xs .justify w3-padding w3-light-gray">
 							<b>Business, Designing, Business, Designing, Business, Designing</b>
 						</div>
 					</div>
@@ -894,7 +894,7 @@
 		$('#dp').removeClass('w3-hide');
 		$('#upload-demo,#crop').addClass('w3-hide');
 		$('#dp_div').removeClass('w3-hide');
-		$('#prof_submit').removeAttr('disabled')
+		$('#prof_submit').removeAttr('disabled');
   }
 
   // function fake () {

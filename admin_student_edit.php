@@ -200,6 +200,8 @@
               text-overflow: ellipsis;
             }
 
+            li{ cursor: default !important; }
+
             *[my-title]{
                 position:relative;
                 cursor: default !important;
@@ -361,11 +363,11 @@
                                  <div class="row w3-margin-bottom">
                                    <div class="col-xs-12">
                                     <label class="w3-padding-0 w3-margin-bottom">Previous Recognition/Endorsements</label>
-                                     <ol class="">
-                                        <li my-title="Recognition Recognition Recognition Recognition Recognition Recognition"><span class="col-xs-10 ellipsis">Recognition Recognition Recognition Recognition Recognition Recognition </span> <a title="Remove this" class="col-xs-2" href="#" data-confirm="Are you sure ?"><i class="fa fa-times"></i></a> </li>
-                                        <li my-title="Recognition Recognition Recognition Recognition Recognition Recognition"><span class="col-xs-10 ellipsis">Recognition Recognition Recognition Recognition Recognition Recognition </span> <a title="Remove this" class="col-xs-2" href=""><i class="fa fa-times"></i></a> </li>
-                                        <li my-title="Recognition Recognition Recognition Recognition Recognition Recognition"><span class="col-xs-10 ellipsis">Recognition Recognition Recognition Recognition Recognition Recognition </span> <a title="Remove this" class="col-xs-2" href=""><i class="fa fa-times"></i></a> </li>
-                                     </ol>
+                                     <!-- <ol class=""> -->
+                                        <li title="Recognition Recognition Recognition Recognition Recognition Recognition"><span class="col-xs-10 ellipsis">1.  Recognition Recognition Recognition Recognition Recognition Recognition </span> <a title="Remove this" class="col-xs-2" href="#"><i class="fa fa-times"></i></a> </li>
+                                        <li title="Recognition Recognition Recognition Recognition Recognition Recognition"><span class="col-xs-10 ellipsis">2.  Recognition Recognition Recognition Recognition Recognition Recognition </span> <a title="Remove this" class="col-xs-2" href=""><i class="fa fa-times"></i></a> </li>
+                                        <li title="Recognition Recognition Recognition Recognition Recognition Recognition"><span class="col-xs-10 ellipsis">3.  Recognition Recognition Recognition Recognition Recognition Recognition </span> <a title="Remove this" class="col-xs-2" href=""><i class="fa fa-times"></i></a> </li>
+                                     <!-- </ol> -->
                                    </div> 
                                 </div>
                               </div> 
@@ -401,11 +403,11 @@
                                  <div class="row w3-margin-bottom">
                                   <div class="col-xs-12">
                                     <label class="w3-padding-0 w3-margin-bottom">Previous challenges</label>
-                                     <ol>
-                                        <li my-title="Recognition Recognition Recognition Recognition Recognition Recognition"><span class="col-xs-10 ellipsis">Recognition Recognition Recognition Recognition Recognition Recognition </span> <a title="Remove this" class="col-xs-2" href=""><i class="fa fa-times"></i></a> </li>
-                                        <li my-title="Recognition Recognition Recognition Recognition Recognition Recognition"><span class="col-xs-10 ellipsis">Recognition Recognition Recognition Recognition Recognition Recognition </span> <a title="Remove this" class="col-xs-2" href=""><i class="fa fa-times"></i></a> </li>
-                                        <li my-title="Recognition Recognition Recognition Recognition Recognition Recognition"><span class="col-xs-10 ellipsis">Recognition Recognition Recognition Recognition Recognition Recognition </span> <a title="Remove this" class="col-xs-2" href=""><i class="fa fa-times"></i></a> </li>
-                                     </ol>
+                                     <!-- <ol> -->
+                                        <li title="Recognition Recognition Recognition Recognition Recognition Recognition"><span class="col-xs-10 ellipsis">1. Recognition Recognition Recognition Recognition Recognition Recognition </span> <a title="Remove this" class="col-xs-2" href=""><i class="fa fa-times"></i></a> </li>
+                                        <li title="Recognition Recognition Recognition Recognition Recognition Recognition"><span class="col-xs-10 ellipsis">2. Recognition Recognition Recognition Recognition Recognition Recognition </span> <a title="Remove this" class="col-xs-2" href=""><i class="fa fa-times"></i></a> </li>
+                                        <li title="Recognition Recognition Recognition Recognition Recognition Recognition"><span class="col-xs-10 ellipsis">3. Recognition Recognition Recognition Recognition Recognition Recognition </span> <a title="Remove this" class="col-xs-2" href=""><i class="fa fa-times"></i></a> </li>
+                                     <!-- </ol> -->
                                    </div> 
                                  </div> 
                               </div> 
@@ -459,11 +461,11 @@
                                 <div  class="row w3-margin-bottom">
                                    <div class="col-xs-12">
                                     <label class="w3-padding-0 w3-margin-bottom">Previous winner challenges</label>
-                                     <ol>
-                                        <li my-title="2nd - Recognition Recognition Recognition Recognition Recognition Recognition"><span class="col-xs-10 ellipsis">2nd - Recognition Recognition Recognition Recognition Recognition Recognition </span> <a title="Remove this" class="col-xs-2" href=""><i class="fa fa-times"></i></a> </li>
-                                        <li my-title="1st - Recognition Recognition Recognition Recognition Recognition Recognition"><span class="col-xs-10 ellipsis">1st - Recognition Recognition Recognition Recognition Recognition Recognition </span> <a title="Remove this" class="col-xs-2" href=""><i class="fa fa-times"></i></a> </li>
-                                        <li my-title="3rd - Recognition Recognition Recognition Recognition Recognition Recognition"><span class="col-xs-10 ellipsis">3rd - Recognition Recognition Recognition Recognition Recognition Recognition </span> <a title="Remove this" class="col-xs-2" href=""><i class="fa fa-times"></i></a> </li>
-                                     </ol>
+                                     <!-- <ol> -->
+                                        <li title="2nd - Recognition Recognition Recognition Recognition Recognition Recognition"><span class="col-xs-10 ellipsis">1. 2nd - Recognition Recognition Recognition Recognition Recognition Recognition </span> <a title="Remove this" class="col-xs-2" href=""><i class="fa fa-times"></i></a> </li>
+                                        <li title="1st - Recognition Recognition Recognition Recognition Recognition Recognition"><span class="col-xs-10 ellipsis">2. 1st - Recognition Recognition Recognition Recognition Recognition Recognition </span> <a title="Remove this" class="col-xs-2" href=""><i class="fa fa-times"></i></a> </li>
+                                        <li title="3rd - Recognition Recognition Recognition Recognition Recognition Recognition"><span class="col-xs-10 ellipsis">3. 3rd - Recognition Recognition Recognition Recognition Recognition Recognition </span> <a title="Remove this" class="col-xs-2" href=""><i class="fa fa-times"></i></a> </li>
+                                     <!-- </ol> -->
                                    </div> 
                                 </div>
                               </div> 

@@ -538,7 +538,7 @@
                                    </div>
 
                                    <div class="col-xs-3">
-                                    <label for="lastName">Programme</label>
+                                    <label for="lastName">Last Name</label>
                                    </div>
                                    <div class="col-xs-9 w3-margin-bottom">
                                      <input class="form-control" id="lastName" name="" placeholder="Enter Last Name" value="Bobo" />

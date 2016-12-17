@@ -37,6 +37,7 @@
 						</form>
 					</div>	
 
+				<div class="col-md-12 col-sm-12 col-xs-12 w3-padding-0 w3-wrapper">
 
 					<div class="w3-white col-md-12 col-sm-12 col-xs-12 w3-card-1 w3-text-dark-blue padding-15" style="position:relative;">
 						<h6 class="w3-small" style="position:absolute; right:5px; top:-5px;"><b>Aug 6, 9:00 a.m.</b></h6>
@@ -248,7 +249,7 @@
 					</div>
 
 
-					<div class="col-md-12 col-sm-12 col-xs-12 w3-padding-4 text-center">
+					<!-- <div class="col-md-12 col-sm-12 col-xs-12 w3-padding-4 text-center">
 						<ul class="pagination">
 						  <li><a class="disabled" href="javascript:;"><i class="fa fa-angle-left"></i>&nbsp;Previous</a></li>
 	                      <li class="disabled1 active"><a href="#">1</a></li>
@@ -260,8 +261,8 @@
 	                      <li><a href="#">...</a></li>
 	                      <li><a href="#">Next&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-angle-right"></i></a></li>
 	                    </ul>
-					</div>
-
+					</div> -->
+				</div> <!-- w3-wrapper-close -->
 						 
 			</div>	<!-- col 4 end -->
 

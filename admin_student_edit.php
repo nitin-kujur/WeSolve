@@ -350,24 +350,59 @@
                         <div class="row-height">
                            <div class="col-lg-6 col-xs-12 col-height">
                               <div class="row breadcrumb w3-card-1 w3-margin-left w3-margin-right">
-                                <label class="w3-padding-0 w3-margin-bottom" for="month">Add University Recognition/Endorsements</label>
+                                <label class="w3-padding-0">Add University Recognition/Endorsements</label>
+                                <hr class="w3-margin-0 w3-margin-top1 w3-margin-bottom">
+
                                 <div class="row w3-margin-bottom">
-                                   <div class="col-xs-9">
-                                     <textarea class="form-control" id="UniversityRec" name="" placeholder="Enter New"></textarea>
-                                   </div> 
+
                                    <div class="col-xs-3">
-                                     <button class="w3-btn w3-orange w3-small w3-round w3-text-white">ADD</button>
+                                    <label for="school">School</label>
+                                   </div>
+                                   <div class="col-xs-9 w3-margin-bottom">
+                                     <input class="form-control" id="school" name="" placeholder="Enter School" />
+                                   </div>
+
+                                   <div class="col-xs-3">
+                                    <label for="programme">Programme</label>
+                                   </div>
+                                   <div class="col-xs-9 w3-margin-bottom">
+                                     <input class="form-control" id="programme" name="" placeholder="Enter Programme" />
+                                   </div>
+
+                                   <div class="col-xs-3">
+                                    <label for="infoText">Add Info.</label>
+                                   </div>
+                                   <div class="col-xs-9 w3-margin-bottom">
+                                     <textarea class="form-control" id="infoText" name="" placeholder="Add info"></textarea>
+                                   </div> 
+
+                                   <div class="col-xs-12">
+                                     <button class="w3-btn pull-right w3-orange w3-small w3-round w3-text-white">ADD</button>
                                    </div>
                                 </div>
                                 <hr>
                                  <div class="row w3-margin-bottom">
                                    <div class="col-xs-12">
                                     <label class="w3-padding-0 w3-margin-bottom">Previous Recognition/Endorsements</label>
-                                     <!-- <ol class=""> -->
-                                        <li title="Recognition Recognition Recognition Recognition Recognition Recognition"><span class="col-xs-10 ellipsis">1.  Recognition Recognition Recognition Recognition Recognition Recognition </span> <a title="Remove this" class="col-xs-2" href="#"><i class="fa fa-times"></i></a> </li>
-                                        <li title="Recognition Recognition Recognition Recognition Recognition Recognition"><span class="col-xs-10 ellipsis">2.  Recognition Recognition Recognition Recognition Recognition Recognition </span> <a title="Remove this" class="col-xs-2" href=""><i class="fa fa-times"></i></a> </li>
-                                        <li title="Recognition Recognition Recognition Recognition Recognition Recognition"><span class="col-xs-10 ellipsis">3.  Recognition Recognition Recognition Recognition Recognition Recognition </span> <a title="Remove this" class="col-xs-2" href=""><i class="fa fa-times"></i></a> </li>
-                                     <!-- </ol> -->
+                                     
+                                      <?php $n = 1; while ($n  <= 3) { ?>
+                                        <div class="row">
+                                          <div class="col-xs-1">
+                                            <b><?php echo $n++; ?>.</b>
+                                          </div>
+                                          <div class="col-xs-8" my-title="Recognition Recognition Recognition Recognition Recognition Recognition">
+                                            <b>SchoolName, Programme</b>
+                                            <p  class="ellipsis">Recognition Recognition Recognition Recognition Recognition Recognition</p>
+                                          </div>
+                                          <div class="col-xs-1">
+                                            <a title="Edit this" class="col-xs-2" href="#"><i class="fa fa-pencil"></i></a>
+                                          </div>
+                                          <div class="col-xs-1 w3-margin-right">
+                                            <a title="Remove this" class="col-xs-2" href="#"><i class="fa fa-times"></i></a>
+                                          </div>
+                                        </div>
+                                      <?php }  ?>
+                                        
                                    </div> 
                                 </div>
                               </div> 
@@ -375,13 +410,66 @@
 
                            <div class="col-lg-6 col-xs-12 col-height">
                               <div class="row breadcrumb w3-card-1 w3-margin-left w3-margin-right inherit-parent" style="height:90%;">
-                                 <label class="w3-padding-0 col-sm-12 w3-margin-bottom" for="month">Designate previous challenges</label>
-                                 <!-- <textarea class="form-control col-sm-12" id="caseChallenge" name="caseChallenge" placeholder="Enter Case Challenges"></textarea> -->
-                                 <div class="w3-padding row">
-                                     <div class="col-xs-5">
+                                 <label class="w3-padding-0">Designate previous challenges</label>
+                                 <hr class="w3-margin-0 w3-margin-top1 w3-margin-bottom">
+                                 <div class="w3-padding-0 row">
+                                     <div class="col-xs-4">
                                        <label class="w3-padding-0" for="month">Select Challenge</label>
                                      </div> 
-                                     <div class="col-xs-7">
+                                     <div class="col-xs-8 w3-margin-bottom">
+                                       <select class="form-control" id="company" name="company">
+                                        <option value="January">January</option>
+                                        <option value="February" selected>Tesla Morters</option>
+                                        <option value="March">March</option>
+                                        <option value="April">April</option>
+                                        <option value="May">May</option>
+                                        <option value="June">June</option>
+                                        <option value="July">July</option>
+                                        <option value="August">August</option>
+                                        <option value="September">September</option>
+                                        <option value="October">October</option>
+                                        <option value="November">November</option>
+                                        <option value="December">December</option>
+                                      </select>
+                                     </div>
+
+                                     <div class="col-xs-4">
+                                       <label class="w3-padding-0" for="month">Select Company</label>
+                                     </div> 
+                                     <div class="col-xs-8 w3-margin-bottom">
+                                       <select class="form-control" id="company" name="company">
+                                        <option value="January">January</option>
+                                        <option value="February" selected>Tesla Morters</option>
+                                        <option value="March">March</option>
+                                        <option value="April">April</option>
+                                        <option value="May">May</option>
+                                        <option value="June">June</option>
+                                        <option value="July">July</option>
+                                        <option value="August">August</option>
+                                        <option value="September">September</option>
+                                        <option value="October">October</option>
+                                        <option value="November">November</option>
+                                        <option value="December">December</option>
+                                      </select>
+                                     </div>
+
+                                     <div class="col-xs-4">
+                                       <label class="w3-padding-0" for="month">Select Position</label>
+                                     </div> 
+                                     <div class="col-xs-8 w3-margin-bottom">
+                                       <select class="form-control" id="company" name="company">
+                                        <option value="" selected disabled>Select Position</t Position< t Position< t Position< t Position< t Position<ption>
+                                        <option value="1">1st Position</option>
+                                        <option value="2">2nd Position</option>
+                                        <option value="3">3rd Position</option>
+                                        <option value="4">none</option>
+                                      </select>
+                                     </div>
+
+                                     <div class="col-xs-4">
+                                       <label class="w3-padding-0" for="month">Select Season</label>
+                                     </div> 
+                                     <div class="col-xs-8 w3-margin-bottom">
                                        <select class="form-control" id="company" name="company">
                                         <option value="January">January</option>
                                         <option value="February" selected>Tesla Morters</option>
@@ -398,16 +486,34 @@
                                       </select>
                                      </div>
                                  </div>
-                                 <div class="row"><div class="col-xs-12"><button class="pull-right w3-margin-top w3-btn w3-orange w3-small w3-round w3-text-white" >ADD</button></div></div>
+                                 <div class="row"><div class="col-xs-12"><button class="pull-right w3-btn w3-orange w3-small w3-round w3-text-white" >ADD</button></div></div>
                                  <hr>
                                  <div class="row w3-margin-bottom">
-                                  <div class="col-xs-12">
+                                  <div class="col-xs-12 w3-margin-bottom">
                                     <label class="w3-padding-0 w3-margin-bottom">Previous challenges</label>
-                                     <!-- <ol> -->
-                                        <li title="Recognition Recognition Recognition Recognition Recognition Recognition"><span class="col-xs-10 ellipsis">1. Recognition Recognition Recognition Recognition Recognition Recognition </span> <a title="Remove this" class="col-xs-2" href=""><i class="fa fa-times"></i></a> </li>
-                                        <li title="Recognition Recognition Recognition Recognition Recognition Recognition"><span class="col-xs-10 ellipsis">2. Recognition Recognition Recognition Recognition Recognition Recognition </span> <a title="Remove this" class="col-xs-2" href=""><i class="fa fa-times"></i></a> </li>
-                                        <li title="Recognition Recognition Recognition Recognition Recognition Recognition"><span class="col-xs-10 ellipsis">3. Recognition Recognition Recognition Recognition Recognition Recognition </span> <a title="Remove this" class="col-xs-2" href=""><i class="fa fa-times"></i></a> </li>
-                                     <!-- </ol> -->
+                                     
+                                    <?php $n = 1; while ($n  <= 3) { ?>
+                                      <div class="row">
+                                        <div class="col-xs-1">
+                                          <b><?php echo $n++; ?>.</b>
+                                        </div>
+                                        <div class="col-xs-4">
+                                          <b>Tesla SUV Project</b>
+                                          <p  class="">Tesla Motors</p>
+                                        </div>
+                                        <div class="col-xs-4 w3-text-right">
+                                          <span>Winter '16</span>
+                                          <p  class=""><i class="fa fa-star w3-text-orange" style="font-size:15px"></i> 2nd Place</p>
+                                        </div>
+                                        <div class="col-xs-1">
+                                          <a title="Edit this" class="col-xs-2" href="#"><i class="fa fa-pencil"></i></a>
+                                        </div>
+                                        <div class="col-xs-1 w3-margin-right">
+                                          <a title="Remove this" class="col-xs-2" href="#"><i class="fa fa-times"></i></a>
+                                        </div>
+                                      </div>
+                                    <?php }  ?>
+
                                    </div> 
                                  </div> 
                               </div> 
@@ -420,12 +526,28 @@
                         <div class="row-height">
                            <div class="col-lg-6 col-height">
                               <div class="row breadcrumb w3-card-1 w3-margin-left w3-margin-right">
-                                 <label class="w3-padding-0 col-sm-12 w3-margin-bottom" for="month">Mark students as winner</label>
+                                 <label class="w3-padding-0">Edit student Profile</label>
+                                 <hr class="w3-margin-0 w3-margin-top1 w3-margin-bottom" >
+
                                  <div class="row w3-margin-bottom">
-                                   <div class="col-xs-5">
-                                     <label class="w3-padding-0" for="month">Select Challenge</label>
+                                   <div class="col-xs-3">
+                                    <label for="firstName">First Name</label>
+                                   </div>
+                                   <div class="col-xs-9 w3-margin-bottom">
+                                     <input class="form-control" id="firstName" name="" placeholder="Enter First Name" value="Stella" />
+                                   </div>
+
+                                   <div class="col-xs-3">
+                                    <label for="lastName">Programme</label>
+                                   </div>
+                                   <div class="col-xs-9 w3-margin-bottom">
+                                     <input class="form-control" id="lastName" name="" placeholder="Enter Last Name" value="Bobo" />
+                                   </div>
+
+                                   <div class="col-xs-3">
+                                     <label class="w3-padding-0" for="month">Concentration 1</label>
                                    </div> 
-                                   <div class="col-xs-7">
+                                   <div class="col-xs-9">
                                      <select class="form-control" id="company" name="company">
                                       <option value="January">January</option>
                                       <option value="February" selected>Tesla Morters</option>
@@ -442,11 +564,12 @@
                                     </select>
                                    </div>
                                 </div>
+
                                  <div class="row w3-margin-bottom">
-                                   <div class="col-xs-5">
-                                     <label class="w3-padding-0" for="month">Select Position</label>
+                                   <div class="col-xs-3">
+                                     <label class="w3-padding-0" for="month">Concentration 2</label>
                                    </div> 
-                                   <div class="col-xs-7">
+                                   <div class="col-xs-9">
                                      <select class="form-control" id="company" name="company">
                                       <option value="" selected disabled>Select Position</t Position< t Position< t Position< t Position< t Position<ption>
                                       <option value="1">1st Position</option>
@@ -456,35 +579,27 @@
                                    </div>
                                    
                                 </div>
-                                <div class="row"><div class="col-xs-12"><button class="pull-right w3-margin-top w3-btn w3-orange w3-small w3-round w3-text-white" >ADD</button></div></div>
-                                 <hr>
-                                <div  class="row w3-margin-bottom">
-                                   <div class="col-xs-12">
-                                    <label class="w3-padding-0 w3-margin-bottom">Previous winner challenges</label>
-                                     <!-- <ol> -->
-                                        <li title="2nd - Recognition Recognition Recognition Recognition Recognition Recognition"><span class="col-xs-10 ellipsis">1. 2nd - Recognition Recognition Recognition Recognition Recognition Recognition </span> <a title="Remove this" class="col-xs-2" href=""><i class="fa fa-times"></i></a> </li>
-                                        <li title="1st - Recognition Recognition Recognition Recognition Recognition Recognition"><span class="col-xs-10 ellipsis">2. 1st - Recognition Recognition Recognition Recognition Recognition Recognition </span> <a title="Remove this" class="col-xs-2" href=""><i class="fa fa-times"></i></a> </li>
-                                        <li title="3rd - Recognition Recognition Recognition Recognition Recognition Recognition"><span class="col-xs-10 ellipsis">3. 3rd - Recognition Recognition Recognition Recognition Recognition Recognition </span> <a title="Remove this" class="col-xs-2" href=""><i class="fa fa-times"></i></a> </li>
-                                     <!-- </ol> -->
-                                   </div> 
-                                </div>
+
+                                <div class="row"><div class="col-xs-12"><button class="pull-right w3-margin-top w3-margin-bottom w3-btn w3-orange w3-small w3-round w3-text-white" >UPDATE</button></div></div>
+                                
                               </div> 
                            </div> 
 
-                           <div class="col-lg-6 col-height">
+                           <!-- <div class="col-lg-6 col-height">
                               <div class="row breadcrumb w3-card-1 w3-margin-left w3-margin-right">
                                  <label class="w3-padding-0 col-sm-12 w3-margin-bottom" for="month">Edit Students Profile</label>
                                  <button type="button" class="w3-orange w3-btn w3-margin w3-round w3-text-white" data-toggle="modal" data-target="#profileModal">Edit Profile of Stella Bobo</button>
                               </div> 
-                           </div> 
+                           </div>  -->
+
                         </div>
                     </div>
 
 
                     <div class="col-lg-12">
-                       <div class="row breadcrumb1 1w3-card-1 w3-margin text-right w3-clear">
+                       <div class="row breadcrumb1 1w3-card-1 w3-margin w3-clear">
                         <div class="col-md-12">
-                          <button type="button" class="w3-orange w3-btn w3-margin w3-round-large w3-text-white" onclick="window.location.assign('admin_manage_students.php');">Back</button>
+                          <button type="button" class="w3-orange pull-right w3-btn  w3-round-large w3-text-white" onclick="window.location.assign('admin_manage_students.php');">Back</button>
                           <!-- <button class="w3-orange w3-btn w3-margin w3-round-large w3-text-white">SAVE</button> -->
                           <!-- <button class="w3-orange w3-btn w3-margin w3-round-large w3-text-white">SAVE & PUBLISH</button>  if (window.location.hostname == '')-->
                         </div>
@@ -504,7 +619,7 @@
     <!-- /#wrapper -->
 
     <!-- profile Edit Modal popup -->
-            <div class="modal modal-wide fade text-center" id="profileModal" tabindex="-1" role="dialog" aria-labelledby="profileModal" aria-hidden="true" style="position:fixed; z-index:999999999;">
+            <!-- <div class="modal modal-wide fade text-center" id="profileModal" tabindex="-1" role="dialog" aria-labelledby="profileModal" aria-hidden="true" style="position:fixed; z-index:999999999;">
                 <div class="modal-dialog" style="width:95%;">
                     <div class="modal-content" style="background:transparent; box-shadow:0px 0px 0px 0px;">
                         <div class="modal-body w3-card-2 w3-white" style="background:white; padding:0px; border-radius: 2px;"> 
@@ -522,7 +637,7 @@
                         </div>
                     </div>
                 </div>
-            </div>  
+            </div>  --> 
     <!-- profile Edit Modal popup -->
 
     <!-- jQuery -->

@@ -569,7 +569,7 @@
                                    <div class="col-xs-3">
                                      <label class="w3-padding-0" for="month">Concentration 2</label>
                                    </div> 
-                                   <div class="col-xs-9">
+                                   <div class="col-xs-9 w3-margin-bottom">
                                      <select class="form-control" id="company" name="company">
                                       <option value="" selected disabled>Select Position</t Position< t Position< t Position< t Position< t Position<ption>
                                       <option value="1">1st Position</option>
@@ -594,7 +594,7 @@
                                    
                                 </div>
 
-                                <div class="row"><div class="col-xs-12"><button class="pull-right w3-margin-top w3-margin-bottom w3-btn w3-orange w3-small w3-round w3-text-white" >UPDATE</button></div></div>
+                                <div class="row"><div class="col-xs-12"><button class="pull-right w3-margin-bottom w3-btn w3-orange w3-small w3-round w3-text-white" >UPDATE</button></div></div>
                                 
                               </div> 
                            </div> 

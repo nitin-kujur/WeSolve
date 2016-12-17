@@ -577,6 +577,20 @@
                                       <option value="3">3rd Position</option>
                                     </select>
                                    </div>
+
+                                   <div class="col-xs-3">
+                                    <label for="city">City</label>
+                                   </div>
+                                   <div class="col-xs-9 w3-margin-bottom">
+                                     <input class="form-control" id="city" name="" placeholder="Enter City" value="Chicago" />
+                                   </div>
+
+                                   <div class="col-xs-3">
+                                    <label for="state">State</label>
+                                   </div>
+                                   <div class="col-xs-9 w3-margin-bottom">
+                                     <input class="form-control" id="state" name="" placeholder="Enter State" value="US" />
+                                   </div>
                                    
                                 </div>
 

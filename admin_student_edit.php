@@ -408,7 +408,7 @@
                               </div> 
                            </div>
 
-                           <div class="col-lg-6 col-xs-12 col-height">
+                           <!-- <div class="col-lg-6 col-xs-12 col-height">
                               <div class="row breadcrumb w3-card-1 w3-margin-left w3-margin-right inherit-parent" style="height:90%;">
                                  <label class="w3-padding-0">Designate previous challenges</label>
                                  <hr class="w3-margin-0 w3-margin-top1 w3-margin-bottom">
@@ -517,12 +517,12 @@
                                    </div> 
                                  </div> 
                               </div> 
-                           </div> 
+                           </div>  -->
                         </div>
                     </div>
 
 
-                    <div class="row">
+                    <!-- <div class="row">
                         <div class="row-height">
                            <div class="col-lg-6 col-height">
                               <div class="row breadcrumb w3-card-1 w3-margin-left w3-margin-right">
@@ -571,7 +571,7 @@
                                    </div> 
                                    <div class="col-xs-9 w3-margin-bottom">
                                      <select class="form-control" id="company" name="company">
-                                      <option value="" selected disabled>Select Position</t Position< t Position< t Position< t Position< t Position<ption>
+                                      <option value="" selected disabled>Select Position</option>
                                       <option value="1">1st Position</option>
                                       <option value="2">2nd Position</option>
                                       <option value="3">3rd Position</option>
@@ -597,7 +597,7 @@
                                 <div class="row"><div class="col-xs-12"><button class="pull-right w3-margin-bottom w3-btn w3-orange w3-small w3-round w3-text-white" >UPDATE</button></div></div>
                                 
                               </div> 
-                           </div> 
+                           </div> -->
 
                            <!-- <div class="col-lg-6 col-height">
                               <div class="row breadcrumb w3-card-1 w3-margin-left w3-margin-right">
@@ -606,8 +606,8 @@
                               </div> 
                            </div>  -->
 
-                        </div>
-                    </div>
+                       <!--  </div>
+                    </div> -->
 
 
                     <div class="col-lg-12">

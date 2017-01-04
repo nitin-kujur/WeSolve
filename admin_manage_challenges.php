@@ -273,6 +273,8 @@
                                     <li role="presentation"><a role="menuitem" class="w3-small" tabindex="-1" href="#">Edit</a></li>
                                     <li role="presentation" class="divider"></li>
                                     <li role="presentation" title="Challenge and all associated records will be deleted."><a role="menuitem" class="w3-small" tabindex="-1" href="#">Remove</a></li>
+                                    <li role="presentation" class="divider"></li>
+                                    <li role="presentation" title="Challenge and all associated records will be deleted."><a role="menuitem" class="w3-small" tabindex="-1" href="admin_add_challenge_winner.php">Manage</a></li>
                                   </ul>
                                 </div>
                               </div>
@@ -323,6 +325,8 @@
                                     <li role="presentation"><a role="menuitem" class="w3-small" tabindex="-1" href="#">Edit</a></li>
                                     <li role="presentation" class="divider"></li>
                                     <li role="presentation" title="Challenge and all associated records will be deleted."><a role="menuitem" class="w3-small" tabindex="-1" href="#">Remove</a></li>
+                                    <li role="presentation" class="divider"></li>
+                                    <li role="presentation" title="Challenge and all associated records will be deleted."><a role="menuitem" class="w3-small" tabindex="-1" href="admin_add_challenge_winner.php">Manage</a></li>
                                   </ul>
                                 </div>
                               </div>

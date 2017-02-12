@@ -161,7 +161,7 @@
 					<div class="w3-white col-md-12 col-sm-12 col-xs-12 w3-card-1 padding-15">
 						<div class="row w3-padding-0">
 							<div class="col-md-12 col-sm-12 col-xs-12 w3-padding-0">
-								<h4><a href="challenge_detail.php"><b>Tesla SUV Competiotion 2017</b></a></h4>		
+								<h4><a href="challenge_detail.php"><b>Tesla SUV Competition 2017</b></a></h4>		
 								<h6><b>$5,000 Prize</b></h6>
 								<h6 class="w3-small">HR / Human Capital</h6>
 								<h6 class="w3-small">Chicago, IL</h6>
@@ -175,7 +175,7 @@
 					<div class="w3-white col-md-12 col-sm-12 col-xs-12 w3-card-1 padding-15">
 						<div class="row w3-padding-0">
 							<div class="col-md-12 col-sm-12 col-xs-12 w3-padding-0">
-								<h4><a href="challenge_detail.php"><b>Deloitte Acounting Cometition 2017</b></a></h4>		
+								<h4><a href="challenge_detail.php"><b>Deloitte Accounting Competition 2017</b></a></h4>		
 								<h6><b>$8,000 Prize</b></h6>
 								<h6 class="w3-small">Accounting</h6>
 								<h6 class="w3-small">Chicago, IL</h6>

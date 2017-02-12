@@ -22,7 +22,7 @@
 					</div>
 					<div class="col-md-7"></div>	
 				</div>
-	    </div>
+	    	</div>
 
 			<div class="col-md-5 padding-25">  <!-- col 4 start -->
 
@@ -266,9 +266,10 @@
 						 
 			</div>	<!-- col 4 end -->
 
+			<small class="visible-sm visible-xs ">&nbsp;</small>
 
 			<div class="col-md-7 padding-25">  <!-- col 8 start -->
-				<div class="row"  style="border:2px #015DA8 solid;">
+				<div class="col-xs-12"  style="border:2px #015DA8 solid; position:relative;">
 
 				<div class="col-md-12 col-sm-12 col-xs-12 padding-10 w3-text-dark-blue">
 					<div class="row">

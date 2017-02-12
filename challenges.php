@@ -15,25 +15,32 @@
 					<div class="col-md-4"></div>	
 					<div class="col-md-8">
 						<div class="row w3-padding-0">
-							<div class="col-md-3 col-sm-3 col-xs-3 text-left w3-text-dark-blue">
+							<div class="col-md-3 col-sm-12 col-xs-12 text-left w3-text-dark-blue">
 								<br/>
 								<h5><b>CHALLANGES</b></h5>			
 							</div>	
-							<div class="col-md-3 col-sm-3 col-xs-3 text-right">
+							<div class="col-md-3 hidden-sm hidden-xs text-right">
 								<br/>
 								<h6><b>Sort by:</b></h6>			
 							</div>	
-							<div class="col-md-3 col-sm-3 col-xs-3 text-center w3-text-dark-blue btn w3-light-gray">
+							<div class="visible-sm visible-xs col-sm-12 col-xs-12">
+								<br/>
+								<h6><b>Sort by:</b></h6>			
+							</div>	
+							<div class="col-md-3 col-sm-12 col-xs-12 text-center w3-text-dark-blue btn w3-light-gray">
 								<h6><b>MOST RECENT</b></h6> <h6><b>START DATE</b></h6>			
 							</div>	
-							<div class="col-md-3 col-sm-3 col-xs-3 text-center w3-text-dark-blue btn">
-								<br/>
-								<h6><b>COMPANY NAME</b></h6>			
+							<div class="col-md-3 col-sm-12 col-xs-12 text-center w3-text-dark-blue btn">
+								<small><br/></small>
+								<h6><b>COMPANY NAME</b></h6>
+								<small class="visible-sm visible-xs" ><br/></small>			
 							</div>		
 						</div>	
 					</div>
 				</div>
 	    </div>
+
+	        <small class="visible-sm visible-xs ">&nbsp;</small>
 
 			<div class="col-md-4 padding-25">  <!-- col 4 start -->
 
@@ -125,7 +132,7 @@
 							<div class="col-md-3 col-sm-3 col-xs-3 w3-padding-0">
 								<label>TESLA MORTORS</label>	
 								<h6>Good Times, IL</h6>
-								<img class="img-responsive" src="images/tesla_logo.png" style="width:150px; height:150px;">
+								<img class="img-responsive" src="images/tesla_logo.png" style="width:150px; height:auto;">
 							</div>	
 							<div class="col-md-9 col-sm-9 col-xs-9 w3-padding-0">
 								<label><a href="challenge_detail.php"><u>How do we price and segment the market for a 2017 luxury electric SUV ?</u></a></label>		
@@ -154,7 +161,7 @@
 							<div class="col-md-3 col-sm-3 col-xs-3 w3-padding-0">
 								<label>JUNC FOODS</label>	
 								<h6>Corn City, IL</h6>
-								<img class="img-responsive" src="images/tesla_logo.png" style="width:150px; height:150px;">
+								<img class="img-responsive" src="images/tesla_logo.png" style="width:150px; height:auto;">
 							</div>	
 							<div class="col-md-9 col-sm-9 col-xs-9 w3-padding-0">
 								<label><u>How do we operational efficiencies for distributin junk food product x ?</u></label>		

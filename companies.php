@@ -15,25 +15,30 @@
 					<div class="col-md-4"></div>	
 					<div class="col-md-8">
 						<div class="row w3-padding-0">
-							<div class="col-md-2 col-sm-2 col-xs-2 text-left w3-text-dark-blue">
+							<div class="col-md-2 col-sm-12 col-xs-12 text-left w3-text-dark-blue">
 								<h5><b>COMPANIES</b></h5>			
 							</div>	
-							<div class="col-md-2 col-sm-2 col-xs-2 text-right">
+							<div class="col-md-2 hidden-sm hidden-xs text-right">
 								<h6><b>Sort by:</b></h6>			
 							</div>	
-							<div class="col-md-3 col-sm-3 col-xs-3 text-center w3-text-dark-blue btn w3-light-gray">
+							<div class="visible-sm visible-xs col-sm-12 col-xs-12">
+								<h6><b>Sort by:</b></h6>			
+							</div>
+							<div class="col-md-3 col-sm-12 col-xs-12 text-center w3-text-dark-blue btn w3-light-gray">
 								<h6><b>NEWEST PROJECTS</b></h6>		
 							</div>	
-							<div class="col-md-2 col-sm-2 col-xs-2 text-center w3-text-dark-blue btn">
+							<div class="col-md-2 col-sm-12 col-xs-12 text-center w3-text-dark-blue btn">
 								<h6><b>INDUSTRY</b></h6>			
 							</div>
-							<div class="col-md-3 col-sm-3 col-xs-3 text-center w3-text-dark-blue btn">
+							<div class="col-md-3 col-sm-12 col-xs-12 text-center w3-text-dark-blue btn">
 								<h6><b>COMPANY NAME</b></h6>			
 							</div>		
 						</div>	
 					</div>
 				</div>
 	    </div>
+
+	    	<small class="visible-sm visible-xs">&nbsp;</small>
 
 			<div class="col-md-4 padding-25">  <!-- col 4 start -->
 

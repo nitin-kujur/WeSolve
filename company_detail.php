@@ -146,7 +146,7 @@
 							<div class="row">
 									<div class="col-md-4 col-sm-4 col-xs-12 text-center">
 										<h6><strong>Company Website</strong></h6>
-										<img src="images/default/company-school-default.jpg" srcx="images/tesla_logo.png" class="img-responsive w3-section center-block" style="width:150px; height:150px;">
+										<img src="images/default/company-school-default.jpg" srcx="images/tesla_logo.png" class="img-responsive w3-section center-block" style="width:150px; height:auto;">
 										<!-- <div class="text-center" style="width:150px; height:150px; background:rgb(186,48,39);">
 												<img src="images/tesla_logo_white.png" class="img-responsive w3-section center-block" style="width:150px; height:150px;">
 										</div> -->

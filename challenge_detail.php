@@ -160,7 +160,7 @@
 										<div class="row">
 											<div class="col-md-6 col-sm-6 col-xs-12">
 												<div class="col-md-6 col-sm-6 col-xs-12">
-													<div class="w3-circle"><img class="img-responsive img-circle center-block" src="images/Stella Ashaolu.png" ></div>	
+													<div class="w3-circle"><img class="img-responsive img-circle center-block" style="width:150px; height:auto;" src="images/Stella Ashaolu.png" ></div>	
 												</div>
 												<div class="col-md-6 col-sm-6 col-xs-12 text-center">
 														<h6><strong>Ed. Flowers</strong></h6>
@@ -169,7 +169,7 @@
 											</div>
 											<div class="col-md-6 col-sm-6 col-xs-12">
 												<div class="col-md-6 col-sm-6 col-xs-12">
-													<div class="w3-circle"><img class="img-responsive img-circle center-block" src="images/Stella Ashaolu.png" ></div>	
+													<div class="w3-circle"><img class="img-responsive img-circle center-block" style="width:150px; height:auto;" src="images/Stella Ashaolu.png" ></div>	
 												</div>
 												<div class="col-md-6 col-sm-6 col-xs-12 text-center">
 														<h6><strong>Ed. Flowers</strong></h6>

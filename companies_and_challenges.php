@@ -1,7 +1,7 @@
 <?php include "header.php"; ?>
 
 <script type="text/javascript">
-	$("#li2").addClass("w3-light-grey");
+	$("#li3 button").addClass('w3-light-gray w3-text-dark-blue w3-border-dark-blue').removeClass("w3-orange w3-text-white");
 </script>
 
 <div class="container-fluid container-main"><!-- main container start -->

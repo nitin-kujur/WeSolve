@@ -1,7 +1,7 @@
 <?php include('header.php'); ?>
 
 <script type="text/javascript">
-	// $("#li2").addClass("w3-light-grey");
+	$("#li2").addClass("w3-light-grey");
 </script>
 
 <div class="container-fluid container-main profile"><!-- main container start -->

@@ -29,7 +29,7 @@
 									<div class="col-md-9 col-sm-8 col-xs-8">
 											<a href="#"><h4 class="hidden-sm hidden-xs">PARTNER COMPANIES</h4><h6 class="visible-sm visible-xs">PARTNER COMPANIES</h6></a>
 											<a href="challenges.php"><h4 class="hidden-sm hidden-xs">CHALLENGES</h4><h6 class="visible-sm visible-xs">CHALLENGES</h6></a>
-											<a href="#"><h4 class="hidden-sm hidden-xs">NATIONAL CASE COMPETITION LIST</h4><h6 class="visible-sm visible-xs">NATIONAL CASE COMPETITION LIST</h6></a>
+											<a href="national_case_competition.php"><h4 class="hidden-sm hidden-xs">NATIONAL CASE COMPETITION LIST</h4><h6 class="visible-sm visible-xs">NATIONAL CASE COMPETITION LIST</h6></a>
 									</div>
 							</div>
 							<div class="col-md-2 text-center hidden-sm hidden-xs w3-padding-0">

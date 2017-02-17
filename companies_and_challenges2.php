@@ -9,7 +9,7 @@
 <br><br>
 <div class="jumbotron w3-padding-0 w3-margin-top w3-blue1" style="position:relative; background-color: rgba(0, 0, 0, 0.1);">
 	<div class="" style="display: inline-block; width:100%;">
-		<img class="img-responsive" src="images/0.jpg" style="z-index:-1; position:relative;">	
+		<img class="img-responsive" src="images/cac-0.jpg" style="z-index:-1; position:relative;">	
 	</div>
 	
 	<div class="container-fluid w3-padding-0 w3-text-white" style="position:absolute; top:50px;">

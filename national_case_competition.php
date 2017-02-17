@@ -311,10 +311,10 @@
 		background-position: center center;
 	}
 	.slide1 {
-		background-image: url(images/1.jpg);
+		background-image: url(images/ncc-1.jpg);
 	}
 	.slide2 {
-		background-image: url(images/2.jpg);
+		background-image: url(images/ncc-2.jpg);
 	}
 	/*.slide3 {
 		background-image: url(http://placekitten.com/1200/300);

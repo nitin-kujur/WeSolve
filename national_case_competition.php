@@ -309,11 +309,6 @@
 		min-height: 860px; /* Must have a height or min-height set due to use of background images */
 		background-size: cover !important;
 		background-position: center center;
-		background: -webkit-linear-gradient(rgba(74,144,226,0.9), rgba(74,144,226,0.9));
-		background: -o-linear-gradient(rgba(74,144,226,0.9), rgba(74,144,226,0.9));
-		background: -moz-linear-gradient(rgba(74,144,226,0.9), rgba(74,144,226,0.9));
-		/*background: -ms-linear-gradient(rgba(74,144,226,0.9));*/
-		background: linear-gradient(rgba(74,144,226,0.9), rgba(74,144,226,0.9));
 	}
 	.slide1 {
 		background-image: url(images/1.jpg);

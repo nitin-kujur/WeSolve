@@ -10,7 +10,7 @@
 <div class="jumbotron w3-padding-0 w3-margin-top">
 	<div class="container-fluid w3-padding-0 w3-text-white">
 		<!--begin bg-carousel-->
-		<div id="bg-fade-carousel" class="carousel slide carousel-fade" data-ride="carousel">
+		<div id="bg-fade-carousel" class="carousel slide carousel-fade" data-ride="carousel" style="position: relative;">
 		<!-- Wrapper for slides -->
 		    <div class="carousel-inner">
 		        <div class="item active">
@@ -19,14 +19,19 @@
 		        <div class="item">
 		            <div class="slide2"></div>
 		        </div>
-		        <div class="item">
+		        <!-- <div class="item">
 		            <div class="slide3"></div>
-		        </div>
+		        </div> -->
 		    </div><!-- .carousel-inner --> 
+
+		    <div class="custom-overlay" style="width:100%; position: absolute; top: 0px; bottom: 0px; left: 0px; right: 0px; background-color: rgba(74,144,226,0.3);">
+		    		
+		    </div>
+
 		    <div class="container carousel-overlay">
-				<h1 class="w3-section text-center">National Case Competition</h1>
+				<h1 class="w3-section text-center" style="text-shadow: #444 0 1px 1px;">National Case Competition</h1>
 				<div class="col-md-8 col-md-offset-2">
-					<h3 id="hero-text" class="justify" style="margin-top:50px;">
+					<h3 id="hero-text" class="justify" style="margin-top:250px; text-shadow: #444 0 1px 1px;">
 						 We at WeSolve believe that experiential learning is a key to any MBA 
 						 student's education and that performance in real-life case challenges 
 						 is a better indicator of a candidate's capabilities than the outdated 
@@ -43,7 +48,7 @@
 		    <ol class="carousel-indicators">
 		      <li class="item1 active"></li>
 		      <li class="item2"></li>
-		      <li class="item3"></li>
+		      <!-- <li class="item3"></li> -->
 		      <!-- <li class="item4"></li> -->
 		    </ol>
 		</div><!-- .carousel --> 
@@ -301,19 +306,24 @@
 
 <style type="text/css">
 	.slide1, .slide2, .slide3 {
-		min-height: 560px; /* Must have a height or min-height set due to use of background images */
-		background-size: cover;
+		min-height: 860px; /* Must have a height or min-height set due to use of background images */
+		background-size: cover !important;
 		background-position: center center;
+		background: -webkit-linear-gradient(rgba(74,144,226,0.9), rgba(74,144,226,0.9));
+		background: -o-linear-gradient(rgba(74,144,226,0.9), rgba(74,144,226,0.9));
+		background: -moz-linear-gradient(rgba(74,144,226,0.9), rgba(74,144,226,0.9));
+		/*background: -ms-linear-gradient(rgba(74,144,226,0.9));*/
+		background: linear-gradient(rgba(74,144,226,0.9), rgba(74,144,226,0.9));
 	}
 	.slide1 {
-		background-image: url(http://placekitten.com/1000/300);
+		background-image: url(images/1.jpg);
 	}
 	.slide2 {
-		background-image: url(http://placekitten.com/1100/300);
+		background-image: url(images/2.jpg);
 	}
-	.slide3 {
+	/*.slide3 {
 		background-image: url(http://placekitten.com/1200/300);
-	}
+	}*/
 	/* Carousel Fade Effect */
 	.carousel.carousel-fade .item {
 		-webkit-transition: opacity 1s linear;
@@ -336,7 +346,7 @@
 	/* Carousel Overlay */
 	.carousel-overlay {
 		position: absolute;
-		top: 60px;
+		top: 70px;
 		right: 0;
 		left: 0;
 	}

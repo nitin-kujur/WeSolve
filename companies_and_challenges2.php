@@ -20,7 +20,7 @@
 			<h3 id="header-text" class="justify " style="margin-top:50px; text-shadow: #444 0 1px 1px;">
 				 WeSolv brings the top Companies and Challenges to provide you with 
 				 real experience and recruiting opportunities to land your dream job. 
-				 Sign up for free to see our full list of companies and challenges. 
+				 Sign up for free to see our full list of companies and challenges.
 	        </h3>
 	        <div class="w3-section text-center container">
 	        	<button id="signup-btn" data-toggle="modal" data-target="#signupModal" class="center-block w3-btn w3-xlarge w3-round w3-card-2 w3-padding-medium w3-orange w3-text-white" style="margin-top: 50px; margin-bottom: 50px;"><span style="margin-left:70px; margin-right:70px;">SIGN UP</span></button>									

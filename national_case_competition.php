@@ -22,7 +22,7 @@
 		        <!-- <div class="item">
 		            <div class="slide3"></div>
 		        </div> -->
-		    </div><!-- .carousel-inner --> 
+		    </div><!-- .carousel-inner -->
 
 		    <div class="custom-overlay" style="width:100%; position: absolute; top: 0px; bottom: 0px; left: 0px; right: 0px; background-color: rgba(74,144,226,0.3);">
 		    		

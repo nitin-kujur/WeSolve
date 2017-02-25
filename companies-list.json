@@ -1,0 +1,142 @@
+	{ 
+		"companies":[
+				{
+					"name": "Airbnb",
+					"image": "images/companies-logo/Airbnb-logo.png",
+					"office": [
+								{
+									"city": "San Francisco, California"
+								}
+					]
+				},
+				{
+					"name": "Bank of America",
+					"image": "images/companies-logo/Bank of America-log.png",
+					"office": [
+								{
+									"city": "Charlotte, North Carolina"
+								},
+								{
+									"city": "San Francisco, California"
+								},
+								{
+									"city": "New York, New York"
+								},
+								{
+									"city": "Chicago, Illinois"
+								},
+								{
+									"city": "Los Angeles, California"
+								}
+					]
+				},
+				{
+					"name": "Microsoft",
+					"image": "images/companies-logo/Microsoft-log.png",
+					"office": [
+								{
+									"city": "Redmond, Washington"
+								}
+					]
+				},
+				{
+					"name": "Apple",
+					"image": "images/companies-logo/Apple-log.png",
+					"office": [
+								{
+									"city": "Cupertino, California"
+								}
+					]
+				},
+				{
+					"name": "Amazon",
+					"image": "images/companies-logo/Amazon-log.png",
+					"office": [
+								{
+									"city": "Seattle Washingtion"
+								}
+					]
+				},
+				{
+					"name": "Genentec",
+					"image": "images/companies-logo/Genentec-log.png",
+					"office": [
+								{
+									"city": "San Francisco, California"
+								}
+					]
+				},
+				{
+					"name": "State Farm",
+					"image": "images/companies-logo/State Farm-log.png",
+					"office": [
+								{
+									"city": "Bloomington, Illinois"
+								},
+								{
+									"city": "Chicago, Illinois"
+								}
+					]
+				},
+				{
+					"name": "Accenture",
+					"image": "images/companies-logo/Accenture-log.png",
+					"office": [
+								{
+									"city": "New York, New York"
+								},
+								{
+									"city": "San Francisco, California"
+								},
+								{
+									"city": "Los Angeles, California"
+								},
+								{
+									"city": "Chicago, Illinois"
+								},
+								{
+									"city": "Houston, Texas"
+								},
+								{
+									"city": "Washington DC "
+								}
+					]
+				},
+				{
+					"name": "Mondelez",
+					"image": "images/companies-logo/Mondelez-log.png",
+					"office": [
+								{
+									"city": "Chicago, Illinois"
+								}
+					]
+				},
+				{
+					"name": "Snap Inc.",
+					"image": "images/companies-logo/Snap Inc-log.png",
+					"office": [
+								{
+									"city": "Los Angeles"
+								}
+					]
+				},
+				{
+					"name": "Boeing",
+					"image": "images/companies-logo/Boeing-log.png",
+					"office": [
+								{
+									"city": "Chicago, Illinois"
+								}
+					]
+				},
+				{
+					"name": "Baxalta",
+					"image": "images/companies-logo/Baxalta-log.png",
+					"office": [
+								{
+									"city": "Chicago, Illinois"
+								}
+					]
+				}
+	] }
+

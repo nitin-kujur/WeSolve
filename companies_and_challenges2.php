@@ -76,9 +76,9 @@
       // window width is less than 600px
       $('.row-height').addClass('row-height1').removeClass('row-height');
       $('.col-height').addClass('col-height1').removeClass('col-height');
-      $('#header-title').addClass('w3-xlarge').removeClass('w3-jumbo').css({'margin-top':'20px', 'margin-bottom':'20px'});
-      $('#header-text').addClass('w3-medium').removeClass('w3-xlarge').css('margin-top','20px');
-      $('#signup-btn').addClass('w3-medium').removeClass('w3-xlarge').css({'margin-top':'20px', 'margin-bottom':'20px'});;
+      $('#header-title').addClass('w3-xlarge').removeClass('w3-jumbo').css({'margin-top':'0px', 'margin-bottom':'0px'});
+      $('#header-text').addClass('w3-medium').removeClass('w3-xlarge').css('margin-top','0px');
+      $('#signup-btn').addClass('w3-medium').removeClass('w3-xlarge').css({'margin-top':'0px', 'margin-bottom':'0px'});;
     }
 
   }

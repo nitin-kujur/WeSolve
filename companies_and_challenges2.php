@@ -9,7 +9,7 @@
 <br><br>
 <div class="jumbotron w3-padding-0 w3-margin-top w3-blue1" style="position:relative; background-color: rgba(0, 0, 0, 0.1);">
 	<div class="" style="display: inline-block; width:100%;">
-		<img class="img-responsive" src="images/cac-0.jpg" style="z-index:-1; position:relative;">	
+		<img class="img-responsive" src="images/cac-01.jpg" style="z-index:-1; position:relative;">	
 	</div>
 	
 	<div class="container-fluid w3-padding-0 w3-text-white" style="position:absolute; top:50px;">
@@ -58,7 +58,7 @@
 <script type="text/javascript">
 	// media query event handler
   if (matchMedia) {
-    var mq = window.matchMedia("(min-width: 600px)");
+    var mq = window.matchMedia("(min-width: 766px)");
     mq.addListener(WidthChange);
     WidthChange(mq);
   }

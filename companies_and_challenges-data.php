@@ -1,7 +1,7 @@
 <div class="row w3-padding-0">
 			<div class="row-height">
 				<div class="col-md-5 col-sm-5 col-xs-12 padding-25 col-height">  <!-- col 4 start -->
-					<div class="container w3-border-light-orrange w3-bottombar">
+					<div class="container w3-border-light-orrange w3-bottombar" style="height:85%;">
 						<div class="row">
 							<div class="col-xs-6">
 								<img class="img-responsive" src="images/companies-logo/Airbnb-logo.jpg" style="width:200px; height:auto; margin-bottom: 25px;">	
@@ -156,7 +156,7 @@
 
 			<div class="row-height">
 				<div class="col-md-5 col-sm-5 col-xs-12 padding-25 col-height">  <!-- col 4 start -->
-					<div class="container w3-border-light-orrange w3-bottombar">
+					<div class="container w3-border-light-orrange w3-bottombar" style="height:85%;">
 						<div class="row">
 							<div class="col-xs-6">
 								<img class="img-responsive" src="images/companies-logo/State Farm-logo.jpg" style="width:200px; height:auto; margin-bottom: 25px;">	

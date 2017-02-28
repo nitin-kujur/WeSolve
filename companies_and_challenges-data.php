@@ -1,7 +1,7 @@
 <div class="row w3-padding-0">
 			<div class="row-height">
 				<div class="col-md-5 col-sm-5 col-xs-12 padding-25 col-height">  <!-- col 4 start -->
-					<div class="container w3-border-light-orrange w3-bottombar" style="height:85%;">
+					<div class="container w3-border-light-orrange w3-bottombar" style="height:100%;">
 						<div class="row">
 							<div class="col-xs-6">
 								<img class="img-responsive" src="images/companies-logo/Airbnb-logo.jpg" style="width:200px; height:auto; margin-bottom: 25px;">	
@@ -19,14 +19,14 @@
 							 
 				</div>	<!-- col 6 end -->
 
-				<div class="col-md-2  hidden-sm1 hidden-xs col-height text-center" style="">
-					<label class="w3-border-light-orrange w3-leftbar" style="height:250px; margin-top:50px; margin-bottom:50px;">
+				<div class="col-md-2 hidden-sm1 hidden-xs col-height text-center" style="">
+					<label class="w3-border-light-orrange w3-leftbar" style="height:250px; margin-top:22.5%; margin-bottom:22.5%; varical-align: center; display: -ms-inline-grid;">
 						&nbsp;		
 					</label>	
 				</div>
 
 				<div class="col-md-5 col-sm-5 col-xs-12 padding-25 col-height">  <!-- col 8 start -->
-					<div class="container w3-border-light-orrange w3-bottombar">
+					<div class="container w3-border-light-orrange w3-bottombar" style="height:100%;">
 						<div class="row">
 							<div class="col-xs-6">
 								<img class="img-responsive" src="images/companies-logo/Bank of America-logo.jpg" style="width:200px; height:auto; margin-bottom: 25px;">	
@@ -56,7 +56,7 @@
 
 			<div class="row-height">
 				<div class="col-md-5 col-sm-5 col-xs-12 padding-25 col-height">  <!-- col 4 start -->
-					<div class="container w3-border-light-orrange w3-bottombar">
+					<div class="container w3-border-light-orrange w3-bottombar" style="height:100%;">
 						<div class="row">
 							<div class="col-xs-6">
 								<img class="img-responsive" src="images/companies-logo/Microsoft-logo.jpg" style="width:200px; height:auto; margin-bottom: 25px;">	
@@ -74,13 +74,13 @@
 				</div>	<!-- col 6 end -->
 
 				<div class="col-md-2 hidden-sm1 hidden-xs col-height text-center" style="">
-					<label class="w3-border-light-orrange w3-leftbar" style="height:250px; margin-top:50px; margin-bottom:50px;">
+					<label class="w3-border-light-orrange w3-leftbar" style="height:250px; margin-top:22.5%; margin-bottom:22.5%; varical-align: center; display: -ms-inline-grid;">
 						&nbsp;		
 					</label>	
 				</div>
 
 				<div class="col-md-5 col-sm-5 col-xs-12 padding-25 col-height">  <!-- col 8 start -->
-					<div class="container w3-border-light-orrange w3-bottombar">
+					<div class="container w3-border-light-orrange w3-bottombar" style="height:100%;">
 						<div class="row">
 							<div class="col-xs-6">
 								<img class="img-responsive" src="images/companies-logo/Apple-logo.jpg" style="width:200px; height:auto; margin-bottom: 25px;">	
@@ -106,7 +106,7 @@
 
 			<div class="row-height">
 				<div class="col-md-5 col-sm-5 col-xs-12 padding-25 col-height">  <!-- col 4 start -->
-					<div class="container w3-border-light-orrange w3-bottombar">
+					<div class="container w3-border-light-orrange w3-bottombar" style="height:100%;">
 						<div class="row">
 							<div class="col-xs-6">
 								<img class="img-responsive" src="images/companies-logo/Amazon-logo.jpg" style="width:200px; height:auto; margin-bottom: 25px;">	
@@ -124,13 +124,13 @@
 				</div>	<!-- col 6 end -->
 
 				<div class="col-md-2 hidden-sm1 hidden-xs col-height text-center" style="">
-					<label class="w3-border-light-orrange w3-leftbar" style="height:250px; margin-top:50px; margin-bottom:50px;">
+					<label class="w3-border-light-orrange w3-leftbar" style="height:250px; margin-top:22.5%; margin-bottom:22.5%; varical-align: center; display: -ms-inline-grid;">
 						&nbsp;		
 					</label>	
 				</div>
 
 				<div class="col-md-5 col-sm-5 col-xs-12 padding-25 col-height">  <!-- col 8 start -->
-					<div class="container w3-border-light-orrange w3-bottombar">
+					<div class="container w3-border-light-orrange w3-bottombar" style="height:100%;">
 						<div class="row">
 							<div class="col-xs-6">
 								<img class="img-responsive" src="images/companies-logo/Genentec-logo.jpg" style="width:200px; height:auto; margin-bottom: 25px;">	
@@ -156,7 +156,7 @@
 
 			<div class="row-height">
 				<div class="col-md-5 col-sm-5 col-xs-12 padding-25 col-height">  <!-- col 4 start -->
-					<div class="container w3-border-light-orrange w3-bottombar" style="height:85%;">
+					<div class="container w3-border-light-orrange w3-bottombar" style="height:100%;">
 						<div class="row">
 							<div class="col-xs-6">
 								<img class="img-responsive" src="images/companies-logo/State Farm-logo.jpg" style="width:200px; height:auto; margin-bottom: 25px;">	
@@ -175,13 +175,13 @@
 				</div>	<!-- col 6 end -->
 
 				<div class="col-md-2 hidden-sm1 hidden-xs col-height text-center" style="">
-					<label class="w3-border-light-orrange w3-leftbar" style="height:250px; margin-top:50px; margin-bottom:50px;">
+					<label class="w3-border-light-orrange w3-leftbar" style="height:250px; margin-top:22.5%; margin-bottom:22.5%; varical-align: center; display: -ms-inline-grid;">
 						&nbsp;		
 					</label>	
 				</div>
 
 				<div class="col-md-5 col-sm-5 col-xs-12 padding-25 col-height">  <!-- col 8 start -->
-					<div class="container w3-border-light-orrange w3-bottombar">
+					<div class="container w3-border-light-orrange w3-bottombar" style="height:100%;">
 						<div class="row">
 							<div class="col-xs-6">
 								<img class="img-responsive" src="images/companies-logo/Accenture-logo.jpg" style="width:200px; height:auto; margin-bottom: 25px;">	
@@ -212,7 +212,7 @@
 
 			<div class="row-height">
 				<div class="col-md-5 col-sm-5 col-xs-12 padding-25 col-height">  <!-- col 4 start -->
-					<div class="container w3-border-light-orrange w3-bottombar">
+					<div class="container w3-border-light-orrange w3-bottombar" style="height:100%;">
 						<div class="row">
 							<div class="col-xs-6">
 								<img class="img-responsive" src="images/companies-logo/Mondelez-logo.jpg" style="width:200px; height:auto; margin-bottom: 25px;">	
@@ -230,13 +230,13 @@
 				</div>	<!-- col 6 end -->
 
 				<div class="col-md-2 hidden-sm1 hidden-xs col-height text-center" style="">
-					<label class="w3-border-light-orrange w3-leftbar" style="height:250px; margin-top:50px; margin-bottom:50px;">
+					<label class="w3-border-light-orrange w3-leftbar" style="height:250px; margin-top:22.5%; margin-bottom:22.5%; varical-align: center; display: -ms-inline-grid;">
 						&nbsp;		
 					</label>	
 				</div>
 
 				<div class="col-md-5 col-sm-5 col-xs-12 padding-25 col-height">  <!-- col 8 start -->
-					<div class="container w3-border-light-orrange w3-bottombar">
+					<div class="container w3-border-light-orrange w3-bottombar" style="height:100%;">
 						<div class="row">
 							<div class="col-xs-6">
 								<img class="img-responsive" src="images/companies-logo/Snap Inc-logo.jpg" style="width:200px; height:auto; margin-bottom: 25px;">	
@@ -256,13 +256,13 @@
 			</div>
 
 		</div>  <!-- row-end -->
-		
+
 
 		<div class="row w3-padding-0">
 
 			<div class="row-height">
 				<div class="col-md-5 col-sm-5 col-xs-12 padding-25 col-height">  <!-- col 4 start -->
-					<div class="container w3-border-light-orrange w3-bottombar">
+					<div class="container w3-border-light-orrange w3-bottombar" style="height:100%;">
 						<div class="row">
 							<div class="col-xs-6">
 								<img class="img-responsive" src="images/companies-logo/Boeing-logo.jpg" style="width:200px; height:auto; margin-bottom: 25px;">	
@@ -280,13 +280,13 @@
 				</div>	<!-- col 6 end -->
 
 				<div class="col-md-2 hidden-sm1 hidden-xs col-height text-center" style="">
-					<label class="w3-border-light-orrange w3-leftbar" style="height:250px; margin-top:50px; margin-bottom:50px;">
+					<label class="w3-border-light-orrange w3-leftbar" style="height:250px; margin-top:22.5%; margin-bottom:22.5%; varical-align: center; display: -ms-inline-grid;">
 						&nbsp;		
 					</label>	
 				</div>
 
 				<div class="col-md-5 col-sm-5 col-xs-12 padding-25 col-height">  <!-- col 8 start -->
-					<div class="container w3-border-light-orrange w3-bottombar">
+					<div class="container w3-border-light-orrange w3-bottombar" style="height:100%;">
 						<div class="row">
 							<div class="col-xs-6">
 								<img class="img-responsive" src="images/companies-logo/Baxalta-logo.jpg" style="width:200px; height:auto; margin-bottom: 25px;">	

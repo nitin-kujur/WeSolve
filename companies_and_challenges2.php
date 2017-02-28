@@ -23,7 +23,7 @@
 				 Sign up for free to see our full list of companies and challenges. 
 	        </h3>
 	        <div class="w3-section text-center container">
-	        	<button id="signup-btn" data-toggle="modal" data-target="#signupModal" class="center-block w3-btn w3-xlarge w3-round w3-card-2 w3-padding-medium w3-orange w3-text-white" style="margin-top: 50px; margin-bottom: 50px;"><span style="margin-left:70px; margin-right:70px;">SIGN UP</span></button>									
+	        	<button id="signup-btn" data-toggle="modal" data-target="#signupModal" class="signup-btn center-block w3-btn w3-xlarge w3-round w3-card-2 w3-padding-medium w3-orange w3-text-white" style="margin-top: 50px; margin-bottom: 50px;"><span style="margin-left:70px; margin-right:70px;">SIGN UP</span></button>									
 	        </div>
 		</div>
         
@@ -42,7 +42,7 @@
 
 
 		<div class="w3-section text-center container">
-	    	<button id="signup-btn" data-toggle="modal" data-target="#signupModal" class="center-block w3-btn w3-xlarge w3-round w3-card-2 w3-padding-medium w3-orange w3-text-white" style="margin-top: 50px; margin-bottom: 50px;"><span style="margin-left:70px; margin-right:70px;">SIGN UP</span></button>									
+	    	<button id="signup-btn" data-toggle="modal" data-target="#signupModal" class="signup-btn center-block w3-btn w3-xlarge w3-round w3-card-2 w3-padding-medium w3-orange w3-text-white" style="margin-top: 50px; margin-bottom: 50px;"><span style="margin-left:70px; margin-right:70px;">SIGN UP</span></button>									
 	    </div>
 
 	</div>  <!-- container-fluid-64 end -->
@@ -71,14 +71,14 @@
       $('.col-height1').addClass('col-height').removeClass('col-height1');
       $('#header-title').addClass('w3-jumbo').removeClass('w3-xlarge').css({'margin-top':'50px', 'margin-bottom':'50px'});
       $('#header-text').addClass('w3-xlarge').removeClass('w3-medium').css('margin-top','50px');
-      $('#signup-btn').addClass('w3-xlarge').removeClass('w3-medium').css({'margin-top':'50px', 'margin-bottom':'50px'});;
+      $('.signup-btn').addClass('w3-xlarge').removeClass('w3-medium').css({'margin-top':'50px', 'margin-bottom':'50px'});;
     } else {
       // window width is less than 600px
       $('.row-height').addClass('row-height1').removeClass('row-height');
       $('.col-height').addClass('col-height1').removeClass('col-height');
       $('#header-title').addClass('w3-xlarge').removeClass('w3-jumbo').css({'margin-top':'0px', 'margin-bottom':'0px'});
       $('#header-text').addClass('w3-medium').removeClass('w3-xlarge').css('margin-top','0px');
-      $('#signup-btn').addClass('w3-medium').removeClass('w3-xlarge').css({'margin-top':'0px', 'margin-bottom':'0px'});;
+      $('.signup-btn').addClass('w3-medium').removeClass('w3-xlarge').css({'margin-top':'0px', 'margin-bottom':'0px'});;
     }
 
   }
